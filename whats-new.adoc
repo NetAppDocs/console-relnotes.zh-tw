@@ -30,7 +30,7 @@ summary: 了解NetApp控制台的功能和資料服務的最新變化。
 
 === BlueXP現在是NetApp控制台
 
-NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程以及高度安全且合規的簡化管理。
 
 
 
@@ -50,11 +50,11 @@ image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-storage
 
 ===== 擴充儲存選單
 
-*儲存*選單還包括*警報*以查看ONTAP系統警報和*生命週期規劃*（以前稱為*經濟效率*）以識別未使用或未充分利用的資源。
+*儲存*選單包括*警報*以查看ONTAP系統警報和*生命週期規劃*（以前稱為*經濟效率*）以識別未使用或未充分利用的資源。
 
-NetApp也將Keystone移至 *儲存* 選單，您可以在其中管理您的NetApp Keystone訂閱並查看您的使用情況。
+NetApp已將Keystone移至 *儲存* 選單，您可以在其中管理您的NetApp Keystone訂閱並查看您的使用情況。
 
-image:https://docs.netapp.com/us-en/console-setup-admin/screenshot-storage-menu.png["儲存選單的螢幕截圖。"]
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-storage-menu.png["儲存選單的螢幕截圖。"]
 
 
 
@@ -370,37 +370,763 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["了解BlueXP al
 
 == Azure Blob 儲存
 
-<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/storage-management-blob-storage/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2023年6月5日
+
+
+
+==== 能夠從BlueXP新增新的儲存帳戶
+
+您已經能夠在BlueXP Canvas 上查看 Azure Blob 儲存空間很長一段時間了。現在您可以直接從BlueXP新增新的儲存帳戶並變更現有儲存帳戶的屬性。xref:../task-add-blob-storage.html[了解如何新增的 Azure Blob 儲存體帳戶] 。
 
 
 
 == Azure NetApp Files
 
-<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-management-azure-netapp-files/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP現在是NetApp控制台
+
+BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。
+
+NetApp控制台提供企業級跨本地和雲端環境的儲存和資料服務的集中管理，提供即時洞察、更快的工作流程和簡化的管理。
+
+有關更改的詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
+=== 2025年1月13日
+
+
+
+==== BlueXP現在支援網路功能
+
+從BlueXP設定Azure NetApp Files中的磁碟區時，您現在可以指示網路功能。這與本機Azure NetApp Files中提供的功能一致。
+
+
+
+=== 2024年6月12日
+
+
+
+==== 需要新的許可
+
+現在需要以下權限才能從BlueXP管理Azure NetApp Files磁碟區：
+
+Microsoft.Network/virtualNetworks/子網路/讀取
+
+讀取虛擬網路子網路需要此權限。
+
+如果您目前正在從BlueXP管理Azure NetApp Files，則需要將此權限新增至與您先前建立的 Microsoft Entra 應用程式關聯的自訂角色。
+
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["了解如何設定 Microsoft Entra 應用程式並查看自訂角色權限"] 。
+
+
+
+=== 2024年4月22日
+
+
+
+==== 不再支援磁碟區模板
+
+您無法再從範本建立磁碟區。此操作與BlueXP修復服務相關，但該服務不再可用。
 
 
 
 == 備份和復原
 
-<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/data-services-backup-recovery/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+此NetApp Backup and Recovery 版本包含以下更新。
+
+
+
+==== NetApp備份與復原現已更名為NetApp備份與復原
+
+NetApp Backup and Recovery 已重新命名為NetApp Backup and Recovery。
+
+
+
+==== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp控制台發行說明。"]
+
+
+
+==== Hyper-V 工作負載支援作為私人預覽版
+
+此版本的NetApp Backup and Recovery 引入了對發現和管理 Hyper-V 工作負載的支援：
+
+* 在獨立實例以及故障轉移群集實例 (FCI) 上備份和還原虛擬機
+* 保護儲存在 SMB3 共用上的虛擬機
+* 虛擬機器層級的批量保護
+* 虛擬機器和崩潰一致性備份
+* 從主儲存、輔助儲存和物件儲存還原虛擬機
+* 搜尋和恢復虛擬機器備份
+
+
+有關保護 Hyper-V 工作負載的詳細信息，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["保護 Hyper-V 工作負載概述"]。
+
+
+
+==== KVM 工作負載支援作為私人預覽
+
+此版本的NetApp Backup and Recovery 引入了對發現和管理 KVM 工作負載的支援：
+
+* 備份和還原儲存在 NFS 共享上的 qcow2 VM 映像
+* 備份儲存池
+* 使用保護群組進行大量虛擬機器和儲存池保護
+* VM 一致且崩潰一致的 VM 備份
+* 搜尋和恢復虛擬機器備份
+* 備份和還原基於 KVM 的虛擬機器和虛擬機器資料的指導流程
+
+
+有關保護 KVM 工作負載的詳細信息，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["保護 KVM 工作負載概述"]。
+
+
+
+==== Kubernetes 預覽改進
+
+Kubernetes 工作負載的預覽版引入了以下增強功能：
+
+* 3-2-1 扇出備份架構支持
+* 支援ONTAP S3 作為備份目標
+* 新的 Kubernetes 儀表板，更易於管理
+* 增強的基於角色的存取控制 (RBAC) 配置包括對以下角色的支援：
++
+** 備份和恢復超級管理員
+** 備份和還原備份管理員
+** 備份和還原復原管理員
+** 備份和還原檢視器
+
+
+* 支援 SUSE Rancher Kubernetes 發行版
+* 多重儲存桶支援：現在，您可以跨不同的雲端供應商，透過每個系統多個儲存桶來保護系統內的捲
+
+
+有關保護 Kubernetes 工作負載的詳細信息，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["保護 Kubernetes 工作負載概述"] 。
+
+
+
+==== Oracle 資料庫工作負載支援作為私人預覽
+
+此版本的NetApp Backup and Recovery 引進了對發現和管理 Oracle 資料庫工作負載的支援：
+
+* 發現獨立的 Oracle 資料庫
+* 僅針對資料或資料和日誌備份建立保護策略
+* 使用 3-2-1 備份方案保護 Oracle 資料庫
+* 配置備份保留
+* 掛載和卸載 ARCHIVELOG 備份
+* 虛擬化資料庫
+* 搜尋和還原資料庫備份
+* Oracle 儀表板支援
+
+
+有關保護 Oracle 資料庫工作負載的詳細信息，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["保護 Oracle 工作負載概述"]。
+
+
+
+=== 2025年8月25日
+
+此NetApp Backup and Recovery 版本包含以下更新。
+
+
+
+==== 支援在預覽版中保護 VMware 工作負載
+
+此版本增加了對保護 VMware 工作負載的預覽支援。將 VMware VM 和資料儲存區從本機ONTAP系統備份到 Amazon Web Services 和StorageGRID。
+
+
+NOTE: 有關保護 VMware 工作負載的文件以技術預覽的形式提供。對於此預覽版產品， NetApp保留在正式發布之前修改產品詳細資訊、內容和時間表的權利。
+
+link:br-use-vmware-protect-overview.html["了解有關使用NetApp備份和恢復保護 VMware 工作負載的更多信息"] 。
+
+
+
+==== AWS、Azure 和 GCP 的高效能索引現已正式發布
+
+2025 年 2 月，我們宣布推出針對 AWS、Azure 和 GCP 的高效能索引 (Indexed Catalog v2) 預覽版。此功能現已普遍可用（GA）。2025 年 6 月，我們預設向所有新客戶提供該服務。透過此版本，所有客戶都可以獲得支援。高效能索引提高了受物件儲存保護的工作負載的備份和復原作業的效能。
+
+預設啟用：
+
+* 如果您是新客戶，則預設啟用高效能索引。
+* 如果您是現有客戶，您可以前往 UI 的「復原」部分來啟用重新索引。
+
+
+
+
+=== 2025年8月12日
+
+此NetApp Backup and Recovery 版本包含以下更新。
+
+
+
+==== 通用可用性 (GA) 中支援 Microsoft SQL Server 工作負載
+
+Microsoft SQL Server 工作負載支援現已在NetApp Backup and Recovery 中正式推出 (GA)。在ONTAP、 Cloud Volumes ONTAP和Amazon FSx for NetApp ONTAP儲存上使用 MSSQL 環境的組織現在可以利用這項新的備份和復原服務來保護他們的資料。
+
+與先前的預覽版本相比，此版本對 Microsoft SQL Server 工作負載支援進行了以下增強：
+
+* * SnapMirror主動同步*：此版本現在支援SnapMirror主動同步（也稱為SnapMirror業務連續性 [SM-BC]），即使整個網站發生故障，它也能使業務服務繼續運行，支援應用程式使用輔助副本透明地進行故障轉移。NetApp Backup and Recovery 現在支援在SnapMirror主動同步和 Metrocluster 配置中保護 Microsoft SQL Server 資料庫。此資訊顯示在「保護詳細資料」頁面的「儲存和關係狀態」部分。關係資訊顯示在策略頁面更新後的*輔助設定*部分。
++
+參考 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["使用策略保護您的工作負載"]。
+
++
+image:../media/screen-br-sql-protection-details.png["Microsoft SQL Server 工作負載的保護詳細資訊頁面"]
+
+* *多重儲存桶支援*：您現在可以保護工作環境中的捲，每個工作環境最多可跨不同的雲端供應商使用 6 個儲存桶。
+* SQL Server 工作負載的*授權與免費試用更新*：您現在可以使用現有的NetApp Backup and Recovery 授權模型來保護 SQL Server 工作負載。SQL Server 工作負載沒有單獨的授權要求。
++
+有關詳細信息，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-licensing.html["設定NetApp Backup and Recovery 的許可"]。
+
+* *自訂快照名稱*：您現在可以在管理 Microsoft SQL Server 工作負載備份的原則中使用自己的快照名稱。在策略頁面的*進階設定*部分輸入此資訊。
++
+image:../media/screen-br-sql-policy-create-advanced-snapmirror.png["NetApp備份和復原策略的SnapMirror和快照格式設定螢幕截圖"]
+
++
+參考 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["使用策略保護您的工作負載"]。
+
+* *輔助卷前綴和後綴*：您可以在策略頁面的*進階設定*部分輸入自訂前綴和後綴。
+* *身分和存取*：您現在可以控制使用者對功能的存取。
++
+參考 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-login.html["登入NetApp備份與復原"]和 https://docs.netapp.com/us-en/data-services-backup-recovery/reference-roles.html["NetApp備份和復原功能訪問"]。
+
+* *從物件儲存還原到備用主機*：即使主儲存已關閉，您現在可以從物件儲存還原到備用主機。
+* *日誌備份資料*：資料庫保護詳細資料頁面現在顯示日誌備份。您可以看到備份類型列，顯示備份是完整備份還是日誌備份。
+* *增強型儀表板*：儀表板現在顯示儲存和複製節省。
++
+image:../media/screen-br-dashboard3.png["NetApp備份和還原儀表板"]
+
+
+
+
+
+==== ONTAP磁碟區工作負載增強功能
+
+* * ONTAP磁碟區的多資料夾復原*：到目前為止，您可以透過瀏覽和復原功能一次還原一個資料夾或多個檔案。NetApp Backup and Recovery 現在提供使用瀏覽和復原功能一次選擇多個資料夾的功能。
+* *檢視和管理已刪除磁碟區的備份*： NetApp備份和還原儀表板現在提供顯示和管理從ONTAP中刪除的磁碟區的選項。透過此功能，您可以查看和刪除ONTAP中不再存在的磁碟區的備份。
+* *強制刪除備份*：在某些極端情況下，您可能希望NetApp Backup and Recovery 不再存取備份。例如，如果服務不再有權存取備份儲存桶或備份受到 DataLock 保護但您不再需要它們，則可能會發生這種情況。以前，您無法自行刪除這些內容，而需要致電NetApp支援。在此版本中，您可以使用選項強制刪除備份（在磁碟區和工作環境層級）。
+
+
+
+CAUTION: 請謹慎使用此選項，並且僅在極端清理需要時使用。即使這些備份未被從物件儲存中刪除， NetApp Backup and Recovery 也將無法再存取它們。您需要前往雲端提供者並手動刪除備份。
+
+參考 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["保護ONTAP工作負載"]。
+
+
+
+=== 2025年7月28日
+
+此NetApp Backup and Recovery 版本包含以下更新。
+
+
+
+==== Kubernetes 工作負載支援預覽版
+
+此版本的NetApp Backup and Recovery 引入了對發現和管理 Kubernetes 工作負載的支援：
+
+* 發現由NetApp ONTAP支援的 Red Hat OpenShift 和開源 Kubernetes 集群，無需共享 kubeconfig 檔案。
+* 使用統一的控制平面發現、管理和保護跨多個 Kubernetes 叢集的應用程式。
+* 將 Kubernetes 應用程式的備份和還原資料移動操作卸載到NetApp ONTAP。
+* 協調本地和基於物件儲存的應用程式備份。
+* 將整個應用程式和單一資源備份並還原到任何 Kubernetes 叢集。
+* 使用在 Kubernetes 上運行的容器和虛擬機器。
+* 使用執行掛鉤和模板建立應用程式一致的備份。
+
+
+有關保護 Kubernetes 工作負載的詳細信息，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["保護 Kubernetes 工作負載概述"] 。
+
+
+
+=== 2025年7月14日
+
+此NetApp Backup and Recovery 版本包含以下更新。
+
+
+
+==== 增強型ONTAP卷儀表板
+
+2025 年 4 月，我們推出了增強型ONTAP卷儀表板的預覽版，它速度更快、更有效率。
+
+此儀表板旨在幫助處理大量工作負載的企業客戶。即使對於擁有 20,000 卷的客戶，新的儀表板也只需不到 10 秒即可加載。
+
+在預覽成功並獲得預覽客戶的良好回饋後，我們現在將其作為所有客戶的預設體驗。為極快的儀表板做好準備。
+
+有關詳細信息，請參閱link:br-use-dashboard.html["在儀表板中查看保護健康狀況"] 。
+
+
+
+==== Microsoft SQL Server 工作負載支援作為公共技術預覽
+
+此版本的NetApp Backup and Recovery 提供了更新的使用者介面，使您能夠使用NetApp Backup and Recovery 中熟悉的 3-2-1 保護策略來管理 Microsoft SQL Server 工作負載。使用此新版本，您可以將這些工作負載備份到主存儲，將其複製到輔助存儲，然後將其備份到雲端物件儲存。
+
+您可以透過完成此步驟來註冊預覽 https://forms.office.com/pages/responsepage.aspx?id=oBEJS5uSFUeUS8A3RRZbOojtBW63mDRDv3ZK50MaTlJUNjdENllaVTRTVFJGSDQ2MFJIREcxN0EwQi4u&route=shorturl["預覽註冊表"^]。
+
+
+NOTE: 本文檔旨在介紹如何保護 Microsoft SQL Server 工作負載，目前僅提供技術預覽版。 NetAppNetApp在正式發布之前修改此預覽版產品詳細資訊、內容和時間表的權利。
+
+此版本的NetApp Backup and Recovery 包含以下更新：
+
+* *3-2-1 備份功能*：此版本整合了SnapCenter功能，讓您能夠透過NetApp備份和復原使用者介面使用 3-2-1 資料保護策略來管理和保護您的SnapCenter資源。
+* *從SnapCenter匯入*：您可以將SnapCenter備份資料和政策匯入NetApp Backup and Recovery。
+* *重新設計的使用者介面*為管理備份和復原任務提供了更直覺的體驗。
+* *備份目標*：您可以在 Amazon Web Services (AWS)、Microsoft Azure Blob Storage、 StorageGRID和ONTAP S3 環境中新增儲存桶，以用作 Microsoft SQL Server 工作負載的備份目標。
+* *工作負載支援*：此版本可讓您備份、還原、驗證和複製 Microsoft SQL Server 資料庫和可用性群組。（未來版本將添加對其他工作負載的支援。）
+* *靈活的復原選項*：此版本可讓您在發生損壞或意外資料遺失的情況下將資料庫還原至原始位置和備用位置。
+* *即時生產副本*：在幾分鐘內（而不是幾小時或幾天）產生用於開發、測試或分析的節省空間的生產副本。
+* 此版本包括建立詳細報告的功能。
+
+
+有關保護 Microsoft SQL Server 工作負載的詳細信息，請參閱link:br-use-mssql-protect-overview.html["保護 Microsoft SQL Server 工作負載概述"]。
+
+
+
+=== 2025年6月9日
+
+此NetApp Backup and Recovery 版本包含以下更新。
+
+
+
+==== 索引目錄支援更新
+
+2025 年 2 月，我們推出了更新的索引功能（索引目錄 v2），您可以在「搜尋和還原」資料復原方法中使用該功能。先前的版本顯著提高了本地環境中的資料索引效能。在此版本中，索引目錄現在可用於 Amazon Web Services、Microsoft Azure 和 Google Cloud Platform (GCP) 環境。
+
+如果您是新客戶，則所有新環境均預設啟用 Indexed Catalog v2。如果您是現有客戶，您可以重新索引您的環境以利用 Indexed Catalog v2。
+
+.如何啟用索引？
+在使用搜尋和還原方法還原資料之前，您需要在排程還原磁碟區或檔案的每個來源工作環境上啟用「索引」。執行搜尋和復原時，選擇“啟用索引”選項。
+
+索引目錄可以追蹤每個捲和備份文件，使您的搜尋快速且有效率。
+
+有關更多信息，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-restore.html["啟用搜尋和還原索引"] 。
+
+
+
+==== Azure 專用連結終結點與服務終點
+
+通常， NetApp Backup and Recovery 會與雲端提供者建立一個私有端點來處理保護任務。此版本引入了一個可選設置，可讓您啟用或停用NetApp Backup and Recovery 自動建立私有端點。如果您想要更好地控制私有端點建立流程，這可能對您有用。
+
+您可以在啟用保護或開始復原程序時啟用或停用此選項。
+
+如果停用此設置，則必須手動建立私有端點以使NetApp Backup and Recovery 正常運作。如果沒有適當的連接，您可能無法成功執行備份和還原任務。
+
+
+
+==== ONTAP S3 上支援SnapMirror到雲端重新同步
+
+先前的版本引入了對SnapMirror到 Cloud Resync（SM-C Resync）的支援。此功能簡化了NetApp環境中磁碟區遷移期間的資料保護。此版本增加了對ONTAP S3 上的 SM-C Resync 以及其他與 S3 相容的提供者（如 Wasabi 和 MinIO）的支援。
+
+
+
+==== 為StorageGRID帶來您自己的儲存桶
+
+當您在物件儲存中為工作環境建立備份檔案時，預設情況下， NetApp Backup and Recovery 會為您設定的物件儲存帳戶中的備份檔案建立容器（儲存體桶或儲存帳戶）。以前，您可以覆寫此功能並為 Amazon S3、Azure Blob Storage 和 Google Cloud Storage 指定自己的容器。透過此版本，您現在可以攜帶自己的StorageGRID物件儲存容器。
+
+看 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-journey.html["建立您自己的物件儲存容器"]。
 
 
 
 == 資料分類
 
-<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/data-services-data-classification/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== 版本 1.47
+
+.BlueXP classification現為NetApp資料分類
+BlueXP classification已重新命名為NetApp資料分類。除了重命名之外，使用者介面也得到了增強。
+
+.BlueXP現在是NetApp控制台
+BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。
+
+NetApp控制台提供企業級跨本地和雲端環境的儲存和資料服務的集中管理，提供即時洞察、更快的工作流程和簡化的管理。
+
+有關更改的詳細信息，請參閱 https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp控制台發行說明"]。
+
+.增強調查體驗
+使用新的可搜尋篩選器、每個值的結果計數、總結關鍵發現的即時見解以及具有可自訂列和滑出詳細資訊窗格的刷新結果表，更快地查找和理解您的資料。
+
+有關更多信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html#view-file-metada["調查數據"] 。
+
+.新的治理與合規儀表板
+透過直覺的小部件、更清晰的視覺效果和改進的加載性能更快地獲得關鍵見解。有關詳細信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification//task-controlling-governance-data.html["審查有關您的數據的治理信息"]和link:https://docs.netapp.com/us-en/data-services-data-classification/task-controlling-private-data.html["查看有關您的數據的合規性信息"]。
+
+.已儲存查詢的策略（預覽）
+資料分類現在使您能夠透過條件操作實現治理自動化。您可以建立保留規則，設定自動刪除和定期電子郵件通知，所有這些都可以透過更新的已儲存查詢頁面進行管理。
+
+有關更多信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification/task-using-policies.html["創建策略"] 。
+
+.操作（預覽）
+從調查頁面直接控制 - 單獨或批次刪除、移動、複製或標記文件，以實現高效的資料管理和補救。
+
+有關更多信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html#view-file-metada["調查數據"] 。
+
+.支援Google Cloud NetApp Volumes
+資料分類現在支援在Google Cloud NetApp Volumes上進行掃描。從NetApp控制台輕鬆新增Google Cloud NetApp Volumes，實現無縫資料掃描與分類。
+
+
+
+=== 2025年8月11日
+
+
+
+==== 版本 1.46
+
+此資料分類版本包括錯誤修復和以下更新：
+
+.審計頁面中增強的掃描事件洞察
+審計頁面現在支援對BlueXP classification的掃描事件的增強洞察。審計頁面現在顯示系統掃描的開始時間、系統狀態以及任何問題。共享和系統的狀態僅適用於映射掃描。
+
+有關審計頁面的更多信息，請參閱link:https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html["監控NetApp控制台操作"^]。
+
+.支援 RHEL 9.6
+此版本增加了對 Red Hat Enterprise Linux v9.6 的支持，用於手動本地安裝BlueXP classification，包括暗站部署。
+
+以下作業系統需要使用 Podman 容器引擎，並且需要BlueXP classification版本 1.30 或更高版本：Red Hat Enterprise Linux 版本 8.8、8.10、9.0、9.1、9.2、9.3、9.4 和 9.5。
+
+
+
+=== 2025年7月14日
+
+
+
+==== 版本 1.45
+
+此BlueXP classification版本包括優化資源利用率的程式碼變更以及：
+
+.改進了新增文件共用進行掃描的工作流程
+將文件共享新增至文件共享組的工作流程已經簡化。該流程現在還根據身份驗證類型（Kerberos 或 NTLM）區分 CIFS 協定支援。
+
+有關更多信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-file-shares.html["掃描檔案共享"] 。
+
+.增強文件所有者信息
+現在您可以在「調查」標籤中查看有關捕獲的文件的文件所有者的更多資訊。在「調查」標籤中查看文件的元資料時，找到文件擁有者，然後選擇「查看詳細資料」以查看使用者名稱、電子郵件和 SAM 帳戶名稱。您也可以查看該用戶擁有的其他物品。此功能僅適用於具有 Active Directory 的工作環境。
+
+有關更多信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html["調查組織中儲存的數據"] 。
+
+
+
+=== 2025年6月10日
+
+
+
+==== 版本 1.44
+
+此次BlueXP classification發布包括：
+
+.改進了治理儀表板的更新時間
+治理儀表板各個組件的更新時間已改善。下表顯示了每個組件的更新頻率。
+
+[cols="1,1"]
+|===
+| 成分 | 更新時間 
+
+
+| 數據時代 | 24小時 
+
+
+| 類別 | 24小時 
+
+
+| 數據概覽 | 5分鐘 
+
+
+| 重複文件 | 2小時 
+
+
+| 文件類型 | 24小時 
+
+
+| 非業務數據 | 2小時 
+
+
+| 開放權限 | 24小時 
+
+
+| 已儲存的搜尋 | 2小時 
+
+
+| 敏感資料和廣泛權限 | 24小時 
+
+
+| 數據大小 | 24小時 
+
+
+| 陳舊數據 | 2小時 
+
+
+| 按敏感度等級劃分的頂層資料儲存庫 | 2小時 
+|===
+您可以查看上次更新的時間，並按敏感度等級手動更新重複文件、非業務資料、已儲存的搜尋、陳舊資料和頂級資料儲存庫元件。有關治理儀表板的更多信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification/task-controlling-governance-data.html["查看有關組織中存儲的數據的治理詳細信息"]。
+
+.性能和安全性改進
+已做出改進以提高BlueXP分類的效能、記憶體消耗和安全性。
+
+.錯誤修復
+Redis 已升級，以提高BlueXP classification的可靠性。BlueXP classification現在使用 Elasticsearch 來提高掃描期間文件計數報告的準確性。
+
+
+
+=== 2025年5月12日
+
+
+
+==== 版本 1.43
+
+此資料分類版本包括：
+
+.優先進行分類掃描
+資料分類除了支援僅映射掃描之外，還支援對映射和分類掃描進行優先排序的功能，可讓您選擇先完成哪些掃描。在掃描開始期間和開始之前，支援對地圖和分類掃描進行優先排序。如果您選擇在掃描過程中確定掃描的優先級，則映射掃描和分類掃描都會優先處理。
+
+有關更多信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification/task-managing-repo-scanning.html#prioritize-scans["優先掃描"] 。
+
+.支援加拿大個人識別資訊 (PII) 資料類別
+資料分類掃描識別加拿大 PII 資料類別。這些類別包括加拿大所有省份和地區的銀行資訊、護照號碼、社會保險號碼、駕駛執照號碼和健康卡號碼。
+
+有關更多信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification/reference-private-data-categories.html#types-of-personal-data["個人資料類別"] 。
+
+.自訂分類（預覽）
+資料分類支援地圖和分類掃描的自訂分類。透過自訂分類，您可以自訂資料分類掃描，以使用正規表示式擷取特定於您的組織的資料。此功能目前處於預覽狀態。
+
+有關更多信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification/task-custom-classification.html["新增自訂分類"] 。
+
+.已儲存的搜尋標籤
+**政策** 選項卡已重新命名link:https://docs.netapp.com/us-en/data-services-data-classification/task-using-policies.html["**已儲存的搜尋**"]。功能沒有改變。
+
+.將掃描事件傳送至審核頁面
+資料分類支援發送分類事件（掃描啟動時和掃描結束時）到link:https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["NetApp Console 稽核頁面"^]。
+
+.安全性更新
+* Keras 套件已更新，緩解了漏洞（BDSA-2025-0107 和 BDSA-2025-1984）。
+* Docker 容器配置已更新。容器不再有權利存取主機的網路介面來製作原始網路封包。透過減少不必要的訪問，此更新可減輕潛在的安全風險。
+
+
+.效能增強
+已經實施了程式碼增強，以減少 RAM 使用率並提高資料分類的整體效能。
+
+.錯誤修復
+導致StorageGRID掃描失敗、調查頁面過濾選項無法載入以及無法下載大容量評估的資料發現評估的錯誤已修復。
+
+
+
+=== 2025年4月14日
+
+
+
+==== 版本 1.42
+
+此次BlueXP classification發布包括：
+
+.工作環境批次掃描
+BlueXP classification支援工作環境的批次操作。您可以選擇啟用對應掃描、啟用對應和分類掃描、停用掃描或在工作環境中跨磁碟區建立自訂設定。如果您對單一磁碟區進行選擇，它將覆寫批次選擇。若要執行批次操作，請導覽至**配置**頁面並進行選擇。
+
+.本地下載調查報告
+BlueXP classification支援將資料調查報告下載到本地以便在瀏覽器中查看。如果選擇本機選項，資料調查僅以 CSV 格式提供，並且僅顯示前 10,000 行資料。
+
+有關更多信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html#create-the-data-investigation-report["使用BlueXP classification調查組織中儲存的數據"] 。
+
+
+
+=== 2025年3月10日
+
+
+
+==== 版本 1.41
+
+此BlueXP classification版本包括一般改進和錯誤修復。它還包括：
+
+.掃描狀態
+BlueXP classification追蹤磁碟區上的初始映射和分類掃描的即時進度。單獨的進度條追蹤映射和分類掃描，顯示掃描文件總數的百分比。您也可以將滑鼠停留在進度條上以查看已掃描的檔案數和檔案總數。追蹤掃描狀態可以更深入地了解掃描進度，使您能夠更好地規劃掃描並了解資源分配。
+
+若要查看掃描狀態，請導覽至BlueXP classification中的**配置**，然後選擇**工作環境配置**。每卷的進度均以行顯示。
+
+
+
+=== 2025年2月19日
+
+
+
+==== 版本 1.40
+
+此BlueXP classification版本包括以下更新。
+
+.支援 RHEL 9.5
+此版本除了支援先前支援的版本外，還提供對 Red Hat Enterprise Linux v9.5 的支援。這適用於BlueXP classification的任何手動本機安裝，包括暗站部署。
+
+以下作業系統需要使用 Podman 容器引擎，並且需要BlueXP classification版本 1.30 或更高版本：Red Hat Enterprise Linux 版本 8.8、8.10、9.0、9.1、9.2、9.3、9.4 和 9.5。
+
+.優先進行僅映射掃描
+當進行僅映射掃描時，您可以優先考慮最重要的掃描。當您擁有多個工作環境並希望確保首先完成高優先掃描時，此功能會有所幫助。
+
+預設情況下，掃描會按照啟動的順序排隊。透過設定掃描優先權，您可以將掃描移至佇列的最前面。可以對多個掃描進行優先排序。優先權會依照先進先出的順序指定，這表示您優先考慮的第一個掃描將移至佇列的最前面；您優先考慮的第二個掃描將成為佇列中的第二個掃描，依此類推。
+
+優先權是一次性授予的。映射資料的自動重新掃描按照預設順序進行。
+
+優先權僅限於link:https://docs.netapp.com/us-en/data-services-data-classification/concept-classification.html["僅映射掃描"^]；它不適用於地圖和分類掃描。
+
+有關更多信息，請參閱link:https://docs.netapp.com/us-en/data-services-data-classification/task-managing-repo-scanning.html#prioritize-scans["優先掃描"^] 。
+
+.重試所有掃描
+BlueXP classification支援批次重試所有失敗掃描的功能。
+
+您可以使用**全部重試**功能以批次操作的方式重新嘗試掃描。如果分類掃描因網路中斷等臨時問題而失敗，您可以使用一個按鈕同時重試所有掃描，而不必單獨重試。可根據需要重試掃描多次。
+
+若要重試所有掃描：
+
+. 從BlueXP classification選單中，選擇 *配置*。
+. 若要重試所有失敗的掃描，請選擇*重試所有掃描*。
+
+
+.提高分類模型的準確性
+機器學習模型的準確率link:https://docs.netapp.com/us-en/data-services-data-classification/reference-private-data-categories.html#types-of-sensitive-personal-datapredefined-categories["預定義類別"]提高了11%。
+
+
+
+=== 2025年1月22日
+
+
+
+==== 版本 1.39
+
+此BlueXP classification版本更新了資料調查報告的匯出流程。此匯出更新對於對您的資料執行額外分析、對資料建立額外視覺化或與他人分享資料調查結果很有用。
+
+以前，數據調查報告匯出限制為 10,000 行。在此版本中，限制已被取消，以便您可以匯出所有資料。此變更使您能夠從數據調查報告中匯出更多數據，從而為您的數據分析提供更大的靈活性。
+
+您可以選擇工作環境、磁碟區、目標資料夾以及 JSON 或 CSV 格式。匯出的檔案名稱包含時間戳，以協助您識別資料的匯出時間。
+
+支援的工作環境包括：
+
+* Cloud Volumes ONTAP
+* 適用於ONTAP的 FSx
+* ONTAP
+* 共享群組
+
+
+從數據調查報告匯出數據有以下限制：
+
+* 每種類型（檔案、目錄和表格）最多可下載 5 億筆記錄
+* 預計匯出一百萬筆記錄大約需要 35 分鐘。
+
+
+有關數據調查和報告的詳細信息，請參閱 https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html["調查組織中儲存的數據"]。
+
+
+
+=== 2024年12月16日
+
+
+
+==== 版本 1.38
+
+此BlueXP classification版本包括一般改進和錯誤修復。
 
 
 
 == Cloud Volumes ONTAP
 
-<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/storage-management-cloud-volumes-ontap/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"^]。
+
+
+
+==== 簡化 AWS 中的Cloud Volumes ONTAP部署
+
+現在，您可以使用快速部署方法在 AWS 中部署Cloud Volumes ONTAP，適用於單一節點和高可用性 (HA) 設定。與進階方法相比，此簡化流程減少了步驟數，在單一頁面上自動設定預設值，並最大限度地減少了導航，使部署更快、更容易。
+
+有關更多信息，請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-quick-deploy-aws.html["使用快速部署在 AWS 中部署Cloud Volumes ONTAP"^] 。
+
+
+
+=== 2025年9月4日
+
+
+
+==== Cloud Volumes ONTAP 9.17.1 RC
+
+現在您可以使用BlueXP在 Azure 和 Google Cloud 中部署和管理Cloud Volumes ONTAP 9.17.1 的候選版本 1。但此版本尚不支援在AWS中部署和升級。
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["了解有關此版本Cloud Volumes ONTAP的更多信息"^] 。
+
+
+
+=== 2025年8月11日
+
+
+
+==== 優化許可證的可用性終止
+
+從 2025 年 8 月 11 日開始， Cloud Volumes ONTAP Optimized 授權將被棄用，並且將不再可在 Azure 和 Google Cloud 市場中以即用即付 (PAYGO) 訂閱的方式購買或續訂。如果您擁有現有的包含優化許可證的年度合同，則可以繼續使用該許可證，直到合約結束。當您的優化授權到期時，您可以選擇BlueXP中的Cloud Volumes ONTAP Essentials 或 Professional 授權。
+
+但是，可以透過 API 新增或更新優化許可證。
+
+有關許可包的信息，請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP許可"^]。
+
+有關切換到不同充電方式的信息，請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html["管理基於容量的許可"^]。
 
 
 
 == 複製和同步
 
-<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP copy and sync現已更名NetApp複製和同步
+
+BlueXP copy and sync已重新命名為NetApp複製和同步。
+
+
+
+==== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
+=== 2025年2月2日
+
+
+
+==== 新的作業系統支援數據代理
+
+資料代理現在支援執行 Red Hat Enterprise 9.4、Ubuntu 23.04 和 Ubuntu 24.04 的主機。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["查看 Linux 主機需求"] 。
+
+
+
+=== 2024年10月27日
+
+
+
+==== 錯誤修復
+
+我們更新了NetApp Copy and Sync 和資料代理程式以修復一些錯誤。新的資料代理版本是 1.0.56。
 
 
 
@@ -568,7 +1294,37 @@ Cloud Volumes ONTAP使用情況報告現已有幾項改進：
 
 == E系列系統
 
-<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/storage-management-e-series/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
+=== 2025年5月12日
+
+
+
+==== 需要BlueXP訪問角色
+
+現在，您需要以下存取角色之一來查看、發現或管理BlueXP中的 E 系列：組織管理員、資料夾或專案管理員、儲存管理員或系統健康專家。  https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["了解BlueXP訪問角色。"^]
+
+
+
+=== 2022年9月18日
+
+
+
+==== 支援 E 系列
+
+現在您可以直接從BlueXP發現您的 E 系列系統。發現 E 系列系統可為您提供混合多雲資料的完整視圖。
 
 
 
@@ -646,17 +1402,17 @@ NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級�
 
 NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
 
-e9a4d0eabbdfce5c177732ed63963a62
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。== 2025年7月21日
 
 
 
-==== 71d0ee5d411b8f72f571401cdab213ac
+==== BlueXP支援Google Cloud NetApp Volumes
 
-775e62d1bed90f08196ce9665fe3b625
+現在您可以直接從BlueXP管理Google Cloud NetApp Volumes ：
 
-* bfcabace496e3d26dcf080c810ecd405
-* 062a6e04f65117f2c5ad969cc8e0116c
-* e093c974eb3629147ecf532045c7e226
+* 新增工作環境。
+* 查看卷。
+* 刪除工作環境。
 
 
 
@@ -797,7 +1553,172 @@ NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級�
 
 == 勒索軟體抵禦能力
 
-<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/data-services-ransomware-resilience/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP ransomware protection現已升級NetApp勒索軟體復原能力
+
+BlueXP勒索軟體複製已重新命名為NetApp Ransomware Resilience。
+
+
+
+==== BlueXP現在是NetApp控制台
+
+BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。
+
+NetApp控制台提供企業級跨本地和雲端環境的儲存和資料服務的集中管理，提供即時洞察、更快的工作流程和簡化的管理。
+
+有關更改的詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
+=== 2025年7月15日
+
+
+
+==== SAN 工作負載支持
+
+此版本包括對BlueXP ransomware protection中的 SAN 工作負載的支援。現在，除了 NFS 和 CIFS 工作負載之外，您還可以保護 SAN 工作負載。
+
+有關詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-prerequisites.html["BlueXP ransomware protection先決條件"] 。
+
+
+
+==== 改進的工作負載保護
+
+此版本改進了具有其他NetApp工具（如SnapCenter或BlueXP backup and recovery）的快照和備份策略的工作負載的設定過程。在先前的版本中， BlueXP ransomware protection發現了來自其他工具的策略，只允許您更改偵測策略。在這個版本中，您現在可以用BlueXP ransomware protection策略取代快照和備份策略，或繼續使用其他工具中的策略。
+
+有關詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["保護工作負載"]。
+
+
+
+==== 電子郵件通知
+
+如果BlueXP ransomware protection偵測到可能的攻擊， BlueXP通知中會出現通知，並且會向您設定的電子郵件地址發送電子郵件。
+
+電子郵件包含有關嚴重性、受影響的工作負載的信息，以及BlueXP ransomware protection*警報* 標籤中的警報連結。
+
+如果您在BlueXP ransomware protection中配置了安全性和事件管理 (SIEM) 系統，該服務會向您的 SIEM 系統發送警報詳細資訊。
+
+有關詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["處理偵測到的勒索軟體警報"]。
+
+
+
+=== 2025年6月9日
+
+
+
+==== 著陸頁更新
+
+此版本包括對BlueXP ransomware protection登陸頁面的更新，使開始免費試用和發現變得更加容易。
+
+
+
+==== 準備演習更新
+
+以前，您可以透過模擬對新樣本工作負載的攻擊來執行勒索軟體準備演練。利用此功能，您可以調查模擬攻擊並恢復工作負載。使用此功能來測試警報通知、回應和恢復。根據需要經常運行和安排這些演習。
+
+在此版本中，您可以使用BlueXP ransomware protection儀表板上的新按鈕在測試工作負載上執行勒索軟體準備演練，從而更輕鬆地模擬勒索軟體攻擊、調查其影響並有效地恢復工作負載，所有這些都在受控環境中完成。
+
+現在，除了 NFS 工作負載之外，您還可以在 CIFS（SMB）工作負載上執行準備情況演練。
+
+有關詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-simulate.html["進行勒索軟體攻擊準備演習"]。
+
+
+
+==== 啟用BlueXP classification更新
+
+在BlueXP ransomware protection服務中使用BlueXP classification之前，您需要啟用BlueXP classification來掃描您的資料。將資料分類有助於您找到個人識別資訊 (PII)，這可能會增加安全風險。
+
+您可以在BlueXP ransomware protection中對文件共享工作負載部署BlueXP classification。在*隱私暴露*欄中，選擇*識別暴露*選項。如果您已啟用分類服務，此操作將識別曝光。否則，在此版本中，對話方塊會顯示部署BlueXP classification的選項。選擇*部署*前往BlueXP classification服務登入頁面，您可以在其中部署服務。西
+
+有關詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html["在雲端部署BlueXP classification"^]並在BlueXP ransomware protection內使用該服務，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["使用BlueXP classification掃描個人識別資訊"]。
+
+
+
+=== 2025年5月13日
+
+
+
+==== BlueXP ransomware protection中不支援的工作環境報告
+
+在發現工作流程期間，當您將滑鼠懸停在「支援」或「不支援的工作負載」上時， BlueXP ransomware protection會報告更多詳細資訊。這將幫助您了解為什麼您的某些工作負載未被BlueXP ransomware protection服務發現。
+
+服務不支援工作環境的原因有很多，例如，工作環境中的ONTAP版本可能低於所需的版本。當您將滑鼠懸停在未支援的工作環境上時，工具提示會顯示原因。
+
+您可以在初始發現期間查看不受支援的工作環境，也可以在其中下載結果。您也可以從「設定」頁面中的「*工作負載發現*」選項查看發現的結果。
+
+有關詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["發現BlueXP ransomware protection中的工作負載"]。
+
+
+
+=== 2025年4月29日
+
+
+
+==== 支援Amazon FSx for NetApp ONTAP
+
+此版本支援Amazon FSx for NetApp ONTAP 。此功能可協助您使用BlueXP ransomware protection來保護 FSx for ONTAP工作負載。
+
+FSx for ONTAP是一項完全託管的服務，可在雲端提供NetApp ONTAP儲存的強大功能。它提供與您在本機上使用的相同的功能、效能和管理能力，同時具有原生 AWS 服務的靈活性和可擴充性。
+
+BlueXP ransomware protection工作流程進行了以下更改：
+
+* Discovery 包含 FSx for ONTAP 9.15 工作環境中的工作負載。
+* 「保護」標籤顯示 FSx for ONTAP環境中的工作負載。在這種環境中，您應該使用 FSx for ONTAP備份服務執行備份作業。您可以使用BlueXP ransomware protection快照恢復這些工作負載。
++
+
+TIP: 無法在BlueXP中設定在 FSx for ONTAP上執行的工作負載的備份策略。Amazon FSx for NetApp ONTAP中設定的任何現有備份策略均保持不變。
+
+* 警報事件展示了新的 FSx for ONTAP工作環境。
+
+
+有關詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["了解BlueXP ransomware protection與工作環境"]。
+
+有關受支援選項的信息，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-limitations.html["BlueXP ransomware protection的局限性"]。
+
+
+
+==== 需要BlueXP訪問角色
+
+現在您需要以下存取角色之一來查看、發現或管理BlueXP ransomware protection：組織管理員、資料夾或專案管理員、勒索軟體保護管理員或勒索軟體保護檢視器。
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的BlueXP訪問角色"^] 。
+
+
+
+=== 2025年4月14日
+
+
+
+==== 準備演習報告
+
+透過此版本，您可以查看勒索軟體攻擊準備演習報告。準備演練使您能夠模擬對新建立的範例工作負載的勒索軟體攻擊。然後，調查模擬攻擊並恢復樣本工作負載。此功能可協助您透過測試警報通知、回應和復原流程來了解在發生實際勒索軟體攻擊時是否已做好準備。
+
+有關詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-simulate.html["進行勒索軟體攻擊準備演習"]。
+
+
+
+==== 新的基於角色的存取控制角色和權限
+
+以前，您可以根據使用者的職責為其分配角色和權限，這有助於您管理使用者對BlueXP ransomware protection的存取。在這個版本中，有兩個特定於BlueXP ransomware protection的新角色具有更新的權限。新角色如下：
+
+* 勒索軟體保護管理員
+* 勒索軟體保護檢視器
+
+
+有關權限的詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-roles.html["BlueXP ransomware protection基於角色的功能訪問"]。
+
+
+
+==== 付款改進
+
+此版本對支付流程進行了多項改進。
+
+有關詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["設定許可證和付款選項"]。
 
 
 
@@ -809,7 +1730,63 @@ NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級�
 
 == 複製
 
-<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/data-services-replication/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP replication現已更名為NetApp複製
+
+BlueXP replication已重新命名為NetApp Replication。
+
+
+
+==== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
+=== 2022年9月18日
+
+
+
+==== FSx for ONTAP到Cloud Volumes ONTAP
+
+現在您可以將資料從Amazon FSx for ONTAP檔案系統複製到Cloud Volumes ONTAP。
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["了解如何設定資料複製"] 。
+
+
+
+=== 2022年7月31日
+
+
+
+==== FSx for ONTAP作為資料來源
+
+現在您可以將資料從Amazon FSx for ONTAP檔案系統複製到下列目標：
+
+* 適用於ONTAP 的Amazon FSx
+* 本地ONTAP集群
+
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["了解如何設定資料複製"] 。
+
+
+
+=== 2021年9月2日
+
+
+
+==== 支援Amazon FSx for ONTAP
+
+現在您可以將資料從Cloud Volumes ONTAP系統或本機ONTAP叢集複製到Amazon FSx for ONTAP檔案系統。
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["了解如何設定資料複製"] 。
 
 
 
@@ -877,11 +1854,11 @@ NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級�
 
 
 
-==== 9b5a1e6c05cb5a9a8a4d5f1e2605ce55
+==== BlueXP volume caching現在是卷緩存
 
-f8e8412fccd7f025d572fec3a13f08fe
+BlueXP volume caching已重新命名為磁碟區快取。
 
-1404848cfe6595d928cbdff8fae23869
+您可以透過選擇「*Mobility*」>「*Volume caching*」從NetApp Console 左側導覽列存取它。
 
 
 
@@ -893,21 +1870,49 @@ NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級�
 
 
 
-=== a6aef5e3bbd8b059764f33a4044e30d6
+=== 2023年6月4日
 
 
 
-==== 5f63db6bf0512dc0612ee852c1faf373
+==== BlueXP volume caching
 
-b83ba84e8b66440b0a36bc88ba58ce87
+BlueXP volume caching是ONTAP 9 軟體的功能，它是一種遠端快取功能，可簡化檔案分發，透過將資源靠近使用者和運算資源的位置來減少 WAN 延遲，並降低 WAN 頻寬成本。磁碟區緩存在遠端位置提供持久的、可寫入的磁碟區。您可以使用BlueXP volume caching快取來加快資料存取速度或卸載訪問量大的磁碟區的流量。快取磁碟區非常適合讀取密集型工作負載，尤其是客戶端需要重複存取相同資料的情況。
 
-da20ff5e68ae0641ae1925c968ac0244
+透過BlueXP volume caching，您可以獲得雲端的快取功能，特別是針對Amazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP和本機工作環境。
 
-32e43821995e99fb72cdac5dd21f43b4
+link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["了解有關卷緩存的更多信息"] 。
 
 
 
 == 工作負載工廠
+
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP workload factory現為NetApp工作負載工廠
+
+BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。因此， BlueXP workload factory已重新命名為NetApp工作負載工廠。
+
+
+
+==== Ask Me 與 MCP 集成
+
+Workload Factory 的 AI 助理 Ask Me 與模型上下文協定 (MCP) 整合。使用 MCP，Ask Me 可以安全地與外部環境互動並查詢 API 工具，以提供適合您特定儲存環境的回應。
+
+
+
+=== 2025年10月5日
+
+
+
+==== 儲存的新通知
+
+NetApp Workload Factory 通知服務包含針對儲存架構問題的通知。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory 通知"]
 
 
 
@@ -944,43 +1949,3 @@ https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html[
 ==== 更新了權限術語
 
 工作負載工廠使用者介面和文件現在使用“只讀”來指讀取權限，使用“讀取/寫入”來指稱自動化權限。
-
-
-
-=== 2025年3月30日
-
-
-
-==== CloudShell 報告 AI 產生的ONTAP CLI 命令錯誤回應
-
-使用 CloudShell 時，每次發出ONTAP CLI 命令並發生錯誤時，您都可以獲得 AI 產生的錯誤回應，其中包括故障描述、故障原因和詳細解決方案。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用 CloudShell"]
-
-
-
-==== iam:SimulatePermissionPolicy 權限更新
-
-現在您可以管理 `iam:SimulatePrincipalPolicy`當您新增其他 AWS 帳戶憑證或新增新的工作負載功能（例如 GenAI 工作負載）時，可以從工作負載工廠控制台取得權限。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["權限參考變更日誌"]
-
-
-
-=== 2025年2月2日
-
-
-
-==== BlueXP workload factory控制台中可用的 CloudShell
-
-可以從BlueXP workload factory控制台的任何位置使用 CloudShell。  CloudShell 可讓您使用您在BlueXP帳戶中提供的 AWS 和ONTAP憑證，並在類似 shell 的環境中執行 AWS CLI 命令或ONTAP CLI 命令。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用 CloudShell"]
-
-
-
-==== 資料庫權限更新
-
-現在，資料庫在讀取模式下具有以下權限： `iam:SimulatePrincipalPolicy` 。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["權限參考變更日誌"]
