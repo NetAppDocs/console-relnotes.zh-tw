@@ -1,0 +1,37 @@
+= BlueXP backup and recovery的增強功能（雲端原生）
+:allow-uri-read: 
+
+
+
+
+=== BlueXP backup and recovery的增強功能（雲端原生）
+
+* Microsoft SQL Server 資料庫
++
+** 支援備份、還原和還原駐留在Amazon FSx for NetApp ONTAP上的 Microsoft SQL Server 資料庫
+** 所有操作僅透過 REST API 支援。
+
+
+* SAP HANA 系統
++
+** 在系統刷新期間，磁碟區的自動掛載和卸載是使用工作流程而不是腳本執行的
+** 支援透過UI新增、移除、編輯、刪除、維護、升級插件宿主
+
+
+
+
+
+
+=== BlueXP backup and recovery的增強功能（混合）
+
+* 支援資料鎖定和勒索軟體保護
+* 支援將備份從 StorageGrid 移至歸檔層
+* 支援將 MongoDB、MySQL 和 PostgreSQL 應用程式資料從本機ONTAP系統備份到 Amazon Web Services、Microsoft Azure、Google Cloud Platform 和StorageGRID。您可以在需要時恢復資料。
+
+
+
+
+=== BlueXP backup and recovery的增強
+
+* 支援連接器代理部署模型
+

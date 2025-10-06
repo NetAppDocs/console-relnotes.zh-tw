@@ -1,0 +1,21 @@
+= 
+:allow-uri-read: 
+
+
+* 現在您可以使用BlueXP審計服務 API 匯出審計日誌。
++
+審計服務記錄有關BlueXP服務執行的操作的資訊。這包括工作區、使用的連接器和其他遙測資料。您可以使用這些數據來確定執行了哪些操作、誰執行了這些操作以及何時發生這些操作。
+
++
+https://docs.netapp.com/us-en/bluexp-automation/audit/overview.html["了解有關使用審計服務 API 的更多信息"^]
+
++
+請注意，此連結也可以從時間軸頁面上的BlueXP使用者介面存取。
+
+* 此版本的連接器還包括Cloud Volumes ONTAP增強功能和本機ONTAP叢集增強功能。
++
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#30-july-2023["了解Cloud Volumes ONTAP增強功能"^]
+** https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html#30-july-2023["了解ONTAP本地集群增強功能"^]
+
+
+

@@ -1,0 +1,21 @@
+= 3-2-1 備份啟動期間建立備份策略
+:allow-uri-read: 
+
+
+
+
+=== 3-2-1 備份啟動期間建立備份策略
+
+以前，必須在啟動快照、複製或備份之前建立自訂策略。現在，您可以使用BlueXP backup and recoveryUI 在備份啟動過程中建立策略。
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["詳細了解政策"] 。
+
+
+
+=== 支援按需快速恢復ONTAP卷
+
+BlueXP backup and recovery現在提供將磁碟區從雲端儲存「快速復原」到Cloud Volumes ONTAP系統的功能。快速復原非常適合需要盡快提供對磁碟區的存取的災難復原情況。快速還原將備份檔案中的元資料還原到卷，而不是還原整個備份檔案。
+
+Cloud Volumes ONTAP目標系統必須執行ONTAP版本 9.13.0 或更高版本。 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["了解有關恢復數據的更多信息"] 。
+
+BlueXP backup and recovery作業監視器也會顯示有關快速復原作業進度的資訊。

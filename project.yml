@@ -1,0 +1,23 @@
+---
+settings:
+  name: Release Notes
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
+sidebar:
+  entries:
+  - title: NetApp控制台發行說明
+    url: "/index.html"
+  - title: 最近更改
+    url: "/whats-new.html"
+  - title: 發行說明索引
+    url: "/release-notes-index.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

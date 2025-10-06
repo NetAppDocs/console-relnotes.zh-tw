@@ -1,0 +1,23 @@
+= Azure 中支援 HA 多可用區部署的新區域
+:allow-uri-read: 
+
+
+連接器 3.9.34 版本引入了以下更改。
+
+
+
+=== Azure 中支援 HA 多可用區部署的新區域
+
+Azure 中的下列區域現在支援Cloud Volumes ONTAP 9.14.0 及更高版本的高可用性多可用區部署：
+
+* 澳洲東部
+* 東亞
+* 法國中部
+* 北歐
+* 卡達中央
+* 瑞典中央
+* 西歐
+* 美國西部 2
+
+
+有關支援多個可用區域的所有區域的列表，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的全球區域地圖"^]。

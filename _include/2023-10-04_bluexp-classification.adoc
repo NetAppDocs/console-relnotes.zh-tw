@@ -1,0 +1,11 @@
+= 支援在 RHEL 版本 9 上本機安裝BlueXP classification
+:allow-uri-read: 
+
+
+
+
+=== 支援在 RHEL 版本 9 上本機安裝BlueXP classification
+
+Red Hat Enterprise Linux 8 和 9 版本不支援 Docker 引擎；而BlueXP classification安裝則需要引擎。我們現在支援在 RHEL 9.0、9.1 和 9.2 上使用 Podman 版本 4 或更高版本作為容器基礎架構進行BlueXP classification安裝。如果您的環境需要使用最新版本的 RHEL，現在您可以在使用 Podman 時安裝BlueXP classification（版本 1.26 或更高版本）。
+
+目前，在使用 RHEL 9.x 時，我們不支援暗站安裝或分散式掃描環境（使用主節點和遠端掃描器節點）。

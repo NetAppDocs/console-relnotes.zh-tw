@@ -1,0 +1,18 @@
+= 
+:allow-uri-read: 
+
+
+BlueXP disaster recovery預覽是一種基於雲端的災難復原服務​​，可自動執行災難復原工作流程。最初，使用BlueXP disaster recovery預覽版，您可以使用Amazon FSx for ONTAP將執行NetApp儲存的本機基於 NFS 的 VMware 工作負載保護到 AWS 上的 VMware Cloud (VMC)。
+
+
+NOTE: 對於此預覽版產品， NetApp保留在正式發布之前修改產品詳細資訊、內容和時間表的權利。
+
+https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["了解有關BlueXP disaster recovery的更多信息"] 。
+
+此版本包括以下更新：
+
+* *資源組更新啟動順序*：建立災難復原或複製計畫時，您可以將虛擬機器新增至功能資源群組。資源組可讓您將一組依賴的虛擬機器放入符合您要求的邏輯群組中。例如，群組可以包含復原時可以執行的啟動順序。在此版本中，每個資源組可以包含一個或多個虛擬機器。虛擬機器將根據您在計劃中包含的順序啟動。參考 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html#select-applications-to-replicate-and-assign-resource-groups["選擇要複製的應用程式並分配資源組"]。
+* *複製驗證*：建立災難復原或複製計畫後，在精靈中確定重複，並啟動到災難復原站點的複製，每 30 分鐘BlueXP disaster recovery會驗證複製是否確實按照計畫進行。您可以在作業監視器頁面中監視進度。請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/replicate.html["將應用程式複製到另一個站點"] 。
+* *複製計畫顯示復原點目標 (RPO) 傳輸計畫*：建立災難復原或複製計畫時，請選擇虛擬機器。在此版本中，您現在可以查看與資料儲存區或虛擬機器關聯的每個磁碟區關聯的SnapMirror 。您也可以查看與SnapMirror計畫相關的 RPO 傳輸計畫。 RPO 可協助您確定備份計畫是否足以在災難後復原。參考 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複製計劃"]。
+* *作業監視器更新*：作業監視器頁面現在包含一個重新整理選項，以便您可以獲得最新的操作狀態。請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/monitor-jobs.html["監控災難復原作業"] 。
+
