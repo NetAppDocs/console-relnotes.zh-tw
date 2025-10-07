@@ -1100,7 +1100,6 @@
   <block id="287f419ab9030dae6e341b7917dea7b9" category="paragraph">與儲存層的 ARP 加密偵測不同，勒索軟體彈性 SaaS 服務透過收集 FPolicy 事件來偵測使用者行為異常。</block>
   <block id="666c1c8dca9ff6ef210c57f04d6e84e8" category="inline-link-macro">啟用可疑用戶活動偵測</block>
   <block id="8d2203d70c1b051af0b7ad506cc40474" category="inline-link-macro">查看異常用戶行為</block>
-  <block id="b270269f4d3564626c9860f0f29f2992" category="paragraph">有關詳細信息，請參閱<block ref="58d7e66449e28231f244d38ab02cc3e1" category="inline-link-macro-rx"></block>和<block ref="f451eade5eddedc7b8e2af13d9e54fd3" category="inline-link-macro-rx"></block>。</block>
   <block id="289ddf7ba01fbf8f514dbc2d06a7bf67" category="section-title">其他可疑用戶活動檢測</block>
   <block id="c59946b2a21d389710dcd9b9ad5f618d" category="paragraph">除了資料外洩偵測之外，勒索軟體復原能力還根據觀察到的可疑使用者活動偵測以下警報類型：</block>
   <block id="9f149be55d2ace2f4ef86d2125660c4c" category="list-text">**資料破壞 - 潛在攻擊** - 當檔案刪除的數量超過歷史標準時，會建立具有潛在攻擊嚴重程度的警報。</block>
@@ -1121,4 +1120,5 @@
   <block id="e730cca4cd272ec01ca9b83307bce0ea" category="paragraph"><block ref="56ddaed99a22a4135c2249926212e08e" category="inline-link-rx"></block> 。</block>
   <block id="fa5fdf6437c8f041e577f03d2886feb7" category="paragraph">有關權限的詳細信息，請參閱<block ref="bae933e2ecf3f9d4c80618fdd19f0a12" category="inline-link-rx"></block>。</block>
   <block id="90f9ae6ca21dd13979085a7ce12c30fb" category="paragraph">有關詳細信息，請參閱<block ref="0e61d2375267610913b69353158784eb" category="inline-link-rx"></block>。</block>
+  <block id="75ae81fb1b2b27cbdbd5ba2b48014fe5" category="paragraph">有關詳細信息，請參閱<block ref="4fc0d3ac39798f24cded583e594e4abe" category="inline-link-macro-rx"></block>和<block ref="f451eade5eddedc7b8e2af13d9e54fd3" category="inline-link-macro-rx"></block>。</block>
 </blocks>
