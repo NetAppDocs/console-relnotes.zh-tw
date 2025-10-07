@@ -358,13 +358,68 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["了解BlueXP al
 
 == 適用於ONTAP 的Amazon FSx
 
-<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/console-fsx-ontap/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明。"^]
+
+
+
+=== 2025年8月3日
+
+
+
+==== 複製關係標籤的增強功能
+
+我們在複製關係表中新增了幾個新列，以便在「複製關係」標籤中為您提供有關複製關係的更多資訊。該表現在包含以下列：
+
+* SnapMirror策略
+* 來源檔案系統
+* 目標檔案系統
+* 關係狀態
+* 上次轉乘時間
+
+
+
+
+=== 2025年7月14日
+
+
+
+==== 支援在兩個 FSx for ONTAP檔案系統之間複製數據
+
+現在可以從BlueXP控制台中的畫佈在兩個 FSx for ONTAP檔案系統之間進行資料複製。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#replicate-data["複製數據"]
 
 
 
 == Amazon S3 存儲
 
-<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/storage-managment-s3-storage/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。== 2023年3月5日
+
+
+
+==== 能夠從BlueXP新增儲存桶
+
+您已經能夠在BlueXP Canvas 上查看 Amazon S3 儲存桶很長一段時間了。現在您可以直接從BlueXP新增新的儲存桶並變更現有儲存桶的屬性。 https://docs.netapp.com/us-en/storage-management-s3-storage/task-add-s3-bucket.html["了解如何新增的 Amazon S3 儲存桶"] 。
 
 
 
@@ -448,15 +503,15 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
-==== NetApp備份與復原現已更名為NetApp備份與復原
+==== BlueXP backup and recovery現已更名NetApp備份與復原
 
-NetApp Backup and Recovery 已重新命名為NetApp Backup and Recovery。
+BlueXP backup and recovery已重新命名為NetApp備份和復原。
 
 
 
 ==== BlueXP現在是NetApp控制台
 
-NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程以及高度安全且合規的簡化管理。
 
 有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp控制台發行說明。"]
 
@@ -1836,13 +1891,113 @@ NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級�
 
 == StorageGRID
 
-<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-managment-storagegrid/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
+=== 2025年5月12日
+
+
+
+==== 需要BlueXP訪問角色
+
+現在，您需要以下存取角色之一來檢視、發現或管理BlueXP中的StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存健康專家*。link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["了解BlueXP訪問角色。"^]
+
+
+
+=== 2024年8月7日
+
+
+
+==== 新的高級視圖
+
+從StorageGRID 11.8 開始，您可以使用熟悉的 Grid Manager 介面從BlueXP管理您的StorageGRID系統。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["了解如何使用進階視圖管理StorageGRID"] 。
+
+
+
+==== 能夠審查並批准StorageGRID管理介面證書
+
+現在，您可以在從BlueXP發現StorageGRID系統時審查和批准StorageGRID管理介面證書。您也可以審查並批准已發現網格上的最新StorageGRID管理介面證書。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["了解如何在系統發現期間審查和批准伺服器憑證。"]
+
+
+
+=== 2022年9月18日
+
+
+
+==== 對StorageGRID的支持
+
+現在您可以直接從BlueXP發現您的StorageGRID系統。發現StorageGRID可為您提供混合多雲資料的完整視圖。
 
 
 
 == 雲端分層
 
-<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/data-service-cloud-tiering/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP tiering現已更名為NetApp Cloud Tiering
+
+BlueXP tiering已重新命名為NetApp Cloud Tiering。
+
+
+
+==== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
+=== 2023年8月9日
+
+
+
+==== 使用自訂前綴作為儲存桶名稱
+
+過去，定義儲存桶名稱時需要使用預設的「fabric-pool」前綴，例如 _fabric-pool-bucket1_。現在您可以在命名儲存桶時使用自訂前綴。僅當將資料分層到 Amazon S3 時此功能才可用。 https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-aws.html#prepare-your-aws-environment["了解更多"] 。
+
+
+
+==== 在所有BlueXP連接器中搜尋集群
+
+如果您使用多個連接器來管理環境中的所有儲存系統，則您想要實施分層的某些叢集可能位於不同的連接器中。如果您不確定哪個連接器正在管理某個集群，您可以使用 Cloud Tiering 在所有連接器中進行搜尋。 https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#search-for-a-cluster-across-all-bluexp-connectors["了解更多"] 。
+
+
+
+=== 2023年7月4日
+
+
+
+==== 調整頻寬以傳輸非活動數據
+
+當您啟動 Cloud Tiering 時， ONTAP可以使用無限量的網路頻寬將叢集中磁碟區中的非活動資料傳輸到物件儲存。如果您注意到分層流量影響了正常的使用者工作負載，您可以限制傳輸期間可使用的頻寬量。 https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#changing-the-network-bandwidth-available-to-upload-inactive-data-to-object-storage["了解更多"] 。
+
+
+
+==== 通知中心顯示的分層事件
+
+當叢集分層的冷資料少於 20%（包括未分層任何資料的叢集）時，分層事件「將叢集 <name> 中的其他資料分層到物件儲存以提高儲存效率」現在會作為通知出現。
+
+此通知是一項“建議”，旨在幫助您提高系統效率並節省儲存成本。它提供了一個鏈接 https://bluexp.netapp.com/cloud-tiering-service-tco["Cloud Tiering 總擁有成本和節省計算器"^]幫助您計算成本節省。
 
 
 
