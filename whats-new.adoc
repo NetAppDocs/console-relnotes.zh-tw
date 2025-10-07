@@ -1343,7 +1343,109 @@ Cloud Volumes ONTAP使用情況報告現已有幾項改進：
 
 == 災難復原
 
-<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/storage-management-disaster-recovery/main/release-notes/dr-whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP disaster recovery現已更名為NetApp災難復原
+
+BlueXP disaster recovery已重新命名為NetApp災難復原。
+
+
+
+==== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
+==== 其他更新
+
+* Amazon Elastic VMware Service (EVS) 與Amazon FSx for NetApp ONTAP的支援已公開預覽。隨著此版本的發布，它現已普遍可用。有關詳細信息，請參閱link:../reference/evs-deploy-guide-introduction.html["使用 Amazon Elastic VMware Service 和Amazon FSx for NetApp ONTAP實現NetApp災難復原"]。
+* 儲存發現改進，包括減少本地部署的發現時間
+* 身分和存取管理 (IAM) 支持，包括基於角色的存取控制 (RBAC) 和增強的使用者權限
+* Azure VMware 解決方案和Cloud Volumes ONTAP 的私人預覽支援。有了此支持，您現在可以使用Cloud Volumes ONTAP儲存來設定從本機到 Azure VMware 解決方案的災難復原保護。
+
+
+
+
+=== 2025年8月4日
+
+版本 4.2.5P2
+
+
+
+==== NetApp災難復原更新
+
+此版本包括以下更新：
+
+* 改進了 VMFS 支持，以處理來自多個儲存虛擬機的相同 LUN。
+* 改進了測試拆卸清理以處理已卸載或刪除的資料儲存。
+* 改進了子網路映射，以便現在可以驗證輸入的網關是否包含在提供的網路中。
+* 解決了虛擬機器名稱包含“.com”時可能導致複製計劃失敗的問題。
+* 在建立複製計劃的過程中，刪除了封鎖目標磁碟區與來源磁碟區相同的限制。
+* 在 Azure 市場中新增了對NetApp智慧服務的即用即付 (PAYGO) 訂閱支持，並在免費試用對話方塊中新增了 Azure 市場的連結。
++
+有關詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html#licensing["NetApp災難復原許可"]和 https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["設定NetApp災難復原許可"]。
+
+
+
+
+
+=== 2025年7月14日
+
+版本 4.2.5
+
+
+
+==== NetApp災難復原中的使用者角色
+
+NetApp災難復原現在採用角色來管理每個使用者對特定功能和操作的存取權限。
+
+本服務使用特定於NetApp災難復原的以下角色。
+
+* *災難復原管理員*：在NetApp災難復原中執行任何操作。
+* *災難復原故障轉移管理員*：在NetApp災難復原中執行故障轉移和遷移操作。
+* *災難復原應用程式管理員*：建立和修改複製計畫並啟動測試故障轉移。
+* *災難復原檢視器*：查看NetApp災難復原中的信息，但不能執行任何操作。
+
+
+如果您按一下NetApp災難復原服務​​並首次進行配置，則必須具有 *SnapCenterAdmin* 權限或具有 *Organization Admin* 角色。
+
+有關詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/reference/dr-reference-roles.html["NetApp災難復原中的使用者角色和權限"] 。
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的訪問角色"^] 。
+
+
+
+==== NetApp災難復原中的其他更新
+
+* 增強網路發現
+* 可擴展性改進：
++
+** 過濾所需的元資料而不是所有細節
+** 發現改進，以更快地檢索和更新虛擬機器資源
+** 資料檢索和資料更新的記憶體優化和效能優化
+** vCenter SDK 用戶端建立和池管理改進
+
+
+* 下次計劃或手動發現時的陳舊資料管理：
++
+** 當在 vCenter 中刪除虛擬機器時， NetApp Disaster Recovery 現在會自動將其從複製計劃中刪除。
+** 當 vCenter 中刪除資料儲存區或網路時， NetApp Disaster Recovery 現在會將其從複製計劃和資源組中刪除。
+** 當在 vCenter 中刪除叢集、主機或資料中心時， NetApp Disaster Recovery 現在會將其從複製計劃和資源群組中刪除。
+
+
+* 現在您可以在瀏覽器的隱身模式下存取 Swagger 文件。您可以從NetApp災難復原中的「設定」選項 >「API 文件」中存取它，也可以在瀏覽器的隱身模式下直接透過下列 URL 存取它： https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["Swagger 文件"^] 。
+* 在某些情況下，故障回復操作完成後，iGroup 會被遺留下來。如果 iGroup 已過時，則此更新會將其刪除。
+* 如果在複製計畫中使用了 NFS FQDN， NetApp Disaster Recovery 現在會將其解析為 IP 位址。如果災難復原站台中無法解析 FQDN，則此更新很有用。
+* UI 對齊改進
+* 成功發現後，記錄擷取 vCenter 大小詳細資訊的日誌改進
+
 
 
 
