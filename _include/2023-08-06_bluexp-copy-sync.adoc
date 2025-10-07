@@ -28,4 +28,4 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html["了�
 * cloudkms.keyRings.列表
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["詳細了解 Google Cloud Storage 儲存桶要求。"]
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["了解有關 Google Cloud Storage 儲存桶要求的更多資訊。"]

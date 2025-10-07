@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes-index.html 
 keywords: release notes 
-summary: 查看NetApp控制台管理和儲存功能以及NetApp資料服務的完整發行說明。 
+summary: 查看NetApp Console管理和儲存功能以及NetApp資料服務的完整發行說明。 
 ---
 = 發行說明索引
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 查看NetApp控制台管理和儲存功能以及NetApp資料服務的�
 
 
 [role="lead"]
-查看NetApp控制台功能和NetApp資料服務的完整發行說明。
+查看NetApp Console功能和NetApp資料服務的完整發行說明。
 
 
 
@@ -25,7 +25,7 @@ summary: 查看NetApp控制台管理和儲存功能以及NetApp資料服務的�
 * https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["自動化中心"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["數位顧問"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["經濟效益"^]
-* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["授權和訂閱"^]
+* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenses and subscriptions"^]
 * https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["軟體更新"^]
 
 
@@ -38,7 +38,7 @@ summary: 查看NetApp控制台管理和儲存功能以及NetApp資料服務的�
 * https://docs.netapp.com/us-en/storage-management-blob-storage/index.html["Azure Blob 儲存"^]
 * https://docs.netapp.com/us-en/storage-management-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
 * https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["NetApp控制台中的Cloud Volumes ONTAP管理"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["NetApp Console中的Cloud Volumes ONTAP管理"^]
 * https://docs.netapp.com/us-en/storage-management-e-series/whats-new.html["E系列系統"^]
 * https://docs.netapp.com/us-en/storage-management-google-cloud-netapp-volumes/whats-new.html["Google Cloud NetApp Volumes"^]
 * https://docs.netapp.com/us-en/storage-management-google-cloud-storage/whats-new.html["Google 雲端儲存"^]

@@ -10,7 +10,7 @@ settings:
   langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
 sidebar:
   entries:
-  - title: NetApp控制台發行說明
+  - title: NetApp Console發行說明
     url: "/index.html"
   - title: 最近更改
     url: "/whats-new.html"

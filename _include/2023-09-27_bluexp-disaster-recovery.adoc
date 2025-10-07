@@ -22,7 +22,7 @@ BlueXP disaster recovery的預覽版本包括以下更新：
 +
 參考 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/manage.html["管理資源"]。
 
-** * SnapMirror自動化*：在此版本中建立複製計畫時，您可以在下列配置之一中定義來源磁碟區和目標磁碟區之間的SnapMirror關係：
+** * SnapMirror自動化*：在此版本中建立複製計畫時，您可以在下列組態之一中定義來源磁碟區和目標磁碟區之間的SnapMirror關係：
 +
 *** 1 至 1
 *** 扇出架構中的一對多
