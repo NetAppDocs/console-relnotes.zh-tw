@@ -427,13 +427,27 @@ NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級�
 
 
 
+=== 2025年10月6日
+
+
+
+==== BlueXP現在是NetApp控制台
+
+BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。
+
+NetApp控制台提供企業級跨本地和雲端環境的儲存和資料服務的集中管理，提供即時洞察、更快的工作流程和簡化的管理。
+
+有關更改的詳細信息，請參閱 https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
 === 2023年6月5日
 
 
 
 ==== 能夠從BlueXP新增新的儲存帳戶
 
-您已經能夠在BlueXP Canvas 上查看 Azure Blob 儲存空間很長一段時間了。現在您可以直接從BlueXP新增新的儲存帳戶並變更現有儲存帳戶的屬性。xref:../task-add-blob-storage.html[了解如何新增的 Azure Blob 儲存體帳戶] 。
+您已經能夠在BlueXP Canvas 上查看 Azure Blob 儲存空間很長一段時間了。現在您可以直接從BlueXP新增新的儲存帳戶並變更現有儲存帳戶的屬性。link:https://docs.netapp.com/us-en/storage-management-blob-storage/["了解如何新增的 Azure Blob 儲存體帳戶"^] 。
 
 
 

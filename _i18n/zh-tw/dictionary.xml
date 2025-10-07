@@ -568,7 +568,6 @@
   <block id="58770c745f8af8b420df40e44a144c15" category="section-title">2023年6月5日</block>
   <block id="f9037e3eb23130835367334e3aa5a34b" category="section-title">能夠從BlueXP新增新的儲存帳戶</block>
   <block id="7e4c7c60d975edb27a163364c9868139" category="inline-xref-macro">了解如何新增的 Azure Blob 儲存體帳戶</block>
-  <block id="f85f92208aecee0545b9eedb64b14672" category="paragraph">您已經能夠在BlueXP Canvas 上查看 Azure Blob 儲存空間很長一段時間了。現在您可以直接從BlueXP新增新的儲存帳戶並變更現有儲存帳戶的屬性。<block ref="127c39654391bed812f2268282064990" category="inline-xref-macro-rx"></block> 。</block>
   <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。</block>
   <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">NetApp控制台提供企業級跨本地和雲端環境的儲存和資料服務的集中管理，提供即時洞察、更快的工作流程和簡化的管理。</block>
   <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">有關更改的詳細信息，請參閱<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block>。</block>
@@ -1106,4 +1105,5 @@
   <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">UI 對齊改進</block>
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">成功發現後，記錄擷取 vCenter 大小詳細資訊的日誌改進</block>
   <block id="33b87914ae72ad3c394fc1f941a94c8c" category="list-text">從主儲存、輔助儲存和物件儲存中搜尋並還原虛擬機器備份</block>
+  <block id="986ddb500dcbfc5d9995ab28bc27a477" category="paragraph">您已經能夠在BlueXP Canvas 上查看 Azure Blob 儲存空間很長一段時間了。現在您可以直接從BlueXP新增新的儲存帳戶並變更現有儲存帳戶的屬性。<block ref="da5959ee38843473d9246184c88364f6" category="inline-link-macro-rx"></block> 。</block>
 </blocks>
