@@ -6,6 +6,33 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
+  release_notes_autogen:
+    auto_release_notes_enabled: true
+    repositories_features:
+    - console-alerts
+    - console-automation
+    - console-licenses-subscriptions
+    - console-lifecycle-planning
+    - console-setup-admin
+    - console-software-updates
+    - console-volume-caching
+    - data-services-backup-recovery
+    - data-services-data-classification
+    - data-services-cloud-tiering
+    - data-services-copy-sync
+    - data-services-disaster-recovery
+    - data-services-ransomware-resilience
+    - data-services-replication
+    - storage-management-azure-netapp-files
+    - storage-management-cloud-volumes-ontap
+    - storage-management-e-series
+    - storage-management-fsx-ontap
+    - storage-management-google-cloud-netapp-volumes
+    - storage-management-google-cloud-storage
+    - storage-management-ontap-onprem
+    - storage-management-storagegrid
+    - active-iq
+    - keystone-staas
   rss_page: whats-new.html
   langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
 sidebar:
