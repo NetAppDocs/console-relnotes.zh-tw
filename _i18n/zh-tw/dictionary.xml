@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
-  <block id="ee4272223579f1299444d14f2d185eb5" category="section-title">使用情況報告增強功能</block>
-  <block id="4c63050f1e33aa32db50cc80b682e805" category="list-text">TiB 單位現在包含在列名中。</block>
-  <block id="37532cd27e3c53471b1caed0ba1f90ed" category="inline-link-macro">下載使用情況報告</block>
-  <block id="c1ab40aac4724ff5a3b9540c19eed579" category="paragraph">Cloud Volumes ONTAP使用情況報告現已有幾項改進：</block>
-  <block id="c352c835cf612ee328fb7dba772bce4d" category="list-text">現在包含一個用於序號的新_node(s)_欄位。</block>
-  <block id="f949b800c66bf942c10c1e2b5847f5cf" category="list-text">儲存虛擬機器使用情況報告下現在包含一個新的「工作負載類型」欄位。</block>
-  <block id="9f02e3f417792785e27aead6a388ce7b" category="list-text">工作環境名稱現在包含在儲存虛擬機器和磁碟區使用情況報告中。</block>
-  <block id="001f2392fde5e9977a349af817fa07e9" category="list-text">卷類型_file_現在標記為_Primary (Read/Write)_。</block>
-  <block id="af30dca925032347d49fd49d710f0164" category="list-text">磁碟區類型 _secondary_ 現在標記為 _Secondary (DP)_。</block>
-  <block id="7cc7b7a6d80d31d0e4806abd9de3d8f3" category="paragraph">有關使用情況報告的更多信息，請參閱<block ref="a7d17f594b62c1bde4179fc580d7da6f" category="inline-link-rx"></block>。</block>
-  <block id="d59048f21fd887ad520398ce677be586" category="inline-link">了解更多</block>
-  <block id="6eb4429639db75cb3b56cc38a3fb8785" category="paragraph">過去，定義儲存桶名稱時需要使用預設的「fabric-pool」前綴，例如 _fabric-pool-bucket1_。現在您可以在命名儲存桶時使用自訂前綴。僅當將資料分層到 Amazon S3 時此功能才可用。<block ref="3e8270d3bc816ce30c7c11fe6d073535" category="inline-link-rx"></block> 。</block>
-  <block id="2d81e61b650e87c484f1701ff4c00053" category="section-title">在所有BlueXP連接器中搜尋集群</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供對版權聲明、商標、專利等的存取。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
@@ -99,38 +86,14 @@
   <block id="d993253a036cc611c31d10230987c4bf" category="doc">NetApp Console中的最新更改</block>
   <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">全套發行說明</block>
   <block id="e5edd9b09362e413b0820d9a92c20456" category="paragraph">了解NetApp Console的功能和資料服務的最新變化。要查看完整的發布歷史記錄，請訪問<block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block>針對每項單獨的服務。</block>
-  <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">管理功能</block>
-  <block id="eda012cb030b90a4fd456d7fac051308" category="paragraph">本節介紹與NetApp Console管理功能相關的新功能：組織、識別和存取、控制台代理、雲端提供者憑證等。</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="section-title">BlueXP現在是NetApp Console</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp Console</block>
-  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp Data Services，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console發行說明</block>
   <block id="07a0717927710f1dcb5683cb20238dcb" category="paragraph">有關更改的詳細信息，請參閱<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">複製數據</block>
-  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025年3月10日</block>
   <block id="6fe4264e25ab7d4538e3cd8b851adfcf" category="section-title">複製和同步</block>
   <block id="9fad6bb6d30ac060d7377371e39b12c0" category="paragraph">有關更改的詳細信息，請參閱<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。</block>
-  <block id="626a42c4b175379d9d0e723ada0cf740" category="section-title">可以刪除訂閱</block>
-  <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">如果您已取消訂閱，現在可以從數位錢包中刪除訂閱。</block>
-  <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">查看 Marketplace 訂閱的已消耗容量</block>
-  <block id="0a85a2f78dadf31d5b3bcc7353bae9d1" category="paragraph">查看 PAYGO 訂閱時，您現在可以查看訂閱的已消耗容量。</block>
-  <block id="c523b074da0b63e607578686184d5981" category="section-title">2025年2月10日</block>
-  <block id="3aff149422876e5f443408fd802b4fb2" category="paragraph">BlueXP digital wallet經過重新設計，易於使用，現在提供額外的訂閱和授權管理。</block>
-  <block id="abbf3397e656c62394e67cdc1337be3c" category="section-title">新的概覽儀表板</block>
-  <block id="890f7a0157ba95ff799f6f457d82439a" category="paragraph">數位錢包主頁具有更新的NetApp許可證和 Marketplace 訂閱儀表板，可深入了解特定服務、許可證類型和所需的操作。</block>
-  <block id="f0d1256b3b97280543cbb16be1fea4b3" category="section-title">配置憑證訂閱</block>
-  <block id="a2aa4487721a3b63f1893d33bdb67c28" category="paragraph">BlueXP digital wallet現在允許您配置對提供者憑證的訂閱。通常，您會在首次訂閱 Marketplace 訂閱或年度合約時執行此操作。以前，只能在「憑證」頁面上變更訂閱的憑證。</block>
-  <block id="175fca0ca5f306258c490378dc2367db" category="section-title">將訂閱與組織關聯</block>
-  <block id="a5f7678a307b711643d239d80564147c" category="paragraph">現在您可以直接從數位錢包更新與訂閱關聯的組織。</block>
-  <block id="e8545e234450bbc06ae95bfd7828cfcd" category="section-title">管理 Cloud Volume ONTAP許可證</block>
-  <block id="0bc14678dfe9cde6019256774c92b34e" category="paragraph">現在您可以透過主頁或「直接許可證」標籤管理Cloud Volumes ONTAP許可證。使用“市場訂閱”選項卡查看您的訂閱資訊。</block>
-  <block id="592997dde366d5775e7e052816854f74" category="section-title">2024年3月5日</block>
-  <block id="c08885153d0680dab7349b930f5310c4" category="section-title">BlueXP disaster recovery</block>
-  <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">BlueXP digital wallet現在讓您能夠管理BlueXP disaster recovery的許可證。您可以新增許可證、更新許可證以及查看有關許可證容量的詳細資訊。</block>
-  <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">了解如何管理BlueXP資料服務的許可證</block>
-  <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
-  <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023年7月30日</block>
   <block id="6b0a74cb89aaf10fdf1c70bfd9bd78e2" category="section-title">生命週期規劃</block>
   <block id="ba695b3cf8b635f89946173735838948" category="section-title">邊緣緩存</block>
   <block id="7659a4df75917e662ad56e3eeb883afe" category="paragraph">邊緣快取服務於 2024 年 8 月 7 日刪除。</block>
@@ -144,28 +107,6 @@
   <block id="d80d66faf1506d2c22d481620ab133ea" category="paragraph">補救服務已於 2024 年 4 月 22 日刪除。</block>
   <block id="82fbcd5d3aebaf503250e86ca86f08c0" category="section-title">BlueXP tiering現已更名NetApp Cloud Tiering</block>
   <block id="407a90a9a0a27ef435e56fa89edb4d13" category="paragraph">BlueXP tiering已重新命名為NetApp Cloud Tiering。</block>
-  <block id="ba3d080bd22adb4c0f40fdd9d87f54f9" category="section-title">2023年8月9日</block>
-  <block id="101e8e97885c05702335faecd0fb3f50" category="section-title">使用自訂前綴作為儲存桶名稱</block>
-  <block id="eabccaf5903f0333d3eed3476908d4d8" category="paragraph">如果您使用多個連接器來管理環境中的所有儲存系統，則您想要實施分層的某些叢集可能位於不同的連接器中。如果您不確定哪個連接器正在管理某個集群，您可以使用 Cloud Tiering 在所有連接器中進行搜尋。<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block> 。</block>
-  <block id="51276db22ab007bf8378ddc5150c089e" category="section-title">2023年7月4日</block>
-  <block id="a4e53922ceec159164a3765ff05e1458" category="section-title">調整頻寬以傳輸非活動數據</block>
-  <block id="dc1b912cd0c37ddd4298efd6e3a72009" category="paragraph">當您啟動 Cloud Tiering 時， ONTAP可以使用無限量的網路頻寬將叢集中磁碟區中的非活動資料傳輸到物件儲存。如果您注意到分層流量影響了正常的使用者工作負載，您可以限制傳輸期間可使用的頻寬量。<block ref="bd661c8ba5ce12ee5a1adc1010618597" category="inline-link-rx"></block> 。</block>
-  <block id="904ea3c3aba6edae61ba696b01808a11" category="section-title">通知中心顯示的分層事件</block>
-  <block id="250f0923d20814211c14c5a6cd0e2643" category="paragraph">當叢集分層的冷資料少於 20%（包括未分層任何資料的叢集）時，分層事件「將叢集 &lt;name&gt; 中的其他資料分層到物件儲存以提高儲存效率」現在會作為通知出現。</block>
-  <block id="4408342320f5d18ce7a02828ead033c1" category="inline-link">Cloud Tiering 總擁有成本和節省計算器</block>
-  <block id="2bbead322f2dd5c4a40fbd66537e304f" category="section-title">BlueXP workload factory現為NetApp Workload Factory</block>
-  <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。因此， BlueXP workload factory已重新命名為NetApp Workload Factory。</block>
-  <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">Ask Me 與 MCP 集成</block>
-  <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">Workload Factory 的 AI 助理 Ask Me 與模型上下文協定 (MCP) 整合。使用 MCP，Ask Me 可以安全地與外部環境互動並查詢 API 工具，以提供適合您特定儲存環境的回應。</block>
-  <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">2025年10月5日</block>
-  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="section-title">儲存的新通知</block>
-  <block id="09ef633d09a9d5e5cf3ab27b167cac1b" category="paragraph">NetApp Workload Factory通知服務包含針對儲存架構問題的通知。</block>
-  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory通知</block>
-  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
-  <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025年9月9日</block>
-  <block id="fd46c6801c12745a0b45c3f9e025fb2e" category="paragraph">BlueXP workload factory通知服務包括儲存自動容量管理通知。</block>
-  <block id="28a2c493e9a663d617e582302e1bcf28" category="inline-link-macro">BlueXP workload factory的通知</block>
-  <block id="a4bdb4b5125441fbfaec27ac4bb48be0" category="paragraph"><block ref="a4bdb4b5125441fbfaec27ac4bb48be0" category="inline-link-macro-rx"></block></block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">什麼是新的</block>
   <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">按服務發布說明</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格和社區</block>
@@ -175,7 +116,6 @@
   <block id="1e155daf6f11847fd4e4d8a7154301fd" category="inline-link-macro">NetApp Console發行說明。</block>
   <block id="d14b43405cc49caff7e93e0a31952c5a" category="paragraph">有關更改的詳細信息，請參閱<block ref="68413170a628412306b51347743a5acc" category="inline-link-macro-rx"></block></block>
   <block id="f6c0c8f8ded4c6640c1e912821c43739" category="paragraph"><block ref="f6c0c8f8ded4c6640c1e912821c43739" category="inline-link-macro-rx"></block></block>
-  <block id="e264fed64c86a30dfb5ff8b811d8fe4e" category="paragraph">此通知是一項“建議”，旨在幫助您提高系統效率並節省儲存成本。它提供了一個鏈接<block ref="42e4a442d762b5369e021e8b363199d3" category="inline-link-rx"></block>幫助您計算成本節省。</block>
   <block id="d6ed17e8c2c2f9cf01a28c13cefcce71" category="doc">自動化目錄</block>
   <block id="4de4864129b65c6c45ee2b81509978d3" category="doc">控制台設定和管理</block>
   <block id="082a2f81a104214877c2e8d8e3c568c0" category="doc">卷緩存</block>
@@ -491,15 +431,7 @@
   <block id="748f500c59212ec947a9dc03913e95cb" category="paragraph">更多資訊請參見<block ref="b12aae47ee00e2542df4c8a098a5e7ff" category="inline-link-rx"></block>。</block>
   <block id="fbbad2021b0a185cdad950acc088e8d4" category="doc">支援本機ONTAP系統與 FSx for ONTAP檔案系統之間的複製</block>
   <block id="6b3e3878a5fe9ddfda803127234f4a18" category="paragraph">NetApp Console中的 FSx for ONTAP檔案系統支援在本機ONTAP系統和 FSx for ONTAP檔案系統之間進行資料複製。</block>
-  <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">2025年11月11日</block>
-  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
-  <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">2025年10月17日</block>
-  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">2025年10月13日</block>
-  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">雲分層：等級偏移：+1</block>
-  <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">複製：層級偏移：+1</block>
-  <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">E系列：等級偏移：+1</block>
-  <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
-  <block id="0428e48e7f58929099e52febd0558232" category="section-title">2025年8月25日</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">這些發行說明介紹了NetApp Console及其支援的資料服務的最新增強功能。提供各服務完整版本說明的連結。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和資料服務的最新變化。若要查看完整的版本發布歷史記錄，請參閱每個服務的完整版本說明。</block>
+  <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">已棄用服務</block>
 </blocks>
