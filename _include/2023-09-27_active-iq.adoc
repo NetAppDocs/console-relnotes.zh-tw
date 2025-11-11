@@ -1,7 +1,0 @@
-= 
-:allow-uri-read: 
-
-
-* 您可以使用link:https://activeiq.netapp.com/redirect/upgrade-advisor["升級顧問"^]關聯。
-* 升級方案經過最佳化，去除了多餘的升級步驟，簡化了退出方案。叢集中所有節點的通用步驟已合併，可在升級計劃中的常規資訊部分中找到。link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["了解如何產生和查看升級計劃"] 。
-

@@ -1,4 +1,4 @@
-# BlueXP Release Notes
+# NetApp Console Release Notes
 
 Welcome to the open-source documentation for NetApp Console. 
 
