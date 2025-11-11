@@ -434,4 +434,14 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">這些發行說明介紹了NetApp Console及其支援的資料服務的最新增強功能。提供各服務完整版本說明的連結。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和資料服務的最新變化。若要查看完整的版本發布歷史記錄，請參閱每個服務的完整版本說明。</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">已棄用服務</block>
+  <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">2025年11月11日</block>
+  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
+  <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">2025年10月17日</block>
+  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">2025年10月13日</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">雲分層：等級偏移：+1</block>
+  <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">複製：層級偏移：+1</block>
+  <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">E系列：等級偏移：+1</block>
+  <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
+  <block id="0428e48e7f58929099e52febd0558232" category="section-title">2025年8月25日</block>
 </blocks>
