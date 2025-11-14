@@ -1,0 +1,11 @@
+= 管理帳單偏好設定
+:allow-uri-read: 
+
+
+
+
+=== 管理帳單偏好設定
+
+現在可以直接在NetApp Console中設定和管理*計費首選項*。這項增強功能使管理員能夠定義和查看如何對NetApp直接授權、雲端市場訂閱和Keystone協議中的容量使用情況、續約和成本進行計費。
+
+更多資訊請參閱。link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["帳單偏好文檔"]
