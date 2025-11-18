@@ -400,7 +400,6 @@
   <block id="650940dddaeb353d547fc2674ba4d35b" category="paragraph-title">重命名代理程式狀態指示器</block>
   <block id="9722491a4236a9be86f414fa5b3eebb8" category="paragraph">將控制台代理程式的狀態指示器從 *Active* 和 *Inactive* 重新命名為 *Connected* 和 *Disconnected*，使其用途更加明確。</block>
   <block id="d9e7da7d4b9cc9086a7ab3a5a270f7da" category="paragraph-title">支援 Red Hat Enterprise Linux (RHEL) 9.6 和 Podman 5.4.0</block>
-  <block id="d90d113f70d4f4d024f99f4015bbbb96" category="paragraph">控制台代理現在支援 RHEL 9.6 和 Podman 5.4.0。此外，在使用 RHEL 9 及更高版本時， NetApp支援 podman-compose 1.5.0。</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">本次發布包含以下內容：</block>
   <block id="ac740509743c941164fb7e88fc8b768e" category="paragraph-title">NetApp Console通知的新電子郵件地址</block>
@@ -453,4 +452,6 @@
   <block id="b8cda09456e64356f2c1763e3e53d0af" category="inline-link-macro">了解如何使用連結進行進階ONTAP操作</block>
   <block id="8a730f2606f493b8d797f6c96c460037" category="paragraph">ONTAP系統管理器介面可以與 AWS Lambda 連結一起使用，以執行進階ONTAP作業。這提供了一種替代使用系統管理器控制台代理的方案，可以直接從控制台管理ONTAP的 FSx 檔案系統。 <block ref="3b6bcb03237efb7ff1ce82387184b37d" category="inline-link-macro-rx"></block></block>
   <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">2025年11月17日</block>
+  <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">查看作業系統需求</block>
+  <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">手動安裝控制台代理程式時，代理現在支援 RHEL 9.6 和 Podman 5.4.0。此外，在使用 RHEL 9 及更高版本時， NetApp支援 podman-compose 1.5.0。<block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>。</block>
 </blocks>
