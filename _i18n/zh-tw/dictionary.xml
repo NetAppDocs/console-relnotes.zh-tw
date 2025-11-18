@@ -449,4 +449,8 @@
   <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">帳單偏好文檔</block>
   <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">此版本包含一般增強與改進。</block>
   <block id="3c3236b09e81f9868cfa639ca1fbe105" category="paragraph">欲了解更多信息，請參閱<block ref="5cdc12ff92d7ca20af8e5de10fe76183" category="inline-link-macro-rx"></block>。</block>
+  <block id="f3bb71c095338a2af8e23c9ae07072bf" category="doc">使用 AWS Lambda 連結時，系統管理員可用。</block>
+  <block id="b8cda09456e64356f2c1763e3e53d0af" category="inline-link-macro">了解如何使用連結進行進階ONTAP操作</block>
+  <block id="8a730f2606f493b8d797f6c96c460037" category="paragraph">ONTAP系統管理器介面可以與 AWS Lambda 連結一起使用，以執行進階ONTAP作業。這提供了一種替代使用系統管理器控制台代理的方案，可以直接從控制台管理ONTAP的 FSx 檔案系統。 <block ref="3b6bcb03237efb7ff1ce82387184b37d" category="inline-link-macro-rx"></block></block>
+  <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">2025年11月17日</block>
 </blocks>
