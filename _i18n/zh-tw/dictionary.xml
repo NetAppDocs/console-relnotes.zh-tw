@@ -124,21 +124,6 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX for ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">本地ONTAP集群</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="f7919ff057187672b74306b219aadaa0" category="doc">支援在預覽版中保護 VMware 工作負載</block>
-  <block id="5e8801556a1a15a279f09b79ad9c4141" category="paragraph">此版本增加了對保護 VMware 工作負載的預覽支援。將 VMware VM 和資料儲存區從本機ONTAP系統備份到 Amazon Web Services 和StorageGRID。</block>
-  <block id="b7aad0efced7f2a5664d2d5fcafeac91" category="admonition">有關保護 VMware 工作負載的文件以技術預覽的形式提供。對於此預覽版產品， NetApp保留在正式發布之前修改產品詳細資訊、內容和時間表的權利。</block>
-  <block id="5b3ee7a2b0e2cc1719a9dc8c2b849352" category="inline-link-macro">了解有關使用NetApp Backup and Recovery保護 VMware 工作負載的更多信息</block>
-  <block id="a4604657c4916d399ee4757122138b92" category="paragraph"><block ref="d36db2686cf22b4733dc580e6187e664" category="inline-link-macro-rx"></block>。</block>
-  <block id="e4fadb4a8e44a20b9cae72da5f43dd1c" category="section-title">AWS、Azure 和 GCP 的高效能索引現已正式發布</block>
-  <block id="d2437297e3bf3cd7adfa86f57b8629f0" category="paragraph">2025 年 2 月，我們宣布推出針對 AWS、Azure 和 GCP 的高效能索引 (Indexed Catalog v2) 預覽版。此功能現已普遍可用（GA）。2025 年 6 月，我們預設向所有新客戶提供該服務。透過此版本，所有客戶都可以獲得支援。高效能索引提高了受物件儲存保護的工作負載的備份和復原作業的效能。</block>
-  <block id="5ced283cbe92781b3a48240fd1fde5cd" category="paragraph">預設啟用：</block>
-  <block id="234f6b906c6e6adf3ab5f1a4906d5366" category="list-text">如果您是新客戶，則預設啟用高效能索引。</block>
-  <block id="3b98c4910d4638f409d4421b51847611" category="list-text">如果您是現有客戶，您可以前往 UI 的「復原」部分來啟用重新索引。</block>
-  <block id="7e8fe67b005603b496012796735f2d36" category="doc">使用新列增強邏輯使用情況跟踪</block>
-  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">新增了新欄位“總佔用空間”，以增強對FabricPool磁碟區的Keystone消耗追蹤：</block>
-  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* BlueXP中的Keystone儀表板 *：您可以在 *Assets* 標籤中的 *Volumes in clusters* 標籤中看到 *Total footprint* 列。</block>
-  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">*Digital Advisor*：您可以在 *磁碟區和物件* 標籤中的 *磁碟區詳細資料* 標籤中看到 *總足跡* 欄位。</block>
-  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">此列顯示使用FabricPool分層的磁碟區的總邏輯佔用空間，包括效能層和冷層的數據，因此您可以精確計算Keystone消耗。</block>
   <block id="e83b5a250e0912f549b3d3758e90e680" category="doc">增加警報監控</block>
   <block id="eff9717b3e6b80befe3a05db7b3e6a1d" category="paragraph">BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管理您訂閱中的警報和監視器。此新選項卡使您能夠：</block>
   <block id="d540a0a7aa0f09414e542ffabc6300c6" category="list-text">查看和解決活動警報，包括系統產生的和使用者定義的容量使用情況和訂閱到期警報。</block>
@@ -440,7 +425,6 @@
   <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">複製：層級偏移：+1</block>
   <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">E系列：等級偏移：+1</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
-  <block id="0428e48e7f58929099e52febd0558232" category="section-title">2025年8月25日</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">在NetApp Console系統頁面上，可以在本機ONTAP系統和 FSx for ONTAP檔案系統之間進行資料複製。</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">管理帳單偏好設定</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">現在可以直接在NetApp Console中設定和管理*計費首選項*。這項增強功能使管理員能夠定義和查看如何對NetApp直接授權、雲端市場訂閱和Keystone協議中的容量使用情況、續約和成本進行計費。</block>
@@ -454,4 +438,7 @@
   <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">查看作業系統需求</block>
   <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">手動安裝控制台代理程式時，代理現在支援 RHEL 9.6 和 Podman 5.4.0。此外，在使用 RHEL 9 及更高版本時， NetApp支援 podman-compose 1.5.0。<block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>。</block>
   <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">有關詳細信息，請參閱 <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>。</block>
+  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">用於追蹤保障缺口訂閱的 ID</block>
+  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">在「監控 &gt; 警報監控」上的「完成您的保障」通知框中，現在每個訂閱都會在訂閱編號旁顯示其追蹤 ID。</block>
+  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
 </blocks>
