@@ -441,4 +441,8 @@
   <block id="18b429fb243989438d2e534cfa60ad10" category="doc">用於追蹤保障缺口訂閱的 ID</block>
   <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">在「監控 &gt; 警報監控」上的「完成您的保障」通知框中，現在每個訂閱都會在訂閱編號旁顯示其追蹤 ID。</block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
+  <block id="f5263927d94a42a805785f1aed06a069" category="doc">Google Cloud Platform 憑證變更</block>
+  <block id="790bec3007566d403b50931f866ace35" category="paragraph">隨著客戶設定和授權的Google Cloud NetApp Volumes系統越來越多，憑證的管理方式也改變了。</block>
+  <block id="f681bf3d62438cc948e88b442cdda716" category="paragraph">NetApp Volumes 系統憑證現在儲存在 Google 雲端後端，例如 Cloud Key Management 服務或類似服務，在建立新系統時會使用服務帳戶來模擬憑證。</block>
+  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
 </blocks>
