@@ -445,4 +445,10 @@
   <block id="790bec3007566d403b50931f866ace35" category="paragraph">隨著客戶設定和授權的Google Cloud NetApp Volumes系統越來越多，憑證的管理方式也改變了。</block>
   <block id="f681bf3d62438cc948e88b442cdda716" category="paragraph">NetApp Volumes 系統憑證現在儲存在 Google 雲端後端，例如 Cloud Key Management 服務或類似服務，在建立新系統時會使用服務帳戶來模擬憑證。</block>
   <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
+  <block id="cab2138409405e17442c0b2913348b5c" category="doc">支援使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine。</block>
+  <block id="eccf4b156fba5109ca6b1ef2be2fd64e" category="paragraph">NetApp Disaster Recovery現在支援使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine 進行遷移、故障轉移、故障復原和測試作業。這種整合實現了本地環境和 Google Cloud 之間的無縫災難復原工作流程。</block>
+  <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">先決條件</block>
+  <block id="7984e947265cc8b94c06702adbf28865" category="inline-link-macro">限制</block>
+  <block id="4fae34c4a960e8f2c583a66a68cf6fdc" category="paragraph">請務必仔細閱讀。<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block>和<block ref="86229131b08ad70f4dd9ffc7440523ad" category="inline-link-macro-rx"></block>適用於谷歌雲端。</block>
+  <block id="b0cddd5e1e4185232bf6d1fb2418ed79" category="section-title">2025年12月1日</block>
 </blocks>
