@@ -449,6 +449,6 @@
   <block id="eccf4b156fba5109ca6b1ef2be2fd64e" category="paragraph">NetApp Disaster Recovery現在支援使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine 進行遷移、故障轉移、故障復原和測試作業。這種整合實現了本地環境和 Google Cloud 之間的無縫災難復原工作流程。</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">先決條件</block>
   <block id="7984e947265cc8b94c06702adbf28865" category="inline-link-macro">限制</block>
-  <block id="4fae34c4a960e8f2c583a66a68cf6fdc" category="paragraph">請務必仔細閱讀。<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block>和<block ref="86229131b08ad70f4dd9ffc7440523ad" category="inline-link-macro-rx"></block>適用於谷歌雲端。</block>
   <block id="b0cddd5e1e4185232bf6d1fb2418ed79" category="section-title">2025年12月1日</block>
+  <block id="8497094e0d678632f29aeaad49708682" category="paragraph">請務必仔細閱讀。<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block>和<block ref="9bbaf1e88d2981b5294528496eff27bf" category="inline-link-macro-rx"></block>適用於谷歌雲端。</block>
 </blocks>
