@@ -451,4 +451,18 @@
   <block id="7984e947265cc8b94c06702adbf28865" category="inline-link-macro">限制</block>
   <block id="b0cddd5e1e4185232bf6d1fb2418ed79" category="section-title">2025年12月1日</block>
   <block id="8497094e0d678632f29aeaad49708682" category="paragraph">請務必仔細閱讀。<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block>和<block ref="9bbaf1e88d2981b5294528496eff27bf" category="inline-link-macro-rx"></block>適用於谷歌雲端。</block>
+  <block id="063090df0880212c0ba8eec878096a21" category="doc">VMware 工作負載預覽增強功能</block>
+  <block id="24936fb650df7af8295e75a3667becef" category="list-text">現在您可以將備份和快照還原到備用位置。如果您想要管理不同 VMware vCenter 部署、VMware ESXi 主機或 VMware 資料儲存上的虛擬機器版本，這將非常有用。</block>
+  <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">現在您可以從主位置或輔助位置還原特定的 VMware 虛擬磁碟（VMDK 映像），從而實現對復原 VM 資料的更精細控制。</block>
+  <block id="814957340a966bc73ff87feca2905da9" category="inline-link-macro">了解更多關於使用NetApp Backup and Recovery恢復 VMware 工作負載的信息</block>
+  <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>。</block>
+  <block id="6a6493990827c82055e808631b52c236" category="doc">版本 1.49</block>
+  <block id="640602402999fbf572de482a35f449bc" category="paragraph">本次資料分類版本更新包含錯誤修復和以下更新：</block>
+  <block id="c257ad0ab1dd1ba68f40f6d92155f5dd" category="paragraph-title">在健康監測儀表板中監控指標和效能</block>
+  <block id="d62744b30354624c6087760cfd47ae58" category="paragraph">資料分類現在提供了一個健康監控儀表板，可以即時監控您的資源，並提供有關記憶體使用情況、磁碟使用情況、磁碟使用率等方面的見解。借助健康監控儀表板提供的信息，您可以查看部署的基礎架構，並獲得優化儲存和效能的見解。</block>
+  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">監控資料分類的運作狀況</block>
+  <block id="699330677c1a0f32d795bf5b4ef62c06" category="paragraph">有關詳細信息，請參閱 <block ref="47a26f0a929ccc455d276fcbc1329665" category="inline-link-macro-rx"></block>。</block>
+  <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">提升了裝載性能</block>
+  <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">資料分類中所有頁面的載入效能均已提升，從而創造了更有效率的使用者體驗。</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
 </blocks>
