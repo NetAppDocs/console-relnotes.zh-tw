@@ -467,4 +467,24 @@
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
   <block id="236430e108e8394ac19913076b10fb55" category="doc">更名為「累積突發容量」標籤</block>
   <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">標籤「累計突發容量」更名為「累計突發」。</block>
+  <block id="8a9b2764802b622f9894a669a606f74f" category="doc">擴充功能阻止功能已在工作負載層級啟用。</block>
+  <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">啟用擴充封鎖功能後，現在是在工作負載層級而不是儲存虛擬機器層級啟用此功能。</block>
+  <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">編輯使用者行為警報狀態</block>
+  <block id="f143f02b29819ec9e761d9f292dea42c" category="paragraph">勒索軟體復原功能現在允許您編輯使用者行為警報的狀態。您可以手動關閉和解決警報。現在您也可以將警報標記為「審核中」。</block>
+  <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">管理警報</block>
+  <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">有關詳細信息，請參閱 <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>。</block>
+  <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">支援多個控制台代理</block>
+  <block id="1a6a565def701385358a626d6728afd8" category="paragraph">勒索軟體復原功能現在支援使用多個控制台代理程式來管理相同系統。</block>
+  <block id="f3aee30a3a487c746572616e3f53dc9d" category="inline-link-macro">建立控制台代理</block>
+  <block id="76adc55b5a0beb97a709fbc0c204a3d0" category="paragraph">有關控制台代理的更多信息，請參閱<block ref="c97584494dd542160395e5c607ae4c2c" category="inline-link-macro-rx"></block>。</block>
+  <block id="b706122b5735a672dec906da7d14b15c" category="doc">資料夾層級結構保留</block>
+  <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">預設情況下，災難復原會在故障轉移時保留虛擬機器清單層次結構（資料夾結構）。如果復原目標中沒有所需的資料夾，災難復原功能會建立該資料夾。</block>
+  <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">現在您可以透過指定新的父 VM 資料夾或取消選取「保留原始資料夾層次結構」選項來覆寫此設定。</block>
+  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">建立複製計劃</block>
+  <block id="4b4839446c123b0f7cbb37cc05973b41" category="paragraph">有關詳細信息，請參閱 <block ref="8ed6b1ab912526d5ffcc717e1a39851e" category="inline-link-macro-rx"></block>。</block>
+  <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">簡化控制台代理更新</block>
+  <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">災難復原現在支援在工作環境中使用多個控制台代理的簡化流程。若要在控制台代理程式之間切換，您必須編輯 vCenter 配置，重新發現憑證，並重新整理複製計畫以使用新的控制台代理程式。</block>
+  <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">切換控制台代理</block>
+  <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">有關詳細信息，請參閱 <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>。</block>
+  <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">2025年12月9日</block>
 </blocks>
