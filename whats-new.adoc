@@ -90,6 +90,18 @@ link:br-use-vmware-restore.html["了解更多關於使用NetApp Backup and Recov
 
 
 
+=== Keystone
+
+NetApp Console中Keystone儀表板的新增強功能：
+
+
+
+==== 更名為「累積突發容量」標籤
+
+標籤「累計突發容量」更名為「累計突發」。
+
+
+
 == 2025年12月1日
 
 
