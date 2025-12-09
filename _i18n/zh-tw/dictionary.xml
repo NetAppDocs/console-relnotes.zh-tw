@@ -453,8 +453,6 @@
   <block id="063090df0880212c0ba8eec878096a21" category="doc">VMware 工作負載預覽增強功能</block>
   <block id="24936fb650df7af8295e75a3667becef" category="list-text">現在您可以將備份和快照還原到備用位置。如果您想要管理不同 VMware vCenter 部署、VMware ESXi 主機或 VMware 資料儲存上的虛擬機器版本，這將非常有用。</block>
   <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">現在您可以從主位置或輔助位置還原特定的 VMware 虛擬磁碟（VMDK 映像），從而實現對復原 VM 資料的更精細控制。</block>
-  <block id="814957340a966bc73ff87feca2905da9" category="inline-link-macro">了解更多關於使用NetApp Backup and Recovery恢復 VMware 工作負載的信息</block>
-  <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>。</block>
   <block id="6a6493990827c82055e808631b52c236" category="doc">版本 1.49</block>
   <block id="640602402999fbf572de482a35f449bc" category="paragraph">本次資料分類版本更新包含錯誤修復和以下更新：</block>
   <block id="c257ad0ab1dd1ba68f40f6d92155f5dd" category="paragraph-title">在健康監測儀表板中監控指標和效能</block>
@@ -486,4 +484,8 @@
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">有關詳細信息，請參閱 <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>。</block>
   <block id="98ade846ffa73dc9c6bcd3e3e84c38b7" category="paragraph">有關詳細信息，請參閱 <block ref="1762f821178ef43810c03e86465a946d" category="inline-link-macro-rx"></block>。</block>
   <block id="1df351797bd2540f3ec41bc24e67bf1f" category="paragraph">有關詳細信息，請參閱 <block ref="2631c62a2ac2ec2e6a0ebc0352319a2c" category="inline-link-macro-rx"></block>。</block>
+  <block id="14a4fd4957d1a547c2b4ccadbaed0a90" category="inline-link-macro">了解更多關於使用NetApp Backup and Recovery恢復 VMware 虛擬機器的信息</block>
+  <block id="6dc955af209317a9d714156228721ed4" category="paragraph"><block ref="dd7466c8c4dbfb4163f16106a1d7f80c" category="inline-link-macro-rx"></block>。</block>
+  <block id="01f07264521662850e2d8465c322c978" category="inline-link-macro">了解更多關於使用NetApp Backup and Recovery恢復 VMware 虛擬磁碟的信息</block>
+  <block id="61b4efc27d21705d0d4d56786ccc1f78" category="paragraph"><block ref="78a5fc4b6640a61792f9693d7c0f443b" category="inline-link-macro-rx"></block>。</block>
 </blocks>
