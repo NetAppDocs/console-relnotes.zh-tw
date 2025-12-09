@@ -119,7 +119,6 @@
   <block id="d6ed17e8c2c2f9cf01a28c13cefcce71" category="doc">自動化目錄</block>
   <block id="4de4864129b65c6c45ee2b81509978d3" category="doc">控制台設定和管理</block>
   <block id="082a2f81a104214877c2e8d8e3c568c0" category="doc">卷緩存</block>
-  <block id="a15e83f7a8ba3a867bcba3be7736978e" category="doc">資料分類</block>
   <block id="4a17f9505c41e2b9d2fdf8e21809e428" category="paragraph">E系列</block>
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX for ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">本地ONTAP集群</block>
@@ -470,7 +469,6 @@
   <block id="8a9b2764802b622f9894a669a606f74f" category="doc">擴充功能阻止功能已在工作負載層級啟用。</block>
   <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">啟用擴充封鎖功能後，現在是在工作負載層級而不是儲存虛擬機器層級啟用此功能。</block>
   <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">編輯使用者行為警報狀態</block>
-  <block id="f143f02b29819ec9e761d9f292dea42c" category="paragraph">勒索軟體復原功能現在允許您編輯使用者行為警報的狀態。您可以手動關閉和解決警報。現在您也可以將警報標記為「審核中」。</block>
   <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">管理警報</block>
   <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">有關詳細信息，請參閱 <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>。</block>
   <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">支援多個控制台代理</block>
@@ -487,4 +485,5 @@
   <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">切換控制台代理</block>
   <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">有關詳細信息，請參閱 <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>。</block>
   <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">2025年12月9日</block>
+  <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">勒索軟體復原功能現在允許您編輯使用者行為警報的狀態。您可以手動關閉和解決警報。</block>
 </blocks>
