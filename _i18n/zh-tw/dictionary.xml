@@ -143,7 +143,6 @@
   <block id="0b0a6d9ce7462fc9a218e93ccbee32e7" category="section-title">導航選單和頁面</block>
   <block id="7ceea4a6639fef28fae4477857f229e5" category="paragraph">NetApp將大多數選單選項移至左側導覽窗格，並重新組織選單以便在NetApp Console中更輕鬆地導覽。</block>
   <block id="4fa56c3d158c844dc75b2826ee4c98d0" category="section-title">畫布被系統頁面取代</block>
-  <block id="e98962c5bb7d0d1afd483518e730b4c8" category="paragraph">NetApp將 Canvas 重新命名為 *Systems* 頁面。從「*儲存 &gt; 管理*」選單導覽至「*系統*」頁面。</block>
   <block id="ddd56b1479dbec10cfb6fc0a3a8afe57" category="inline-image-macro">系統頁面的螢幕截圖。</block>
   <block id="028a5defa734a1e5527100ece8ea2e66" category="paragraph"><block ref="028a5defa734a1e5527100ece8ea2e66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e6ee78fd171283b1b449978ae0c73e06" category="section-title">擴充儲存選單</block>
@@ -383,11 +382,9 @@
   <block id="e32e1b9613d2e086e1fc46ae7489620c" category="paragraph">4.1.0 版本適用於標準模式和限制模式。</block>
   <block id="650940dddaeb353d547fc2674ba4d35b" category="paragraph-title">重命名代理程式狀態指示器</block>
   <block id="9722491a4236a9be86f414fa5b3eebb8" category="paragraph">將控制台代理程式的狀態指示器從 *Active* 和 *Inactive* 重新命名為 *Connected* 和 *Disconnected*，使其用途更加明確。</block>
-  <block id="d9e7da7d4b9cc9086a7ab3a5a270f7da" category="paragraph-title">支援 Red Hat Enterprise Linux (RHEL) 9.6 和 Podman 5.4.0</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">本次發布包含以下內容：</block>
   <block id="ac740509743c941164fb7e88fc8b768e" category="paragraph-title">NetApp Console通知的新電子郵件地址</block>
-  <block id="3ded9fa2f8cf197bdf563d5509101e3a" category="paragraph">發送NetApp Console通知的電子郵件地址已從 *service@console.bluexp.netapp.com* 變更為 *service@console.netapp.com*。NetApp建議更新所有電子郵件規則，允許 *service@console.netapp.com* 發送郵件，以確保您繼續收到NetApp Console電子郵件通知。</block>
   <block id="73bb8d1c85014ba6981a002bd9fc9364" category="doc">版本 1.48</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">本次資料分類版本更新包括錯誤修復、安全性改進和效能提升。</block>
   <block id="8905ad2fb9f028e6bd28666015b4b50a" category="paragraph-title">增強掃描進度清晰度</block>
@@ -504,4 +501,31 @@
   <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">從Cloud Volumes ONTAP 9.17.1 開始，您可以透過NetApp Console為新的Cloud Volumes ONTAP執行個體部署 Azure Edsv6 系列虛擬機器。Cloud Volumes ONTAP 9.17.1 及更高版本將僅支援新部署的第二代虛擬機器。這些第二代機器與最新技術相容，例如統一可擴充韌體介面 (UEFI)、Azure Boost 系統和 NVMe。它們非常適合記憶體密集系統和需要快速本地儲存的應用，例如資料庫伺服器和分析引擎。</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支援的配置</block>
   <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
+  <block id="ae41cdf98d6f24f84727785b0c41cda9" category="paragraph">NetApp將 Canvas 重新命名為 *Systems* 頁面。從「儲存 &gt; 管理」功能表導覽至「系統」頁面。</block>
+  <block id="6f111d20190d5490668e3e0ac2cad5d2" category="paragraph-title">支援 Red Hat Enterprise Linux (RHEL) 9.6 和 Podman 5.4.0</block>
+  <block id="db70fced03768e8735fbdebf7ea67e66" category="paragraph">發送NetApp Console通知的電子郵件地址已從 *service@console.bluexp.netapp.com* 變更為 *service@console.netapp.com*。NetApp建議更新所有電子郵件規則，允許 *service@console.netapp.com* 發送郵件，以確保您繼續收到NetApp Console電子郵件通知。</block>
+  <block id="026970f0ac157044199489d6744c2491" category="doc">控制台代理 4.2.0</block>
+  <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">4.2.0 版本同時支援標準模式和受限模式。</block>
+  <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">支援 Google Cloud Infrastructure Manager</block>
+  <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">雲端部署管理器</block>
+  <block id="e7858dcbf9687c88e071775eb4ee07ea" category="paragraph">NetApp現在使用 Google Cloud Infrastructure Manager (IM) 而不是 Google Cloud Deployment Manager 來部署代理程式和管理 Google Cloud 中的代理程式。做出此項更改是因為谷歌將棄用此功能。 <block ref="9574f21b6b64ac1c3366333a9bb489f6" category="inline-link-macro-rx"></block>。</block>
+  <block id="817a59a137d2f36b17e19b14b0e90545" category="inline-link-macro">查看權限變更日誌。</block>
+  <block id="05345eddc0e94be562e27e8d53b608ae" category="list-text">任何 4.2.0 及更高版本的新代理程式都使用基礎架構管理器，您應該更新用於部署的使用者帳戶和服務帳戶權限。 <block ref="ca3a237b8d0ef6729093b3abe4bab2f0" category="inline-link-macro-rx"></block></block>
+  <block id="cc598dc1e413aff136dd2366a85faf46" category="list-text">部署代理程式時，系統也會建立一個 Google Cloud 儲存桶來儲存部署檔案。</block>
+  <block id="d9dfb1e70d9002b82990e5020a243087" category="list-title">改進了控制台代理的配置檢查</block>
+  <block id="1c113e32e8394b861faad1f61a9626cb" category="inline-link-macro">了解更多關於控制台代理程式所需端點的資訊。</block>
+  <block id="675d71adc8a1b2329a23e817b7275840" category="list-text">控制台代理現在在執行設定檢查時會檢查已棄用的端點。如果您尚未更新至 4.0.0 或更高版本的新端點列表，則只要係統能夠存取先前的端點列表，安裝就會成功。 <block ref="4fa9d5f65f1179ca8dedab794aee5677" category="inline-link-macro-rx"></block></block>
+  <block id="5cf1eebafa9e566db5b16d2f75b10866" category="inline-link-macro">了解如何對控制台代理程式運行配置檢查。</block>
+  <block id="532e2205eae250e20138ac0d4fb7670a" category="list-text">從控制台或代理程式維護控制台對已安裝的控制台代理程式執行設定檢查，以驗證連線性並排除故障。 <block ref="2d14832e5c27ace253e7c4b1295d1814" category="inline-link-macro-rx"></block></block>
+  <block id="f1a69f998a4fd4d34f139b76d2b1cf5d" category="paragraph-title">直接從NetApp Console下載代理軟體</block>
+  <block id="ffb09157eddacde0f2ddbb27b8b5a58d" category="inline-link-macro">了解如何直接從NetApp Console下載控制台代理軟體。</block>
+  <block id="0d8ee60431ecde7e8c0ca3d789c24bae" category="paragraph">當您需要手動安裝代理程式時，除了NetApp支援網站之外，您還可以直接從NetApp Console存取代理程式軟體。 <block ref="3ce006bd909dc885369b2f86674a08a3" category="inline-link-macro-rx"></block></block>
+  <block id="f33a1c02aef9134dd317909d568855ae" category="paragraph-title">能夠設定憑證過期通知。</block>
+  <block id="eb85d454a2ba07f1bf0f8e315ae0b696" category="paragraph">設定服務帳戶和聯合身分驗證憑證過期的通知。選擇七天或三十天。控制台會向具有相應角色的使用者顯示通知和電子郵件。組織管理員會收到服務帳戶通知。組織管理員、聯盟管理員和聯盟檢視者會收到聯盟通知。</block>
+  <block id="c76ecba1e00b52577de6653acbf29014" category="paragraph-title">啟用聯合身份驗證後，本地登入將不可用。</block>
+  <block id="e713ec00d2b4c1f46099d8669c70bc4a" category="paragraph">為控制台組織啟用聯合身份驗證後，使用者將無法使用本機登錄，而是會被引導至聯合身份驗證登入。</block>
+  <block id="37922d4b00cf704156c5276d88caa05c" category="paragraph-title">提升儲存管理頁面的易用性</block>
+  <block id="e8f9974435fe7b24ffa11827d0104693" category="paragraph">現在，您可以從儲存管理頁面更輕鬆地查看和管理有關ONTAP本機系統（以及 FSx for ONTAP）的詳細資訊。</block>
+  <block id="c513928c0b95afec773bd29d135d4632" category="list-text">「Discoverable systems」頁面將摘要資訊與可用系統的標籤顯示分開，從而更容易查看有關可發現系統的全面資訊。</block>
+  <block id="174dd97dd1f160583ac76fa482fa6a5e" category="section-title">2025年12月10日</block>
 </blocks>
