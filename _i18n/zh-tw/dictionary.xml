@@ -528,4 +528,12 @@
   <block id="e8f9974435fe7b24ffa11827d0104693" category="paragraph">現在，您可以從儲存管理頁面更輕鬆地查看和管理有關ONTAP本機系統（以及 FSx for ONTAP）的詳細資訊。</block>
   <block id="c513928c0b95afec773bd29d135d4632" category="list-text">「Discoverable systems」頁面將摘要資訊與可用系統的標籤顯示分開，從而更容易查看有關可發現系統的全面資訊。</block>
   <block id="174dd97dd1f160583ac76fa482fa6a5e" category="section-title">2025年12月10日</block>
+  <block id="b5f5c102d46ada8d7cc41dab03033769" category="doc">從NetApp Console查看ONTAP系統時的可用性增強（僅限標準模式）</block>
+  <block id="ecf08ccb0621d66d3cd08f6e278423f6" category="paragraph">NetApp Console中的「系統」頁面在管理磁碟區和叢集時提高了清晰度和易用性。這些更新使用戶體驗與較新版本的ONTAP系統管理器更加一致，並簡化了導覽。</block>
+  <block id="ff6644b2d87a60757e2ed06cac2ef1c5" category="paragraph-title">ONTAP 9.5 及更高版本包含叢集容量（僅限控制台標準模式）</block>
+  <block id="e20de5b140eba87d0cc368f44348842a" category="paragraph">*系統 &gt; 概述* 頁面會顯示叢集大小以及執行ONTAP 9.5 及更高版本的叢集的ONTAP版本。</block>
+  <block id="0c0228fc4907ab7d926a830e9cb7e6a9" category="paragraph">對於受限模式下的NetApp Console或ONTAP版本 9.5 及更低版本，已設定磁碟區的資訊保持不變。</block>
+  <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">如果您擁有超過 20 個本機ONTAP集群，則「系統」頁面上的「磁碟區」標籤預設顯示為網格視圖。</block>
+  <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">當您在NetApp Console中管理超過 20 個本機ONTAP叢集時，「磁碟區」標籤預設顯示網格視圖，以便於導覽。卡片視圖已停用。</block>
+  <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">此變更僅適用於標準模式，並且適用於ONTAP版本 9.6 及更高版本。</block>
 </blocks>
