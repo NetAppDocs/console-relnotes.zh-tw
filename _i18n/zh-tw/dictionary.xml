@@ -86,14 +86,10 @@
   <block id="d993253a036cc611c31d10230987c4bf" category="doc">NetApp Console中的最新更改</block>
   <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">全套發行說明</block>
   <block id="e5edd9b09362e413b0820d9a92c20456" category="paragraph">了解NetApp Console的功能和資料服務的最新變化。要查看完整的發布歷史記錄，請訪問<block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block>針對每項單獨的服務。</block>
-  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="section-title">BlueXP現在是NetApp Console</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp Console</block>
-  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp Data Services，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console發行說明</block>
-  <block id="07a0717927710f1dcb5683cb20238dcb" category="paragraph">有關更改的詳細信息，請參閱<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">複製數據</block>
   <block id="6fe4264e25ab7d4538e3cd8b851adfcf" category="section-title">複製和同步</block>
-  <block id="9fad6bb6d30ac060d7377371e39b12c0" category="paragraph">有關更改的詳細信息，請參閱<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。</block>
   <block id="6b0a74cb89aaf10fdf1c70bfd9bd78e2" category="section-title">生命週期規劃</block>
   <block id="ba695b3cf8b635f89946173735838948" category="section-title">邊緣緩存</block>
   <block id="7659a4df75917e662ad56e3eeb883afe" category="paragraph">邊緣快取服務於 2024 年 8 月 7 日刪除。</block>
@@ -105,16 +101,12 @@
   <block id="5f2e609dafef66bdac17d517b701b5cd" category="paragraph">營運彈性功能已於 2025 年 8 月 22 日移除。</block>
   <block id="282baca6aef56652f503adce6afa9f07" category="section-title">補救措施</block>
   <block id="d80d66faf1506d2c22d481620ab133ea" category="paragraph">補救服務已於 2024 年 4 月 22 日刪除。</block>
-  <block id="82fbcd5d3aebaf503250e86ca86f08c0" category="section-title">BlueXP tiering現已更名NetApp Cloud Tiering</block>
-  <block id="407a90a9a0a27ef435e56fa89edb4d13" category="paragraph">BlueXP tiering已重新命名為NetApp Cloud Tiering。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">什麼是新的</block>
   <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">按服務發布說明</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格和社區</block>
   <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近更改</block>
-  <block id="1e155daf6f11847fd4e4d8a7154301fd" category="inline-link-macro">NetApp Console發行說明。</block>
-  <block id="d14b43405cc49caff7e93e0a31952c5a" category="paragraph">有關更改的詳細信息，請參閱<block ref="68413170a628412306b51347743a5acc" category="inline-link-macro-rx"></block></block>
   <block id="f6c0c8f8ded4c6640c1e912821c43739" category="paragraph"><block ref="f6c0c8f8ded4c6640c1e912821c43739" category="inline-link-macro-rx"></block></block>
   <block id="d6ed17e8c2c2f9cf01a28c13cefcce71" category="doc">自動化目錄</block>
   <block id="4de4864129b65c6c45ee2b81509978d3" category="doc">控制台設定和管理</block>
@@ -123,246 +115,7 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX for ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">本地ONTAP集群</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="e83b5a250e0912f549b3d3758e90e680" category="doc">增加警報監控</block>
-  <block id="eff9717b3e6b80befe3a05db7b3e6a1d" category="paragraph">BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管理您訂閱中的警報和監視器。此新選項卡使您能夠：</block>
-  <block id="d540a0a7aa0f09414e542ffabc6300c6" category="list-text">查看和解決活動警報，包括系統產生的和使用者定義的容量使用情況和訂閱到期警報。</block>
-  <block id="64d4cc394badd0b54b5b74f5080233c6" category="list-text">建立警報監視器來追蹤容量使用情況和訂閱到期事件。</block>
-  <block id="fad96b4b3d3badf81c42f03f5e3e79f9" category="inline-link-macro">查看和管理警報和監視器</block>
-  <block id="cdd57c5e351290faba63a64f9aeaaa00" category="paragraph">欲了解更多信息，請參閱 <block ref="54a7920301641a95eb19ac46b9860916" category="inline-link-macro-rx"></block>。</block>
-  <block id="bcf269fdba28fb16246a22e167483e0c" category="section-title">簡化的效能服務等級查看</block>
-  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link-macro">查看您的Keystone訂閱的詳細信息</block>
-  <block id="d5361f65bad1a0cefb26442a03e3f1a3" category="paragraph">您可以在“*訂閱*”選項卡中查看性能服務級別信息，現在該信息已從單獨的選項卡移至可擴展視圖。按一下「到期日」欄位旁的向下箭頭可查看每個訂閱的到期日。欲了解更多信息，請參閱 <block ref="c9175061cd37da451a004ee428397f08" category="inline-link-macro-rx"></block>。</block>
-  <block id="377c338b114283d24b3f1ef1a73bd1a9" category="paragraph">有關具體變更內容，請參閱…<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block>。</block>
-  <block id="e2d159efa7a8b8226e5914e1a2875270" category="doc">BlueXP alerts現已升級ONTAP警報</block>
-  <block id="5928017639f3567a373281effc14e646" category="paragraph">BlueXP alerts已重新命名為ONTAP警報。</block>
-  <block id="0876dff5408aa260368cca439a8ae55f" category="paragraph">您可以透過選擇「NetApp Console」左側導覽列中的「*儲存*」&gt;「*警報*」來存取它。</block>
-  <block id="97ab9dfb96ee1d5aedf3102c6777b5c7" category="doc">BlueXP economic efficiency現在是生命週期規劃</block>
-  <block id="0f073941848193a160ce5e5bf8f7d006" category="paragraph">BlueXP economic efficiency已更名為生命週期規劃。</block>
-  <block id="275ca5cf7a9fa5329d7c6111bb4a8f94" category="paragraph">您可以透過選擇「NetApp Console」左側導覽列中的「儲存」&gt;「生命週期規劃」來存取它。</block>
-  <block id="56ed5396ea479b4ed31e75f97a4377c7" category="paragraph">NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp Data Services，提供即時洞察、更快的工作流程以及高度安全且合規的簡化管理。</block>
-  <block id="0b0a6d9ce7462fc9a218e93ccbee32e7" category="section-title">導航選單和頁面</block>
-  <block id="7ceea4a6639fef28fae4477857f229e5" category="paragraph">NetApp將大多數選單選項移至左側導覽窗格，並重新組織選單以便在NetApp Console中更輕鬆地導覽。</block>
-  <block id="4fa56c3d158c844dc75b2826ee4c98d0" category="section-title">畫布被系統頁面取代</block>
-  <block id="ddd56b1479dbec10cfb6fc0a3a8afe57" category="inline-image-macro">系統頁面的螢幕截圖。</block>
-  <block id="028a5defa734a1e5527100ece8ea2e66" category="paragraph"><block ref="028a5defa734a1e5527100ece8ea2e66" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e6ee78fd171283b1b449978ae0c73e06" category="section-title">擴充儲存選單</block>
-  <block id="e4374974e911590511a1add55932606e" category="paragraph">*儲存*選單包括*警報*，用於查看ONTAP系統警報和*生命週期規劃*（以前稱為*經濟效率*），用於識別未使用或未充分利用的資源。</block>
-  <block id="b3289075ae80ce2a2ae0b68cf8c95606" category="paragraph">NetApp已將Keystone移至 *儲存* 選單，您可以在其中管理您的NetApp Keystone訂閱並查看您的使用情況。</block>
-  <block id="0bc00d5c9372c38aa1f6078843c22005" category="inline-image-macro">儲存選單的螢幕截圖。</block>
-  <block id="f445c6d565697b0932cf841aca945e2a" category="paragraph"><block ref="f445c6d565697b0932cf841aca945e2a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0e279d1eb32921bbbc940faea63f4db6" category="section-title">管理選單</block>
-  <block id="08386d27df9de73a030b8e5da1f8112b" category="paragraph">使用集中式*管理*選單來管理NetApp Console、支援案例、授權和訂閱（以前稱為數位錢包）。</block>
-  <block id="c952530b2009e9e6caa227e55b2c5e17" category="inline-image-macro">管理選單的螢幕截圖。</block>
-  <block id="728ef7c59bd4ee6cc2dc652bfa8b7724" category="paragraph"><block ref="728ef7c59bd4ee6cc2dc652bfa8b7724" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e50100ff2f51950e126a3dbaa4b4ef09" category="section-title">健康菜單</block>
-  <block id="ad7e4f5f6f60985f3399015db62758db" category="paragraph">高效的*健康*選單包括*軟體更新*（您可以在其中管理ONTAP軟體更新）、*永續性*（您可以在其中監控對環境的影響）和*Digital Advisor*（您可以在其中獲得主動建議以優化您的儲存環境）。</block>
-  <block id="57c608afd91ed07846d392ab3573d362" category="inline-image-macro">健康選單的螢幕截圖。</block>
-  <block id="378c09e0c5c36dad3c574eb6116e190d" category="paragraph"><block ref="378c09e0c5c36dad3c574eb6116e190d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0faa8df8101b114b9791a097a9ee9c24" category="section-title">治理選單</block>
-  <block id="f6edeb6fe9d83e893f282e018535255e" category="paragraph">*治理*選單包括*資料分類*，您可以在其中管理資料分類和合規性，以及*自動化中心*，您可以在其中建立和管理自動化工作流程。</block>
-  <block id="d84377f0ff9f4c9d765690e219a05b9e" category="inline-image-macro">治理選單的螢幕截圖。</block>
-  <block id="ee631e6affe0c80b3b6fcb825e738791" category="paragraph"><block ref="ee631e6affe0c80b3b6fcb825e738791" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f5bafc8e64005ab8e0ab21be6dd862ea" category="section-title">元素、資料服務和功能的命名更直觀</block>
-  <block id="d17c4f20c3bce4ab77d1716163da4ea8" category="paragraph">NetApp重命名了幾個元素、資料服務和功能以明確其用途。主要變化包括：</block>
-  <block id="7a07575f34b771108115df89d720fe52" category="cell">*曾用名*</block>
-  <block id="44f7d4416512ddf1752dda33cbe7f320" category="cell">* NetApp Console名稱*</block>
-  <block id="fe4a785cf549e843e958f443c4baf0fe" category="cell">連接器</block>
-  <block id="e31b45fe41b7087523da6d9cd8dffb81" category="paragraph">控制台代理。</block>
-  <block id="19e700ebc01a62f4b2c6e556e26b940b" category="paragraph">從*管理&gt;代理*選單查看、新增和管理您的代理程式。</block>
-  <block id="f3ce4049040b68c57f0cafd280f3373b" category="cell">時間軸頁面</block>
-  <block id="50c786c9efcadf10b6b80a91b4bb98cf" category="paragraph">審計頁面</block>
-  <block id="cad5a8979fad73eaeb6c7d23e28457ba" category="paragraph">從*管理&gt;稽核*選單查看稽核控制台活動。</block>
-  <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="cell">工作環境</block>
-  <block id="d685640410801eb03bb5dcb58186458f" category="paragraph">系統</block>
-  <block id="e0c587dd9b957ebcce9c74f98e436000" category="paragraph">從*儲存&gt;管理*選單查看、新增和管理您的系統。</block>
-  <block id="735f4e13421d56ac8c83fdc3365fad9c" category="cell">BlueXP勒索軟體防護</block>
-  <block id="5f7dcc012fb17e5ef25c0e9b228b1a8e" category="paragraph">NetApp Ransomware Resilience。</block>
-  <block id="daef547b38d58d888634bb4fe08a23e0" category="paragraph">勒索軟體復原能力可協助您保護資料並從勒索軟體攻擊中快速復原。</block>
-  <block id="b66bedd32eaff49a6390c88238f395f5" category="cell">BlueXP經濟效率</block>
-  <block id="32e6b958eebb891547bf5b4b37d42a7f" category="paragraph">生命週期規劃。</block>
-  <block id="e91bdd645f7798803bc207638d6d3c27" category="paragraph">生命週期規劃可協助您識別未使用和未充分利用的資源來最佳化儲存成本。</block>
-  <block id="c9bd396dd578097c35b3241940da1230" category="paragraph">從*儲存&gt;生命週期規劃*選單存取生命週期規劃。</block>
-  <block id="7b432de78427e2c7ffdddf3f0a09ce52" category="cell">BlueXP digital wallet</block>
-  <block id="ed953e52298021637dc37dfec02d9323" category="paragraph">從*管理&gt;Licenses and subscriptions*選單存取您的許可證和訂閱。</block>
-  <block id="033ce09819d553e6a77430de2f0cc899" category="section-title">控制台代理</block>
-  <block id="d2d1eb94e91e72bdca67bd206b054558" category="inline-image-macro">代理圖示</block>
-  <block id="7773425689d5ab5b9a1be7e31c52c4a7" category="paragraph">從*管理&gt;代理*選單存取和管理您的控制台代理。NetApp已變更了為「*系統*」頁面（以前稱為「Canvas」）選擇控制台代理的方式。NetApp已將連接器選單名稱替換為圖示。 <block ref="93f7aa9936b9725d0b2b0bfbfa2fc281" category="inline-image-macro-rx" type="image"></block>允許您選擇要查看系統的控制台代理程式。</block>
-  <block id="43155746ba0b5973d604a490f600c989" category="inline-image-macro">顯示選擇控制台代理的圖示的螢幕截圖。</block>
-  <block id="d3a37486dd13699585fc59edd97919c4" category="paragraph"><block ref="d3a37486dd13699585fc59edd97919c4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bb03cbb803285b4d26cf9d785c0ae5e9" category="paragraph">您也可以從*管理&gt;代理*選單管理您的代理。</block>
-  <block id="cfde44a1d64ad07d145912a2754ce1b8" category="section-title">控制台代理 4.0.0</block>
-  <block id="cf7d8a05b87bc06aab139657051d5069" category="paragraph">此版本的控制台代理包括安全性改進、錯誤修復和以下新功能。</block>
-  <block id="e95d0df05962f4456b8b569c54b396c6" category="paragraph">4.0.0 版本適用於標準模式和限制模式。</block>
-  <block id="5412276bd0dd11677309c5862e9a5a84" category="section-title">整合並減少所需的網路端點</block>
-  <block id="d0994d4e248da3f28077f3de0aa07b31" category="paragraph">NetApp減少了控制台和控制台代理程式所需的網路端點，增強了安全性並簡化了部署。重要的是，4.0.0 版本之前的所有部署都將繼續全面支援。雖然先前的端點仍然可供現有代理程式使用，但NetApp強烈建議在確認代理程式升級成功後將防火牆規則更新到目前端點。</block>
-  <block id="af1ce09274091f662d34169f09b1482e" category="inline-link-macro">了解如何更新端點列表並查看比較信息</block>
-  <block id="87bf0287482e9096c75805420a81b7ea" category="list-text"><block ref="eaf36d8f2aa9f00c9dd600ce08237a22" category="inline-link-macro-rx"></block>。</block>
-  <block id="8880ac717c8ca7c5aacda1dbf0aa76b4" category="inline-link-macro">了解有關所需端點的更多資訊。</block>
-  <block id="a65e1c365f170de138a296cb93571b83" category="list-text"><block ref="a65e1c365f170de138a296cb93571b83" category="inline-link-macro-rx"></block></block>
-  <block id="dcd681e02807cfe12b61283485a64b57" category="section-title">支援 VCenter 部署控制台代理</block>
-  <block id="9b0a2c601e03439be1fe2b9ef880e127" category="inline-link-macro">了解如何在 VMware 環境中部署控制台代理程式。</block>
-  <block id="cffe1fd68203e313454b85ae5856ae08" category="paragraph">您可以使用 OVA 檔案在 VMware 環境中部署控制台代理程式。OVA 檔案包含一個預先配置的 VM 映像，其中包含控制台代理軟體和用於連接到NetApp Console的設定。使用者可以直接從NetApp Console下載檔案或進行 URL 部署。 <block ref="33dab07da8bdaaae6d651edc484f67e5" category="inline-link-macro-rx"></block></block>
-  <block id="8bff9036a0e031e7dda95305069dfec1" category="paragraph">VMware 的控制台代理程式 OVA 提供了預先配置的 VM 映像以便快速部署。</block>
-  <block id="6b82c37590e99efd0ada7e5129dd156b" category="section-title">失敗代理部署的驗證報告</block>
-  <block id="1f07edf6ae5cccdb5dacb637fe693758" category="paragraph">當您從NetApp Console部署控制台代理程式時，您現在可以選擇驗證代理程式配置。如果控制台無法部署代理，它會提供可下載的報告來幫助您排除故障。</block>
-  <block id="4303212e6f242fe0a301876fa89b9f0b" category="section-title">改進了控制台代理的故障排除</block>
-  <block id="b9b61d414c60733fb8a9d314eec6960a" category="inline-link-macro">了解如何排除控制台代理故障。</block>
-  <block id="12ad8fdc380a2754e74763c6ec3dd093" category="paragraph">控制台代理程式改進了錯誤訊息，可幫助您更好地了解問題。 <block ref="af6db24ea837f8b9ee9738ec7c58a997" category="inline-link-macro-rx"></block></block>
-  <block id="8fa7eaeb8daf07d8832ec17187b7b40c" category="paragraph">NetApp Console管理包含以下新功能：</block>
-  <block id="bbd516543defb57b86168970a68bacbc" category="section-title">首頁儀表板</block>
-  <block id="7b8cf2fedf3cca7ede322904788b0cae" category="inline-link-macro">了解有關主頁的更多資訊。</block>
-  <block id="0b4ba78ffe7e5b816acd3f4779bf2e31" category="paragraph">NetApp控制台的主頁儀表板提供儲存基礎架構的即時可見性，包括運作狀況、容量、許可證狀態和資料服務的指標。 <block ref="a392b25af35cf84f37ebb9f5e7e08c09" category="inline-link-macro-rx"></block></block>
-  <block id="47105d63797f271c2b78d5946c933492" category="section-title">NetApp助手</block>
-  <block id="a8861fedd62c54a1b00e477632a5b154" category="inline-link-macro">了解NetApp助手。</block>
-  <block id="2c6715c3785597c583154106efeea2e1" category="paragraph">具有組織管理員角色的新使用者可以使用NetApp助理來配置控制台，包括新增代理、連結NetApp支援帳戶和新增儲存系統。 <block ref="cf52c6bc60547e258cd0df64f6aa886e" category="inline-link-macro-rx"></block></block>
-  <block id="a8cf5dcf71de928606099ae1c8d8f013" category="section-title">服務帳戶身份驗證</block>
-  <block id="7aa924231e684379b7afcb9eeb9ad17c" category="inline-link-macro">了解如何新增服務帳戶。</block>
-  <block id="b129ee41c5f872c46bf7e4db36dc2b80" category="paragraph">NetApp Console支援使用系統產生的用戶端 ID 和金鑰或客戶管理的 JWT 進行服務帳戶身份驗證，從而允許組織選擇最適合其安全要求和整合工作流程的方法。私鑰 JWT 用戶端身份驗證使用非對稱加密，比傳統的客戶端 ID 和秘密方法提供更強的安全性。私鑰 JWT 用戶端身份驗證採用非對稱加密技術，確保私鑰在客戶環境中的安全，降低憑證被盜風險，並提高自動化堆疊和用戶端應用程式的安全性。 <block ref="7e8dcf3bb388bc5e251dcf07db89a3cb" category="inline-link-macro-rx"></block></block>
-  <block id="11ebae3aeeebe33c4ece3bbbe3f90b11" category="section-title">會話逾時</block>
-  <block id="356b82733b779c0c497e4fc62a110dd6" category="paragraph">系統會在 24 小時後或使用者關閉網頁瀏覽器時登出使用者。</block>
-  <block id="c7e6ddd86fe4d39f3918f17751cc4ad3" category="section-title">支持組織之間的夥伴關係</block>
-  <block id="a9ab376a5bad52d7ee221e700506cc9e" category="inline-link-macro">學習如何管理合作關係</block>
-  <block id="2411f4620b5f32a3acd14ea2fad0ed3e" category="paragraph">您可以在NetApp Console中建立合作夥伴關係，讓合作夥伴跨組織邊界安全地管理NetApp資源，讓協作更輕鬆、更安全。<block ref="b8d27297b19f2fe0bb424605051fc774" category="inline-link-macro-rx"></block>。</block>
-  <block id="92f0509fbe9c844ac680a8239b748a5a" category="section-title">超級管理員和超級查看者角色</block>
-  <block id="78dc241469129405c4f4b99066b0c5c3" category="inline-link-macro">了解有關訪問角色的更多資訊。</block>
-  <block id="70a83abfefc3ecf863e8c3f17d519877" category="paragraph">新增了*超級管理員*和*超級查看者*角色。*超級管理員*授予對控制台功能、儲存和資料服務的完全管理存取權。*超級檢視器*為審計員和利害關係人提供唯讀可見性。這些角色對於高級成員較少、訪問權限較廣的小型團隊很有用。為了提高安全性和可審計性，建議組織謹慎使用「超級管理員」權限，並盡可能指派細粒度的角色。 <block ref="f4af18406bc0e89aecbeeb674238cfbe" category="inline-link-macro-rx"></block></block>
-  <block id="112ab4deb7f2f69c7af42547046b472f" category="section-title">勒索軟體抵禦能力的額外作用</block>
-  <block id="79c16752c4b3871128ff6761df92be41" category="paragraph">新增了*勒索軟體彈性使用者行為管理員*角色和*勒索軟體彈性使用者行為檢視器*角色。這些角色分別允許使用者配置和查看使用者行為和分析資料。 <block ref="f4af18406bc0e89aecbeeb674238cfbe" category="inline-link-macro-rx"></block></block>
-  <block id="9c1c5b1b2bca352ed0ccb3521d870e14" category="section-title">刪除了支援聊天</block>
-  <block id="6a6050b7d9c0524d1d41dffdc70d6613" category="paragraph">NetApp已從NetApp Console中刪除了支援聊天功能。使用「管理」&gt;「支援」頁面來建立和管理支援案例。</block>
-  <block id="cd3f28b2e598d8cf73182a1f91e56bd2" category="doc">BlueXP software updates現在是軟體更新</block>
-  <block id="c427d923073409f1bf94d8ce5a7ec6e8" category="paragraph">BlueXP software updates已重新命名為軟體更新。</block>
-  <block id="6054363caf6b8dcd4fa522e9440e82cd" category="paragraph">您可以透過選擇「NetApp Console」左側導覽列中的「*健康*」&gt;「*軟體更新*」來存取它。</block>
-  <block id="9b5a1e6c05cb5a9a8a4d5f1e2605ce55" category="doc">BlueXP volume caching現在是卷緩存</block>
-  <block id="f8e8412fccd7f025d572fec3a13f08fe" category="paragraph">BlueXP volume caching已重新命名為磁碟區快取。</block>
-  <block id="1404848cfe6595d928cbdff8fae23869" category="paragraph">您可以透過選擇「*Mobility*」&gt;「*Volume caching*」從NetApp Console左側導覽列存取它。</block>
-  <block id="83b5525699223779088aa2e2c9ca5b1a" category="doc">BlueXP backup and recovery現已更名NetApp Backup and Recovery</block>
-  <block id="6a119fc880b70d0e27bca4b7243a7a55" category="paragraph">BlueXP backup and recovery已重新命名為NetApp Backup and Recovery。</block>
-  <block id="387c71fcb2fb7fdf9038db9d12137530" category="inline-link-macro">NetApp Console發行說明。</block>
-  <block id="3a1e37eecca95e81d9e509646022ffda" category="paragraph">有關更改的詳細信息，請參閱<block ref="019a5c722618673de9fa5ca0cf2abddb" category="inline-link-macro-rx"></block></block>
-  <block id="86df852f08da7feceb910d31327e83d7" category="section-title">Hyper-V 工作負載支援作為私人預覽版</block>
-  <block id="9fb98f9a29d9d72ef6008750be44e084" category="paragraph">此版本的NetApp Backup and Recovery引入了對發現和管理 Hyper-V 工作負載的支援：</block>
-  <block id="bd0905239cb012ebf878ac40c3981660" category="list-text">在獨立實例以及故障轉移群集實例 (FCI) 上備份和還原虛擬機</block>
-  <block id="cb861f226468f5c5741c826734953432" category="list-text">保護儲存在 SMB3 共用上的虛擬機</block>
-  <block id="165a3a57ae6cbe2ce8d382109a648112" category="list-text">虛擬機器層級的批量保護</block>
-  <block id="6ae4f2cef4c8268fb48e1bf1ad1145fc" category="list-text">虛擬機器和崩潰一致性備份</block>
-  <block id="1e2c3f75c2996070badf4cdcfa9188be" category="list-text">從主儲存、輔助儲存和物件儲存還原虛擬機</block>
-  <block id="318dd7c3ae3e9302e9fc1054a535b274" category="list-text">搜尋和恢復虛擬機器備份</block>
-  <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">保護 Hyper-V 工作負載概述</block>
-  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">有關保護 Hyper-V 工作負載的詳細信息，請參閱<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>。</block>
-  <block id="ade0d83a8d5df6524dcf5bc339bf6236" category="section-title">KVM 工作負載支援作為私人預覽</block>
-  <block id="c42adba211239f644f4ee6954d8a909e" category="paragraph">此版本的NetApp Backup and Recovery引入了對發現和管理 KVM 工作負載的支援：</block>
-  <block id="99803398691d47a569fe2e0eeaf8a74c" category="list-text">備份和還原儲存在 NFS 共享上的 qcow2 VM 映像</block>
-  <block id="81e3905959a6e11107e52c1db1aa927a" category="list-text">備份儲存池</block>
-  <block id="be660bd29054ec196c26b5d7ab12eca9" category="list-text">使用保護群組進行大量虛擬機器和儲存池保護</block>
-  <block id="d6e3a9bbd154922a83873ce4e8ee4f0d" category="list-text">VM 一致且崩潰一致的 VM 備份</block>
-  <block id="33b87914ae72ad3c394fc1f941a94c8c" category="list-text">從主儲存、輔助儲存和物件儲存中搜尋並還原虛擬機器備份</block>
-  <block id="01edc88c05b373b3f7ebaedf025e6c66" category="list-text">備份和還原基於 KVM 的虛擬機器和虛擬機器資料的指導流程</block>
-  <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">保護 KVM 工作負載概述</block>
-  <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">有關保護 KVM 工作負載的詳細信息，請參閱<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block>。</block>
-  <block id="c95af44ddc098359d1a302a271aa883b" category="section-title">Kubernetes 預覽增強功能</block>
-  <block id="a9db09b7be48f8631739b57e73f48cd3" category="paragraph">Kubernetes 工作負載的預覽版引入了以下增強功能：</block>
-  <block id="7f6a04aadde1854e173d7668132da89b" category="list-text">3-2-1 扇出備份架構支持</block>
-  <block id="b3b9066f003af6e4047de0ee6690e863" category="list-text">支援ONTAP S3 作為備份目標</block>
-  <block id="e35ded7c45cf2f4d4c707e6aeb803b42" category="list-text">新的 Kubernetes 儀表板，更易於管理</block>
-  <block id="578d6e20754edfe961ecf1fc836dde24" category="list-text">增強的基於角色的存取控制 (RBAC) 配置包括對以下角色的支援：</block>
-  <block id="63f384d43c70cef2a442eed93538b096" category="list-text">備份和恢復超級管理員</block>
-  <block id="69fc5d74b4cae1d8411c6e1ef7fef337" category="list-text">備份和還原備份管理員</block>
-  <block id="e7ccdca9cb72dcc628612957211d3e80" category="list-text">備份和還原復原管理員</block>
-  <block id="2865d4b5e918de90349087089aeb52d0" category="list-text">備份和還原檢視器</block>
-  <block id="96804f828cf944ce68e80e74ae8d7cc0" category="list-text">支援 SUSE Rancher Kubernetes 發行版</block>
-  <block id="ba6bb9bc1bfb2e864cfaaa2229f7e2d8" category="list-text">多重儲存桶支援：現在，您可以跨不同的雲端供應商，透過每個系統多個儲存桶來保護系統內的捲</block>
-  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保護 Kubernetes 工作負載概述</block>
-  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">有關保護 Kubernetes 工作負載的詳細信息，請參閱<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>。</block>
-  <block id="80aadfb002c0fe2115f71c7aeb012ab4" category="section-title">VMware 預覽增強功能</block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware 工作負載預覽版引入了以下增強功能：</block>
-  <block id="52c7fc54a0416d5bc7625cf3e154f5ee" category="list-text">支援從對象儲存恢復</block>
-  <block id="729609f8890f70080c4290c1a64f6901" category="list-text">NetApp Console儀表板現在顯示 VMware 工作負載狀態資訊</block>
-  <block id="0b781a1bfcfc82e8ce2c41a12166f555" category="list-text">基於角色的存取控制 (RBAC) 支持</block>
-  <block id="48286fbde233324a7f7880389e103924" category="list-text">工作事件的電子郵件警報和通知支持</block>
-  <block id="7c0ae68b454f9ff601ed1bdd5dcc3c30" category="list-text">支援備份和還原到基於 NVMe 的存儲</block>
-  <block id="41bfa1316b52f6772c1921990bc34f69" category="list-text">編輯保護群組</block>
-  <block id="dfa4b5c6b997823449e673db12ef526d" category="list-text">編輯保護策略</block>
-  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保護 VMware 工作負載概述</block>
-  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">有關保護 VMware 工作負載的詳細信息，請參閱<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
-  <block id="5454583dc62ad7e77c5ba8c488ba6d58" category="section-title">Oracle 資料庫工作負載支援作為私人預覽</block>
-  <block id="7d6928dd953d625f33fbfd89243bf778" category="paragraph">此版本的NetApp Backup and Recovery引進了對發現和管理 Oracle 資料庫工作負載的支援：</block>
-  <block id="ef788408f77a6fc39041c0a817c65602" category="list-text">發現獨立的 Oracle 資料庫</block>
-  <block id="30b7966bb7dc1aa9438906ea08ff7f3a" category="list-text">僅針對資料或資料和日誌備份建立保護策略</block>
-  <block id="7c04ebe00ea4e3919d3a0db1523941c4" category="list-text">使用 3-2-1 備份方案保護 Oracle 資料庫</block>
-  <block id="2b94050a52114db1558a04e2b09f87c6" category="list-text">配置備份保留</block>
-  <block id="6b5a8199a9a85c919be0b93e58f873db" category="list-text">掛載和卸載 ARCHIVELOG 備份</block>
-  <block id="290536edae9da601f8170c5b55f24416" category="list-text">虛擬化資料庫</block>
-  <block id="fa13bdfd9eed88794d8035a9e287804f" category="list-text">搜尋和還原資料庫備份</block>
-  <block id="50f97ccd9c70c1fad84f646a4f0a7844" category="list-text">Oracle 儀表板支援</block>
-  <block id="51d8503c0e8b0708c3068080f066d721" category="inline-link">保護 Oracle 工作負載概述</block>
-  <block id="834f349029c5bc6715f25a9eac82f171" category="paragraph">有關保護 Oracle 資料庫工作負載的詳細信息，請參閱<block ref="aa11c9ead0c1847dba5fa900ff49219a" category="inline-link-rx"></block>。</block>
-  <block id="b3a6ba86ba805f11e462a231b680cd28" category="section-title">ONTAP磁碟區工作負載增強功能</block>
-  <block id="70cc82710208295496c70c203368aaf9" category="paragraph">此版本的ONTAP磁碟區工作負載引入了以下增強功能：</block>
-  <block id="bb13349ac4c9ef7d368732d3a4fdabed" category="paragraph">從ONTAP 9.17.1 及更新版本開始，DataLock 現已受 Google Cloud Platform 支援。這補充了 Amazon AWS、Microsoft Azure 和NetApp StorageGRID現有的 DataLock 支援。</block>
-  <block id="80c6ec7a181e7260841769dbc15f1b0b" category="doc">BlueXP copy and sync現已更名NetApp Copy and Sync</block>
-  <block id="978ab06bd4634b113d212f8311cddadc" category="paragraph">BlueXP copy and sync已重新命名為NetApp Copy and Sync。</block>
-  <block id="ffc4cf2b04c0381567893ed4b4045ccf" category="doc">版本 1.47</block>
-  <block id="6f36bf9a9811b172de79706eb4020697" category="paragraph-title">BlueXP classification現為NetApp Data Classification</block>
-  <block id="5aac44f6ff056f1c6c2f526f52fa4c03" category="paragraph">BlueXP classification已重新命名為NetApp Data Classification。除了重命名之外，使用者介面也得到了增強。</block>
-  <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。</block>
-  <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">NetApp Console提供企業級跨本地和雲端環境的儲存和資料服務的集中管理，提供即時洞察、更快的工作流程和簡化的管理。</block>
-  <block id="7c2f2b72d5ae6fd05d7d6047507f2af7" category="paragraph">有關具體變更內容，請參閱…<block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block>。</block>
-  <block id="946f70163294fc4ea89cf3a8a4f7979b" category="paragraph-title">增強調查體驗</block>
-  <block id="576845aedce0c5b1e2da0722b6d5b908" category="paragraph">使用新的可搜尋篩選器、每個值的結果計數、總結關鍵發現的即時見解以及具有可自訂列和滑出詳細資訊窗格的刷新結果表，更快地查找和理解您的資料。</block>
-  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">調查數據</block>
-  <block id="50ccc3c910d687d185cba54457548270" category="paragraph">有關詳細信息，請參閱 <block ref="93a993564ec95ed7a219162140437cd9" category="inline-link-macro-rx"></block>。</block>
-  <block id="893b2443c1eb73a025f5c3a5bafda52a" category="paragraph-title">新的治理與合規儀表板</block>
-  <block id="3520b3d47203763a73081f6d97f46d23" category="inline-link-macro">審查有關您的數據的治理信息</block>
-  <block id="885746277f8f91a4f015c86ee1723838" category="inline-link-macro">查看有關您的數據的合規性信息</block>
-  <block id="b079dfcfb953333a976ef2f897a33fe7" category="paragraph">透過直覺的小部件、更清晰的視覺效果和改進的加載性能更快地獲得關鍵見解。有關詳細信息，請參閱<block ref="e763feb2558444e18702b24a8d7b126c" category="inline-link-macro-rx"></block>和<block ref="635393ff0ea5792fd291ac9f76f0ede9" category="inline-link-macro-rx"></block>。</block>
-  <block id="505912d307cab52606f6debfb848dd6b" category="paragraph-title">已儲存查詢的策略（預覽）</block>
-  <block id="640ed4c4729a4d5d09e9b663e79d7d98" category="paragraph">資料分類現在使您能夠透過條件操作實現治理自動化。您可以建立保留規則，設定自動刪除和定期電子郵件通知，所有這些都可以透過更新的已儲存查詢頁面進行管理。</block>
-  <block id="663b8460da445a8bdcdacd5586794a5a" category="inline-link-macro">創建策略</block>
-  <block id="8ce840152bdbc7f0d0ab73586b35794e" category="paragraph">有關詳細信息，請參閱 <block ref="8475d31dfff4871bdba543b2c91cd563" category="inline-link-macro-rx"></block>。</block>
-  <block id="d57567637ab51796d55a7b44fb6ebc11" category="paragraph-title">操作（預覽）</block>
-  <block id="680190e7731697b57d44b7ccb192ec16" category="paragraph">從調查頁面直接控制 - 單獨或批次刪除、移動、複製或標記文件，以實現高效的資料管理和補救。</block>
-  <block id="89d69ff3dca93dc4c1c160728186e722" category="paragraph-title">支援Google Cloud NetApp Volumes</block>
-  <block id="8af0afdbb3b40b944bf32c94da112796" category="inline-link-macro">掃描Google Cloud NetApp Volumes</block>
-  <block id="0613f78859d4c1ee40ebf4902778200d" category="paragraph">資料分類現在支援在Google Cloud NetApp Volumes上進行掃描。從NetApp Console輕鬆新增Google Cloud NetApp Volumes，實現無縫資料掃描與分類。有關詳細信息，請參閱 <block ref="ebe8ee8c7142d7ba7fe5b46fcd6a51db" category="inline-link-macro-rx"></block>。</block>
-  <block id="bdffab7d1fc5c739af6bcacd7556d32b" category="doc">BlueXP disaster recovery現已更名為NetApp Disaster Recovery</block>
-  <block id="b8479b63a059f61189d191d9d8206a0e" category="paragraph">BlueXP disaster recovery已重新命名為NetApp Disaster Recovery。</block>
-  <block id="74ec2cbf7ad010d86af9ea5f2d47ee39" category="section-title">其他更新</block>
-  <block id="77ce624f79cabd64ddedccf3196e9b1a" category="inline-link-macro">使用 Amazon Elastic VMware Service 和Amazon FSx for NetApp ONTAP實作NetApp Disaster Recovery</block>
-  <block id="e6b27502ab6a46e1039ef9e004cb65ff" category="list-text">Amazon Elastic VMware Service (EVS) 與Amazon FSx for NetApp ONTAP的支援已公開預覽。隨著此版本的發布，它現已普遍可用。有關詳細信息，請參閱<block ref="d77dcab16ff9979356836b689cffd0ee" category="inline-link-macro-rx"></block>。</block>
-  <block id="1842d5453eb18b28e3fe6f5c7acc9eaa" category="list-text">儲存發現改進，包括減少本地部署的發現時間</block>
-  <block id="58077d66ee3ca42d6d7732854dac2714" category="list-text">身分和存取管理 (IAM) 支持，包括基於角色的存取控制 (RBAC) 和增強的使用者權限</block>
-  <block id="ef31873b640af7e0e4300d5282baffe4" category="list-text">Azure VMware 解決方案和Cloud Volumes ONTAP 的私人預覽支援。有了此支持，您現在可以使用Cloud Volumes ONTAP儲存來設定從本機到 Azure VMware 解決方案的災難復原保護。</block>
-  <block id="c6fdca864c59429ff2c0a1e35c775ae4" category="doc">BlueXP ransomware protection現已升級NetApp Ransomware Resilience</block>
-  <block id="8c033e68f21af84a645a65cdb34e6632" category="paragraph">BlueXP ransomware protection服務已更名為NetApp Ransomware Resilience。</block>
-  <block id="6b815504dd4844974d9ebfb52e0fe4d6" category="section-title">資料外洩檢測</block>
-  <block id="50558bac19c965c1d55609370fca3199" category="paragraph">勒索軟體復原力包括一種新的檢測機制，只需幾個步驟即可激活，以檢測異常用戶讀取作為資料外洩的早期指標。勒索軟體彈性透過建立歷史基線來收集和分析使用者讀取事件，該基線是根據過去資料得出的預期正常行為的概況。當新用戶活動明顯偏離既定規範（例如意外的閱讀激增與可疑的閱讀模式相結合）時，就會產生警報。勒索軟體復原力包括一個用於偵測可疑讀取模式的 AI 模型。</block>
-  <block id="287f419ab9030dae6e341b7917dea7b9" category="paragraph">與儲存層的 ARP 加密偵測不同，勒索軟體彈性 SaaS 服務透過收集 FPolicy 事件來偵測使用者行為異常。</block>
-  <block id="3d2aadf85980b84588fa5209f5a19682" category="inline-link-macro">勒索軟體恢復用戶行為管理員和勒索軟體恢復用戶行為檢視器</block>
-  <block id="44c4a9a3d8fb9c475fdab3218cabf517" category="admonition">你必須使用新的 <block ref="150c4a59c5fb1f39f9eda4670f9c992c" category="inline-link-macro-rx"></block> 擁有存取可疑使用者行為偵測設定的角色。</block>
-  <block id="666c1c8dca9ff6ef210c57f04d6e84e8" category="inline-link-macro">啟用可疑用戶活動偵測</block>
-  <block id="8d2203d70c1b051af0b7ad506cc40474" category="inline-link-macro">查看異常用戶行為</block>
-  <block id="75ae81fb1b2b27cbdbd5ba2b48014fe5" category="paragraph">有關詳細信息，請參閱<block ref="4fc0d3ac39798f24cded583e594e4abe" category="inline-link-macro-rx"></block>和<block ref="f451eade5eddedc7b8e2af13d9e54fd3" category="inline-link-macro-rx"></block>。</block>
-  <block id="289ddf7ba01fbf8f514dbc2d06a7bf67" category="section-title">其他可疑用戶活動檢測</block>
-  <block id="c59946b2a21d389710dcd9b9ad5f618d" category="paragraph">除了資料外洩偵測之外，勒索軟體復原能力還根據觀察到的可疑使用者活動偵測以下警報類型：</block>
-  <block id="9f149be55d2ace2f4ef86d2125660c4c" category="list-text">**資料破壞 - 潛在攻擊** - 當檔案刪除的數量超過歷史標準時，會建立具有潛在攻擊嚴重程度的警報。</block>
-  <block id="b3917e47f33bfc92b2d66abb2a71397c" category="list-text">**可疑使用者行為 - 潛在攻擊** - 當觀察到類似於勒索軟體攻擊的讀取、重新命名和刪除操作時，會建立嚴重程度為潛在攻擊的警報</block>
-  <block id="a3e76fe95cb3298fc3fb711993e170f1" category="list-text">**可疑使用者行為 - 警告** - 當檔案活動（讀取、刪除、重新命名等）的總數超過歷史標準時，將建立嚴重程度為警告的警報</block>
-  <block id="f3bb9521072178132b6de817bd448616" category="section-title">用於資料外洩偵測的新使用者角色</block>
-  <block id="7584e1f8b83860064449cf13924e3d4a" category="paragraph">為了管理可疑使用者活動警報，Ransomware Resilience 為控制台組織管理員引入了兩個新角色，以授予對可疑使用者活動偵測的存取權：Ransomware Resilience 使用者行為管理員和 Ransomware Resilience 使用者行為檢視器。</block>
-  <block id="2d5c784e8595b475f03f62e102d55828" category="paragraph">您必須是使用者行為管理員才能配置可疑使用者行為設定。勒索軟體復原管理員角色不支援配置可疑使用者行為設定。</block>
-  <block id="fa780a65e0e091d94507a69bc6b589c6" category="inline-link-macro">NetApp Ransomware Resilience基於角色的訪問</block>
-  <block id="eab6dcf0426537b3bdfc0895e79881d8" category="paragraph">有關詳細信息，請參閱 <block ref="cd66090adbbec1fbcb8578d25dadb581" category="inline-link-macro-rx"></block>。</block>
-  <block id="747ef7cb70bddb84c8ef27217b868e12" category="doc">BlueXP replication現已更名為NetApp Replication</block>
-  <block id="57ff97c571d4da9035b6687a3eb97fea" category="paragraph">BlueXP replication已重新命名為NetApp Replication。</block>
-  <block id="2ef72cc8a56fc5999e258b450b9fca24" category="paragraph">有關更改的詳細信息，請參閱<block ref="06d876b9fcdfcba8772d93beac1ca38b" category="inline-link-macro-rx"></block>。</block>
-  <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">有關具體變更內容，請參閱…<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block>。</block>
-  <block id="9b1b4baddf39eab23180764b39d6be96" category="paragraph">有關具體變更內容，請參閱…<block ref="38ad9b7940db9af3f58b46078cacc605" category="inline-link-rx"></block>。</block>
-  <block id="0de27445b78be9ada0e38746bd2c7572" category="section-title">簡化 AWS 中的Cloud Volumes ONTAP部署</block>
-  <block id="bc9124fb3616fb45396bce21e05afe6a" category="paragraph">現在，您可以使用快速部署方法在 AWS 中部署Cloud Volumes ONTAP，適用於單一節點和高可用性 (HA) 設定。與進階方法相比，此簡化流程減少了步驟數，在單一頁面上自動設定預設值，並最大限度地減少了導航，使部署更快、更容易。</block>
-  <block id="be6e964d6cf7f9094cd37614b45cc30d" category="inline-link">使用快速部署在 AWS 中部署Cloud Volumes ONTAP</block>
-  <block id="a4ef38fe8e86058aa5e29448b78ed10a" category="paragraph">更多信息，請參閱<block ref="d2530c67b5959523bc3493cd24da13cb" category="inline-link-rx"></block>。</block>
-  <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">有關具體變更內容，請參閱… <block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block>。</block>
   <block id="13f711a55db449e74aa63517fe680750" category="doc">資產標籤中的 QoS 策略覆蓋列</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console中Keystone儀表板的新增強功能：</block>
   <block id="c6276ebcdb23205ceaed5fbf4249ea31" category="paragraph">*Assets* 選項卡中的 *Volumes in clusters* 選項卡現在包含一個 *QoS policy override* 列，指示是否繞過備份和鏡像卷的 QoS 規則，顯示 *true*（忽略規則）、*false*（強制執行規則）或 *N/A*（對於鏡像卷）。</block>
@@ -416,11 +169,6 @@
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
   <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">2025年10月17日</block>
   <block id="44758d2951f923446ffff8310f8ac382" category="section-title">2025年10月13日</block>
-  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
-  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">雲分層：等級偏移：+1</block>
-  <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">複製：層級偏移：+1</block>
-  <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">E系列：等級偏移：+1</block>
-  <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">在NetApp Console系統頁面上，可以在本機ONTAP系統和 FSx for ONTAP檔案系統之間進行資料複製。</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">管理帳單偏好設定</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">現在可以直接在NetApp Console中設定和管理*計費首選項*。這項增強功能使管理員能夠定義和查看如何對NetApp直接授權、雲端市場訂閱和Keystone協議中的容量使用情況、續約和成本進行計費。</block>
@@ -479,8 +227,6 @@
   <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">勒索軟體復原功能現在允許您編輯使用者行為警報的狀態。您可以手動關閉和解決警報。</block>
   <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">管理勒索軟體復原能力中的警報</block>
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">有關詳細信息，請參閱 <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>。</block>
-  <block id="98ade846ffa73dc9c6bcd3e3e84c38b7" category="paragraph">有關詳細信息，請參閱 <block ref="1762f821178ef43810c03e86465a946d" category="inline-link-macro-rx"></block>。</block>
-  <block id="1df351797bd2540f3ec41bc24e67bf1f" category="paragraph">有關詳細信息，請參閱 <block ref="2631c62a2ac2ec2e6a0ebc0352319a2c" category="inline-link-macro-rx"></block>。</block>
   <block id="14a4fd4957d1a547c2b4ccadbaed0a90" category="inline-link-macro">了解更多關於使用NetApp Backup and Recovery恢復 VMware 虛擬機器的信息</block>
   <block id="6dc955af209317a9d714156228721ed4" category="paragraph"><block ref="dd7466c8c4dbfb4163f16106a1d7f80c" category="inline-link-macro-rx"></block>。</block>
   <block id="01f07264521662850e2d8465c322c978" category="inline-link-macro">了解更多關於使用NetApp Backup and Recovery恢復 VMware 虛擬磁碟的信息</block>
@@ -501,7 +247,6 @@
   <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">從Cloud Volumes ONTAP 9.17.1 開始，您可以透過NetApp Console為新的Cloud Volumes ONTAP執行個體部署 Azure Edsv6 系列虛擬機器。Cloud Volumes ONTAP 9.17.1 及更高版本將僅支援新部署的第二代虛擬機器。這些第二代機器與最新技術相容，例如統一可擴充韌體介面 (UEFI)、Azure Boost 系統和 NVMe。它們非常適合記憶體密集系統和需要快速本地儲存的應用，例如資料庫伺服器和分析引擎。</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支援的配置</block>
   <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
-  <block id="ae41cdf98d6f24f84727785b0c41cda9" category="paragraph">NetApp將 Canvas 重新命名為 *Systems* 頁面。從「儲存 &gt; 管理」功能表導覽至「系統」頁面。</block>
   <block id="6f111d20190d5490668e3e0ac2cad5d2" category="paragraph-title">支援 Red Hat Enterprise Linux (RHEL) 9.6 和 Podman 5.4.0</block>
   <block id="db70fced03768e8735fbdebf7ea67e66" category="paragraph">發送NetApp Console通知的電子郵件地址已從 *service@console.bluexp.netapp.com* 變更為 *service@console.netapp.com*。NetApp建議更新所有電子郵件規則，允許 *service@console.netapp.com* 發送郵件，以確保您繼續收到NetApp Console電子郵件通知。</block>
   <block id="026970f0ac157044199489d6744c2491" category="doc">控制台代理 4.2.0</block>
@@ -536,4 +281,6 @@
   <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">如果您擁有超過 20 個本機ONTAP集群，則「系統」頁面上的「磁碟區」標籤預設顯示為網格視圖。</block>
   <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">當您在NetApp Console中管理超過 20 個本機ONTAP叢集時，「磁碟區」標籤預設顯示網格視圖，以便於導覽。卡片視圖已停用。</block>
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">此變更僅適用於標準模式，並且適用於ONTAP版本 9.6 及更高版本。</block>
+  <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">有關詳細信息，請參閱 <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>。</block>
+  <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">有關詳細信息，請參閱 <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>。</block>
 </blocks>
