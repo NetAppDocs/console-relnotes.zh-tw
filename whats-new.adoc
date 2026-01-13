@@ -110,6 +110,18 @@ summary: 了解NetApp Console的功能和資料服務的最新變化。
 
 
 
+=== Cloud Volumes ONTAP
+
+
+
+==== Cloud Volumes ONTAP的首選計費方式
+
+現在您可以選擇首選的計費方式來計算您的Cloud Volumes ONTAP使用量和超額費用。自 2025 年 6 月 25 日起，自帶許可證 (BYOL) 授權模式將不再提供， NetApp已在NetApp Console的「授權和訂閱」部分中添加了首選的計費方式。您可以選擇使用年度市場訂閱進行計費和超額費用結算，或選擇現有的 BYOL 模式作為首選方案。這樣，您可以靈活選擇最適合您組織財務策略和使用模式的充電方式。
+
+https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing-charging.html#billing-preferences-and-overages["計費偏好和超額費用"^]。
+
+
+
 == 2025年12月10日
 
 
@@ -376,18 +388,6 @@ ONTAP系統管理器介面可以與 AWS Lambda 連結一起使用，以執行進
 
 
 == 2025年11月11日
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Cloud Volumes ONTAP的首選計費方式
-
-現在您可以選擇您喜歡的計費方式來計算您的使用量和超額費用。自 2025 年 6 月 25 日起，BYOL 授權將不再提供， NetApp在NetApp Console的「授權和訂閱」部分中提供了首選的收費方式。您可以選擇使用年度市場訂閱進行計費和超額費用結算，或使用現有的許可（自備許可）模式。這樣，您可以靈活選擇最適合您組織財務策略和使用模式的充電方式。
-
-更多資訊請參閱 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing-charging.html#minimum-charge["帳單和超額費用"^]。
 
 
 
