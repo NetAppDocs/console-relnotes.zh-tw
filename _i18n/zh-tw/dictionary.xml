@@ -300,4 +300,14 @@
   <block id="13e1e540c5d0fb4cabfadd886c98b1ee" category="paragraph">現在您可以選擇首選的計費方式來計算您的Cloud Volumes ONTAP使用量和超額費用。自 2025 年 6 月 25 日起，自帶許可證 (BYOL) 授權模式將不再提供， NetApp已在NetApp Console的「授權和訂閱」部分中添加了首選的計費方式。您可以選擇使用年度市場訂閱進行計費和超額費用結算，或選擇現有的 BYOL 模式作為首選方案。這樣，您可以靈活選擇最適合您組織財務策略和使用模式的充電方式。</block>
   <block id="5b52ed0566b981ecb59362875a8260d9" category="inline-link">計費偏好和超額費用</block>
   <block id="566784414055fc000fcabfbdbb65d626" category="paragraph"><block ref="308d91214afb4193d1f3387ad8901dcd" category="inline-link-rx"></block>。</block>
+  <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">將快照複製到ONTAP</block>
+  <block id="f67d671d0eb9b2810d472b2c73fb65d6" category="paragraph">勒索軟體復原功能現在支援將快照複製到輔助ONTAP網站。您可以建立包含複製功能的勒索軟體防護策略，也可以使用預先定義的策略。透過使用複製策略的保護群組，您可以為每個工作負載複製到相同的目標位置或不同的目標位置。</block>
+  <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">在勒索軟體復原中保護工作負載</block>
+  <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">有關詳細信息，請參閱 <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>。</block>
+  <block id="f7bb3fba9e87909a7d99018a8feebef5" category="section-title">將工作負載排除在勒索軟體復原能力之外</block>
+  <block id="36d62eb8fbffb07f574185bd90036cd1" category="paragraph">勒索軟體復原功能現在支援將系統中的特定工作負載從保護範圍和勒索軟體復原儀表板中排除。發現工作負載後，您可以將其排除在外；如果您想要添加勒索軟體防護，則可以重新將其包含在內。排除在外的工作負載無需付費。</block>
+  <block id="427dab7765b34a516acce2d3545db33d" category="inline-link-macro">排除工作負載</block>
+  <block id="cce6483b933a36b9eebb2ecf0d8f32a6" category="paragraph">有關詳細信息，請參閱 <block ref="40a5b14292f3b3c1d42c8b093a2843e2" category="inline-link-macro-rx"></block>。</block>
+  <block id="35308ce14b9ba8b4f632405b876f0cc3" category="section-title">標記提醒，如正在審核中</block>
+  <block id="ff4c9cd383a7fe5ae887d1ac68d7ba52" category="paragraph">勒索軟體復原功能現在允許您將警報標記為「審核中」。使用「審核中」標籤可以提高團隊在對活躍的勒索軟體威脅進行分類和管理時的清晰度。</block>
 </blocks>
