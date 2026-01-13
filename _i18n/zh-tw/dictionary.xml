@@ -310,4 +310,17 @@
   <block id="cce6483b933a36b9eebb2ecf0d8f32a6" category="paragraph">有關詳細信息，請參閱 <block ref="40a5b14292f3b3c1d42c8b093a2843e2" category="inline-link-macro-rx"></block>。</block>
   <block id="35308ce14b9ba8b4f632405b876f0cc3" category="section-title">標記提醒，如正在審核中</block>
   <block id="ff4c9cd383a7fe5ae887d1ac68d7ba52" category="paragraph">勒索軟體復原功能現在允許您將警報標記為「審核中」。使用「審核中」標籤可以提高團隊在對活躍的勒索軟體威脅進行分類和管理時的清晰度。</block>
+  <block id="79af92d05f2b214eab2c765e215beb6b" category="doc">控制台代理 4.3.0</block>
+  <block id="6f1b51eea64496510e6cf5a5a2d57d29" category="paragraph">4.3.0 版本同時支援標準模式和受限模式。</block>
+  <block id="664a9e1da962d9131b0a035da50bbcc7" category="paragraph-title">能夠驗證控制台代理的網路連接</block>
+  <block id="81cc16a2354d8ec80802e2e4ac22f15a" category="paragraph">現在可以直接從NetApp Console驗證已連線的控制台代理程式的網路連線。此功能有助於驗證連接性並排查控制台代理的問題。</block>
+  <block id="65ce32eae3a28c0b24f8cc33c345ab84" category="paragraph"><block ref="65ce32eae3a28c0b24f8cc33c345ab84" category="inline-link-macro-rx"></block></block>
+  <block id="8b71edf4fd7d99d72da1d37de5e154b7" category="paragraph-title">NetApp Console處於受限模式時支援聯合身份驗證</block>
+  <block id="58bbe2cc0931c12594be1bafb70597fb" category="paragraph">現在您可以為受限模式的NetApp Console組織啟用聯合驗證。這樣，使用者就可以使用其公司憑證登入控制台，同時保持受限模式的安全優勢。</block>
+  <block id="ac811c471ef716f9c8a3865d7f14caa3" category="paragraph-title">唯讀模式</block>
+  <block id="8fc5022358a80320244b4f909c4293cc" category="paragraph">您可以將NetApp Console組織設定為唯讀模式。在唯讀模式下，使用者可以查看資源和設置，但不能進行任何更改。組織管理員或超級管理員可以啟用組織的唯讀模式。啟用唯讀模式後，具有管理角色的使用者必須手動提升權限才能根據需要進行變更。</block>
+  <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">了解如何為控制台組織啟用唯讀模式。</block>
+  <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
+  <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">當你的組織處於唯讀模式時，了解如何提升你的角色。</block>
+  <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
 </blocks>
