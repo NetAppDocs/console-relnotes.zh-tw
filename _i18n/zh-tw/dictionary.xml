@@ -137,7 +137,6 @@
   <block id="8905ad2fb9f028e6bd28666015b4b50a" category="paragraph-title">增強掃描進度清晰度</block>
   <block id="206c07a2ed5644be711186a00b2c6ae2" category="paragraph">掃描配置現在包含對掃描完成情況的更深入洞察。以前，進度條只在掃描進行時顯示。現在，掃描完成後進度條仍然可見，以確認掃描已成功完成。您也可以查看已對應和已掃描的檔案數量。</block>
   <block id="de10ad3938875667137fa1bd63542e62" category="inline-link-macro">更改儲存庫的NetApp Data Classification掃描設置</block>
-  <block id="dc9fb8f25cdf758c060f4782f41b0b0f" category="paragraph">有關掃描設定的更多信息，請參閱 <block ref="19cf1405cd38e956788f418f2be34a68" category="inline-link-macro-rx"></block>。</block>
   <block id="5b5de768a01e088dbab56f46d97b5a38" category="doc">級聯故障轉移支持</block>
   <block id="8115dd8449bd907d08f3347f6d04324a" category="paragraph">現在您可以在ONTAP中設定級聯關係，並使用該複製關係的任何分支進行災難復原。</block>
   <block id="eb2fa9dcb8eaa46c82c070f8bbe8418a" category="section-title">註冊期間降低 VMware 硬體支援級別</block>
@@ -323,7 +322,19 @@
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">當你的組織處於唯讀模式時，了解如何提升你的角色。</block>
   <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
-  <block id="772b95b1a689cd9ca0f7d8935114e25c" category="paragraph-title">針對Cloud Volumes ONTAP 的其他 Google Cloud 權限</block>
-  <block id="335ea2f40a7e49b48a24b0867a975d2b" category="paragraph">為了支援 Google Cloud 中的Cloud Volumes ONTAP管理，控制台代理現在需要額外的權限。已向控制台代理程式使用的服務帳戶新增下列權限：compute.forwardingRules.update</block>
-  <block id="b4c9682d1423fe286221a4951d5900b8" category="paragraph"><block ref="b4c9682d1423fe286221a4951d5900b8" category="inline-link-macro-rx"></block></block>
+  <block id="9f4066a8aad2a422e68c5b69dd9472f8" category="paragraph">有關掃描設定的更多信息，請參閱 <block ref="26da27bca2c7e859f7f769768b8a4285" category="inline-link-macro-rx"></block>。</block>
+  <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">版本 1.50</block>
+  <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">自訂分類改進</block>
+  <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">資料分類功能現在支援建立自訂資料類別。您可以上傳檔案來微調資料分類所使用的 AI 模型，以便將類別標記套用至資料。所有自訂分類的介面都得到了改進。</block>
+  <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">建立自訂分類</block>
+  <block id="1ea7cf77170c31be18fc52c7e9649923" category="paragraph">有關詳細信息，請參閱 <block ref="c45381d223df5e8e5c4b98a60b8b65d3" category="inline-link-macro-rx"></block>。</block>
+  <block id="3e1e55a16c45f87e5a51189ca804eaf3" category="paragraph-title">自訂過期資料定義</block>
+  <block id="97b36bc8814884dc26bf5a568d08d691" category="paragraph">資料分類功能現在可讓您自訂過期資料的定義，以滿足您組織的需求。此前，過時數據被定義為三年前最後一次修改的數據。現在，可以根據上次訪問時間或上次修改時間來識別過時的數據；時間段可以從 6 個月前到 10 年前不等。</block>
+  <block id="493a301aeed6d63ec61fcc12caab7b22" category="inline-link-macro">自訂過期資料定義</block>
+  <block id="14748686f892545cd3b61c5ed2221369" category="paragraph">有關詳細信息，請參閱 <block ref="a0a0e231fdda706f469e0c838920ede3" category="inline-link-macro-rx"></block>。</block>
+  <block id="e887aed8f9c3dbecd37e8896d96b6637" category="paragraph-title">性能提升</block>
+  <block id="0106b64c8d04b65e1353d763ca518487" category="paragraph">資料分類、資料對應報告和調查頁面上的篩選器等所有頁面的載入時間都已縮短。</block>
+  <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">調查報告預計完成時間</block>
+  <block id="317bcae14c763efc48845c774a224df6" category="paragraph">下載調查報告時，「資料分類」現在會顯示下載完成的預計時間。</block>
+  <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
 </blocks>
