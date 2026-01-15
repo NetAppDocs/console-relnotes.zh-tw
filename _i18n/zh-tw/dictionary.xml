@@ -117,13 +117,6 @@
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware 工作負載預覽版引入了以下增強功能：</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console中Keystone儀表板的新增強功能：</block>
-  <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Azure 中的Cloud Volumes ONTAP現已僅限於最新支援版本</block>
-  <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">現在，透過NetApp Console在 Azure 中部署和升級Cloud Volumes ONTAP僅限於最新支援的版本。這確保了與 Microsoft 支援的最新一代硬體的兼容性，並提供最新的功能和安全性增強功能。控制台將提示您升級到支援的版本。</block>
-  <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">更多詳細信息，請參閱：</block>
-  <block id="c7c36710c319ba2646765acbeed52820" category="inline-link">Cloud Volumes ONTAP部署支援的ONTAP版本</block>
-  <block id="8a79801dc6892f83b39904d935baeea6" category="list-text">部署：<block ref="defc681ae2012fb7f8f998224eac55e5" category="inline-link-rx"></block></block>
-  <block id="b2f564ccc8dab8d25ce5727e3ac0f553" category="inline-link">Azure 支援的升級路徑</block>
-  <block id="cd28d8af5b4308747357925ae313e125" category="list-text">升級：<block ref="9fd9abde9fac7cd4edc5e352cd251056" category="inline-link-rx"></block></block>
   <block id="9c1b6a208384484254769349d91e3af9" category="doc">控制台代理 4.1.0</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">此版本的控制台代理程式包含安全性改進、錯誤修復以及以下功能：</block>
   <block id="e32e1b9613d2e086e1fc46ae7489620c" category="paragraph">4.1.0 版本適用於標準模式和限制模式。</block>
@@ -160,7 +153,6 @@
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">已棄用服務</block>
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">2025年11月11日</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
-  <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">2025年10月17日</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">在NetApp Console系統頁面上，可以在本機ONTAP系統和 FSx for ONTAP檔案系統之間進行資料複製。</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">管理帳單偏好設定</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">現在可以直接在NetApp Console中設定和管理*計費首選項*。這項增強功能使管理員能夠定義和查看如何對NetApp直接授權、雲端市場訂閱和Keystone協議中的容量使用情況、續約和成本進行計費。</block>
@@ -300,7 +292,6 @@
   <block id="5b52ed0566b981ecb59362875a8260d9" category="inline-link">計費偏好和超額費用</block>
   <block id="566784414055fc000fcabfbdbb65d626" category="paragraph"><block ref="308d91214afb4193d1f3387ad8901dcd" category="inline-link-rx"></block>。</block>
   <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">將快照複製到ONTAP</block>
-  <block id="f67d671d0eb9b2810d472b2c73fb65d6" category="paragraph">勒索軟體復原功能現在支援將快照複製到輔助ONTAP網站。您可以建立包含複製功能的勒索軟體防護策略，也可以使用預先定義的策略。透過使用複製策略的保護群組，您可以為每個工作負載複製到相同的目標位置或不同的目標位置。</block>
   <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">在勒索軟體復原中保護工作負載</block>
   <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">有關詳細信息，請參閱 <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>。</block>
   <block id="f7bb3fba9e87909a7d99018a8feebef5" category="section-title">將工作負載排除在勒索軟體復原能力之外</block>
@@ -337,4 +328,5 @@
   <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">調查報告預計完成時間</block>
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">下載調查報告時，「資料分類」現在會顯示下載完成的預計時間。</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
+  <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">勒索軟體復原功能現在支援將快照複製到輔助ONTAP網站。您可以建立包含複製功能的勒索軟體防護策略，也可以使用預先定義的策略。</block>
 </blocks>

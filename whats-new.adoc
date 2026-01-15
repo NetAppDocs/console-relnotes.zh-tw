@@ -179,7 +179,7 @@ link:https://docs.netapp.com/us-en/console-setup-admin/task-user-settings["當�
 
 ==== 將快照複製到ONTAP
 
-勒索軟體復原功能現在支援將快照複製到輔助ONTAP網站。您可以建立包含複製功能的勒索軟體防護策略，也可以使用預先定義的策略。透過使用複製策略的保護群組，您可以為每個工作負載複製到相同的目標位置或不同的目標位置。
+勒索軟體復原功能現在支援將快照複製到輔助ONTAP網站。您可以建立包含複製功能的勒索軟體防護策略，也可以使用預先定義的策略。
 
 有關詳細信息，請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["在勒索軟體復原中保護工作負載"^]。
 
@@ -613,23 +613,3 @@ NetApp Console中Keystone儀表板的新增強功能：
 ==== 填寫您的保險覆蓋範圍通知框
 
 「監控」頁面上的「警報監控」標籤包含一個「完善您的覆蓋範圍」通知框，當存在覆蓋範圍缺口時，該通知框就會出現。此框列出了缺少容量或到期監控器的訂閱，以及沒有訂閱的監控器。您可以透過向現有監視器新增訂閱、建立新監視器或刪除未使用的監視器來彌補這些差距。欲了解更多信息，請參閱 link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html#manage-coverage-gaps["管理警報監控器的覆蓋範圍缺口"]。
-
-
-
-== 2025年10月17日
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Azure 中的Cloud Volumes ONTAP現已僅限於最新支援版本
-
-現在，透過NetApp Console在 Azure 中部署和升級Cloud Volumes ONTAP僅限於最新支援的版本。這確保了與 Microsoft 支援的最新一代硬體的兼容性，並提供最新的功能和安全性增強功能。控制台將提示您升級到支援的版本。
-
-更多詳細信息，請參閱：
-
-* 部署： https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/reference-versions.html#azure["Cloud Volumes ONTAP部署支援的ONTAP版本"^]
-* 升級： https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-updating-ontap-cloud.html#supported-upgrade-paths["Azure 支援的升級路徑"^]
-
