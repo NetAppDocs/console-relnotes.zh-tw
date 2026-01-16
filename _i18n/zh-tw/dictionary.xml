@@ -329,4 +329,8 @@
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">下載調查報告時，「資料分類」現在會顯示下載完成的預計時間。</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
   <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">勒索軟體復原功能現在支援將快照複製到輔助ONTAP網站。您可以建立包含複製功能的勒索軟體防護策略，也可以使用預先定義的策略。</block>
+  <block id="9f3261123c8a658e7b62dee5c17371f4" category="paragraph-title">NetApp Console中聯合群組的角色存取控制</block>
+  <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">NetApp Console支援將角色指派給聯合群組（例如 Active Directory 群組），從而允許管理員根據組織身分提供者 (IdP) 中的群組成員身分自動執行使用者入職和離職。此功能可減少管理開銷，並透過在群組成員身分變更時立即更新控制台存取權限來確保安全、一致的存取。</block>
+  <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">了解如何為您的組織提供聯合群組的存取權限。</block>
+  <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
 </blocks>
