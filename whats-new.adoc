@@ -52,6 +52,22 @@ summary: 了解NetApp Console的功能和資料服務的最新變化。
 
 
 
+== 2026年1月19日
+
+
+
+=== Keystone
+
+NetApp Console中Keystone控制面板的更新：
+
+
+
+==== 訂閱修改功能不可用
+
+目前無法修改Keystone訂閱的承諾容量。此功能將在未來的版本中重新推出。
+
+
+
 == 2026年1月14日
 
 

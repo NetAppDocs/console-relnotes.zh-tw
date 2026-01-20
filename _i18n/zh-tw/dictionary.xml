@@ -333,4 +333,8 @@
   <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">了解如何為您的組織提供聯合群組的存取權限。</block>
   <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
   <block id="1f48aa3b8a17cda9bff69e07d29acd50" category="paragraph"><block ref="1f48aa3b8a17cda9bff69e07d29acd50" category="inline-link-macro-rx"></block></block>
+  <block id="0fa78e8d7c7b076da1f9e1d3fa517845" category="doc">訂閱修改功能不可用</block>
+  <block id="6c8dd41ea59e163d8fa923e1f93882e6" category="paragraph">NetApp Console中Keystone控制面板的更新：</block>
+  <block id="ccaf34b2cf2472652ed113639a7f687c" category="paragraph">目前無法修改Keystone訂閱的承諾容量。此功能將在未來的版本中重新推出。</block>
+  <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
 </blocks>
