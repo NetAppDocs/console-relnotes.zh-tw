@@ -330,15 +330,11 @@
   <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">了解如何為您的組織提供聯合群組的存取權限。</block>
   <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
   <block id="1f48aa3b8a17cda9bff69e07d29acd50" category="paragraph"><block ref="1f48aa3b8a17cda9bff69e07d29acd50" category="inline-link-macro-rx"></block></block>
-  <block id="0fa78e8d7c7b076da1f9e1d3fa517845" category="doc">訂閱修改功能不可用</block>
-  <block id="6c8dd41ea59e163d8fa923e1f93882e6" category="paragraph">NetApp Console中Keystone控制面板的更新：</block>
-  <block id="ccaf34b2cf2472652ed113639a7f687c" category="paragraph">目前無法修改Keystone訂閱的承諾容量。此功能將在未來的版本中重新推出。</block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
   <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">ONTAP磁碟區工作負載增強</block>
   <block id="70cc82710208295496c70c203368aaf9" category="paragraph">此版本的ONTAP磁碟區工作負載引入了以下增強功能：</block>
   <block id="cbab7e5b614b876bebcce0c29fd1afb6" category="paragraph">*支援多個儲存桶*：（私有預覽）從ONTAP 9.17.1 及更高版本開始，您現在可以保護系統中的捲，每個系統最多可跨不同的雲端供應商使用 6 個儲存桶。</block>
   <block id="695e42eb94aa8a143b557dc75e4cc65e" category="inline-link-macro">了解更多關於使用NetApp Backup and Recovery備份ONTAP卷資料的信息</block>
-  <block id="c380d2c239579706adcab966ccded39a" category="paragraph"><block ref="040f925aac1483fc9f3f6e8bd68d3888" category="inline-link-macro-rx"></block>。</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 工作負載增強功能</block>
   <block id="d8cf45a94e57901a57764525baf2f9bf" category="paragraph">此版本的 VMware 工作負載引入了以下增強功能：</block>
   <block id="3b2cdba7e0b9954f4d9e79b310fdbccd" category="list-text">現在您可以還原客戶作業系統檔案和資料夾。</block>
@@ -365,4 +361,16 @@
   <block id="3a78a8ea0b02debae5e6b16cc1929cb5" category="paragraph">現在，您可以直接從 NetApp Console 驗證已連接 Console 代理的網路連線。此功能有助於驗證連接性並排查 Console 代理的問題。此外，您也可以透過 Console 代理程式維護主控台命令列介面（CLI）來執行網路診斷程式。</block>
   <block id="16e0d5a8229f3c0136c12aa9def60bb1" category="inline-link-macro">了解如何從 NetApp Console 運行配置。</block>
   <block id="3cb937c3382e580784aa7486c365ec19" category="paragraph"><block ref="3cb937c3382e580784aa7486c365ec19" category="inline-link-macro-rx"></block></block>
+  <block id="37c785778d2185acbba38fa4b6624392" category="paragraph"><block ref="b49343ccc7da9738bd595bd89e3d39db" category="inline-link-macro-rx"></block>。</block>
+  <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">每日累積突發資料的互動式篩選</block>
+  <block id="cb74be13d3a600957d1ee583265f537d" category="inline-link-macro">檢視每日累計突發資料使用量</block>
+  <block id="4b808a5ae06687042695057904b0b6bb" category="paragraph">「消費趨勢」標籤中的「按天計算累積峰值」表格現已支援互動式篩選。選擇累計峰值計費圖表中的任一長條圖，即可僅查看該計費週期內的天數。要了解更多信息，請參閱<block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>。</block>
+  <block id="a3b5a92602c2684cdca8198a8cfe1818" category="section-title">增強了累計突發圖表中的日期範圍顯示</block>
+  <block id="1c9a58169acbfe805f644273387c3b52" category="paragraph">*消費趨勢* 標籤中的累積突發帳單圖表現在顯示每個帳單週期的完整日期範圍，例如 Oct 01, 2025 to Oct 31, 2025，而不僅僅是月份和年份。</block>
+  <block id="46b1adc980362ab6f320e3cdb4a469c1" category="section-title">可展開的訂閱詳細資料檢視</block>
+  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link-macro">查看您的 Keystone 訂閱詳情</block>
+  <block id="f40d8051a9fd8153ddf9a5541a863887" category="paragraph">*訂閱*標籤包含一個選項，可以展開所有訂閱並同時查看每個訂閱的效能服務等級資訊。要了解更多信息，請參閱<block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>。</block>
+  <block id="f6c0ac19eddb9409767c72354ec3684d" category="section-title">新增使用類型欄</block>
+  <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*訂閱* 標籤包含一個 *使用類型* 欄，該欄顯示訂閱是按已佈建、實體或邏輯使用量計費。要了解更多信息，請參閱<block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>。</block>
+  <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026 年 2 月 02 日</block>
 </blocks>
