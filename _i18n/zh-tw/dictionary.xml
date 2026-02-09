@@ -351,4 +351,16 @@
   <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Google Cloud Infrastructure Manager 所需的權限</block>
   <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
   <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">2026 年 2 月 09 日</block>
+  <block id="9f8adb7ebffc39f306c40ef2d6a377b1" category="paragraph-title">直接從 NetApp Console 畫布啟動 Amazon FSxN for ONTAP 的資料分類</block>
+  <block id="880dc0b44905babcfa6685da86ba8117" category="paragraph">現在您可以直接從 NetApp Console 畫布啟用適用於 ONTAP 系統的 Amazon FSxN，從而更快地啟動 FSxN 系統的資料分類。</block>
+  <block id="dd8a2d3b3415c2980790a672dff3757f" category="inline-link-macro">掃描 Amazon FSxN for ONTAP 磁碟區</block>
+  <block id="db8b5cff328cee1f4914855b931bae02" category="paragraph">有關將資料分類與 Amazon FSxN for ONTAP 搭配使用的詳細資訊，請參閱<block ref="48a47292b9e31aff1079bbdaa3cd4739" category="inline-link-macro-rx"></block>。</block>
+  <block id="3ee3e594e3bac0471e4cda35acc3588a" category="paragraph-title">提高了調查目錄的匯出限制</block>
+  <block id="45f99b8f539f37cc0379b65d3ddafbbf" category="paragraph">現在，從 Investigation 儀表板匯出目錄調查報告時，您可以包含 10,000 行資料。與先前的 5,000 行限制相比，這項提升支援更大規模的資料治理和合規性調查。</block>
+  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">調查資料</block>
+  <block id="e733aab9ce2fc5320fbdd563cba5e12b" category="paragraph">如需更多資訊、請參閱 <block ref="d8b3109a5818cc0f43ade4650ffede11" category="inline-link-macro-rx"></block>。</block>
+  <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">提高了複製和移動的限制</block>
+  <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">現在複製或移動檔案時，您可以移動最大 250 MB 的檔案，比之前的 50 MB 限制有所增加。</block>
+  <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">改善低解析度螢幕的顯示效果</block>
+  <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification 已改善低解析度螢幕的顯示效能，提升使用者體驗。</block>
 </blocks>
