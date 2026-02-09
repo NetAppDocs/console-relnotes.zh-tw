@@ -88,7 +88,6 @@
   <block id="e5edd9b09362e413b0820d9a92c20456" category="paragraph">了解NetApp Console的功能和資料服務的最新變化。要查看完整的發布歷史記錄，請訪問<block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block>針對每項單獨的服務。</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp Console</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console發行說明</block>
-  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">複製數據</block>
   <block id="6fe4264e25ab7d4538e3cd8b851adfcf" category="section-title">複製和同步</block>
   <block id="6b0a74cb89aaf10fdf1c70bfd9bd78e2" category="section-title">生命週期規劃</block>
   <block id="ba695b3cf8b635f89946173735838948" category="section-title">邊緣緩存</block>
@@ -107,7 +106,6 @@
   <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近更改</block>
-  <block id="f6c0c8f8ded4c6640c1e912821c43739" category="paragraph"><block ref="f6c0c8f8ded4c6640c1e912821c43739" category="inline-link-macro-rx"></block></block>
   <block id="d6ed17e8c2c2f9cf01a28c13cefcce71" category="doc">自動化目錄</block>
   <block id="4de4864129b65c6c45ee2b81509978d3" category="doc">控制台設定和管理</block>
   <block id="082a2f81a104214877c2e8d8e3c568c0" category="doc">卷緩存</block>
@@ -117,55 +115,16 @@
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware 工作負載預覽版引入了以下增強功能：</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console中Keystone儀表板的新增強功能：</block>
-  <block id="9c1b6a208384484254769349d91e3af9" category="doc">控制台代理 4.1.0</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">此版本的控制台代理程式包含安全性改進、錯誤修復以及以下功能：</block>
-  <block id="e32e1b9613d2e086e1fc46ae7489620c" category="paragraph">4.1.0 版本適用於標準模式和限制模式。</block>
-  <block id="650940dddaeb353d547fc2674ba4d35b" category="paragraph-title">重命名代理程式狀態指示器</block>
-  <block id="9722491a4236a9be86f414fa5b3eebb8" category="paragraph">將控制台代理程式的狀態指示器從 *Active* 和 *Inactive* 重新命名為 *Connected* 和 *Disconnected*，使其用途更加明確。</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">本次發布包含以下內容：</block>
-  <block id="ac740509743c941164fb7e88fc8b768e" category="paragraph-title">NetApp Console通知的新電子郵件地址</block>
-  <block id="73bb8d1c85014ba6981a002bd9fc9364" category="doc">版本 1.48</block>
-  <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">本次資料分類版本更新包括錯誤修復、安全性改進和效能提升。</block>
-  <block id="8905ad2fb9f028e6bd28666015b4b50a" category="paragraph-title">增強掃描進度清晰度</block>
-  <block id="206c07a2ed5644be711186a00b2c6ae2" category="paragraph">掃描配置現在包含對掃描完成情況的更深入洞察。以前，進度條只在掃描進行時顯示。現在，掃描完成後進度條仍然可見，以確認掃描已成功完成。您也可以查看已對應和已掃描的檔案數量。</block>
-  <block id="de10ad3938875667137fa1bd63542e62" category="inline-link-macro">更改儲存庫的NetApp Data Classification掃描設置</block>
-  <block id="5b5de768a01e088dbab56f46d97b5a38" category="doc">級聯故障轉移支持</block>
-  <block id="8115dd8449bd907d08f3347f6d04324a" category="paragraph">現在您可以在ONTAP中設定級聯關係，並使用該複製關係的任何分支進行災難復原。</block>
-  <block id="eb2fa9dcb8eaa46c82c070f8bbe8418a" category="section-title">註冊期間降低 VMware 硬體支援級別</block>
-  <block id="f83d7a6597b186db7483e2f478aeb8fa" category="paragraph">災難復原功能現在支援在註冊過程中將 VMware 硬體降級到早期版本的 vSphere。當來源 ESX 主機運行的版本比災難復原網站的版本更新時，這非常有用。</block>
-  <block id="d15994bcf2411bb66762cdf4c58704b3" category="inline-xref-macro">在NetApp Disaster Recovery中建立複製計劃</block>
-  <block id="bcf697aa5ef7fc37fba63ce6d2bf0e43" category="section-title">優雅關機</block>
-  <block id="9437b903cdafc2fdfce3c66af80b97f0" category="paragraph">災難復原現在會優雅地關閉虛擬機，而不是直接斷電。如果某個虛擬關機時間超過十分鐘，災難復原功能會將其關閉。</block>
-  <block id="9b9e3165f7ecae3e2e3b2c795e562976" category="section-title">備份前腳本支持</block>
-  <block id="bb05f5a972177b632dbf8088c480f305" category="paragraph">現在您可以將自訂腳本注入到故障轉移工作流程中，以便在建立備份之前執行。備份前腳本可讓您在複製快照之前控制虛擬機器的狀態，並為虛擬機器的轉換做好準備。例如，您可以注入腳本來卸載 NFS 掛載點，然後在故障轉移後使用另一個腳本重新掛載該掛載點。</block>
-  <block id="6df7635d9934b92e0bdbe5e5a544fccb" category="doc">填寫您的保險覆蓋範圍通知框</block>
-  <block id="8583cba6ee38a66f6e19ca7c15a5c1ed" category="inline-link-macro">管理警報監控器的覆蓋範圍缺口</block>
-  <block id="a60761706ec1d12934bfc1dd049da2df" category="paragraph">「監控」頁面上的「警報監控」標籤包含一個「完善您的覆蓋範圍」通知框，當存在覆蓋範圍缺口時，該通知框就會出現。此框列出了缺少容量或到期監控器的訂閱，以及沒有訂閱的監控器。您可以透過向現有監視器新增訂閱、建立新監視器或刪除未使用的監視器來彌補這些差距。欲了解更多信息，請參閱 <block ref="1ef75ae1f09bcc7a95c6bbe07a54229c" category="inline-link-macro-rx"></block>。</block>
-  <block id="6e4298fbeec2cc865308057fb6986a86" category="doc">增強的 NVMe-TCP 支持</block>
-  <block id="84b4c7fa59d88db266b9be7eb3cff08e" category="paragraph">先前，在 NVMe-TCP 上部署Cloud Volumes ONTAP實例時，您必須在部署之前手動取得和套用 NVMe 授權。透過此更新， Cloud Volumes ONTAP現在會在部署期間自動安裝所需的 NVMe 許可證，從而簡化設定流程。</block>
-  <block id="14579d19ae9f1a43eae607d4450c7546" category="paragraph">對於缺少許可證的現有 NVMe-TCP 部署， Cloud Volumes ONTAP會自動套用授權。您必須重新啟動系統才能使許可證生效。</block>
-  <block id="b3a4d40f62316bd15534c438b8057c89" category="inline-link">Cloud Volumes ONTAP支援的客戶端協定：NVMe-TCP</block>
-  <block id="748f500c59212ec947a9dc03913e95cb" category="paragraph">更多資訊請參見<block ref="b12aae47ee00e2542df4c8a098a5e7ff" category="inline-link-rx"></block>。</block>
-  <block id="fbbad2021b0a185cdad950acc088e8d4" category="doc">支援本機ONTAP系統與 FSx for ONTAP檔案系統之間的複製</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">這些發行說明介紹了NetApp Console及其支援的資料服務的最新增強功能。提供各服務完整版本說明的連結。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和資料服務的最新變化。若要查看完整的版本發布歷史記錄，請參閱每個服務的完整版本說明。</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">已棄用服務</block>
-  <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">2025年11月11日</block>
-  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
-  <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">在NetApp Console系統頁面上，可以在本機ONTAP系統和 FSx for ONTAP檔案系統之間進行資料複製。</block>
-  <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">管理帳單偏好設定</block>
-  <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">現在可以直接在NetApp Console中設定和管理*計費首選項*。這項增強功能使管理員能夠定義和查看如何對NetApp直接授權、雲端市場訂閱和Keystone協議中的容量使用情況、續約和成本進行計費。</block>
-  <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">帳單偏好文檔</block>
-  <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">此版本包含一般增強與改進。</block>
-  <block id="3c3236b09e81f9868cfa639ca1fbe105" category="paragraph">欲了解更多信息，請參閱<block ref="5cdc12ff92d7ca20af8e5de10fe76183" category="inline-link-macro-rx"></block>。</block>
   <block id="f3bb71c095338a2af8e23c9ae07072bf" category="doc">使用 AWS Lambda 連結時，系統管理員可用。</block>
   <block id="b8cda09456e64356f2c1763e3e53d0af" category="inline-link-macro">了解如何使用連結進行進階ONTAP操作</block>
   <block id="8a730f2606f493b8d797f6c96c460037" category="paragraph">ONTAP系統管理器介面可以與 AWS Lambda 連結一起使用，以執行進階ONTAP作業。這提供了一種替代使用系統管理器控制台代理的方案，可以直接從控制台管理ONTAP的 FSx 檔案系統。 <block ref="3b6bcb03237efb7ff1ce82387184b37d" category="inline-link-macro-rx"></block></block>
   <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">2025年11月17日</block>
-  <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">查看作業系統需求</block>
-  <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">手動安裝控制台代理程式時，代理現在支援 RHEL 9.6 和 Podman 5.4.0。此外，在使用 RHEL 9 及更高版本時， NetApp支援 podman-compose 1.5.0。<block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>。</block>
-  <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">有關詳細信息，請參閱 <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>。</block>
   <block id="18b429fb243989438d2e534cfa60ad10" category="doc">用於追蹤保障缺口訂閱的 ID</block>
   <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">在「監控 &gt; 警報監控」上的「完成您的保障」通知框中，現在每個訂閱都會在訂閱編號旁顯示其追蹤 ID。</block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
@@ -228,8 +187,6 @@
   <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">從Cloud Volumes ONTAP 9.17.1 開始，您可以透過NetApp Console為新的Cloud Volumes ONTAP執行個體部署 Azure Edsv6 系列虛擬機器。Cloud Volumes ONTAP 9.17.1 及更高版本將僅支援新部署的第二代虛擬機器。這些第二代機器與最新技術相容，例如統一可擴充韌體介面 (UEFI)、Azure Boost 系統和 NVMe。它們非常適合記憶體密集系統和需要快速本地儲存的應用，例如資料庫伺服器和分析引擎。</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支援的配置</block>
   <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
-  <block id="6f111d20190d5490668e3e0ac2cad5d2" category="paragraph-title">支援 Red Hat Enterprise Linux (RHEL) 9.6 和 Podman 5.4.0</block>
-  <block id="db70fced03768e8735fbdebf7ea67e66" category="paragraph">發送NetApp Console通知的電子郵件地址已從 *service@console.bluexp.netapp.com* 變更為 *service@console.netapp.com*。NetApp建議更新所有電子郵件規則，允許 *service@console.netapp.com* 發送郵件，以確保您繼續收到NetApp Console電子郵件通知。</block>
   <block id="026970f0ac157044199489d6744c2491" category="doc">控制台代理 4.2.0</block>
   <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">4.2.0 版本同時支援標準模式和受限模式。</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">支援 Google Cloud Infrastructure Manager</block>
@@ -310,7 +267,6 @@
   <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">了解如何為控制台組織啟用唯讀模式。</block>
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">當你的組織處於唯讀模式時，了解如何提升你的角色。</block>
-  <block id="9f4066a8aad2a422e68c5b69dd9472f8" category="paragraph">有關掃描設定的更多信息，請參閱 <block ref="26da27bca2c7e859f7f769768b8a4285" category="inline-link-macro-rx"></block>。</block>
   <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">版本 1.50</block>
   <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">自訂分類改進</block>
   <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">資料分類功能現在支援建立自訂資料類別。您可以上傳檔案來微調資料分類所使用的 AI 模型，以便將類別標記套用至資料。所有自訂分類的介面都得到了改進。</block>
@@ -380,4 +336,19 @@
   <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">擴充支援已結束有限支援的 ONTAP 版本</block>
   <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor 現已支援為已結束有限支援的 ONTAP 版本產生升級計劃，並提供 9 個月的寬限期。此功能可在過渡期內提供清晰的指導，幫助客戶及時採取行動，避免升級中斷。</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026 年 2 月 04 日</block>
+  <block id="ed5b5006125f27aac08e98fe5c365d46" category="inline-link">Google Cloud Infrastructure Manager</block>
+  <block id="055d81bf5e86c650f524ba8578595b0e" category="paragraph">Cloud Volumes ONTAP 9.16.1 及更高版本現在支援使用<block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block>（IM）而非<block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block>（DM）來部署 Google Cloud 中的新部署。Google 將在不久的將來棄用 Deployment Manager 作為基礎架構服務，轉而使用更進階的基礎架構管理器。</block>
+  <block id="66243a4b72870642e35fa6b52e50a63b" category="inline-link">為 Google Cloud Infrastructure Manager 設定現有的 Cloud Volumes ONTAP 部署</block>
+  <block id="aa51ff66cac4f14d899d7f563f8f476a" category="paragraph">現在，自動部署 Cloud Volumes ONTAP 以使用 Infrastructure Manager，或執行轉換工具將 Deployment Manager 中的現有部署切換到 Infrastructure Manager。轉換是一次性的過程，之後您的系統將自動開始使用 Infrastructure Manager。有關執行轉換工具的說明，請參閱<block ref="5621b7ac255bff00b9e8610ec0606935" category="inline-link-rx"></block>。</block>
+  <block id="492eb9196f4c5211832a66df9ce6230b" category="paragraph">使用 Infrastructure Manager 的 Cloud Volumes ONTAP 系統會使用 Google Cloud Storage 儲存桶來儲存資料和記錄，這些儲存桶位於首次部署的區域中，用於儲存部署記錄，這些記錄可供後續部署重複使用。這些儲存桶可能會產生額外費用，但請勿編輯或刪除儲存桶及其內容：</block>
+  <block id="c63b3118890326f42e936277c83db3b6" category="list-text"><block ref="9d4c46381bcc7ebe4bf02a7fd0ac5b6f" prefix="" category="inline-code"></block>：用於儲存 Cloud Volumes ONTAP Terraform 文件</block>
+  <block id="aaa460fe2e0e39c5d509b26ad876baf8" category="list-text"><block ref="6ec9e5b046607d57923aee80f990225d" prefix="" category="inline-code"></block>：用於儲存 Google Cloud Terraform 工件</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">相關連結</block>
+  <block id="73c696c58c9e62731e855a0bf47853e1" category="inline-link">開始在 Google Cloud 中使用 Cloud Volumes ONTAP</block>
+  <block id="f80ae1b8de03cd56e51dbe8e44bf284f" category="list-text"><block ref="f80ae1b8de03cd56e51dbe8e44bf284f" category="inline-link-rx"></block></block>
+  <block id="ccc8cedaac96382fa4e8c01b8e53646d" category="inline-link">NetApp Console Agent 4.2.0 發行說明</block>
+  <block id="9039c72d9261ecd88329c5e8d1a4172d" category="list-text"><block ref="9039c72d9261ecd88329c5e8d1a4172d" category="inline-link-rx"></block></block>
+  <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Google Cloud Infrastructure Manager 所需的權限</block>
+  <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
+  <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">2026 年 2 月 09 日</block>
 </blocks>

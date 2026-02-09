@@ -52,6 +52,34 @@ summary: 了解NetApp Console的功能和資料服務的最新變化。
 
 
 
+== 2026 年 2 月 09 日
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== 支援 Google Cloud Infrastructure Manager
+
+Cloud Volumes ONTAP 9.16.1 及更高版本現在支援使用 https://docs.cloud.google.com/infrastructure-manager/docs/overview["Google Cloud Infrastructure Manager"^]（IM）而非 https://docs.cloud.google.com/deployment-manager/docs/deprecations["雲端部署管理器"^]（DM）來部署 Google Cloud 中的新部署。Google 將在不久的將來棄用 Deployment Manager 作為基礎架構服務，轉而使用更進階的基礎架構管理器。
+
+現在，自動部署 Cloud Volumes ONTAP 以使用 Infrastructure Manager，或執行轉換工具將 Deployment Manager 中的現有部署切換到 Infrastructure Manager。轉換是一次性的過程，之後您的系統將自動開始使用 Infrastructure Manager。有關執行轉換工具的說明，請參閱 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["為 Google Cloud Infrastructure Manager 設定現有的 Cloud Volumes ONTAP 部署"^]。
+
+使用 Infrastructure Manager 的 Cloud Volumes ONTAP 系統會使用 Google Cloud Storage 儲存桶來儲存資料和記錄，這些儲存桶位於首次部署的區域中，用於儲存部署記錄，這些記錄可供後續部署重複使用。這些儲存桶可能會產生額外費用，但請勿編輯或刪除儲存桶及其內容：
+
+* `gs://netapp-cvo-infrastructure-manager-<project id>/dm-to-im-convert`：用於儲存 Cloud Volumes ONTAP Terraform 文件
+* `<gcp project number>-<region>-blueprint-config`：用於儲存 Google Cloud Terraform 工件
+
+
+.相關連結
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["開始在 Google Cloud 中使用 Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-2-0["NetApp Console Agent 4.2.0 發行說明"^]
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["Google Cloud Infrastructure Manager 所需的權限"^]
+
+
+
+
 == 2026 年 2 月 04 日
 
 
@@ -606,141 +634,3 @@ NetApp Console中Keystone儀表板的新增強功能：
 ==== 使用 AWS Lambda 連結時，系統管理員可用。
 
 ONTAP系統管理器介面可以與 AWS Lambda 連結一起使用，以執行進階ONTAP作業。這提供了一種替代使用系統管理器控制台代理的方案，可以直接從控制台管理ONTAP的 FSx 檔案系統。 link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["了解如何使用連結進行進階ONTAP操作"^]
-
-
-
-== 2025年11月11日
-
-
-
-=== Amazon FSX for ONTAP
-
-
-
-==== 支援本機ONTAP系統與 FSx for ONTAP檔案系統之間的複製
-
-在NetApp Console系統頁面上，可以在本機ONTAP系統和 FSx for ONTAP檔案系統之間進行資料複製。
-
-link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-fsx-systems.html#replicate-data["複製數據"]
-
-
-
-== 2025年11月10日
-
-
-
-=== Licenses and subscriptions
-
-
-
-==== 管理帳單偏好設定
-
-現在可以直接在NetApp Console中設定和管理*計費首選項*。這項增強功能使管理員能夠定義和查看如何對NetApp直接授權、雲端市場訂閱和Keystone協議中的容量使用情況、續約和成本進行計費。
-
-欲了解更多信息，請參閱link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["帳單偏好文檔"^]。
-
-
-
-=== 控制台設定和管理
-
-
-
-==== 控制台代理 4.1.0
-
-此版本的控制台代理程式包含安全性改進、錯誤修復以及以下功能：
-
-4.1.0 版本適用於標準模式和限制模式。
-
-.重命名代理程式狀態指示器
-將控制台代理程式的狀態指示器從 *Active* 和 *Inactive* 重新命名為 *Connected* 和 *Disconnected*，使其用途更加明確。
-
-.支援 Red Hat Enterprise Linux (RHEL) 9.6 和 Podman 5.4.0
-手動安裝控制台代理程式時，代理現在支援 RHEL 9.6 和 Podman 5.4.0。此外，在使用 RHEL 9 及更高版本時， NetApp支援 podman-compose 1.5.0。link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-on-prem.html["查看作業系統需求"]。
-
-
-
-==== NetApp Console管理
-
-本次發布包含以下內容：
-
-.NetApp Console通知的新電子郵件地址
-發送NetApp Console通知的電子郵件地址已從 *service@console.bluexp.netapp.com* 變更為 *service@console.netapp.com*。NetApp建議更新所有電子郵件規則，允許 *service@console.netapp.com* 發送郵件，以確保您繼續收到NetApp Console電子郵件通知。
-
-
-
-=== 資料分類
-
-
-
-==== 版本 1.48
-
-本次資料分類版本更新包括錯誤修復、安全性改進和效能提升。
-
-.增強掃描進度清晰度
-掃描配置現在包含對掃描完成情況的更深入洞察。以前，進度條只在掃描進行時顯示。現在，掃描完成後進度條仍然可見，以確認掃描已成功完成。您也可以查看已對應和已掃描的檔案數量。
-
-有關掃描設定的更多信息，請參閱 link:https://docs.netapp.com/us-en/data-services-data-classification/task-managing-repo-scanning.html#view-the-scan-status-for-your-repositories["更改儲存庫的NetApp Data Classification掃描設置"^]。
-
-
-
-=== 災難復原
-
-
-
-==== 級聯故障轉移支持
-
-現在您可以在ONTAP中設定級聯關係，並使用該複製關係的任何分支進行災難復原。
-
-
-
-==== 註冊期間降低 VMware 硬體支援級別
-
-災難復原功能現在支援在註冊過程中將 VMware 硬體降級到早期版本的 vSphere。當來源 ESX 主機運行的版本比災難復原網站的版本更新時，這非常有用。
-
-有關詳細信息，請參閱 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html#select-vcenter-servers["在NetApp Disaster Recovery中建立複製計劃"]。
-
-
-
-==== 優雅關機
-
-災難復原現在會優雅地關閉虛擬機，而不是直接斷電。如果某個虛擬關機時間超過十分鐘，災難復原功能會將其關閉。
-
-
-
-==== 備份前腳本支持
-
-現在您可以將自訂腳本注入到故障轉移工作流程中，以便在建立備份之前執行。備份前腳本可讓您在複製快照之前控制虛擬機器的狀態，並為虛擬機器的轉換做好準備。例如，您可以注入腳本來卸載 NFS 掛載點，然後在故障轉移後使用另一個腳本重新掛載該掛載點。
-
-有關詳細信息，請參閱 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html#select-vcenter-servers["在NetApp Disaster Recovery中建立複製計劃"]。
-
-
-
-=== 勒索軟體抵禦能力
-
-此版本包含一般增強與改進。
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== 增強的 NVMe-TCP 支持
-
-先前，在 NVMe-TCP 上部署Cloud Volumes ONTAP實例時，您必須在部署之前手動取得和套用 NVMe 授權。透過此更新， Cloud Volumes ONTAP現在會在部署期間自動安裝所需的 NVMe 許可證，從而簡化設定流程。
-
-對於缺少許可證的現有 NVMe-TCP 部署， Cloud Volumes ONTAP會自動套用授權。您必須重新啟動系統才能使許可證生效。
-
-更多資訊請參見 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-client-protocols.html#nvme-tcp["Cloud Volumes ONTAP支援的客戶端協定：NVMe-TCP"^]。
-
-
-
-=== Keystone
-
-NetApp Console中Keystone儀表板的新增強功能：
-
-
-
-==== 填寫您的保險覆蓋範圍通知框
-
-「監控」頁面上的「警報監控」標籤包含一個「完善您的覆蓋範圍」通知框，當存在覆蓋範圍缺口時，該通知框就會出現。此框列出了缺少容量或到期監控器的訂閱，以及沒有訂閱的監控器。您可以透過向現有監視器新增訂閱、建立新監視器或刪除未使用的監視器來彌補這些差距。欲了解更多信息，請參閱 link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html#manage-coverage-gaps["管理警報監控器的覆蓋範圍缺口"]。
