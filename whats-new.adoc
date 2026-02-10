@@ -188,6 +188,18 @@ Cloud Volumes ONTAP 9.16.1 及更高版本現在支援使用 https://docs.cloud.
 
 
 
+=== Amazon FSX for ONTAP
+
+
+
+==== 支援在 Cloud Volumes ONTAP 和 FSx for ONTAP 之間複寫資料
+
+現在可以透過 NetApp Console 在 Cloud Volumes ONTAP 系統和 FSx for ONTAP 檔案系統之間進行資料複製。
+
+link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["複寫資料"]
+
+
+
 == 2026 年 2 月 04 日
 
 
