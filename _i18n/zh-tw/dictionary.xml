@@ -391,8 +391,6 @@
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">有關保護 Oracle Database 工作負載的詳細資訊，請參閱<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>。</block>
   <block id="6108d5ad430f0631e5c6e10714ba980c" category="doc">正式版（GA）支援的 Microsoft Hyper-V 工作負載</block>
   <block id="c5db154b8366e71dcf87e4624b1a0112" category="paragraph">NetApp Backup and Recovery 現已全面支援 Microsoft Hyper-V 工作負載（GA）。</block>
-  <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="section-title">General Availability（GA）支援的 KVM 工作負載</block>
-  <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">NetApp Backup and Recovery 中現已正式提供 KVM 工作負載支援（GA）。</block>
   <block id="1076db915b54c5214ad7cd6d4bac394d" category="doc">Console 代理 4.4.0</block>
   <block id="19ddf31000061ed231618214ee45c8af" category="paragraph">4.4.0 版本同時支援標準模式和受限模式。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">此版本的 Console 代理程式包含安全性改善和錯誤修正。</block>
@@ -405,4 +403,5 @@
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">複寫資料</block>
   <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
   <block id="0cd5c5ab4d8a458ece2a760f674c681e" category="doc">版本 1.51</block>
+  <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">正式版 (GA) 中支援的 VMware 工作負載</block>
 </blocks>
