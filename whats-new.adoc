@@ -56,33 +56,6 @@ summary: 了解NetApp Console的功能和資料服務的最新變化。
 
 
 
-=== 控制台設定和管理
-
-
-
-==== Console 代理 4.4.1
-
-4.4.0 版本同時支援標準模式和受限模式。
-
-此版本的 Console 代理程式包含安全性改善和錯誤修正。
-
-
-
-==== NetApp Console管理
-
-本次發布包含以下內容：
-
-
-
-==== NetApp Console管理
-
-本次發布包含以下內容：
-
-.從 NetApp Console 存取 NetApp Data Infrastructure Insights
-您可以在 NetApp Console 中存取 NetApp Data Infrastructure Insights 的免費試用版。前往 *Governance* > *Data Infrastructure Insights* 註冊，即可探索有關您的資料環境的洞察和分析。
-
-
-
 === Cloud Volumes ONTAP
 
 
@@ -113,22 +86,6 @@ https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-
 
 
 == 2026 年 2 月 16 日
-
-
-
-=== 災難復原
-
-
-
-==== 改善的使用者介面
-
-根據意見回饋，Disaster Recovery UI 已更新，以提升效能和使用者體驗。
-
-
-
-==== API Swagger 文件
-
-現在可以直接在普通瀏覽器中存取 Disaster Recovery API 的 Swagger 文檔，無需再使用隱身模式。若要存取 API 文件，請瀏覽至 Disaster Recovery 控制面板，選擇右上角的上下文選單 image:../media/use/icon-vertical-dots.png["動作圖示"] 然後選擇 **API Documentation** 即可開啟 Swagger 文件。您也可以 link:https://api.bluexp.netapp.com/v1/services/draas/api/api-doc/draas["將此 URL 加入書籤"^]。
 
 
 
