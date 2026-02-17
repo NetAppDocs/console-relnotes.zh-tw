@@ -56,6 +56,33 @@ summary: 了解NetApp Console的功能和資料服務的最新變化。
 
 
 
+=== 控制台設定和管理
+
+
+
+==== Console 代理 4.4.1
+
+4.4.0 版本同時支援標準模式和受限模式。
+
+此版本的 Console 代理程式包含安全性改善和錯誤修正。
+
+
+
+==== NetApp Console管理
+
+本次發布包含以下內容：
+
+
+
+==== NetApp Console管理
+
+本次發布包含以下內容：
+
+.從 NetApp Console 存取 NetApp Data Infrastructure Insights
+您可以在 NetApp Console 中存取 NetApp Data Infrastructure Insights 的免費試用版。前往 *Governance* > *Data Infrastructure Insights* 註冊，即可探索有關您的資料環境的洞察和分析。
+
+
+
 === Cloud Volumes ONTAP
 
 
@@ -82,6 +109,66 @@ https://docs.cloud.google.com/compute/docs/general-purpose-machines#c3_series["G
 Cloud Volumes ONTAP 9.18.1 及更高版本在 Azure 單可用區和多可用區中的部署支援 Azure 虛擬網路（VNet）加密，作為其分層安全性策略的一部分，用於保護傳輸中的資料。Cloud Volumes ONTAP 利用 Azure 原生資料封包傳輸層安全性（DTLS）協定來保護 ONTAP 節點、管理介面和其他 Azure 服務之間的通訊，防止攔截和未經授權的存取。這種網路級加密與 ONTAP 內建的儲存和靜態資料保護機制相輔相成，為您的資料提供端對端的安全保障。
 
 https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-sn-c3-support/reference-networking-azure.html#networking-for-azure-vnet-encryption["Azure VNet 加密的網路"^]
+
+
+
+== 2026 年 2 月 16 日
+
+
+
+=== 災難復原
+
+
+
+==== 改善的使用者介面
+
+根據意見回饋，Disaster Recovery UI 已更新，以提升效能和使用者體驗。
+
+
+
+==== API Swagger 文件
+
+現在可以直接在普通瀏覽器中存取 Disaster Recovery API 的 Swagger 文檔，無需再使用隱身模式。若要存取 API 文件，請瀏覽至 Disaster Recovery 控制面板，選擇右上角的上下文選單 image:../media/use/icon-vertical-dots.png["動作圖示"] 然後選擇 **API Documentation** 即可開啟 Swagger 文件。您也可以 link:https://api.bluexp.netapp.com/v1/services/draas/api/api-doc/draas["將此 URL 加入書籤"^]。
+
+
+
+=== 勒索軟體抵禦能力
+
+
+
+==== Azure NetApp Files 支援
+
+Ransomware Resilience 現已支援 Azure NetApp Files 系統，使您能夠有效率地偵測和應對 Azure NetApp Files 中的勒索軟體威脅。當您發現工作負載時，Ransomware Resilience 現在會呈現 Azure NetApp Files 並在保護儀表板中顯示。Ransomware Resilience 對 Azure NetApp Files 的支援僅包括使用快照的偵測和保護策略。對 Azure NetApp Files 的支援目前處於預覽階段。
+
+如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["了解勒索軟體復原能力"^]。
+
+
+
+==== 將使用者從使用者行為警示中排除
+
+NetApp Ransomware Resilience 現已允許您將特定使用者從使用者行為警報中排除。排除受信任的使用者可以防止誤報和不必要的警報。
+
+如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["將使用者排除在警示範圍之外"^]。
+
+
+
+==== 使用者行為活動的保護群組支援
+
+Ransomware Resilience 防護群組現在支援可疑使用者行為偵測的偵測原則。將勒索軟體防護策略套用至防護群組時,它會在工作負載之間套用原則,簡化網路安全態勢的管理。
+
+如需詳細資訊、請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html#create-a-protection-group["建立保護群組"^]。
+
+
+
+=== Amazon FSX for ONTAP
+
+
+
+==== 支援儲存 VM 移轉
+
+NetApp Workload Factory 現已支援儲存虛擬機器遷移。此功能允許將 ONTAP 儲存系統資料和配置從本機 ONTAP 系統或第一代 FSx for ONTAP 檔案系統遷移到第二代 FSx for ONTAP 檔案系統。您可以複製儲存虛擬機器的資料和配置設置，以最小的停機時間和對使用者及應用程式的干擾遷移到新的檔案系統。
+
+若要使用此功能，link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["建立複寫關係"]並選擇 *Migration* 作為使用案例。若要完成遷移過程，您必須link:https://review.docs.netapp.com/us-en/workload-fsx-ontap/task/replicate-data.html#cut-over-replication-for-migration-use-cases["切換儲存 VM 及其複寫磁碟區"]立即將資料和儲存 VM 組態設定永久遷移到目標 FSx for ONTAP 檔案系統。
 
 
 
@@ -513,7 +600,7 @@ link:https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html["
 
 ==== 將快照複製到ONTAP
 
-勒索軟體復原功能現在支援將快照複製到輔助ONTAP網站。透過使用複製策略的保護群組，您可以為每個工作負載複製到相同的目標位置或不同的目標位置。您可以建立包含複製功能的勒索軟體防護策略，也可以使用預先定義的策略。
+Ransomware Resilience 現已支援將快照複製到輔助 ONTAP 網站。使用複製策略的保護群組，您可以為每個工作負載複製到相同或不同的目標位置。您可以建立包含複製功能的勒索軟體防護策略，也可以使用預先定義的策略。
 
 有關詳細信息，請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["在勒索軟體復原中保護工作負載"^]。
 
