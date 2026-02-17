@@ -56,6 +56,33 @@ summary: 了解NetApp Console的功能和資料服務的最新變化。
 
 
 
+=== 控制台設定和管理
+
+
+
+==== Console 代理 4.4.1
+
+4.4.0 版本同時支援標準模式和受限模式。
+
+此版本的 Console 代理程式包含安全性改善和錯誤修正。
+
+
+
+==== NetApp Console管理
+
+本次發布包含以下內容：
+
+
+
+==== NetApp Console管理
+
+本次發布包含以下內容：
+
+.從 NetApp Console 存取 NetApp Data Infrastructure Insights
+您可以在 NetApp Console 中存取 NetApp Data Infrastructure Insights 的免費試用版。前往 *Governance* > *Data Infrastructure Insights* 註冊，即可探索有關您的資料環境的洞察和分析。
+
+
+
 === Cloud Volumes ONTAP
 
 
@@ -86,6 +113,22 @@ https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-
 
 
 == 2026 年 2 月 16 日
+
+
+
+=== 災難復原
+
+
+
+==== 改善的使用者介面
+
+根據意見回饋，Disaster Recovery UI 已更新，以提升效能和使用者體驗。
+
+
+
+==== API Swagger 文件
+
+現在可以直接在普通瀏覽器中存取 Disaster Recovery API 的 Swagger 文檔，無需再使用隱身模式。若要存取 API 文件，請瀏覽至 Disaster Recovery 控制面板，選擇右上角的上下文選單 image:../media/use/icon-vertical-dots.png["動作圖示"] 然後選擇 **API Documentation** 即可開啟 Swagger 文件。您也可以 link:https://api.bluexp.netapp.com/v1/services/draas/api/api-doc/draas["將此 URL 加入書籤"^]。
 
 
 
@@ -125,7 +168,7 @@ Ransomware Resilience 防護群組現在支援可疑使用者行為偵測的偵�
 
 NetApp Workload Factory 現已支援儲存虛擬機器遷移。此功能允許將 ONTAP 儲存系統資料和配置從本機 ONTAP 系統或第一代 FSx for ONTAP 檔案系統遷移到第二代 FSx for ONTAP 檔案系統。您可以複製儲存虛擬機器的資料和配置設置，以最小的停機時間和對使用者及應用程式的干擾遷移到新的檔案系統。
 
-若要使用此功能，link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["建立複寫關係"]並選擇 *Migration* 作為使用案例。若要完成遷移過程，您必須link:https://review.docs.netapp.com/us-en/workload-fsx-ontap/task/replicate-data.html#cut-over-replication-for-migration-use-cases["切換儲存 VM 及其複寫磁碟區"]立即將資料和儲存 VM 組態設定永久遷移到目標 FSx for ONTAP 檔案系統。
+若要使用此功能，link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["建立複寫關係"]並選擇 *Migration* 作為使用案例。若要完成遷移過程，您必須link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html#cut-over-replication-for-migration-use-cases["切換儲存 VM 及其複寫磁碟區"]立即將資料和儲存 VM 組態設定永久遷移到目標 FSx for ONTAP 檔案系統。
 
 
 
