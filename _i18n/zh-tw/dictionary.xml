@@ -449,4 +449,11 @@
   <block id="0597e1be82ceeb01b40b4706c1dc68e1" category="paragraph">您可以在 NetApp Console 中存取 NetApp Data Infrastructure Insights 的免費試用版。前往 *Governance* &gt; *Data Infrastructure Insights* 註冊，即可探索有關您的資料環境的洞察和分析。</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026 年 2 月 16 日</block>
   <block id="498aaff0cc400a96455ebb5b21ae7ffa" category="paragraph">若要使用此功能，<block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block>並選擇 *Migration* 作為使用案例。若要完成遷移過程，您必須<block ref="26b59663dcf673cfcdf7f1e6b23597f9" category="inline-link-macro-rx"></block>立即將資料和儲存 VM 組態設定永久遷移到目標 FSx for ONTAP 檔案系統。</block>
+  <block id="aa3bf76b3589430467bef386eaec9486" category="doc">Azure 支援的新區域</block>
+  <block id="c1ad65632774d8f35681af3ad68ef48e" category="paragraph">現在，您可以在下列區域的 Azure 中，在單一或多個可用區部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。這包括對單節點和高可用性（HA）部署的支援。</block>
+  <block id="ef8436a4447e0d3f8eea6f08056a2a75" category="list-text">日本西部 (japanwest)</block>
+  <block id="ca5a8f45e6c8349c7fe815e66ba5c4dd" category="list-text">印尼中部 (indonesiacentral)</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全球區域地圖</block>
+  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">有關所有地區的清單，請參閱 <block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
+  <block id="29759b568048f604f84457c1e384b4a3" category="section-title">2026 年 2 月 19 日</block>
 </blocks>
