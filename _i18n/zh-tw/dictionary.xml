@@ -456,4 +456,7 @@
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">有關所有地區的清單，請參閱 <block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
   <block id="29759b568048f604f84457c1e384b4a3" category="section-title">2026 年 2 月 19 日</block>
   <block id="d64f95921199e6f185b7d45fa5313dc7" category="paragraph">Ransomware Resilience 報告現在會在 **Summary** 報告中記錄受支援和不受支援的磁碟區的資訊。使用此資訊可以診斷系統中的磁碟區為何可能不符合勒索軟體防護條件。</block>
+  <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Data Infrastructure Insights 附加消耗顯示器</block>
+  <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">查看 DII 消費狀況</block>
+  <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights （ DII ） 附加元件使用量現在會顯示在 *目前使用量* 和 *使用量趨勢* 標籤中。若要深入瞭解、請參閱 <block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>。</block>
 </blocks>
