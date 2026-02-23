@@ -52,6 +52,32 @@ summary: 了解NetApp Console的功能和資料服務的最新變化。
 
 
 
+== 2026 年 2 月 23 日
+
+
+
+=== 備份和復原
+
+
+
+==== General Availability（GA）支援的 KVM 工作負載
+
+NetApp Backup and Recovery 現已全面支援 Microsoft Hyper-V 工作負載（GA）。
+
+有關保護 KVM 工作負載的詳細信息，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["保護 KVM 工作負載概述"]。
+
+
+
+==== Kubernetes 在正式版（GA）中受到支援
+
+Kubernetes 工作負載支援現已在 NetApp Backup and Recovery 中正式發布（GA）。此版本的 Kubernetes 工作負載還引入了以下增強功能：
+
+*報告支援*：現在您可以為受 NetApp Backup and Recovery 保護的 Kubernetes 叢集和應用程式產生保護活動報告。
+
+有關保護 Kubernetes 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["保護 Kubernetes 工作負載概述"]。
+
+
+
 == 2026 年 2 月 19 日
 
 
@@ -898,19 +924,3 @@ NetApp Disaster Recovery現在支援使用Google Cloud NetApp Volumes的 Google 
 隨著客戶設定和授權的Google Cloud NetApp Volumes系統越來越多，憑證的管理方式也改變了。
 
 NetApp Volumes 系統憑證現在儲存在 Google 雲端後端，例如 Cloud Key Management 服務或類似服務，在建立新系統時會使用服務帳戶來模擬憑證。
-
-
-
-== 2025年11月24日
-
-
-
-=== Keystone
-
-NetApp Console中Keystone儀表板的新增強功能：
-
-
-
-==== 用於追蹤保障缺口訂閱的 ID
-
-在「監控 > 警報監控」上的「完成您的保障」通知框中，現在每個訂閱都會在訂閱編號旁顯示其追蹤 ID。

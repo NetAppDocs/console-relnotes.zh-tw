@@ -121,9 +121,6 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">這些發行說明介紹了NetApp Console及其支援的資料服務的最新增強功能。提供各服務完整版本說明的連結。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和資料服務的最新變化。若要查看完整的版本發布歷史記錄，請參閱每個服務的完整版本說明。</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">已棄用服務</block>
-  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">用於追蹤保障缺口訂閱的 ID</block>
-  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">在「監控 &gt; 警報監控」上的「完成您的保障」通知框中，現在每個訂閱都會在訂閱編號旁顯示其追蹤 ID。</block>
-  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
   <block id="f5263927d94a42a805785f1aed06a069" category="doc">Google Cloud Platform 憑證變更</block>
   <block id="790bec3007566d403b50931f866ace35" category="paragraph">隨著客戶設定和授權的Google Cloud NetApp Volumes系統越來越多，憑證的管理方式也改變了。</block>
   <block id="f681bf3d62438cc948e88b442cdda716" category="paragraph">NetApp Volumes 系統憑證現在儲存在 Google 雲端後端，例如 Cloud Key Management 服務或類似服務，在建立新系統時會使用服務帳戶來模擬憑證。</block>
@@ -459,4 +456,9 @@
   <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Data Infrastructure Insights 附加消耗顯示器</block>
   <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">查看 DII 消費狀況</block>
   <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights （ DII ） 附加元件使用量現在會顯示在 *目前使用量* 和 *使用量趨勢* 標籤中。若要深入瞭解、請參閱 <block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>。</block>
+  <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">General Availability（GA）支援的 KVM 工作負載</block>
+  <block id="e58f3c7a76cad4e6c2c7f515b3171f76" category="section-title">Kubernetes 在正式版（GA）中受到支援</block>
+  <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">Kubernetes 工作負載支援現已在 NetApp Backup and Recovery 中正式發布（GA）。此版本的 Kubernetes 工作負載還引入了以下增強功能：</block>
+  <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*報告支援*：現在您可以為受 NetApp Backup and Recovery 保護的 Kubernetes 叢集和應用程式產生保護活動報告。</block>
+  <block id="8b3c75a910501c009c7e86f190f1825d" category="section-title">2026 年 2 月 23 日</block>
 </blocks>
