@@ -498,4 +498,29 @@
   <block id="4caab03d94f5f056dee76ac3abd4066d" category="inline-link">私有模式部署的 Infrastructure Manager 組態</block>
   <block id="d79d7aeb01a8087d8ac3417a9437a457" category="paragraph">在私有模式部署中，您需要進行一些組態變更，Cloud Volumes ONTAP 才能開始使用 Infrastructure Manager。請參閱<block ref="a3ca45cd087005e24df23da60619241b" category="inline-link-rx"></block>。</block>
   <block id="56a5c925d77740ea69d50272863f3f75" category="section-title">2026 年 2 月 26 日</block>
+  <block id="e2a0e249f352de2ea956157df300d5c0" category="paragraph">4.4.1 版本同時支援標準模式和受限模式。</block>
+  <block id="b7c3f162d94516a17d91ff328463e7b2" category="doc">私有模式發布（4.4.0）</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支援網站</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">現在可以從<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block>下載新的私人模式版本</block>
+  <block id="81ce971f80b475d475c24a4e44ada4e1" category="section-title">BlueXP 私有模式現在稱為 NetApp Console 私有模式</block>
+  <block id="9c787f49c95453f81615500fc040c752" category="paragraph">NetApp Console 4.4.0 是 NetApp Console 在私有模式下的第一個版本。</block>
+  <block id="56ed5396ea479b4ed31e75f97a4377c7" category="paragraph">NetApp Console 建立於加強且重構的 BlueXP 基礎上，提供企業級的集中式管理，涵蓋本地端與雲端環境中的 NetApp 儲存與 NetApp Data Services，帶來即時洞察、更快速的工作流程，以及高度安全且合規的簡化管理。</block>
+  <block id="7aced523efa2e35884ba6dffbc655f83" category="inline-link">NetApp Console 頁面新增功能</block>
+  <block id="214ce822f9505ec8f305259fe07864a2" category="paragraph">在<block ref="cad102c2112bf216811c7b6bb8f99baa" category="inline-link-rx"></block>中深入瞭解新的 NetApp Console。</block>
+  <block id="0dbaa5b0eedf75058865e2b0994d5a8f" category="paragraph">4.4.0 版本包含以下 NetApp Console 元件和服務的更新。</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">組件或服務</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">此版本中包含的版本</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">自上次私有模式版本發布以來的變更</block>
+  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Console 代理程式</block>
+  <block id="9b4bffa460105781f82b1d463bde8200" category="cell">4.4.0</block>
+  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">NetApp Console 頁面新增功能</block>
+  <block id="d9546787b8341bfee8dbbe4f87c60436" category="cell">前往<block ref="9edfdcbb835e82f6dae46ac911dcb157" category="inline-link-rx"></block>並參考版本 4.4.0 中包含的變更。</block>
+  <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">備份與還原</block>
+  <block id="380c830a3c13f16e4d36530d1de2be47" category="cell">5.0.2 （2026 年 2 月 9 日）</block>
+  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">NetApp Backup and Recovery 頁面的最新消息</block>
+  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">前往 <block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>。</block>
+  <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">分類</block>
+  <block id="0ab04d2bfcc6d88bde2adee5587eeb44" category="cell">1.5.1 （2026 年 2 月 9 日）</block>
+  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 頁面新增功能</block>
+  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">前往 <block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>。</block>
 </blocks>
