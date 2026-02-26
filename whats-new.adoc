@@ -52,6 +52,61 @@ summary: 了解NetApp Console的功能和資料服務的最新變化。
 
 
 
+== 2026 年 2 月 26 日
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== 支援私有模式部署的 Google Infrastructure Manager
+
+Cloud Volumes ONTAP 9.16.1 及更高版本現在支援 https://docs.cloud.google.com/infrastructure-manager/docs/overview["Google Cloud Infrastructure Manager"^]（IM），而非 https://docs.cloud.google.com/deployment-manager/docs/deprecations["雲端部署管理器"^]（DM），用於 Google Cloud 中的新私有模式部署。Google 將在不久的將來棄用 Deployment Manager 作為基礎架構服務，改用更進階的 Infrastructure Manager。
+
+自 2026 年 2 月 25 日起，Cloud Volumes ONTAP 使用 Infrastructure Manager 進行新的和現有的私有模式部署。此表說明了基本工作流程：
+
+[cols="1,4,1,1,1,1"]
+|===
+| 情境 | 行動 | 代理程式的新 API | 代理程式的新權限 | 適用於 Cloud Volumes ONTAP 的全新 Google Cloud API | 文件資源 
+
+
+| 現有代理程式和私有模式中的現有部署 | 從 NetApp 支援網站下載安裝程式，將 NetApp Console 代理程式升級至最新版本，然後手動將代理程式安裝到主機上，以便其能夠使用 Infrastructure Manager API。之後，將現有的 Cloud Volumes ONTAP 系統轉換為使用 Infrastructure Manager。  a| 
+* Cloud Infrastructure Manager API
+* 雲端配額 API
+* Cloud Build API
+
+ a| 
+Console 版本的所有權限如下：
+
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#08-december-2025["2025 年 12 月 8 日"^]
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#09-february-2026["2026 年 2 月 09 日"^]
+* cloudbuild.workerpools.get
+* cloudbuild.workerpools.get
+
+ a| 
+* \https://cloudbuild.googleapis.com/v1
+* \https://www.googleapis.com/upload/storage/v1
+* \https://config.googleapis.com/v1
+
+| https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["為 Google Cloud Infrastructure Manager 設定現有的 Cloud Volumes ONTAP 部署"^] 
+
+
+| 新代理程式和新部署 | 建立一個新代理，並在私有模式下部署一個新的 Cloud Volumes ONTAP 系統。 |  |  |   a| 
+* https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-google-gcloud.html["從 Google Cloud 建立 Console 代理"^]
+* https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-private-mode.html["私有模式部署快速入門"^]
+
+
+|===
+在私有模式部署中，您需要進行一些組態變更，Cloud Volumes ONTAP 才能開始使用 Infrastructure Manager。請參閱 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/reference-networking-gcp.html#infrastructure-manager-configuration-for-private-mode-deployments["私有模式部署的 Infrastructure Manager 組態"^]。
+
+.相關連結
+* https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-2-0["NetApp Console Agent 4.2.0 發行說明"^]
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["Google Cloud Infrastructure Manager 所需的權限"^]
+
+
+
+
 == 2026 年 2 月 23 日
 
 
@@ -238,7 +293,7 @@ Data Infrastructure Insights （ DII ） 附加元件使用量現在會顯示在
 
 
 
-=== Azure 中對 Ebdsv5 和 E104ids_v5 VM 的支援
+==== Azure 中對 Ebdsv5 和 E104ids_v5 VM 的支援
 
 從 Cloud Volumes ONTAP 9.18.1 開始，您可以部署 Ebdsv5 和 E104ids_v5 VM，用於單節點和高可用性（HA）部署和升級。
 
@@ -372,12 +427,55 @@ Data Classification 已改善低解析度螢幕的顯示效能，提升使用者
 
 Cloud Volumes ONTAP 9.16.1 及更高版本現在支援使用 https://docs.cloud.google.com/infrastructure-manager/docs/overview["Google Cloud Infrastructure Manager"^]（IM）而非 https://docs.cloud.google.com/deployment-manager/docs/deprecations["雲端部署管理器"^]（DM）來部署 Google Cloud 中的新部署。Google 將在不久的將來棄用 Deployment Manager 作為基礎架構服務，轉而使用更進階的基礎架構管理器。
 
-現在，自動部署 Cloud Volumes ONTAP 以使用 Infrastructure Manager，或執行轉換工具將 Deployment Manager 中的現有部署切換到 Infrastructure Manager。轉換是一次性的過程，之後您的系統將自動開始使用 Infrastructure Manager。有關執行轉換工具的說明，請參閱 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["為 Google Cloud Infrastructure Manager 設定現有的 Cloud Volumes ONTAP 部署"^]。
+自 2026 年 2 月 9 日起，Cloud Volumes ONTAP 使用 Infrastructure Manager 進行新的和現有的部署。此表為您說明了一些工作流程：
+
+[cols="1,4,1,1,1,1"]
+|===
+| 情境 | 行動 | 代理程式的新 API | 代理程式的新權限 | 適用於 Cloud Volumes ONTAP 的全新 Google Cloud API | 文件資源 
+
+
+| 現有代理程式和現有 Cloud Volumes ONTAP 部署 | 為現有代理程式新增新的 API 和權限，並轉換現有的 Cloud Volumes ONTAP 系統。  a| 
+* Cloud Infrastructure Manager API
+* 雲端配額 API
+
+ a| 
+Console 版本的所有權限如下：
+
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#08-december-2025["2025 年 12 月 8 日"^]
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#09-february-2026["2026 年 2 月 09 日"^]
+
+| \https://www.googleapis.com/upload/storage/v1 \https://config.googleapis.com/v1  a| 
+https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["為 Google Cloud Infrastructure Manager 設定現有的 Cloud Volumes ONTAP 部署"^]
+
+
+
+| 現有代理程式和新的 Cloud Volumes ONTAP 部署 | 為現有代理程式新增新的 API 和權限，並部署新的 Cloud Volumes ONTAP 系統。  a| 
+* Cloud Infrastructure Manager API
+* 雲端配額 API
+
+ a| 
+Console 版本的所有權限如下：
+
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#08-december-2025["2025 年 12 月 8 日"^]
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#09-february-2026["2026 年 2 月 09 日"^]
+
+| 新部署的所有步驟  a| 
+https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["開始在 Google Cloud 中使用 Cloud Volumes ONTAP"^]
+
+
+
+| 新代理程式和新部署 | 建立新代理並部署新的 Cloud Volumes ONTAP 系統。 |  |  |   a| 
+* https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-google-gcloud.html["從 Google Cloud 建立 Console 代理"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["開始在 Google Cloud 中使用 Cloud Volumes ONTAP"^]
+
+
+|===
+現在，您可以部署 Cloud Volumes ONTAP 以自動使用 Infrastructure Manager，或執行轉換工具將 Deployment Manager 中的現有部署切換到 Infrastructure Manager。轉換過程只需一次，之後您的系統將開始使用 Infrastructure Manager。有關執行轉換工具的說明，請參閱 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["為 Google Cloud Infrastructure Manager 設定現有的 Cloud Volumes ONTAP 部署"^]。
 
 使用 Infrastructure Manager 的 Cloud Volumes ONTAP 系統會使用 Google Cloud Storage 儲存桶來儲存資料和記錄，這些儲存桶位於首次部署的區域中，用於儲存部署記錄，這些記錄可供後續部署重複使用。這些儲存桶可能會產生額外費用，但請勿編輯或刪除儲存桶及其內容：
 
-* `gs://netapp-cvo-infrastructure-manager-<project id>/dm-to-im-convert`：用於儲存 Cloud Volumes ONTAP Terraform 文件
-* `<gcp project number>-<region>-blueprint-config`：用於儲存 Google Cloud Terraform 工件
+* `gs://netapp-cvo-infrastructure-manager-<project id>`：用於新的 Cloud Volumes ONTAP 部署的 ONTAP 版本和 SVM Terraform 範本。在此內， `dm-to-im-convert` 儲存桶包含 Cloud Volumes ONTAP Terraform 檔案。
+* `<gcp project number>-<region>-blueprint-config`：用於儲存 Google Cloud Terraform 工件。
 
 
 .相關連結
