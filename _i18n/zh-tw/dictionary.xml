@@ -120,7 +120,6 @@
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">本次發布包含以下內容：</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">這些發行說明介紹了NetApp Console及其支援的資料服務的最新增強功能。提供各服務完整版本說明的連結。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和資料服務的最新變化。若要查看完整的版本發布歷史記錄，請參閱每個服務的完整版本說明。</block>
-  <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">已棄用服務</block>
   <block id="cab2138409405e17442c0b2913348b5c" category="doc">支援使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine。</block>
   <block id="eccf4b156fba5109ca6b1ef2be2fd64e" category="paragraph">NetApp Disaster Recovery現在支援使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine 進行遷移、故障轉移、故障復原和測試作業。這種整合實現了本地環境和 Google Cloud 之間的無縫災難復原工作流程。</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">先決條件</block>
@@ -523,4 +522,5 @@
   <block id="0ab04d2bfcc6d88bde2adee5587eeb44" category="cell">1.5.1 （2026 年 2 月 9 日）</block>
   <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 頁面新增功能</block>
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">前往 <block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>。</block>
+  <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">以下服務已棄用：</block>
 </blocks>
