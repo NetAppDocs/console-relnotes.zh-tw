@@ -120,12 +120,6 @@
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">本次發布包含以下內容：</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">這些發行說明介紹了NetApp Console及其支援的資料服務的最新增強功能。提供各服務完整版本說明的連結。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和資料服務的最新變化。若要查看完整的版本發布歷史記錄，請參閱每個服務的完整版本說明。</block>
-  <block id="cab2138409405e17442c0b2913348b5c" category="doc">支援使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine。</block>
-  <block id="eccf4b156fba5109ca6b1ef2be2fd64e" category="paragraph">NetApp Disaster Recovery現在支援使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine 進行遷移、故障轉移、故障復原和測試作業。這種整合實現了本地環境和 Google Cloud 之間的無縫災難復原工作流程。</block>
-  <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">先決條件</block>
-  <block id="7984e947265cc8b94c06702adbf28865" category="inline-link-macro">限制</block>
-  <block id="b0cddd5e1e4185232bf6d1fb2418ed79" category="section-title">2025年12月1日</block>
-  <block id="8497094e0d678632f29aeaad49708682" category="paragraph">請務必仔細閱讀。<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block>和<block ref="9bbaf1e88d2981b5294528496eff27bf" category="inline-link-macro-rx"></block>適用於谷歌雲端。</block>
   <block id="063090df0880212c0ba8eec878096a21" category="doc">VMware 工作負載預覽增強功能</block>
   <block id="24936fb650df7af8295e75a3667becef" category="list-text">現在您可以將備份和快照還原到備用位置。如果您想要管理不同 VMware vCenter 部署、VMware ESXi 主機或 VMware 資料儲存上的虛擬機器版本，這將非常有用。</block>
   <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">現在您可以從主位置或輔助位置還原特定的 VMware 虛擬磁碟（VMDK 映像），從而實現對復原 VM 資料的更精細控制。</block>
@@ -523,4 +517,7 @@
   <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 頁面新增功能</block>
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">前往 <block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>。</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">以下服務已棄用：</block>
+  <block id="3acecbd4317d789f549785c17e6afb2c" category="doc">FSx for ONTAP 檔案系統支援 NetApp Console 代理程式狀態</block>
+  <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp Console 現在會顯示 Workloads 中 FSx for ONTAP 檔案系統的 Console 代理程式狀態。此狀態指示代理程式是否正在執行以及是否能夠與 FSx for ONTAP 檔案系統通訊。此資訊有助於您疑難排解連線問題。</block>
+  <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026 年 3 月 1 日</block>
 </blocks>
