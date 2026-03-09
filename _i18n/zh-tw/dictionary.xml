@@ -506,4 +506,17 @@
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保護 VMware 工作負載概述</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">有關保護 VMware 工作負載的詳細資訊，請參閱<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026 年 3 月 09 日</block>
+  <block id="b57381f68dbba13b31fa8aa68f6b0b91" category="doc">將資料存放區從複寫計畫中排除</block>
+  <block id="97a6d5c9da6b211dcdf5d581e247e960" category="paragraph">在 Disaster 中建立複寫計劃時，現在可以將特定資料存放區排除在複寫範圍之外。對於配置為使用多個資料存放區的 VM，此功能可讓您限制要複寫的資料存放區。</block>
+  <block id="1783ee76cf8532a6df415b4e239a23d9" category="paragraph">如需詳細資訊，請參閱 <block ref="c2741b2e4bc1013bb2e1908f9c4eb243" category="inline-link-macro-rx"></block>。</block>
+  <block id="ec6c483e852913b786ae872f19efd121" category="section-title">已移除 vCenter 密碼的密碼驗證</block>
+  <block id="8cca1120916820e14384f393325831ff" category="paragraph">災難復原功能取消了 vCenter 密碼的密碼限制，允許使用包含空格的密碼。</block>
+  <block id="c0b13507b7c62a7122f6d5ccf83fd444" category="inline-link-macro">在 NetApp Disaster Recovery 中新增本地和 Amazon EVS vCenter 叢集</block>
+  <block id="32530c1a1edb0706f8c34b61bf263957" category="paragraph">如需詳細資訊，請參閱 <block ref="0d43ad8ffb310486762e1912aeac4ebc" category="inline-link-macro-rx"></block>。</block>
+  <block id="d7861bc1dada29d20aea81705aca4684" category="section-title">新的複寫計畫子選單</block>
+  <block id="92902e0b7c7f7c58edcfa55410a2eb18" category="paragraph">災難復原功能現在新增了從複製計畫儀表板觸發 vCenter 刷新的選單選項。您可以從複製計畫儀表板的操作選單存取該子選單：選擇 **計畫健全狀況**，然後選擇 **刷新來源 vCenter / 刷新目標 vCenter**。</block>
+  <block id="8bad83affac335130776761407726ea6" category="inline-link-macro">修改複寫計畫</block>
+  <block id="95036acb74478cad3d04125e4993251b" category="paragraph">如需詳細資訊，請參閱 <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>。</block>
+  <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">改善的網路探索</block>
+  <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">災難復原功能現在包含改進的網路探索功能，以支援更廣泛的網路組態。</block>
 </blocks>
