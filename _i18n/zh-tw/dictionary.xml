@@ -113,62 +113,18 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX for ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">本地ONTAP集群</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware 工作負載預覽版引入了以下增強功能：</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console中Keystone儀表板的新增強功能：</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">此版本的控制台代理程式包含安全性改進、錯誤修復以及以下功能：</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">本次發布包含以下內容：</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">這些發行說明介紹了NetApp Console及其支援的資料服務的最新增強功能。提供各服務完整版本說明的連結。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和資料服務的最新變化。若要查看完整的版本發布歷史記錄，請參閱每個服務的完整版本說明。</block>
-  <block id="063090df0880212c0ba8eec878096a21" category="doc">VMware 工作負載預覽增強功能</block>
-  <block id="24936fb650df7af8295e75a3667becef" category="list-text">現在您可以將備份和快照還原到備用位置。如果您想要管理不同 VMware vCenter 部署、VMware ESXi 主機或 VMware 資料儲存上的虛擬機器版本，這將非常有用。</block>
-  <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">現在您可以從主位置或輔助位置還原特定的 VMware 虛擬磁碟（VMDK 映像），從而實現對復原 VM 資料的更精細控制。</block>
-  <block id="6a6493990827c82055e808631b52c236" category="doc">版本 1.49</block>
   <block id="640602402999fbf572de482a35f449bc" category="paragraph">本次資料分類版本更新包含錯誤修復和以下更新：</block>
-  <block id="c257ad0ab1dd1ba68f40f6d92155f5dd" category="paragraph-title">在健康監測儀表板中監控指標和效能</block>
-  <block id="d62744b30354624c6087760cfd47ae58" category="paragraph">資料分類現在提供了一個健康監控儀表板，可以即時監控您的資源，並提供有關記憶體使用情況、磁碟使用情況、磁碟使用率等方面的見解。借助健康監控儀表板提供的信息，您可以查看部署的基礎架構，並獲得優化儲存和效能的見解。</block>
-  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">監控資料分類的運作狀況</block>
-  <block id="699330677c1a0f32d795bf5b4ef62c06" category="paragraph">有關詳細信息，請參閱 <block ref="47a26f0a929ccc455d276fcbc1329665" category="inline-link-macro-rx"></block>。</block>
-  <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">提升了裝載性能</block>
-  <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">資料分類中所有頁面的載入效能均已提升，從而創造了更有效率的使用者體驗。</block>
-  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
-  <block id="236430e108e8394ac19913076b10fb55" category="doc">更名為「累積突發容量」標籤</block>
-  <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">標籤「累計突發容量」更名為「累計突發」。</block>
-  <block id="8a9b2764802b622f9894a669a606f74f" category="doc">擴充功能阻止功能已在工作負載層級啟用。</block>
-  <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">啟用擴充封鎖功能後，現在是在工作負載層級而不是儲存虛擬機器層級啟用此功能。</block>
-  <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">編輯使用者行為警報狀態</block>
-  <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">支援多個控制台代理</block>
-  <block id="1a6a565def701385358a626d6728afd8" category="paragraph">勒索軟體復原功能現在支援使用多個控制台代理程式來管理相同系統。</block>
-  <block id="f3aee30a3a487c746572616e3f53dc9d" category="inline-link-macro">建立控制台代理</block>
-  <block id="76adc55b5a0beb97a709fbc0c204a3d0" category="paragraph">有關控制台代理的更多信息，請參閱<block ref="c97584494dd542160395e5c607ae4c2c" category="inline-link-macro-rx"></block>。</block>
-  <block id="b706122b5735a672dec906da7d14b15c" category="doc">資料夾層級結構保留</block>
-  <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">預設情況下，災難復原會在故障轉移時保留虛擬機器清單層次結構（資料夾結構）。如果復原目標中沒有所需的資料夾，災難復原功能會建立該資料夾。</block>
-  <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">現在您可以透過指定新的父 VM 資料夾或取消選取「保留原始資料夾層次結構」選項來覆寫此設定。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">建立複製計劃</block>
-  <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">簡化控制台代理更新</block>
-  <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">災難復原現在支援在工作環境中使用多個控制台代理的簡化流程。若要在控制台代理程式之間切換，您必須編輯 vCenter 配置，重新發現憑證，並重新整理複製計畫以使用新的控制台代理程式。</block>
-  <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">切換控制台代理</block>
-  <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">2025年12月9日</block>
-  <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">勒索軟體復原功能現在允許您編輯使用者行為警報的狀態。您可以手動關閉和解決警報。</block>
   <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">管理勒索軟體復原能力中的警報</block>
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">有關詳細信息，請參閱 <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>。</block>
-  <block id="14a4fd4957d1a547c2b4ccadbaed0a90" category="inline-link-macro">了解更多關於使用NetApp Backup and Recovery恢復 VMware 虛擬機器的信息</block>
-  <block id="6dc955af209317a9d714156228721ed4" category="paragraph"><block ref="dd7466c8c4dbfb4163f16106a1d7f80c" category="inline-link-macro-rx"></block>。</block>
-  <block id="01f07264521662850e2d8465c322c978" category="inline-link-macro">了解更多關於使用NetApp Backup and Recovery恢復 VMware 虛擬磁碟的信息</block>
-  <block id="61b4efc27d21705d0d4d56786ccc1f78" category="paragraph"><block ref="78a5fc4b6640a61792f9693d7c0f443b" category="inline-link-macro-rx"></block>。</block>
   <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Cloud Volumes ONTAP的首選計費方式</block>
-  <block id="d32b213fea432905e2b711d0a46055b7" category="doc">提升 Azure 中 Premium SSD v2 磁碟效能的能力</block>
-  <block id="a5af0d9c3442b63737366fdab958ae5e" category="paragraph">現在，您可以透過修改 IOPS 和吞吐量參數來提高 Azure 中 Premium SSD v2 託管磁碟的效能。利用此功能，您可以根據工作負載需求最佳化系統的儲存效能。</block>
-  <block id="77a633073c35402d0ca7d710756aa8bd" category="inline-link">在 Azure 中管理Cloud Volumes ONTAP的 Premium SSD v2 磁碟效能</block>
-  <block id="3c82d0e014001e766d893c187798e716" category="paragraph"><block ref="15057e5abc429ba1e00c3e98b4d7cd18" category="inline-link-rx"></block>。</block>
-  <block id="b6dcfe88cad643a44fa48a9db752d75f" category="section-title">Essentials 授權超額收費簡化</block>
-  <block id="6390802a077a2b3bba05ed8efad40476" category="paragraph">對於Cloud Volumes ONTAP市場年度合約/私有報價，Essentials 授權的超額使用運算現在與自帶授權 (BYOL) 套餐保持一致。此前，超出部分按基本套餐的每小時市場價格計費。現在，如果您的市場年度合約包含多個 Essentials 套餐， NetApp Console會將 Essentials 套餐的超額費用計入您訂閱中價格較高的 Essentials 套餐的可用容量。這簡化了 Essentials 套餐的超額費用計算，並確保從 BYOL 授權模式平穩過渡到訂閱模式。</block>
-  <block id="bf18ec316bd23e84a5bc7f6dfac16e84" category="inline-link">Essentials許可證超額費用如何收取</block>
-  <block id="6aeac3ae6d2c3b06189e7344aee5b1ba" category="paragraph"><block ref="6aeac3ae6d2c3b06189e7344aee5b1ba" category="inline-link-rx"></block></block>
-  <block id="f9af9ade73262337fa8408b3b263a181" category="section-title">支援 Azure Edsv6 尺寸系列</block>
-  <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">從Cloud Volumes ONTAP 9.17.1 開始，您可以透過NetApp Console為新的Cloud Volumes ONTAP執行個體部署 Azure Edsv6 系列虛擬機器。Cloud Volumes ONTAP 9.17.1 及更高版本將僅支援新部署的第二代虛擬機器。這些第二代機器與最新技術相容，例如統一可擴充韌體介面 (UEFI)、Azure Boost 系統和 NVMe。它們非常適合記憶體密集系統和需要快速本地儲存的應用，例如資料庫伺服器和分析引擎。</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支援的配置</block>
-  <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
   <block id="026970f0ac157044199489d6744c2491" category="doc">控制台代理 4.2.0</block>
   <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">4.2.0 版本同時支援標準模式和受限模式。</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">支援 Google Cloud Infrastructure Manager</block>
@@ -201,8 +157,6 @@
   <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">如果您擁有超過 20 個本機ONTAP集群，則「系統」頁面上的「磁碟區」標籤預設顯示為網格視圖。</block>
   <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">當您在NetApp Console中管理超過 20 個本機ONTAP叢集時，「磁碟區」標籤預設顯示網格視圖，以便於導覽。卡片視圖已停用。</block>
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">此變更僅適用於標準模式，並且適用於ONTAP版本 9.6 及更高版本。</block>
-  <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">有關詳細信息，請參閱 <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>。</block>
-  <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">有關詳細信息，請參閱 <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>。</block>
   <block id="6da53899225555a506524070f96e33df" category="doc">支援本地環境中的多個控制台代理</block>
   <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">如果您在本機使用災難恢復，現在可以為每個 vCenter 執行個體部署控制台代理，從而提高復原能力。</block>
   <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">例如，如果您有兩個站點（站點 A 和 B），則站點 A 可以將控制台代理 A 連接到 vCenter 1、 ONTAP部署 1 和ONTAP部署 2。站點 B 可以將控制台代理 B 連接到 vCenter 2 和ONTAP部署 3 和 4。</block>
@@ -535,4 +489,21 @@
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">查看並建立 Keystone 訂閱的警報監控器</block>
   <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">如需深入瞭解，請參閱 <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> 和 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>。</block>
   <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026 年 3 月 02 日</block>
+  <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 工作負載增強功能</block>
+  <block id="78b068f24da5a7e17080acceea02e506" category="paragraph">在此版本中、 ONTAP Volumes 工作負載引入了以下增強功能：</block>
+  <block id="61f251cc47dddbc52bddd098d342b6d5" category="list-text">*還原到來源位置*：現在您可以將本機快照和複寫快照中的檔案還原到來源位置以及備用位置。</block>
+  <block id="b64975edc0e1d4d2b77bbc09821fe6c1" category="list-text">*每小時磁碟區探索*：Dashboard 現在可以更快地探索和重新整理新磁碟區。</block>
+  <block id="8f504b1c826d739819c7ea02c4fd893f" category="list-text">*支援暗網站*：您現在可以從<block ref="e2fed6b5af5d107fdef5614adaedfcef" category="inline-link-rx"></block>下載適用於暗網站的 Backup and Recovery。目前，適用於暗網站的 NetApp Backup and Recovery 僅支援 ONTAP Volumes 工作負載。</block>
+  <block id="ccf9e1de6190057c9e2e1a10c6b8f07f" category="list-text">*Unicode 相容性改進*：目錄索引現在可以更好地處理 Unicode 字元。</block>
+  <block id="a173f0fc9f4786dd11c96099dd446ec8" category="list-text">*改進的 FlexGroup 相容性*：將 ONTAP FlexVol 磁碟區轉換為 FlexGroup 磁碟區時、現在可以還原轉換之前建立的備份。</block>
+  <block id="f32d4e838dfc925da7a940c6e55acf8c" category="list-text">*多重儲存桶支援*：現在您可以跨不同的雲端供應商，使用每個系統最多 6 個儲存桶來保護系統內的磁碟區。</block>
+  <block id="e32587f34260a350a3a49e3604fb2a4c" category="inline-link">保護 ONTAP Volume 工作負載概述</block>
+  <block id="db44a854b206d5d90008224f3bb5b2da" category="paragraph">有關保護 ONTAP Volume 工作負載的詳細資訊，請參閱<block ref="660ec036763d30562702201a56aaa402" category="inline-link-rx"></block>。</block>
+  <block id="f154c542c430b30dc73d2d3e87fd6f65" category="paragraph">在此版本中、 VMware 工作負載引進下列增強功能：</block>
+  <block id="63eb1b3f5c128e6460c85c7b6e5d2bb9" category="list-text">*從物件儲存還原客體資料*：您現在可以從物件儲存還原客體檔案和資料夾。</block>
+  <block id="7d88c93c0ec65e1bcc3564692a490a5b" category="list-text">*VMFS/NFS 快速還原*：現在，您可以在還原到備用位置時啟用快速還原選項。啟用後，系統只會從物件儲存中擷取 VM 中繼資料（檔案、LUN 和命名空間），使磁碟區的可用速度比完整還原更快。</block>
+  <block id="ba95b1986315d65e4bb0f2dcb924f870" category="list-text">*支援 Amazon FSx for NetApp ONTAP*：VMware 工作負載現在支援執行 9.13.1 或更新版本的 Amazon FSx for NetApp ONTAP 儲存系統。</block>
+  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保護 VMware 工作負載概述</block>
+  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">有關保護 VMware 工作負載的詳細資訊，請參閱<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
+  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026 年 3 月 09 日</block>
 </blocks>
