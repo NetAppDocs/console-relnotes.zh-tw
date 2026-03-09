@@ -519,4 +519,19 @@
   <block id="95036acb74478cad3d04125e4993251b" category="paragraph">如需詳細資訊，請參閱 <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>。</block>
   <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">改善的網路探索</block>
   <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">災難復原功能現在包含改進的網路探索功能，以支援更廣泛的網路組態。</block>
+  <block id="59ff8a6991a0f51816a1d27ab0590821" category="paragraph-title">提高了複製和移動的限制</block>
+  <block id="5db4431afc8c4647c29360449ee80225" category="doc">版本 1.52</block>
+  <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">資源驗證</block>
+  <block id="19458db6dfda018080434d803401d712" category="paragraph">為確保可靠性，Data Classification 現在會在掃描、報告產生和執行操作過程中驗證可用記憶體和磁碟資源。當記憶體使用率超過 95% 或磁碟空間低於 6 GB 時，Data Classification 會自動暫停操作。資源充足後，操作將恢復。</block>
+  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">監控 Data Classification 的運作狀況</block>
+  <block id="0c246fa8aa5b9bb6f56169910551448c" category="paragraph">若要監控您的系統資源、請參閱 <block ref="a35c82bf99053365807ff01dc40bc5d1" category="inline-link-macro-rx"></block>。</block>
+  <block id="427468160760189964c9cf7fcaa52709" category="paragraph">現在支援對 CIFS 目標進行複製和移動操作。這兩個操作的單一檔案大小限制已從先前的 50 MB 提高到 1 GB。這兩個操作的操作限制也已提高到 1 TB 或 500 萬個檔案。</block>
+  <block id="6d965e454a055e436e41408f02aad8e1" category="paragraph-title">Active Directory 整合設定權限</block>
+  <block id="a14fc25490ab294bb8fb754cd29f6486" category="paragraph">現在，資料分類中對 Active Directory（AD）整合設定的變更僅限於管理員。檢視者不再能夠修改 AD 設定。</block>
+  <block id="40abfc355f5aea2697c05cedc7637005" category="inline-link-macro">資料服務角色</block>
+  <block id="86b37aec2cfdfa690aeb8de2465ae8f4" category="paragraph">有關 Classification 檢視器角色的更多資訊，請參閱 <block ref="152b8a96499e0e41ff478a993b579623" category="inline-link-macro-rx"></block>。</block>
+  <block id="262af560e91bb5d3ce2340e565954dbf" category="paragraph-title">透明 Proxy 支援</block>
+  <block id="9478b45dce4de73855a8e0b13720f895" category="paragraph">Data Classification 現在支援透明 Proxy 配置，從而能夠在 Proxy 或受限網路環境中更順利地部署。</block>
+  <block id="365a447377f6e5c0e423f1aee2b9e99f" category="inline-link-macro">在沒有網路連線的 Linux 主機上安裝 NetApp Data Classification</block>
+  <block id="89f7afc8a9b178d4b4346f224d8bffc7" category="paragraph">如需在受限環境中部署的詳細資訊，請參閱 <block ref="6804ab8e5e77245509e3dc550ef5b67d" category="inline-link-macro-rx"></block>。</block>
 </blocks>
