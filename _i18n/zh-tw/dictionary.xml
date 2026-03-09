@@ -534,4 +534,13 @@
   <block id="9478b45dce4de73855a8e0b13720f895" category="paragraph">Data Classification 現在支援透明 Proxy 配置，從而能夠在 Proxy 或受限網路環境中更順利地部署。</block>
   <block id="365a447377f6e5c0e423f1aee2b9e99f" category="inline-link-macro">在沒有網路連線的 Linux 主機上安裝 NetApp Data Classification</block>
   <block id="89f7afc8a9b178d4b4346f224d8bffc7" category="paragraph">如需在受限環境中部署的詳細資訊，請參閱 <block ref="6804ab8e5e77245509e3dc550ef5b67d" category="inline-link-macro-rx"></block>。</block>
+  <block id="dd340069cb16665edf781618805f1165" category="doc">Console 代理 4.5.0</block>
+  <block id="de3b44fa9f294325dd837b3f15773cd6" category="paragraph">4.5.0 版本同時支援標準模式和受限模式。</block>
+  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理程式包含安全性改進和錯誤修正，以及以下新功能。</block>
+  <block id="b8ea9a14287592fd39444f5f11f22b28" category="paragraph-title">支援對所需連接埠進行組態檢查</block>
+  <block id="e6aa0876ac72372fe4102974fad02f9e" category="inline-link-macro">了解更多關於在 Console 代理上執行組態檢查的資訊。</block>
+  <block id="8fab8f63a86cd4593eb84501e6b42574" category="paragraph">您可以使用設定檢查來驗證 Console 代理程式所需的連接埠是否已開啟。您可以從 Console 或 Agent 維護控制台執行設定檢查。<block ref="b6bcdf4dfaf7604bd81efc4009e39859" category="inline-link-macro-rx"></block></block>
+  <block id="2de08c251ba5c647be79f6b565692ba4" category="section-title">主控台管理</block>
+  <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">深入瞭解如何為合作夥伴使用者指派 Keystone 角色。</block>
+  <block id="f932e5731af0b28e3d04131c77f23704" category="paragraph">您可以將 Keystone 角色指派給合作夥伴使用者，以允許這些使用者管理合作夥伴組織中的 Keystone 資源。<block ref="37c7e4a6dbebd9961095310c537fa832" category="inline-link-macro-rx"></block></block>
 </blocks>
