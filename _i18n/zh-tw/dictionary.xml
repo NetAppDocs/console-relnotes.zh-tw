@@ -535,4 +535,6 @@
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">如需詳細資訊、請參閱 <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>。</block>
   <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">2026 年 3 月 12 日</block>
   <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilience 現在提供適用於 <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> 和 <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block> 的安全編排、自動化和回應（SOAR）劇本。這些劇本能夠簡化威脅回應管理，自動執行任務測試和關鍵的勒索軟體回應工作，包括建立快照和將磁碟區離線。</block>
+  <block id="4ccc6bc65ccfbf776471461699df7790" category="inline-link-macro">複製、移動和刪除資料</block>
+  <block id="26f19c45862fe8f967db0b3b7d289ad3" category="paragraph">如需詳細資訊，請參閱 <block ref="151ab796904ad3ebe669fb675d8fec0a" category="inline-link-macro-rx"></block>。</block>
 </blocks>
