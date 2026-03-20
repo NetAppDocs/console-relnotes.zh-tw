@@ -477,7 +477,6 @@
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026 年 3 月 09 日</block>
   <block id="b57381f68dbba13b31fa8aa68f6b0b91" category="doc">將資料存放區從複寫計畫中排除</block>
   <block id="97a6d5c9da6b211dcdf5d581e247e960" category="paragraph">在 Disaster 中建立複寫計劃時，現在可以將特定資料存放區排除在複寫範圍之外。對於配置為使用多個資料存放區的 VM，此功能可讓您限制要複寫的資料存放區。</block>
-  <block id="1783ee76cf8532a6df415b4e239a23d9" category="paragraph">如需詳細資訊，請參閱 <block ref="c2741b2e4bc1013bb2e1908f9c4eb243" category="inline-link-macro-rx"></block>。</block>
   <block id="ec6c483e852913b786ae872f19efd121" category="section-title">已移除 vCenter 密碼的密碼驗證</block>
   <block id="8cca1120916820e14384f393325831ff" category="paragraph">災難復原功能取消了 vCenter 密碼的密碼限制，允許使用包含空格的密碼。</block>
   <block id="c0b13507b7c62a7122f6d5ccf83fd444" category="inline-link-macro">在 NetApp Disaster Recovery 中新增本地和 Amazon EVS vCenter 叢集</block>
@@ -543,4 +542,5 @@
   <block id="05ae2f7ed42f24ad34227986da264aae" category="paragraph-title">支援 RHEL 9.7</block>
   <block id="3864a6ab3937a10a6f13bfa0f593150c" category="paragraph">資料分類功能新增了 Red Hat Enterprise Linux v9.7，可用於手動內部部署安裝，包括 dark site 部署。</block>
   <block id="900e4148b2c0433fc2c6d0435cf489cd" category="paragraph">以下作業系統需要使用 Podman 容器引擎，並且需要 Data Classification 版本 1.30 或更高版本：Red Hat Enterprise Linux 版本 8.8、8.10、9.0、9.1、9.2、9.3、9.4、9.5、9.6 和 9.7。</block>
+  <block id="855f6640322147511d2bad1c3ef67a01" category="paragraph">有關詳細資訊，請參閱 <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>。</block>
 </blocks>
