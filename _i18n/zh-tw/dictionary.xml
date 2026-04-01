@@ -551,4 +551,15 @@
   <block id="1336b537734375879229275580e44691" category="inline-link">保護 Oracle Database 工作負載概述</block>
   <block id="1862dacb480058987868f9ba0ecb7166" category="paragraph">有關保護 Oracle Database 工作負載的詳細資訊，請參閱<block ref="a1bc2d91e29f35544fc66a9a951bc0f5" category="inline-link-rx"></block>。</block>
   <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">2026 年 3 月 31 日</block>
+  <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">歷史使用量圖表上高於突發容量</block>
+  <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">查看您的 Keystone 訂閱的消費趨勢</block>
+  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">「消耗趨勢」標籤中的歷史消耗圖表現在會突顯超出突發限制的使用量。若要深入瞭解，請參閱 <block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>。</block>
+  <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">容量使用預測</block>
+  <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">查看預測資料</block>
+  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">您可以使用 *Consumption trend* 標籤中 *Historical consumption* 視圖裡的 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的容量使用量。若要深入瞭解，請參閱 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>。</block>
+  <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">訂閱匯出中的追蹤 ID</block>
+  <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">現在，從 *Subscriptions* 頁面下載的訂閱報告在 Excel 和 CSV 格式的效能服務等級資料中包含了 *Tracking ID*。</block>
+  <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">訂閱頁面欄可見性更新</block>
+  <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">在「訂閱」頁面上、「Keystone 版本」欄現在預設為隱藏、而「連結的訂閱」欄僅在有連結的訂閱可用時才會顯示。</block>
+  <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">2026 年 3 月 30 日</block>
 </blocks>
