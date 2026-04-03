@@ -564,5 +564,5 @@
   <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">2026 年 3 月 30 日</block>
   <block id="ed300adca180c1e33d800707367434a6" category="doc">適用於 Google SecOps 的 SOAR 策略手冊</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
-  <block id="6e9577ca2ef4afc51475afb9c4855a58" category="paragraph">Ransomware Resilience 現在提供了一個安全編排、自動化和回應 (SOAR) 劇本<block ref="a0b16504c1687e5508c034346a32796a" category="inline-link-macro-rx"></block>。該劇本能夠簡化威脅回應管理，自動化任務測試和關鍵的勒索軟體回應工作，包括建立快照和將磁碟區離線。</block>
+  <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience 現在提供了一個安全編排、自動化和回應 (SOAR) 劇本<block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>。該劇本能夠簡化威脅回應管理、自動化任務和測試，並支援關鍵的勒索軟體回應工作，包括建立快照和將磁碟區離線。</block>
 </blocks>
