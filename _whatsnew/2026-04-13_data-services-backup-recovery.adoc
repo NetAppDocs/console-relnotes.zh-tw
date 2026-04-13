@@ -59,8 +59,8 @@
 
 * *基於標籤的保護*：VMware 工作負載的 Backup and Recovery 現在支援對儲存在 NFS 和 VMFS 磁碟區上的 VM 進行基於標籤的保護，可讓您從 vCenter 標籤而非從個別 VM 或資料存放區建置保護群組。當您在 vCenter 中標記 VM 和資料存放區時，Backup and Recovery 會自動探索它們並將其納入未來的備份中，無需任何手動群組維護。如需詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["建立和管理保護群組"]。
 * *還原至替代儲存系統*：即使原始（主要）儲存系統完全無法使用，您現在也可以將虛擬機器還原至替代儲存系統。如需詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["還原 VMware 工作負載"]。
-* *將檔案還原至 Linux VM*：您現在可以將 VM 檔案和資料夾還原至 Linux VM。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["還原檔案和資料夾"]。
-* * 還原檔案和資料夾時支援 Proxy VM * - 您現在可以將檔案和資料夾還原至來源 vCenter 上託管的其他 VM 。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["還原 VMware 工作負載"]。
+* *將檔案還原至 Linux VM*：您現在可以將 VM 檔案和資料夾還原至 Linux VM。如需詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["還原檔案和資料夾"]。
+* * 還原檔案和資料夾時支援 Proxy VM * - 您現在可以將檔案和資料夾還原至來源 vCenter 上託管的其他 VM 。如需詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["還原 VMware 工作負載"]。
 * *遞迴檔案和資料夾搜尋* - 您現在可以在整個 VMDK 中搜尋特定檔案或資料夾。如需詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["還原 VMware 工作負載"]。
 * *改進的工作處理*：NetApp Backup and Recovery 現在可以更有效率地處理多個同時進行的工作。
 

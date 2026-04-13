@@ -11,7 +11,7 @@
 此版本的 Console 代理程式包含安全性改進和錯誤修正，以及以下新功能。
 
 .支援對所需連接埠進行組態檢查
-您可以使用設定檢查來驗證 Console 代理程式所需的連接埠是否已開啟。您可以從 Console 或 Agent 維護控制台執行設定檢查。link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["了解更多關於在 Console 代理上執行組態檢查的資訊。"]
+您可以使用設定檢查來驗證 Console 代理程式所需的連接埠是否已開啟。您可以從 Console 或 Agent 維護主控台執行設定檢查。link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["了解更多關於在 Console 代理上執行組態檢查的資訊。"]
 
 
 
