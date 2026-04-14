@@ -123,20 +123,6 @@
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支援的配置</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">支援 Google Cloud Infrastructure Manager</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">雲端部署管理器</block>
-  <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">版本 1.50</block>
-  <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">自訂分類改進</block>
-  <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">資料分類功能現在支援建立自訂資料類別。您可以上傳檔案來微調資料分類所使用的 AI 模型，以便將類別標記套用至資料。所有自訂分類的介面都得到了改進。</block>
-  <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">建立自訂分類</block>
-  <block id="1ea7cf77170c31be18fc52c7e9649923" category="paragraph">有關詳細信息，請參閱 <block ref="c45381d223df5e8e5c4b98a60b8b65d3" category="inline-link-macro-rx"></block>。</block>
-  <block id="3e1e55a16c45f87e5a51189ca804eaf3" category="paragraph-title">自訂過期資料定義</block>
-  <block id="97b36bc8814884dc26bf5a568d08d691" category="paragraph">資料分類功能現在可讓您自訂過期資料的定義，以滿足您組織的需求。此前，過時數據被定義為三年前最後一次修改的數據。現在，可以根據上次訪問時間或上次修改時間來識別過時的數據；時間段可以從 6 個月前到 10 年前不等。</block>
-  <block id="493a301aeed6d63ec61fcc12caab7b22" category="inline-link-macro">自訂過期資料定義</block>
-  <block id="14748686f892545cd3b61c5ed2221369" category="paragraph">有關詳細信息，請參閱 <block ref="a0a0e231fdda706f469e0c838920ede3" category="inline-link-macro-rx"></block>。</block>
-  <block id="e887aed8f9c3dbecd37e8896d96b6637" category="paragraph-title">性能提升</block>
-  <block id="0106b64c8d04b65e1353d763ca518487" category="paragraph">資料分類、資料對應報告和調查頁面上的篩選器等所有頁面的載入時間都已縮短。</block>
-  <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">調查報告預計完成時間</block>
-  <block id="317bcae14c763efc48845c774a224df6" category="paragraph">下載調查報告時，「資料分類」現在會顯示下載完成的預計時間。</block>
-  <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
   <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">ONTAP磁碟區工作負載增強</block>
   <block id="70cc82710208295496c70c203368aaf9" category="paragraph">此版本的ONTAP磁碟區工作負載引入了以下增強功能：</block>
@@ -567,4 +553,13 @@
   <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering：leveloffset：+1</block>
   <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">_whatsnew/2026-04-13_data-services-cloud-tiering.adoc 中存在未解析的指令 - include::../_include/cloud-tiering-eol.adoc[]</block>
   <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">若要瞭解支援的組態以及如何設定系統以進行全新還原，請參閱 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>。若要瞭解如何使用全新還原進行還原，請參閱 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>。</block>
+  <block id="d5affa88c9505737da2bd460b6fd43bb" category="doc">改進了 Cloud Volumes ONTAP 對 Google Cloud C3 VMs 的支援</block>
+  <block id="0c095222c728afb1d3c25c10e5f27e3c" category="paragraph">Cloud Volumes ONTAP 現在增強了對 Google Cloud C3 系列 VM 的支援，從而實現了以下附加功能：</block>
+  <block id="f0de228b367386d27d7b8cbf65c47859" category="list-text">在 Cloud Volumes ONTAP 部署中，您可以在 C3 系列的不同變體之間切換執行個體類型。</block>
+  <block id="b6d05c51f23a9bec9f5098e25088be1b" category="list-text">變更執行個體類型時，如果您選擇 c3-standard-44 或 c3-standard-88 及其 LSSD 變體作為目標 VM，則會自動套用 Google 網路服務出口網路層級 Tier-1。如果您切換到任何其他 C3 變體，則出口網路層級將設定為 Standard。</block>
+  <block id="8c530a5dacbdac6ea799436763592a2b" category="admonition">將出口網路層級變更為 Tier-1 會產生額外成本。請據此規劃部署和升級。</block>
+  <block id="592c8c8f58ba9f6037877ba4f12bbd27" category="list-text">如果您選擇 C3 的本機 SSD (LSSD) 版本，則預設會啟用 Flash Cache。即使目標版本支援 Flash Cache，您也無法在 Cloud Volumes ONTAP 部署中切換 C3 LSSD 版本。</block>
+  <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">現在，您可以在 C3 VM 上為新的和現有的 Aggregate 新增 Volume。</block>
+  <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">您可以透過 NetApp Console 或使用<block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API 在新增磁碟區時變更 IOPS 和吞吐量設定。</block>
+  <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
 </blocks>
