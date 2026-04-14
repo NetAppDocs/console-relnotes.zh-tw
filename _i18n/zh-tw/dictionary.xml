@@ -524,8 +524,6 @@
   <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*還原至替代儲存系統*：即使原始（主要）儲存系統完全無法使用，您現在也可以將虛擬機器還原至替代儲存系統。如需詳細資訊，請參閱<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>。</block>
   <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">還原檔案和資料夾</block>
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*將檔案還原至 Linux VM*：您現在可以將 VM 檔案和資料夾還原至 Linux VM。如需詳細資訊，請參閱<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
-  <block id="cbd6efe68945c4eed8277905a2c0fe44" category="list-text">* 還原檔案和資料夾時支援 Proxy VM * - 您現在可以將檔案和資料夾還原至來源 vCenter 上託管的其他 VM 。如需詳細資訊，請參閱<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>。</block>
-  <block id="b8f9bd73e7115f55039fdbc342c5bf1f" category="list-text">*遞迴檔案和資料夾搜尋* - 您現在可以在整個 VMDK 中搜尋特定檔案或資料夾。如需詳細資訊，請參閱<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>。</block>
   <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">未解析的指令位於 &lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]</block>
   <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">版本 1.53</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">本次 Data Classification 版本更新包括錯誤修復、安全性改進和效能提升。</block>
@@ -562,4 +560,6 @@
   <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">現在，您可以在 C3 VM 上為新的和現有的 Aggregate 新增 Volume。</block>
   <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">您可以透過 NetApp Console 或使用<block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API 在新增磁碟區時變更 IOPS 和吞吐量設定。</block>
   <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
+  <block id="12dc36f8332118bd4fe7f1b4633c0a17" category="list-text">*還原檔案和資料夾時支援 Proxy VM* - 現在，如果您不想將虛擬磁碟附加到原始 VM，可以使用 Proxy VM 從虛擬磁碟還原檔案和資料夾。如需詳細資訊，請參閱<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
+  <block id="ddd4881e88c799f792de41fafe0a11d7" category="list-text">*遞迴檔案和資料夾搜尋* - 您現在可以在整個虛擬磁碟中搜尋特定檔案或資料夾。如需詳細資訊，請參閱<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
 </blocks>
