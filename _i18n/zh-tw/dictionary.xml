@@ -123,33 +123,10 @@
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支援的配置</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">支援 Google Cloud Infrastructure Manager</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">雲端部署管理器</block>
-  <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
-  <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">ONTAP磁碟區工作負載增強</block>
-  <block id="70cc82710208295496c70c203368aaf9" category="paragraph">此版本的ONTAP磁碟區工作負載引入了以下增強功能：</block>
-  <block id="cbab7e5b614b876bebcce0c29fd1afb6" category="paragraph">*支援多個儲存桶*：（私有預覽）從ONTAP 9.17.1 及更高版本開始，您現在可以保護系統中的捲，每個系統最多可跨不同的雲端供應商使用 6 個儲存桶。</block>
-  <block id="695e42eb94aa8a143b557dc75e4cc65e" category="inline-link-macro">了解更多關於使用NetApp Backup and Recovery備份ONTAP卷資料的信息</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 工作負載增強功能</block>
-  <block id="d8cf45a94e57901a57764525baf2f9bf" category="paragraph">此版本的 VMware 工作負載引入了以下增強功能：</block>
-  <block id="3b2cdba7e0b9954f4d9e79b310fdbccd" category="list-text">現在您可以還原客戶作業系統檔案和資料夾。</block>
-  <block id="1ae0fe82c82eb100fa0d7221b899a229" category="inline-link">了解更多關於恢復訪客文件和資料夾的信息</block>
-  <block id="f73006a3da0451caefdac27f55b5a651" category="paragraph"><block ref="ec740e6f2b69e9d5eeb44cc6164f597c" category="inline-link-rx"></block>。</block>
-  <block id="2fcce708931d6d68e1d88fc4a46eef94" category="section-title">Hyper-V 工作負載預覽增強功能</block>
-  <block id="0c95402d3c8d84b27c1f2eb1f4757c29" category="paragraph">此版本的 Hyper-V 工作負載引入了以下增強功能：</block>
-  <block id="3d0f94ed484d5b1224a05746eeef7916" category="list-text">現在您可以編輯保護群組了。</block>
-  <block id="33c7653a8f2aa564c4ccd96aaacf4f4f" category="admonition">僅在此版本中，您無法使用「操作」功能表中的「升級」選項升級 Hyper-V 或 Windows 的NetApp程式。相反，請刪除每個 Hyper-V 主機，然後重新新增以更新插件。</block>
-  <block id="2e9a0674716cf9fc0f20713c35ea7c92" category="inline-link">了解更多關於使用NetApp Backup and Recovery恢復 Hyper-V 虛擬機器的信息</block>
-  <block id="b6346010c4ef2da943c1c7fa6a17d974" category="paragraph"><block ref="7ec45f32ee1da46f6d69c07cb5d19e8e" category="inline-link-rx"></block>。</block>
-  <block id="4b39db76689788868bda30b97106ca4a" category="section-title">KVM工作負載預覽增強功能</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">保護 KVM 工作負載概述</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">有關保護 KVM 工作負載的詳細信息，請參閱<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block>。</block>
-  <block id="389e0c39aeda061370262a9fa330d865" category="doc">不支援的捲</block>
-  <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">下載勒索軟體復原力報告</block>
-  <block id="877e42a9811fb7c41b1fccef32ca2477" category="paragraph">有關詳細信息，請參閱 <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>。</block>
   <block id="84e342f82fe0ee384175add283bd1f4e" category="list-text">VMware 工作負載支援現已在 NetApp Backup and Recovery 中正式推出（GA）。</block>
-  <block id="f411222cfe4404b6e0b3d9790460b804" category="list-text">現在您可以將 Hyper-V VM 備份和快照還原到其他位置。使用此功能可以管理不同 Hyper-V 主機上的 VM 版本。</block>
-  <block id="83de53928b74eea738d883969ca231fa" category="list-text">NetApp Backup and Recovery 現在支援由 System Center Virtual Machine Manager (SCVMM) 配置並託管在 CIFS 共用上的 Hyper-V 虛擬機器。</block>
-  <block id="fe3a06f4a23ebd296fcaecd751b29ac6" category="paragraph">KVM 工作負載預覽版現在可以保護由 Apache CloudStack 管理的 KVM 主機和虛擬機器。</block>
-  <block id="37c785778d2185acbba38fa4b6624392" category="paragraph"><block ref="b49343ccc7da9738bd595bd89e3d39db" category="inline-link-macro-rx"></block>。</block>
   <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">每日累積突發資料的互動式篩選</block>
   <block id="cb74be13d3a600957d1ee583265f537d" category="inline-link-macro">檢視每日累計突發資料使用量</block>
   <block id="4b808a5ae06687042695057904b0b6bb" category="paragraph">「消費趨勢」標籤中的「按天計算累積峰值」表格現已支援互動式篩選。選擇累計峰值計費圖表中的任一長條圖，即可僅查看該計費週期內的天數。要了解更多信息，請參閱<block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>。</block>
@@ -288,7 +265,6 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全球區域地圖</block>
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">有關所有地區的清單，請參閱 <block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
   <block id="29759b568048f604f84457c1e384b4a3" category="section-title">2026 年 2 月 19 日</block>
-  <block id="d64f95921199e6f185b7d45fa5313dc7" category="paragraph">Ransomware Resilience 報告現在會在 **Summary** 報告中記錄受支援和不受支援的磁碟區的資訊。使用此資訊可以診斷系統中的磁碟區為何可能不符合勒索軟體防護條件。</block>
   <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Data Infrastructure Insights 附加消耗顯示器</block>
   <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">查看 DII 消費狀況</block>
   <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights （ DII ） 附加元件使用量現在會顯示在 *目前使用量* 和 *使用量趨勢* 標籤中。若要深入瞭解、請參閱 <block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>。</block>
@@ -562,4 +538,7 @@
   <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
   <block id="12dc36f8332118bd4fe7f1b4633c0a17" category="list-text">*還原檔案和資料夾時支援 Proxy VM* - 現在，如果您不想將虛擬磁碟附加到原始 VM，可以使用 Proxy VM 從虛擬磁碟還原檔案和資料夾。如需詳細資訊，請參閱<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
   <block id="ddd4881e88c799f792de41fafe0a11d7" category="list-text">*遞迴檔案和資料夾搜尋* - 您現在可以在整個虛擬磁碟中搜尋特定檔案或資料夾。如需詳細資訊，請參閱<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
+  <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中、VMware 工作負載引進下列增強功能：</block>
+  <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*ASA r2 SAN 支援*：VMware 工作負載現在支援保護由 NetApp ASA r2 SAN 專用環境託管的 VMFS 資料存放區上的虛擬機器。</block>
+  <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">2026 年 4 月 20 日</block>
 </blocks>
