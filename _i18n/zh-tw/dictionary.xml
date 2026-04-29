@@ -523,7 +523,6 @@
   <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">瞭解使用者活動偵測</block>
   <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">如需詳細資訊，請參閱 <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>。</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026 年 4 月 13 日</block>
-  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering：leveloffset：+1</block>
   <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">若要瞭解支援的組態以及如何設定系統以進行全新還原，請參閱 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>。若要瞭解如何使用全新還原進行還原，請參閱 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>。</block>
   <block id="d5affa88c9505737da2bd460b6fd43bb" category="doc">改進了 Cloud Volumes ONTAP 對 Google Cloud C3 VMs 的支援</block>
   <block id="0c095222c728afb1d3c25c10e5f27e3c" category="paragraph">Cloud Volumes ONTAP 現在增強了對 Google Cloud C3 系列 VM 的支援，從而實現了以下附加功能：</block>
@@ -548,4 +547,9 @@
   <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
   <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering 停止供應常見問題集</block>
   <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
+  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">重新命名已佈建容量標籤</block>
+  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">標籤 *Provisioned capacity* 已重新命名為 *Provisioned volume capacity*。更新後的標籤也已反映在相關的 CSV 和 Excel 報表中。</block>
+  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積高載的預測切換</block>
+  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。要了解更多資訊，請參閱 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>。</block>
+  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026 年 4 月 27 日</block>
 </blocks>
