@@ -479,7 +479,6 @@
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">保護 ONTAP Volumes 工作負載總覽</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
   <block id="19455401d550e37f86235df1de2da367" category="paragraph">在此版本中、Kubernetes 工作負載引入了以下保護原則增強功能：</block>
-  <block id="8832a3317e409faa663d5b3be7a37383" category="list-text">*編輯保護原則*：如果您需要變更 Kubernetes 工作負載保護原則，現在可以進行編輯</block>
   <block id="67c0c04b74d317df3fb38678dfce9d57" category="list-text">*磁碟到磁碟支援*：您現在可以設定具有磁碟到磁碟備份架構的 Kubernetes 保護原則。</block>
   <block id="1f22edbdac095058ea8301cd1b0fa03f" category="list-text">*Google Cloud Platform 儲存桶支援*：您現在可以設定 Kubernetes 保護原則以備份到 Google Cloud Platform 儲存桶。</block>
   <block id="55dcb475c806e158ae812c3e721ff829" category="inline-link">在 NetApp Backup and Recovery 中建立及管理保護政策</block>
@@ -552,4 +551,5 @@
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積高載的預測切換</block>
   <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。要了解更多資訊，請參閱 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>。</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026 年 4 月 27 日</block>
+  <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*編輯保護原則*：如果您需要變更 Kubernetes 工作負載保護原則，現在可以進行編輯。</block>
 </blocks>
