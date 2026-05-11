@@ -120,76 +120,26 @@
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和資料服務的最新變化。若要查看完整的版本發布歷史記錄，請參閱每個服務的完整版本說明。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">建立複製計劃</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支援的配置</block>
-  <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">支援 Google Cloud Infrastructure Manager</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">雲端部署管理器</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 工作負載增強功能</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">保護 KVM 工作負載概述</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">有關保護 KVM 工作負載的詳細信息，請參閱<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block>。</block>
-  <block id="84e342f82fe0ee384175add283bd1f4e" category="list-text">VMware 工作負載支援現已在 NetApp Backup and Recovery 中正式推出（GA）。</block>
   <block id="ed5b5006125f27aac08e98fe5c365d46" category="inline-link">Google Cloud Infrastructure Manager</block>
-  <block id="055d81bf5e86c650f524ba8578595b0e" category="paragraph">Cloud Volumes ONTAP 9.16.1 及更高版本現在支援使用<block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block>（IM）而非<block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block>（DM）來部署 Google Cloud 中的新部署。Google 將在不久的將來棄用 Deployment Manager 作為基礎架構服務，轉而使用更進階的基礎架構管理器。</block>
   <block id="66243a4b72870642e35fa6b52e50a63b" category="inline-link">為 Google Cloud Infrastructure Manager 設定現有的 Cloud Volumes ONTAP 部署</block>
-  <block id="492eb9196f4c5211832a66df9ce6230b" category="paragraph">使用 Infrastructure Manager 的 Cloud Volumes ONTAP 系統會使用 Google Cloud Storage 儲存桶來儲存資料和記錄，這些儲存桶位於首次部署的區域中，用於儲存部署記錄，這些記錄可供後續部署重複使用。這些儲存桶可能會產生額外費用，但請勿編輯或刪除儲存桶及其內容：</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">相關連結</block>
-  <block id="73c696c58c9e62731e855a0bf47853e1" category="inline-link">開始在 Google Cloud 中使用 Cloud Volumes ONTAP</block>
-  <block id="f80ae1b8de03cd56e51dbe8e44bf284f" category="list-text"><block ref="f80ae1b8de03cd56e51dbe8e44bf284f" category="inline-link-rx"></block></block>
   <block id="ccc8cedaac96382fa4e8c01b8e53646d" category="inline-link">NetApp Console Agent 4.2.0 發行說明</block>
   <block id="9039c72d9261ecd88329c5e8d1a4172d" category="list-text"><block ref="9039c72d9261ecd88329c5e8d1a4172d" category="inline-link-rx"></block></block>
   <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Google Cloud Infrastructure Manager 所需的權限</block>
   <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
   <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">2026 年 2 月 09 日</block>
-  <block id="9f8adb7ebffc39f306c40ef2d6a377b1" category="paragraph-title">直接從 NetApp Console 畫布啟動 Amazon FSxN for ONTAP 的資料分類</block>
-  <block id="880dc0b44905babcfa6685da86ba8117" category="paragraph">現在您可以直接從 NetApp Console 畫布啟用適用於 ONTAP 系統的 Amazon FSxN，從而更快地啟動 FSxN 系統的資料分類。</block>
-  <block id="dd8a2d3b3415c2980790a672dff3757f" category="inline-link-macro">掃描 Amazon FSxN for ONTAP 磁碟區</block>
-  <block id="db8b5cff328cee1f4914855b931bae02" category="paragraph">有關將資料分類與 Amazon FSxN for ONTAP 搭配使用的詳細資訊，請參閱<block ref="48a47292b9e31aff1079bbdaa3cd4739" category="inline-link-macro-rx"></block>。</block>
-  <block id="3ee3e594e3bac0471e4cda35acc3588a" category="paragraph-title">提高了調查目錄的匯出限制</block>
-  <block id="45f99b8f539f37cc0379b65d3ddafbbf" category="paragraph">現在，從 Investigation 儀表板匯出目錄調查報告時，您可以包含 10,000 行資料。與先前的 5,000 行限制相比，這項提升支援更大規模的資料治理和合規性調查。</block>
-  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">調查資料</block>
-  <block id="e733aab9ce2fc5320fbdd563cba5e12b" category="paragraph">如需更多資訊、請參閱 <block ref="d8b3109a5818cc0f43ade4650ffede11" category="inline-link-macro-rx"></block>。</block>
   <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">提高了複製和移動的限制</block>
-  <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">現在複製或移動檔案時，您可以移動最大 250 MB 的檔案，比之前的 50 MB 限制有所增加。</block>
-  <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">改善低解析度螢幕的顯示效果</block>
-  <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification 已改善低解析度螢幕的顯示效能，提升使用者體驗。</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes 工作負載增強功能</block>
-  <block id="de8616724d177017abdd720d7365feff" category="paragraph">此版本的 Kubernetes 工作負載引入了以下增強功能：</block>
-  <block id="e83849cb5376223ea17f24fcaf9756e4" category="list-text">*CR 工作流程支援*：您現在可以使用 CR 以及 Backup and Recovery Web UI 執行常見的保護任務。</block>
-  <block id="e572a091207dcc253fde964cd9d716cb" category="list-text">*叢集遷移*：現在您可以將受 Trident Protect 保護的現有 Kubernetes 叢集新增至 NetApp Backup and Recovery。</block>
-  <block id="9674b909ef82dfe8331f77d84e878c04" category="list-text">*警示架構支援*：您現在可以接收有關某些 Kubernetes 工作負載事件的電子郵件和 UI 警示。</block>
-  <block id="ea6aa972206a8b460e06b79e84a9211b" category="list-text">*Restore 選項卡整合*：您現在可以從 Restore 功能表存取 Kubernetes 工作負載 restore 操作。</block>
-  <block id="bf72fb868ac644263293cb0c5ccc59c1" category="list-text">*支援 3-2-1 扇出備份架構*：現在，在保護 Kubernetes 工作負載時，您可以在保護原則中使用 3-2-1 扇出架構。</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保護 Kubernetes 工作負載概述</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">有關保護 Kubernetes 工作負載的詳細資訊，請參閱<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>。</block>
   <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Database 工作負載增強功能</block>
-  <block id="b663bfd2f714b44e458d15bb1e6002bc" category="paragraph">此版本的 Oracle Database 工作負載引入了以下增強功能：</block>
-  <block id="c1cb9a739430571a50b81bf3a48a1ab8" category="list-text">*非 root 使用者支援*：非 root 使用者現在可以執行備份、還原和複製作業，從而提高安全性和合規性。</block>
-  <block id="2b8a690a9b9248405fb6bba05b997f16" category="list-text">*Clone 支援*：現在使用 ASM 庫 v2 ，在主要和次要 NAS 、 SAN 和 ASM 環境中支援 Clone 功能，從而實現協調的保護工作流程。</block>
-  <block id="8ff8833aaf25d3ffbe1942bc11221a77" category="list-text">*Clone split 支援*：現在可以將可寫入快照（Clone）從其父 Volume 中拆分出來，從而釋放儲存空間並實現獨立操作。</block>
-  <block id="de315feba3cc97f871a801444cebe8a8" category="list-text">*物件儲存的備份和還原*：現在支援基於物件的 S3 相容儲存目標的原生備份和還原功能。</block>
-  <block id="ffb4de355aa6d4aa7e8805128e9c2860" category="list-text">*Clone Lifecycle Management（CLM）*：主儲存設備支援複製重新整理作業。</block>
-  <block id="bb34df9f9d35ad561edcc8780a11b63c" category="list-text">*複製到備用主機*：現在您可以從主儲存和次要儲存將資料庫複製到不同的主機（用於測試或分析）。</block>
-  <block id="ec76c85c764d367b1028b426d5aaa897" category="list-text">*ONTAP 一致性群組支援*：現在支援 ONTAP 一致性群組，確保跨多個磁碟區的應用程式一致性快照。</block>
-  <block id="07bac542633034a121251f74bf3c7880" category="list-text">Backup and Recovery 現在支援以下針對 Oracle Database 工作負載的保護原則架構：</block>
-  <block id="8f8f2fbe982fd62b69f6aa2faf0d46da" category="list-text">3-2-1 分支</block>
-  <block id="55cf8812c6c22803ddfa5fd41279187d" category="list-text">磁碟到磁碟</block>
-  <block id="0f6d38819f95da81f8bc80258fee7071" category="list-text">磁碟到物件儲存</block>
-  <block id="e3b858c29172bddae0dbb7e461b2f7df" category="list-text">級聯</block>
-  <block id="a3ea5994e4599e8634011a1c5ba8a9ed" category="list-text">本地快照</block>
   <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">保護 Oracle Database 工作負載概述</block>
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">有關保護 Oracle Database 工作負載的詳細資訊，請參閱<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>。</block>
-  <block id="6108d5ad430f0631e5c6e10714ba980c" category="doc">正式版（GA）支援的 Microsoft Hyper-V 工作負載</block>
-  <block id="c5db154b8366e71dcf87e4624b1a0112" category="paragraph">NetApp Backup and Recovery 現已全面支援 Microsoft Hyper-V 工作負載（GA）。</block>
-  <block id="1076db915b54c5214ad7cd6d4bac394d" category="doc">Console 代理 4.4.0</block>
-  <block id="19ddf31000061ed231618214ee45c8af" category="paragraph">4.4.0 版本同時支援標準模式和受限模式。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">此版本的 Console 代理程式包含安全性改善和錯誤修正。</block>
-  <block id="83d800fe01b0b9d8ce89e835fc6accad" category="paragraph-title">支援 NetApp Backup and Recovery 工作負載（Oracle 和 Microsoft SQL Server）的角色型存取控制</block>
-  <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">您可以將 NetApp Backup and Recovery 工作負載（Oracle 和 Microsoft SQL Server）與專案建立關聯。指派給專案後，獲指派該專案 NetApp Backup and Recovery 角色的使用者可以使用這些工作負載。目前其他工作負載不支援基於角色的存取。</block>
-  <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">了解更多關於為 Backup and Recovery 工作負載設定基於角色的存取權限的資訊。</block>
-  <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
-  <block id="e050f36de18bf9eec79dfa74451d3df0" category="doc">支援在 Cloud Volumes ONTAP 和 FSx for ONTAP 之間複寫資料</block>
-  <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">現在可以透過 NetApp Console 在 Cloud Volumes ONTAP 系統和 FSx for ONTAP 檔案系統之間進行資料複製。</block>
-  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">複寫資料</block>
-  <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
-  <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">正式版 (GA) 中支援的 VMware 工作負載</block>
   <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">Azure 中對 Ebdsv5 和 E104ids_v5 VM 的支援</block>
   <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">從 Cloud Volumes ONTAP 9.18.1 開始，您可以部署 Ebdsv5 和 E104ids_v5 VM，用於單節點和高可用性（HA）部署和升級。</block>
   <block id="9aa187942e09002cf25de4088980c393" category="paragraph">Azure 虛擬機器 Eb 系列中的 Ebdsv5 VM 針對更高的遠端儲存效能進行了最佳化。您可以將這些 VM 用於記憶體密集型和 I/O 密集型的企業級工作負載，例如關聯式資料庫、記憶體內分析和其他要求嚴格的關鍵業務應用程式。</block>
@@ -254,33 +204,22 @@
   <block id="8b3c75a910501c009c7e86f190f1825d" category="section-title">2026 年 2 月 23 日</block>
   <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">NetApp Backup and Recovery 中現已正式提供 KVM 工作負載支援（GA）。</block>
   <block id="403eb7104337d3b7cb0c9cbd6a28b588" category="section-title">正式版 (GA) 中支援的 Kubernetes 工作負載</block>
-  <block id="d370e8740a6b64fd386955e0e780b888" category="paragraph">自 2026 年 2 月 9 日起，Cloud Volumes ONTAP 使用 Infrastructure Manager 進行新的和現有的部署。此表為您說明了一些工作流程：</block>
   <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">情境</block>
   <block id="004bf6c9a40003140292e97330236c53" category="cell">行動</block>
   <block id="7227af91d597be9f306654b7f9570871" category="cell">代理程式的新 API</block>
   <block id="060f2406e35d76018851fe48ca94d582" category="cell">代理程式的新權限</block>
   <block id="7fcf37c89982b3db8f710c7c0a78df3f" category="cell">適用於 Cloud Volumes ONTAP 的全新 Google Cloud API</block>
   <block id="12f8aec1aacb26c22265d9eeef4f1a7a" category="cell">文件資源</block>
-  <block id="ffcce4c7137f38bc7e8f7abd968a2416" category="cell">現有代理程式和現有 Cloud Volumes ONTAP 部署</block>
-  <block id="8ca4609018726707802acec01ea088c8" category="cell">為現有代理程式新增新的 API 和權限，並轉換現有的 Cloud Volumes ONTAP 系統。</block>
   <block id="15b890fd729e8bd42b01f29b115cdada" category="list-text">Cloud Infrastructure Manager API</block>
   <block id="a4c710688b0bce1852460a0da5685192" category="list-text">雲端配額 API</block>
   <block id="6ecd6a8715f3b8584b0a166952141ee0" category="paragraph">Console 版本的所有權限如下：</block>
   <block id="a578c7a2817a7adad288f8984659cad5" category="inline-link">2025 年 12 月 8 日</block>
   <block id="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="list-text"><block ref="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="inline-link-rx"></block></block>
   <block id="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="list-text"><block ref="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="inline-link-rx"></block></block>
-  <block id="d0afacc44f5837356184459eb1b8fb68" category="cell">\https://www.googleapis.com/upload/storage/v1 \https://config.googleapis.com/v1</block>
   <block id="78b63d509629d2b46ecd06bdf9d90717" category="paragraph"><block ref="78b63d509629d2b46ecd06bdf9d90717" category="inline-link-rx"></block></block>
-  <block id="32524c76b6297a63bd4c44a66fb638cb" category="cell">現有代理程式和新的 Cloud Volumes ONTAP 部署</block>
-  <block id="cd116d29376c1e626e005f853f310ae1" category="cell">為現有代理程式新增新的 API 和權限，並部署新的 Cloud Volumes ONTAP 系統。</block>
-  <block id="599a622e9d52b5b54a2b589d25b12d7f" category="cell">新部署的所有步驟</block>
   <block id="af766153ec7c24e4d448b02bfd0e1ec3" category="cell">新代理程式和新部署</block>
-  <block id="252390de9c128281e1354046c39015db" category="cell">建立新代理並部署新的 Cloud Volumes ONTAP 系統。</block>
   <block id="133f87cfee7691c59e4aceff51289761" category="inline-link">從 Google Cloud 建立 Console 代理</block>
   <block id="cfdaf06139b734f8230b05e534421bc4" category="list-text"><block ref="cfdaf06139b734f8230b05e534421bc4" category="inline-link-rx"></block></block>
-  <block id="dfa41bd12b34b1bd351e47cb755d553f" category="paragraph">現在，您可以部署 Cloud Volumes ONTAP 以自動使用 Infrastructure Manager，或執行轉換工具將 Deployment Manager 中的現有部署切換到 Infrastructure Manager。轉換過程只需一次，之後您的系統將開始使用 Infrastructure Manager。有關執行轉換工具的說明，請參閱<block ref="5621b7ac255bff00b9e8610ec0606935" category="inline-link-rx"></block>。</block>
-  <block id="0841cdab6957a4878161d52555ce3f69" category="list-text"><block ref="459888dc95116b3e1800e611d3502102" prefix="" category="inline-code"></block>：用於新的 Cloud Volumes ONTAP 部署的 ONTAP 版本和 SVM Terraform 範本。在此內，<block ref="141f3ccee25f2d3a39df4d9471e4bb21" prefix=" " category="inline-code"></block> 儲存桶包含 Cloud Volumes ONTAP Terraform 檔案。</block>
-  <block id="a11251d028e85bf55e217f7b75894bca" category="list-text"><block ref="6ec9e5b046607d57923aee80f990225d" prefix="" category="inline-code"></block>：用於儲存 Google Cloud Terraform 工件。</block>
   <block id="eefb06bb963974fa756fd69b5da77f3d" category="doc">支援私有模式部署的 Google Infrastructure Manager</block>
   <block id="8a1d72441a291104845776a8cb5ca0b8" category="paragraph">Cloud Volumes ONTAP 9.16.1 及更高版本現在支援<block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block>（IM），而非<block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block>（DM），用於 Google Cloud 中的新私有模式部署。Google 將在不久的將來棄用 Deployment Manager 作為基礎架構服務，改用更進階的 Infrastructure Manager。</block>
   <block id="ec39823b2cb6731c93e31551324e6ed7" category="paragraph">自 2026 年 2 月 25 日起，Cloud Volumes ONTAP 使用 Infrastructure Manager 進行新的和現有的私有模式部署。此表說明了基本工作流程：</block>
@@ -370,7 +309,6 @@
   <block id="95036acb74478cad3d04125e4993251b" category="paragraph">如需詳細資訊，請參閱 <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>。</block>
   <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">改善的網路探索</block>
   <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">災難復原功能現在包含改進的網路探索功能，以支援更廣泛的網路組態。</block>
-  <block id="59ff8a6991a0f51816a1d27ab0590821" category="paragraph-title">提高了複製和移動的限制</block>
   <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">資源驗證</block>
   <block id="19458db6dfda018080434d803401d712" category="paragraph">為確保可靠性，Data Classification 現在會在掃描、報告產生和執行操作過程中驗證可用記憶體和磁碟資源。當記憶體使用率超過 95% 或磁碟空間低於 6 GB 時，Data Classification 會自動暫停操作。資源充足後，操作將恢復。</block>
   <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">監控 Data Classification 的運作狀況</block>
@@ -541,4 +479,14 @@
   <block id="283ac99a03bae81366bef44dc5d0e7d7" category="list-text">*從 Backup and Recovery 升級 Trident Protect*：現在可以直接從 Backup and Recovery 升級 Kubernetes 叢集的 Trident Protect。</block>
   <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*檢視受保護的資源*：您現在可以檢視應用程式每個還原點中包含的資源，並下載詳細的 JSON 報告。這可讓您全面掌握還原點，並簡化稽核法規遵循作業。</block>
   <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">2026 年 5 月 05 日</block>
+  <block id="08940f555ee07e4993dba0f9d919b955" category="doc">基於 Kubernetes 的工作負載支援（預覽）</block>
+  <block id="6d2babe4a7d28b244ea0243157a67baf" category="inline-link-macro">Trident Protect 目前支援的任何 Kubernetes 版本</block>
+  <block id="f273ad1ac40fd6066b516be98e8466b7" category="paragraph">NetApp Disaster Recovery 現在已支援 Kubernetes 為基礎的工作負載。有了 Kubernetes 支援，您可以保護在 Kubernetes 叢集上執行的應用程式，包括 OpenShift Virtualization 環境。Disaster Recovery 支援 <block ref="ee3b2775270ba891227fbdcc3618242b" category="inline-link-macro-rx"></block>，確保容器化應用程式的無縫整合與強大的災難復原能力。</block>
+  <block id="17e5366c4d700584180f9a88c40ddd7f" category="paragraph">Kubernetes 型工作負載支援的主要功能：</block>
+  <block id="6e623252e9b1dfd44c03c706826c9dc2" category="list-text">**廣泛的相容性**：Disaster Recovery 支援所有與 Trident Protect 相容的 Kubernetes 版本，包括 Red Hat OpenShift Virtualization。</block>
+  <block id="3dbc5485bf1aa588640ee699337e0892" category="list-text">**以應用程式為中心的保護**：現在可以在應用程式層級保護 Kubernetes 工作負載，確保在容錯移轉事件期間恢復關鍵服務。</block>
+  <block id="6124980497de7eeb616c27d599b53c84" category="list-text">**簡化編排**：災難復原提供直覺的工作流程，可自動備份和複製 Kubernetes 工作負載，運用與 VMware 環境相同的高效 SnapMirror 技術。</block>
+  <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recovery 的 Kubernetes 需求</block>
+  <block id="84b0e3d023f875f2669a5f0d72922238" category="paragraph">目前對基於 Kubernetes 的工作負載的支援處於預覽階段。若要開始保護基於 Kubernetes 的工作負載，請參閱 <block ref="343bf0d5acc46def5b744dcb13640f63" category="inline-link-macro-rx"></block>。</block>
+  <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026 年 5 月 12 日</block>
 </blocks>
