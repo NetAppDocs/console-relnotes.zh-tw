@@ -78,6 +78,93 @@ Kubernetes 型工作負載支援的主要功能：
 
 
 
+=== 備份和復原
+
+
+
+==== Hyper-V 工作負載增強功能
+
+在此版本中、Hyper-V 工作負載引入了以下增強功能：
+
+* *保護 SAN 儲存設備上的 VM*：您現在可以保護 SAN 物件儲存設備上的 VM。
+* *還原至備用位置增強功能*：現在可以從 SAN 儲存設備上的 VM 主要位置和次要位置還原至備用位置。
+* *將檔案和資料夾還原至客體 VM*：您現在可以將主要儲存設備上快照中的檔案和資料夾還原至客體 Windows VM。此功能僅支援 CIFS VM。
+
+
+有關保護 Hyper-V 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["保護 Hyper-V 工作負載概述"]。
+
+
+
+==== KVM 工作負載增強功能
+
+在此版本中、KVM 工作負載引入了以下增強功能：
+
+*還原至替代位置*：您現在可以將 KVM VM 還原至替代目的地（此功能現已正式推出）。
+
+有關保護 KVM 工作負載的詳細信息，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["保護 KVM 工作負載概述"]。
+
+
+
+==== Oracle Database 工作負載增強功能
+
+在此版本中、Oracle Database 工作負載引進下列增強功能：
+
+* *Oracle AI Database 26ai 支援*：NetApp Backup and Recovery 現已支援 Oracle AI Database 26ai。
+* *備份驗證支援*：您現在可以設定備份原則，以自動驗證 Oracle 資料庫備份的完整性。
+
+
+有關保護 Oracle Database 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["保護 Oracle Database 工作負載概述"]。
+
+
+
+==== VMware 工作負載增強功能
+
+在此版本中、VMware 工作負載引進了以下增強功能：
+
+* *跨資料存放區保護群組支援*：現在可以選擇在保護虛擬磁碟跨越多個資料存放區的虛擬機器時，保護群組的行為。
+* *複製支援*：您現在可以從主要儲存設備和次要儲存設備建立虛擬機器快照的複製。
+
+
+有關保護 VMware 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["保護 VMware 工作負載概述"]。
+
+
+
+=== 勒索軟體抵禦能力
+
+
+
+==== 乾淨還原增強功能
+
+全新還原現在支援還原至替代叢集，並支援超過七天的分析。
+
+link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["使用乾淨還原來恢復工作負載"^]。
+
+
+
+==== Google SecOps SIEM 支援
+
+Ransomware Resilience 現已支援 Google SecOps 的安全資訊和事件管理 (SIEM)，使您能夠自動將資料傳送至 Google SecOps，從而簡化威脅分析和偵測。
+
+如需組態資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["將 Ransomware Resilience 連接至 SIEM"^]。
+
+
+
+==== Azure NetApp Files 支援現已正式推出
+
+Ransomware Resilience 現已支援 Azure NetApp Files 系統，使您能夠有效率地偵測和應對 Azure NetApp Files 中的勒索軟體威脅。當您發現工作負載時，Ransomware Resilience 現在會顯示 Azure NetApp Files，並在保護儀表板中呈現。Ransomware Resilience 對 Azure NetApp Files 的支援包括僅使用快照的偵測和保護策略。對 Azure NetApp Files 的支援現已正式發布（GA）。
+
+如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["了解勒索軟體復原能力"^]。
+
+
+
+==== SOAR 支援封鎖使用者
+
+Ransomware Resilience 現在支援使用 Google SecOps 和 Splunk SOAR playbook 封鎖單一使用者。透過此功能，當 Ransomware Resilience 偵測到可疑的使用者活動（例如資料外洩或大量刪除資料）時，您可以自動封鎖使用者。
+
+link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["整合 SOAR 劇本"^]。
+
+
+
 == 2026 年 5 月 05 日
 
 
