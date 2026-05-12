@@ -521,4 +521,30 @@
   <block id="c27a58445f6be9881526a37e46bb7d26" category="inline-link-macro">管理資料複寫</block>
   <block id="0b1fa8def44610bb724d3d46f4ace772" category="paragraph"><block ref="0b1fa8def44610bb724d3d46f4ace772" category="inline-link-macro-rx"></block></block>
   <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">複寫：leveloffset：+1</block>
+  <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS 中 Cloud Volumes ONTAP 和資料服務的彈性計費</block>
+  <block id="55abafc1dd088c3ce83eae8e4a747314" category="paragraph">NetApp 為您的 AWS Cloud Volumes ONTAP 訂閱提供增強的計費選項,讓您更能控制 Cloud Volumes ONTAP 容量和 NetApp 資料服務(例如 BlueXP backup and recovery)的付費方式。在此之前,所有 Cloud Volumes ONTAP 和資料服務的使用量都透過 AWS Marketplace 中的 NetApp Intelligent Services(NIS)清單一起計費。</block>
+  <block id="c6527bb2f1b87269be16603057b53a2c" category="paragraph">由於 AWS 企業折扣方案（EDP）的變更，NetApp 在 AWS Marketplace 中推出了獨立的 Cloud Volumes ONTAP 訂閱，讓您可以將 Cloud Volumes ONTAP 容量的計費與資料服務的計費分開。這種分離方式讓您更靈活地管理 EDP 抵扣額度和成本。NetApp 建議您使用獨立訂閱來更好地管理 Cloud Volumes ONTAP 的使用成本，同時在 2026 年 7 月 31 日 EDP 要求生效後，繼續使用 NIS 訂閱來支付資料服務的計費。</block>
+  <block id="bc5abfb3f56ed8d61846aead3435d204" category="paragraph">AWS 中的獨立 Cloud Volumes ONTAP 訂閱僅支援有效的基於容量的 Essentials 或 Freemium 許可套餐。Professional 套餐不支援。您可以選擇最適合您需求的計費方式：</block>
+  <block id="620ae1035cf673b2bf4915b820a55641" category="list-text">*獨立 Cloud Volumes ONTAP 訂閱（建議）*：您可以透過 AWS Marketplace 中的獨立訂閱支付 Cloud Volumes ONTAP 的使用費用，同時繼續透過 NIS 訂閱支付資料服務費用。對於大多數在 NetApp Console 中同時擁有獨立訂閱和 NIS 訂閱並與其 AWS 帳戶相關聯的客戶，這是建議的選擇。</block>
+  <block id="89df3be47eb3a96e140986018ec88f25" category="list-text">*合併 NIS 訂閱*：透過現有的 NIS 清單同時支付 Cloud Volumes ONTAP 和資料服務的費用。此合併方案適用於在 NetApp Console 中僅關聯了 NIS 訂閱的現有客戶。但是，NetApp 建議您設定 Cloud Volumes ONTAP 使用量的計費偏好設定，並切換到獨立訂閱，以便更好地管理成本。</block>
+  <block id="f0bbf3eb80d447bdeec06a404e0deecc" category="paragraph">根據您的訂閱類型，您將遇到以下情況：</block>
+  <block id="136ebd87e9330d7c5a86db1bea619a09" category="paragraph-title">僅限獨立訂閱（新客戶）</block>
+  <block id="4878475e6c6d651007ba24b57dd8f52c" category="paragraph">如果您在 NetApp Console 中僅擁有與您的 AWS 帳戶關聯的獨立 AWS 訂閱，而沒有 NIS 訂閱，則在部署期間只能選擇 Essentials 授權包。資料服務的 *Backup and Recovery* 選項對您不可用。</block>
+  <block id="b841a0c2e7683cb86c696f570ce9b7c5" category="paragraph-title">獨立訂閱和 NIS 訂閱（現有客戶）</block>
+  <block id="e5f964639d2d368944a708c9d9159fb8" category="paragraph">如果您的 AWS 帳戶同時關聯了 NIS 和獨立訂閱，且您尚未透過 NetApp Console 中的 *Billing preferences* 標籤設定帳單首選項，則 Cloud Volumes ONTAP 的使用量預設仍透過 NIS 計費。對於執行 Professional 套餐的任何 Cloud Volumes ONTAP 執行個體，這也是預設設置，因為獨立清單不支援 Professional。您可以設定帳單首選項並選擇每項服務的計費方式：</block>
+  <block id="6dd79ef85372ac622a4d4c5dc46a3c46" category="list-text">將獨立訂閱設定為 Cloud Volumes ONTAP（包含 Essentials 套餐）的首選計費帳戶。如果您只有 Professional 套餐，可以將其轉換為 Essentials 套餐，並透過設定計費首選項來收取 Cloud Volumes ONTAP 的使用費用。我們推薦這種方法，因為它有助於您更有效地管理 Cloud Volumes ONTAP EDP 積分。</block>
+  <block id="a77b7d4efa6f963267f588c46c34df1b" category="list-text">使用 NIS 訂閱進行資料服務計費，或透過 Professional 套餐計費 Cloud Volumes ONTAP 使用量。在部署期間，啟用 *Backup and Recovery* 資料服務，並選擇 Professional 授權套餐，以透過 NIS 訂閱計費資料服務。</block>
+  <block id="8c746863961baaa82aba27b4fd37e769" category="paragraph-title">僅限 NIS 訂閱用戶（現有客戶）</block>
+  <block id="f838fe2f68473e970c4c89e5cbfc3369" category="paragraph">如果您是已擁有與 AWS 帳戶關聯的 NIS 訂閱的現有客戶，則此說明適用。您可以繼續像現在一樣同時對 Cloud Volumes ONTAP 和資料服務進行計費。但是，NetApp 建議您切換到獨立訂閱模式，以便更好地管理 Cloud Volumes ONTAP 的使用成本：</block>
+  <block id="2a4095338c2cb1e2257dd4e02f2451ce" category="list-text">在 AWS 入口網站上訂閱新的獨立清單。</block>
+  <block id="ee8232a8731e2273fe25bf49ea87389a" category="list-text">將獨立訂閱連結至您的 AWS 帳戶。</block>
+  <block id="46568565f79aa968105d34a67e84131a" category="list-text">將您的計費偏好設定為使用 Essentials 套餐的 Cloud Volumes ONTAP 獨立訂閱。</block>
+  <block id="ef9583ff5df47277e937b49f54639572" category="list-text">（如適用）將您的 Professional 套件轉換為 Essentials 套件，並設定計費偏好設定。</block>
+  <block id="8460f8e45452fdd819096e78fca80090" category="list-text">繼續透過您的 NIS 訂閱進行資料服務計費。</block>
+  <block id="2aef8c7aa3736a735e2c270ba5fba388" category="admonition">使用多種訂閱類型或在清單之間遷移時，不會發生重複計量。</block>
+  <block id="06afa66cf6eca938a45be835a47030e1" category="list-title">相關連結</block>
+  <block id="050c120c7155ccd2f0ee729008e2ff37" category="inline-link">在 AWS 中設定 Cloud Volumes ONTAP 的授權</block>
+  <block id="d813fcacf432155f3260728eb45bbdba" category="list-text"><block ref="d813fcacf432155f3260728eb45bbdba" category="inline-link-rx"></block></block>
+  <block id="4271feea4f5dd0d69f423f75fc48dbde" category="inline-link">變更容量授權的收費方式</block>
+  <block id="9e2298e44558506acec619a75ec64821" category="list-text"><block ref="9e2298e44558506acec619a75ec64821" category="inline-link-rx"></block></block>
 </blocks>
