@@ -505,8 +505,6 @@
   <block id="fe5aa0dbf25e183784fa7cd2b595be46" category="list-text">*跨資料存放區保護群組支援*：現在可以選擇在保護虛擬磁碟跨越多個資料存放區的虛擬機器時，保護群組的行為。</block>
   <block id="ab186862b28de3aad826b26d80e3eb96" category="list-text">*複製支援*：您現在可以從主要儲存設備和次要儲存設備建立虛擬機器快照的複製。</block>
   <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">乾淨還原增強功能</block>
-  <block id="5214cc2b554214c44574918df0ce4dd1" category="paragraph">全新還原現在支援還原至替代叢集，並支援超過七天的分析。</block>
-  <block id="b3b5d3c0c3eb03018f8b168331bf449f" category="paragraph"><block ref="b1b57aeec3a947615fddf0610c8788f4" category="inline-link-macro-rx"></block>。</block>
   <block id="eddd63bd47a99db9ac6b332f06d65b76" category="section-title">Google SecOps SIEM 支援</block>
   <block id="4977d1cdc293f17b4b971e00b9010c9d" category="paragraph">Ransomware Resilience 現已支援 Google SecOps 的安全資訊和事件管理 (SIEM)，使您能夠自動將資料傳送至 Google SecOps，從而簡化威脅分析和偵測。</block>
   <block id="5ef49dc0416f3c817660ec88587d3752" category="paragraph">如需組態資訊，請參閱 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>。</block>
@@ -547,4 +545,7 @@
   <block id="d813fcacf432155f3260728eb45bbdba" category="list-text"><block ref="d813fcacf432155f3260728eb45bbdba" category="inline-link-rx"></block></block>
   <block id="4271feea4f5dd0d69f423f75fc48dbde" category="inline-link">變更容量授權的收費方式</block>
   <block id="9e2298e44558506acec619a75ec64821" category="list-text"><block ref="9e2298e44558506acec619a75ec64821" category="inline-link-rx"></block></block>
+  <block id="5d9344af71b6822a1b2231cd47017aef" category="paragraph">現在，乾淨還原功能支援還原到備用位置，讓您可以將磁碟區還原到由相同 Console 代理程式管理的不同系統、儲存 VM 和 Aggregate。此外，乾淨還原功能也取消了搜尋可用還原 Snapshot 的七天限制。現在，無論距離勒索軟體事件發生的時間遠近，乾淨還原功能都會持續搜尋可用 Snapshot 以找到可行的還原點。</block>
+  <block id="66599dda2c9083455404f2c8f0bd486b" category="paragraph"><block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>。</block>
+  <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026 年 5 月 12 日</block>
 </blocks>
