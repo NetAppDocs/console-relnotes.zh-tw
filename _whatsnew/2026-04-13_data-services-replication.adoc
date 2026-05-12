@@ -1,0 +1,11 @@
+= 使用 FSx for ONTAP 管理現有關係的複寫
+:allow-uri-read: 
+
+
+
+
+=== 使用 FSx for ONTAP 管理現有關係的複寫
+
+作為來源或目標的 FSx for ONTAP 檔案系統的複寫關係管理現已納入 NetApp Workload Factory。
+
+link:https://docs.netapp.com/us-en/data-services-replication/task-managing-replication.html["管理資料複寫"]
