@@ -119,7 +119,6 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">這些發行說明介紹了NetApp Console及其支援的資料服務的最新增強功能。提供各服務完整版本說明的連結。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和資料服務的最新變化。若要查看完整的版本發布歷史記錄，請參閱每個服務的完整版本說明。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">建立複製計劃</block>
-  <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支援的配置</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">雲端部署管理器</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 工作負載增強功能</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">保護 KVM 工作負載概述</block>
@@ -140,14 +139,6 @@
   <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">保護 Oracle Database 工作負載概述</block>
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">有關保護 Oracle Database 工作負載的詳細資訊，請參閱<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">此版本的 Console 代理程式包含安全性改善和錯誤修正。</block>
-  <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">Azure 中對 Ebdsv5 和 E104ids_v5 VM 的支援</block>
-  <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">從 Cloud Volumes ONTAP 9.18.1 開始，您可以部署 Ebdsv5 和 E104ids_v5 VM，用於單節點和高可用性（HA）部署和升級。</block>
-  <block id="9aa187942e09002cf25de4088980c393" category="paragraph">Azure 虛擬機器 Eb 系列中的 Ebdsv5 VM 針對更高的遠端儲存效能進行了最佳化。您可以將這些 VM 用於記憶體密集型和 I/O 密集型的企業級工作負載，例如關聯式資料庫、記憶體內分析和其他要求嚴格的關鍵業務應用程式。</block>
-  <block id="3be6e88b099667951f102a7e72ef6b7e" category="paragraph">E104ids_v5 是一個獨立的 VM 執行個體，可協助您更妥善地處理排程的維護時段。與 E80ids_v4 相比，它提供更高的磁碟輸送量和 IOPS，以及更佳的整體網路效能。</block>
-  <block id="374b69ed8baae6c10fc401a5f23dfabf" category="paragraph"><block ref="374b69ed8baae6c10fc401a5f23dfabf" category="inline-link-rx"></block></block>
-  <block id="12c608fc3ddf39360237ef081ed21d2f" category="inline-link">Azure 文件：Edsv5 大小系列</block>
-  <block id="2751c20dbb46ac4854ad2a690d71db85" category="paragraph"><block ref="2751c20dbb46ac4854ad2a690d71db85" category="inline-link-rx"></block></block>
-  <block id="70d92c1e2419b7500249e84f56bfda5d" category="section-title">2026 年 2 月 12 日</block>
   <block id="bf89f4b1f72b6398bcca3a3ff4b6f7c1" category="doc">Cloud Volumes ONTAP 支援下一代 Google Cloud VM</block>
   <block id="1a00162d4bdf4a56a4d4efde8a5c2f13" category="paragraph">在 9.18.1 版本中，NetApp 將新的 Cloud Volumes ONTAP 部署從 N2 虛擬機遷移到新一代 Google Cloud C3 系列虛擬機，帶來更快、更具可擴展性的體驗。現在，您可以在 Google Cloud 中部署 Cloud Volumes ONTAP 9.18.1 及更高版本時充分利用 C3 系列虛擬機器的優勢。C3 系列虛擬機器採用 Google Virtual NIC（gVNIC）和 Hyperdisk Balanced 磁碟，可確保為高強度工作負載提供動態效能，從而提供更高的效能和更大的容量限制。</block>
   <block id="af3ff68729b6eef28a7439636a40000a" category="admonition">目前，Cloud Volumes ONTAP 僅支援單節點部署中的 C3 系列。</block>
@@ -471,7 +462,6 @@
   <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">使用 OVA 部署 Data Classification</block>
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification 現在支援使用 VMware Open Virtual Appliance（OVA）部署，為內部部署的 VMware vSphere 環境提供更簡化的部署策略。</block>
   <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">有關更多資訊，請參閱<block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>。</block>
-  <block id="e0b0747cd573746d9f139faffc729dd5" category="section-title">2026 年 5 月 4 日</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中、Kubernetes 工作負載引入了以下增強功能：</block>
   <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*原生支援保護 VM*：現在您可以建立基於 VM 的應用程式，從而能夠以保護任何其他應用程式的方式保護虛擬機器。</block>
   <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*資源轉換*：現在您可以使用資源轉換和資源轉換範本，在還原程序期間新增、移除和修改資源屬性。</block>
@@ -548,4 +538,9 @@
   <block id="5d9344af71b6822a1b2231cd47017aef" category="paragraph">現在，乾淨還原功能支援還原到備用位置，讓您可以將磁碟區還原到由相同 Console 代理程式管理的不同系統、儲存 VM 和 Aggregate。此外，乾淨還原功能也取消了搜尋可用還原 Snapshot 的七天限制。現在，無論距離勒索軟體事件發生的時間遠近，乾淨還原功能都會持續搜尋可用 Snapshot 以找到可行的還原點。</block>
   <block id="66599dda2c9083455404f2c8f0bd486b" category="paragraph"><block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>。</block>
   <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026 年 5 月 12 日</block>
+  <block id="a60267b93ffdd2ed17059222732309c4" category="doc">改善的組態頁面</block>
+  <block id="4afd879e7ec84c60016c97e64b4fce9d" category="paragraph">Data Classification 已更新並改善了組態頁面，從而提升了使用者管理設定、系統、啟用掃描和監控系統運作狀況的體驗。新的組態頁面以更易於使用的格式保留了現有功能，並新增了按類型、錯誤狀態和掃描狀態篩選系統的功能。此外，新頁面還提供了已連接系統的摘要以及活動和已配置掃描的概覽。</block>
+  <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">影片示範</block>
+  <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">使用資料分類掃描資料來源</block>
+  <block id="158f63c968216959ea1a95097bf65a32" category="paragraph">檢閱 <block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>。如需詳細資訊，請參閱 <block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>。</block>
 </blocks>
