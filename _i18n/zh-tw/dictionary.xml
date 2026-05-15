@@ -543,4 +543,10 @@
   <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">影片示範</block>
   <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">使用資料分類掃描資料來源</block>
   <block id="158f63c968216959ea1a95097bf65a32" category="paragraph">檢閱 <block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>。如需詳細資訊，請參閱 <block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>。</block>
+  <block id="cf975b28ba57e8d6ba85ec36d74a06c3" category="section-title">Compliance 管理員 IAM 角色</block>
+  <block id="7cd2bb6be419d190aa59909bb89ac3d8" category="paragraph">資料分類功能現已支援合規性管理員角色，用於管理資料分類中的權限。合規性管理員角色無權存取包括 Console 代理和工作區在內的資源。擁有合規性管理員角色的使用者必須至少關聯一個其他角色。</block>
+  <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">安裝 Data Classification 時，您應該擁有 Console 平台管理員角色或 Compliance 管理員角色。</block>
+  <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">如果您是現有使用者，存取應照常進行。例如，擁有資料夾或專案管理員角色的平台角色擁有現有存取權。</block>
+  <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Data Classification 角色</block>
+  <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">如需詳細資訊，請參閱 <block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>。</block>
 </blocks>
