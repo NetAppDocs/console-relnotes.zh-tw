@@ -1,0 +1,9 @@
+= 健康狀況檢閱
+:allow-uri-read: 
+
+
+
+
+=== 健康狀況檢閱
+
+自 2026 年 7 月起，Digital Advisor 中的 Wellness Review 功能將不再提供。如有任何疑問，請發送電子郵件至 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]。
