@@ -512,4 +512,19 @@
   <block id="ba0619dd0f47665766133e60320fb439" category="doc">健康狀況檢閱</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">自 2026 年 7 月起，Digital Advisor 中的 Wellness Review 功能將不再提供。如有任何疑問，請發送電子郵件至 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]。</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026 年 5 月 18 日</block>
+  <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes 支援（預覽版）</block>
+  <block id="d80af1c0606a32f418ab576db57cacc1" category="paragraph">勒索軟體復原功能現已支援 Google Cloud NetApp Volumes 系統，讓您能夠有效率地偵測並應對 Google Cloud NetApp Volumes 中的勒索軟體威脅。在進行發現時,勒索軟體復原功能會自動顯示來自 Google Cloud NetApp Volumes 系統的工作負載。發現這些系統後,它們會顯示在勒索軟體復原功能控制面板中。目前,勒索軟體復原功能對 Google Cloud NetApp Volumes 的支援仍處於預覽階段。</block>
+  <block id="35b27350003f459df80234524883b5fc" category="inline-link-macro">勒索軟體復原能力的限制</block>
+  <block id="cae4e00f2196b1be86c3e1e5dec224f5" category="paragraph">如需詳細資訊，請參閱 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。如需 Google Cloud NetApp Volumes 支援範圍的相關資訊，請參閱 <block ref="27362f7d9843ec19f9f3145cc1ee646c" category="inline-link-macro-rx"></block>。</block>
+  <block id="f5523776592686b65cfe8d99ccda44ac" category="paragraph">現在，乾淨恢復功能支援產生報告。透過報告，您可以檢視和評估乾淨復原操作，並將這些資訊儲存為 CSV 檔案以便離線使用。</block>
+  <block id="b5be0bbdf1965d7e362ac1fcae7cb4bb" category="paragraph">現在，乾淨還原也支援停止分析。如果停止分析，則必須重新開始乾淨還原。</block>
+  <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">在 Ransomware Resilience 中下載報告</block>
+  <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">若要深入瞭解報告,請參閱 <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>。若要深入瞭解還原,請參閱 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>。</block>
+  <block id="a4ad56ab8baa8582d6dba6091a9bd877" category="doc">簡化 Azure 中的 Cloud Volumes ONTAP 部署</block>
+  <block id="8bfd035a33aa401829a9de89b5e0c246" category="paragraph">現在，您可以使用快速建立功能在 Azure 中部署 Cloud Volumes ONTAP，支援單一節點和高可用性 (HA) 設定。與進階方法相比，此簡化流程減少了步驟，在單一頁面上自動設定預設值，並最大限度地減少了導覽，從而使部署更快、更輕鬆。</block>
+  <block id="22f179b38b6aab375d21adc5216a57da" category="admonition">如果您使用快速建立在 Azure 中部署新的 Cloud Volumes ONTAP 系統，NetApp Console 預設會選擇 Azure 憑證。您可以使用初始 Azure 憑證部署所有 Cloud Volumes ONTAP 系統。如果您想使用其他訂閱和/或憑證，則需要切換到進階模式部署。此限制將在未來的版本中解決。</block>
+  <block id="da7aee176a6e0989fc4edf2b02e0af34" category="inline-link">使用快速建立在 Azure 中部署 Cloud Volumes ONTAP</block>
+  <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
+  <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">使用 Azure 中的進階選項部署 Cloud Volumes ONTAP</block>
+  <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
 </blocks>
