@@ -508,7 +508,6 @@
   <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">安裝 Data Classification 時，您應該擁有 Console 平台管理員角色或 Compliance 管理員角色。</block>
   <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">如果您是現有使用者，存取應照常進行。例如，擁有資料夾或專案管理員角色的平台角色擁有現有存取權。</block>
   <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Data Classification 角色</block>
-  <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">如需詳細資訊，請參閱 <block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>。</block>
   <block id="ba0619dd0f47665766133e60320fb439" category="doc">健康狀況檢閱</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">自 2026 年 7 月起，Digital Advisor 中的 Wellness Review 功能將不再提供。如有任何疑問，請發送電子郵件至 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]。</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026 年 5 月 18 日</block>
@@ -527,4 +526,5 @@
   <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
   <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">使用 Azure 中的進階選項部署 Cloud Volumes ONTAP</block>
   <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
+  <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">如需詳細資訊，請參閱 <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>。</block>
 </blocks>

@@ -232,7 +232,7 @@ Data Classification 已更新並改善了組態頁面，從而提升了使用者
 
 如果您是現有使用者，存取應照常進行。例如，擁有資料夾或專案管理員角色的平台角色擁有現有存取權。
 
-如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/console-setup-admin_classification-role/reference-iam-data-classification.html["Data Classification 角色"^]。
+如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-data-classification.html["Data Classification 角色"^]。
 
 
 
