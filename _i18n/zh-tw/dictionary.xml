@@ -143,13 +143,6 @@
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">了解勒索軟體復原能力</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">將使用者排除在警示範圍之外</block>
-  <block id="aa3bf76b3589430467bef386eaec9486" category="doc">Azure 支援的新區域</block>
-  <block id="c1ad65632774d8f35681af3ad68ef48e" category="paragraph">現在，您可以在下列區域的 Azure 中，在單一或多個可用區部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。這包括對單節點和高可用性（HA）部署的支援。</block>
-  <block id="ef8436a4447e0d3f8eea6f08056a2a75" category="list-text">日本西部 (japanwest)</block>
-  <block id="ca5a8f45e6c8349c7fe815e66ba5c4dd" category="list-text">印尼中部 (indonesiacentral)</block>
-  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全球區域地圖</block>
-  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">有關所有地區的清單，請參閱 <block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
-  <block id="29759b568048f604f84457c1e384b4a3" category="section-title">2026 年 2 月 19 日</block>
   <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">General Availability（GA）支援的 KVM 工作負載</block>
   <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">Kubernetes 工作負載支援現已在 NetApp Backup and Recovery 中正式發布（GA）。此版本的 Kubernetes 工作負載還引入了以下增強功能：</block>
   <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*報告支援*：現在您可以為受 NetApp Backup and Recovery 保護的 Kubernetes 叢集和應用程式產生保護活動報告。</block>
@@ -422,7 +415,6 @@
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中、Kubernetes 工作負載引入了以下增強功能：</block>
   <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*原生支援保護 VM*：現在您可以建立基於 VM 的應用程式，從而能夠以保護任何其他應用程式的方式保護虛擬機器。</block>
   <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*資源轉換*：現在您可以使用資源轉換和資源轉換範本，在還原程序期間新增、移除和修改資源屬性。</block>
-  <block id="283ac99a03bae81366bef44dc5d0e7d7" category="list-text">*從 Backup and Recovery 升級 Trident Protect*：現在可以直接從 Backup and Recovery 升級 Kubernetes 叢集的 Trident Protect。</block>
   <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*檢視受保護的資源*：您現在可以檢視應用程式每個還原點中包含的資源，並下載詳細的 JSON 報告。這可讓您全面掌握還原點，並簡化稽核法規遵循作業。</block>
   <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">2026 年 5 月 05 日</block>
   <block id="08940f555ee07e4993dba0f9d919b955" category="doc">基於 Kubernetes 的工作負載支援（預覽）</block>
@@ -527,4 +519,8 @@
   <block id="25c586197cb6f55bfcb4c60401abba6c" category="paragraph">除了現有的 UI 和基於 CSV 的選項外，NetApp Ransomware Resilience 現在還支援上傳 JSON 使用者清單，以將特定使用者從使用者行為警示中排除。</block>
   <block id="ecac6e0599f3e07a4eb088d4ffb44a1d" category="section-title">使用者行為偵測增強功能</block>
   <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">使用者行為偵測增強功能</block>
+  <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05*：此版本包含 Trident Protect 26.05。</block>
+  <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*從 Backup and Recovery 升級 Trident Protect*：如果您的 Kubernetes 叢集執行的是 Trident Protect 26.05 或更新版本，現在可以直接從 Backup and Recovery 升級 Trident Protect。</block>
+  <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*：此版本包含 Trident Protect 26.05.1。</block>
+  <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*基於 VM 的應用程式就地還原*：現在您可以將基於 VM 的應用程式還原到原始命名空間和原始叢集。</block>
 </blocks>
