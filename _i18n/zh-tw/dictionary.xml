@@ -459,7 +459,6 @@
   <block id="0b1fa8def44610bb724d3d46f4ace772" category="paragraph"><block ref="0b1fa8def44610bb724d3d46f4ace772" category="inline-link-macro-rx"></block></block>
   <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">複寫：leveloffset：+1</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS 中 Cloud Volumes ONTAP 和資料服務的彈性計費</block>
-  <block id="55abafc1dd088c3ce83eae8e4a747314" category="paragraph">NetApp 為您的 AWS Cloud Volumes ONTAP 訂閱提供增強的計費選項,讓您更能控制 Cloud Volumes ONTAP 容量和 NetApp 資料服務(例如 BlueXP backup and recovery)的付費方式。在此之前,所有 Cloud Volumes ONTAP 和資料服務的使用量都透過 AWS Marketplace 中的 NetApp Intelligent Services(NIS)清單一起計費。</block>
   <block id="c6527bb2f1b87269be16603057b53a2c" category="paragraph">由於 AWS 企業折扣方案（EDP）的變更，NetApp 在 AWS Marketplace 中推出了獨立的 Cloud Volumes ONTAP 訂閱，讓您可以將 Cloud Volumes ONTAP 容量的計費與資料服務的計費分開。這種分離方式讓您更靈活地管理 EDP 抵扣額度和成本。NetApp 建議您使用獨立訂閱來更好地管理 Cloud Volumes ONTAP 的使用成本，同時在 2026 年 7 月 31 日 EDP 要求生效後，繼續使用 NIS 訂閱來支付資料服務的計費。</block>
   <block id="bc5abfb3f56ed8d61846aead3435d204" category="paragraph">AWS 中的獨立 Cloud Volumes ONTAP 訂閱僅支援有效的基於容量的 Essentials 或 Freemium 許可套餐。Professional 套餐不支援。您可以選擇最適合您需求的計費方式：</block>
   <block id="620ae1035cf673b2bf4915b820a55641" category="list-text">*獨立 Cloud Volumes ONTAP 訂閱（建議）*：您可以透過 AWS Marketplace 中的獨立訂閱支付 Cloud Volumes ONTAP 的使用費用，同時繼續透過 NIS 訂閱支付資料服務費用。對於大多數在 NetApp Console 中同時擁有獨立訂閱和 NIS 訂閱並與其 AWS 帳戶相關聯的客戶，這是建議的選擇。</block>
@@ -523,4 +522,5 @@
   <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*從 Backup and Recovery 升級 Trident Protect*：如果您的 Kubernetes 叢集執行的是 Trident Protect 26.05 或更新版本，現在可以直接從 Backup and Recovery 升級 Trident Protect。</block>
   <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*：此版本包含 Trident Protect 26.05.1。</block>
   <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*基於 VM 的應用程式就地還原*：現在您可以將基於 VM 的應用程式還原到原始命名空間和原始叢集。</block>
+  <block id="090499247beb18776ed4674afbd7c45d" category="paragraph">NetApp 在 AWS 中為您的 Cloud Volumes ONTAP 訂閱提供了更進階的計費選項，讓您能更靈活地控制 Cloud Volumes ONTAP 容量與 NetApp 資料服務（例如 NetApp Backup and Recovery）的付款方式。過去，所有 Cloud Volumes ONTAP 及資料服務的使用情形，都是透過 AWS marketplace 中的 NetApp Intelligent Services（NIS）條目一起計費。</block>
 </blocks>
