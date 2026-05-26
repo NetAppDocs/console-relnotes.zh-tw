@@ -143,12 +143,6 @@
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">了解勒索軟體復原能力</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">將使用者排除在警示範圍之外</block>
-  <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">General Availability（GA）支援的 KVM 工作負載</block>
-  <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">Kubernetes 工作負載支援現已在 NetApp Backup and Recovery 中正式發布（GA）。此版本的 Kubernetes 工作負載還引入了以下增強功能：</block>
-  <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*報告支援*：現在您可以為受 NetApp Backup and Recovery 保護的 Kubernetes 叢集和應用程式產生保護活動報告。</block>
-  <block id="8b3c75a910501c009c7e86f190f1825d" category="section-title">2026 年 2 月 23 日</block>
-  <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">NetApp Backup and Recovery 中現已正式提供 KVM 工作負載支援（GA）。</block>
-  <block id="403eb7104337d3b7cb0c9cbd6a28b588" category="section-title">正式版 (GA) 中支援的 Kubernetes 工作負載</block>
   <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">情境</block>
   <block id="004bf6c9a40003140292e97330236c53" category="cell">行動</block>
   <block id="7227af91d597be9f306654b7f9570871" category="cell">代理程式的新 API</block>
@@ -523,4 +517,7 @@
   <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*：此版本包含 Trident Protect 26.05.1。</block>
   <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*基於 VM 的應用程式就地還原*：現在您可以將基於 VM 的應用程式還原到原始命名空間和原始叢集。</block>
   <block id="090499247beb18776ed4674afbd7c45d" category="paragraph">NetApp 在 AWS 中為您的 Cloud Volumes ONTAP 訂閱提供了更進階的計費選項，讓您能更靈活地控制 Cloud Volumes ONTAP 容量與 NetApp 資料服務（例如 NetApp Backup and Recovery）的付款方式。過去，所有 Cloud Volumes ONTAP 及資料服務的使用情形，都是透過 AWS marketplace 中的 NetApp Intelligent Services（NIS）條目一起計費。</block>
+  <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">在 Ransomware Resilience 中建立保護群組</block>
+  <block id="afe30c0d6b10a23db7ce0d1907082557" category="paragraph">勒索軟體韌性現在支援在 Google Cloud NetApp Volumes 系統中建立保護群組，使您能夠將多個工作負載組織在一個政策下，以簡化管理。如需更多資訊，請參閱<block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>。</block>
+  <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026 年 5 月 26 日</block>
 </blocks>
