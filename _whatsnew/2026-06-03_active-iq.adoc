@@ -1,0 +1,14 @@
+= Digital Advisor 小工具名稱更新
+:allow-uri-read: 
+
+
+
+
+=== Digital Advisor 小工具名稱更新
+
+以下 Digital Advisor 功能已更改名稱：
+
+* Tech Refresh 功能現已更名為 System Refresh。了解如何link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["評估系統重新整理"]。
+* 容量新增功能現已更名為儲存擴充。了解更多link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor 小工具"]。
+* 續訂功能現已更名為 Support Renewals。了解更多link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor 小工具"]。
+
