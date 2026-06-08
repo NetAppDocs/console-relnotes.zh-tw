@@ -219,8 +219,6 @@
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">將 Ransomware Resilience 連接至 SIEM</block>
   <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">如需詳細資訊，請參閱 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>。</block>
   <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">資料外洩事件的相關資訊現在會在事件發生後保留 13 個月，從而滿足您更長的報告記錄保存需求。</block>
-  <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">瞭解使用者活動偵測</block>
-  <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">如需詳細資訊，請參閱 <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>。</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026 年 4 月 13 日</block>
   <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">若要瞭解支援的組態以及如何設定系統以進行全新還原，請參閱 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>。若要瞭解如何使用全新還原進行還原，請參閱 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>。</block>
   <block id="d5affa88c9505737da2bd460b6fd43bb" category="doc">改進了 Cloud Volumes ONTAP 對 Google Cloud C3 VMs 的支援</block>
@@ -392,4 +390,14 @@
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*將檔案和資料夾還原到客體 VM 的功能改進*：現在您可以將主要或次要儲存設備上快照中的檔案和資料夾還原到客體 Windows VM。CIFS 和 SAN VM 現在支援此功能。</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026 年 6 月 08 日</block>
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">此版本的 Data Classification 包含安全性改進和效能增強。</block>
+  <block id="4b77ea6c402cb5104fd06a61c7376030" category="inline-link-macro">了解使用者行為偵測</block>
+  <block id="85780f52607b54dbe81ff2c46d981a17" category="paragraph">如需詳細資訊，請參閱<block ref="371ae1c35fd8f1482622c079d0f009f9" category="inline-link-macro-rx"></block>。</block>
+  <block id="ad047b692e58386490130db85fe198fd" category="doc">增強保護策略的靈活性</block>
+  <block id="0492ddae19933de338f553ff06833c6f" category="paragraph">Ransomware Resilience 現在提供了更靈活的勒索軟體偵測策略選擇。以前，所有勒索軟體防護策略都必須包含加密偵測。現在，您可以啟用僅包含使用者行為偵測的勒索軟體防護策略。</block>
+  <block id="7238c31678a241cb872ee9d18f1e46a2" category="paragraph">保護策略仍然可以同時包含加密偵測和可疑使用者行為偵測。任何保護策略還可以新增封鎖檔案副檔名的功能。</block>
+  <block id="bd1924893d8fb00ed3c326b7af6243b5" category="paragraph">如果停用現有原則的部分保護策略，則在先前原則版本下建立的任何現有警示只能標記為「已解決」，而不能標記為「已忽略」。例如，如果您的保護策略包含加密偵測和可疑使用者行為偵測，但您停用了加密偵測，則只能解決該工作負載的現有加密警示。</block>
+  <block id="54a418aa76c7e9afaa77a58a34a3d3ed" category="inline-link-macro">使用 NetApp Ransomware Resilience 保護策略來保護工作負載</block>
+  <block id="2b7a103134591ddcc36191e5b569a29b" category="paragraph">如需詳細資訊，請參閱<block ref="5b0b8f72704979749944145d24f2c6be" category="inline-link-macro-rx"></block>。</block>
+  <block id="eac1000048fff271adb3d0d010dd86f5" category="section-title">SOAR 劇本增強功能</block>
+  <block id="993b3419e78327c12451169533b8d701" category="paragraph">勒索軟體恢復能力 SOAR 劇本現在提供了在阻止使用者或將磁碟區離線後的補救步驟。如果該操作被判定為並非勒索軟體威脅，您現在可以將磁碟區重新上線並解除對使用者的封鎖。</block>
 </blocks>
