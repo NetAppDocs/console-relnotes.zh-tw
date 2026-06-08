@@ -391,4 +391,5 @@
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*支援 S3 相容的雲端儲存*：NetApp Backup and Recovery for Volumes 工作負載現在支援備份到 S3 相容的雲端儲存。</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*將檔案和資料夾還原到客體 VM 的功能改進*：現在您可以將主要或次要儲存設備上快照中的檔案和資料夾還原到客體 Windows VM。CIFS 和 SAN VM 現在支援此功能。</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026 年 6 月 08 日</block>
+  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">此版本的 Data Classification 包含安全性改進和效能增強。</block>
 </blocks>
