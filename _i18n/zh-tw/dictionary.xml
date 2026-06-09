@@ -406,4 +406,32 @@
   <block id="d4f1750ecbae7aeb8e4608c6adadf1b3" category="inline-link">AWS 中 Cloud Volumes ONTAP 支援的組態</block>
   <block id="2723587cecc87d757adc3d7f42677613" category="paragraph">如需詳細資訊，請參閱<block ref="5facb34de99943f35a6951018b8a6bef" category="inline-link-rx"></block>。</block>
   <block id="ee679c5a83450dd8f0c139cea8a1cc40" category="doc">AWS 中 Cloud Volumes ONTAP 的新 EC2 執行個體支援</block>
+  <block id="332fe49e1772f15dfec47321d1f86499" category="doc">Kubernetes 更新</block>
+  <block id="c0471f20c72304b23fb6eb762ed470b8" category="paragraph">災難恢復針對基於 Kubernetes 的工作負載引入了以下變更：</block>
+  <block id="b1f52bc1b1d4ff2b36103a44b4128f19" category="section-title">測試 Kubernetes 工作負載的容錯移轉支援</block>
+  <block id="7e284075cd571fe0081cd386d1d3493c" category="paragraph">災難復原功能現已支援對 Kubernetes 工作負載的故障轉移流程進行測試。透過測試故障轉移，您可以驗證災難復原計劃。測試完成後，您可以清理測試故障轉移，系統會自動清理測試資源，從而降低系統開銷並確保環境的一致性。</block>
+  <block id="ec841432c6696238519b70833f9640bb" category="inline-link-macro">測試容錯移轉程序</block>
+  <block id="6031837c36096c58788ef48c962f6ff8" category="paragraph">如需詳細資訊、請參閱 <block ref="a8818044286b10a3ca635d0b39faff78" category="inline-link-macro-rx"></block>。</block>
+  <block id="9be7f1264301a801add3868ed7829904" category="section-title">排程測試容錯移轉</block>
+  <block id="2cb1fc25b0b81893e3832eea3384812d" category="paragraph">現在，您可以透過排程測試容錯移轉來自動化災難恢復測試。您可以設定定期測試容錯移轉的排程，以持續驗證恢復計畫而無需人工介入，有助於維持對恢復目標的信心並符合法規遵循要求。</block>
+  <block id="07851e0287e57a794c18de627c09e0e7" category="inline-link-macro">管理複寫計畫</block>
+  <block id="35bd874c9b191a5ec4ef2620bcba1d01" category="paragraph">如需詳細資訊、請參閱 <block ref="5e1f430868dd2493a6125e8cf919005e" category="inline-link-macro-rx"></block>。</block>
+  <block id="61a19574e3bdebdbc07d7daaaf8f76e1" category="section-title">Kubernetes 工作負載的排程探索</block>
+  <block id="d45fce8600e6e092745f48fddf5cd172" category="paragraph">透過排程探索，您可以控制 Disaster Recovery 掃描新 Kubernetes 工作負載的頻率。您可以設定探索時間間隔，以符合您的作業節奏，減少不必要的系統負荷，同時確保及時偵測並保護新的工作負載。</block>
+  <block id="d5500e4522bde3536eb21086a6278cb6" category="inline-link-macro">自訂探索排程</block>
+  <block id="58b54ef9bb1184e1a76831a4c8532cdf" category="paragraph">如需詳細資訊、請參閱 <block ref="00c64813bfb7d5f31a94dc7f7401aec7" category="inline-link-macro-rx"></block>。</block>
+  <block id="49bc059dcf19f0a0115deba3b42c6932" category="section-title">VMware 更新</block>
+  <block id="239000f59be4987b700a238e8ca4cbac" category="section-title">保護空資料存放區</block>
+  <block id="9a870179d2b3e04319fde1e2148bdde1" category="inline-link-macro">對應資訊</block>
+  <block id="386068b3c8ab30655c493a434548a956" category="paragraph">災難復原功能現在允許為不包含任何虛擬機器（VM）的資料儲存配置保護。之後新增到資料儲存中的任何 VM 都會被 Disaster Recovery 自動偵測，此時您需要提供<block ref="96f22499fac7fb5ec06f64e20472e919" category="inline-link-macro-rx"></block>。</block>
+  <block id="8ea79c5d84513219216b19fc3aa62033" category="inline-link-macro">容錯移轉至遠端站台</block>
+  <block id="fcf6f6ded14457afdca64680218d849c" category="paragraph">將空資料存放區新增至保護計畫時，您必須先從保護計畫中移除該資料存放區，然後再執行容錯移轉，或執行強制容錯移轉。如需詳細資訊、請參閱 <block ref="a16180f75826879573c72d14ccfccc18" category="inline-link-macro-rx"></block>。</block>
+  <block id="2d2e356e77ef22acf218ffb017d91233" category="section-title">將先前排除的資料存放區還原至保護計畫</block>
+  <block id="1453aa4dc117cbab5d75827143b273ea" category="paragraph">先前被排除在保護範圍之外的資料存放區現在可以重新納入保護範圍。這項增強功能在長期管理和更新災難恢復組態時提供了更大的靈活性。</block>
+  <block id="e111b7436e71ef6b7b99d4ab60693716" category="inline-link-macro">管理站台、資源群組和複寫計畫</block>
+  <block id="0f76cabceee2286086c65391269ec324" category="paragraph">如需詳細資訊、請參閱 <block ref="37d0eb884ec50ead320898709eb6d605" category="inline-link-macro-rx"></block>。</block>
+  <block id="05c185480595feac79a02ae4a685fcc6" category="section-title">加快基於 VMFS 的資料存放區容錯移轉速度</block>
+  <block id="e63830ec714a620621135f51c7c84114" category="paragraph">災難復原功能提升了基於 VMFS 的資料存放區的容錯移轉效能。主機匯流排介面卡 (HBA) 重新掃描和資料存放區掛載作業現在可以並行執行，從而縮短整體容錯移轉時間，並最大限度地減少還原事件期間的停機時間。</block>
+  <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">透過災難復原進行容錯移轉</block>
+  <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">如需容錯移轉的詳細資訊，請參閱 <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>。</block>
 </blocks>
