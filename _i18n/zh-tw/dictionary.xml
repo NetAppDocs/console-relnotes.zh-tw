@@ -138,13 +138,8 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">有關保護 VMware 工作負載的詳細資訊，請參閱<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理程式包含安全性改進和錯誤修正，以及以下新功能。</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">如需詳細資訊，請參閱 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
-  <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">適用於 Microsoft Sentinel 和 Splunk 的 SOAR 劇本</block>
-  <block id="11759e65f10609550e1a85679db960a9" category="inline-link-macro">Microsoft Sentinel</block>
-  <block id="2f9304fe9b427489507405bef9a0bb9f" category="inline-link-macro">Splunk</block>
   <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">整合 SOAR 劇本</block>
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">如需詳細資訊、請參閱 <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>。</block>
-  <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">2026 年 3 月 12 日</block>
-  <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilience 現在提供適用於 <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> 和 <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block> 的安全編排、自動化和回應（SOAR）劇本。這些劇本能夠簡化威脅回應管理，自動執行任務測試和關鍵的勒索軟體回應工作，包括建立快照和將磁碟區離線。</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中、VMware 工作負載引進了以下增強功能：</block>
   <block id="c951c234678bc7ac8d60ec274364552c" category="paragraph">*按排程層級支援 VM 一致性*：現在，在設定 VMware 工作負載的保護原則時，您可以為特定的排程層級啟用 VM 一致性備份和應用程式一致性備份。支援年度、月度和週度層級。</block>
   <block id="69b1a964078d5301a2aa9822cb2304f2" category="section-title">2026 年 3 月 16 日</block>
@@ -434,4 +429,9 @@
   <block id="e63830ec714a620621135f51c7c84114" category="paragraph">災難復原功能提升了基於 VMFS 的資料存放區的容錯移轉效能。主機匯流排介面卡 (HBA) 重新掃描和資料存放區掛載作業現在可以並行執行，從而縮短整體容錯移轉時間，並最大限度地減少還原事件期間的停機時間。</block>
   <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">透過災難復原進行容錯移轉</block>
   <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">如需容錯移轉的詳細資訊，請參閱 <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>。</block>
+  <block id="f1e8426ee8789bca46b26081b788d901" category="doc">Cloud Volumes ONTAP 支援新的 Azure 區域</block>
+  <block id="58c64fbe360d29edfbfa0f1e30f23980" category="paragraph">現在您可以在馬來西亞西部（malaysiawest）區域的 Azure 中，在單一和多個可用區部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。這包括對單節點和高可用性（HA）部署的支援。</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全球區域地圖</block>
+  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">有關所有地區的清單，請參閱 <block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
+  <block id="13a1b8a317b4b6dbe05a3757a911ea12" category="section-title">2026 年 6 月 11 日</block>
 </blocks>
