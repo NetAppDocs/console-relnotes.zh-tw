@@ -141,8 +141,6 @@
   <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">整合 SOAR 劇本</block>
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">如需詳細資訊、請參閱 <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>。</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中、VMware 工作負載引進了以下增強功能：</block>
-  <block id="c951c234678bc7ac8d60ec274364552c" category="paragraph">*按排程層級支援 VM 一致性*：現在，在設定 VMware 工作負載的保護原則時，您可以為特定的排程層級啟用 VM 一致性備份和應用程式一致性備份。支援年度、月度和週度層級。</block>
-  <block id="69b1a964078d5301a2aa9822cb2304f2" category="section-title">2026 年 3 月 16 日</block>
   <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">在此版本中、Oracle Database 工作負載引進下列增強功能：</block>
   <block id="e242e6f8581d6d11d04b2c80d7a16519" category="inline-link">探索 Oracle Database 工作負載</block>
   <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*叢集主機支援*：現在您可以發現並保護使用 Oracle Automatic Storage Management（ASM）且透過 VMDK 部署在 VMFS 檔案系統上的 Oracle Real Application Clusters（RAC）資料庫。如需詳細資訊，請參閱<block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>。</block>
@@ -434,4 +432,9 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全球區域地圖</block>
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">有關所有地區的清單，請參閱 <block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
   <block id="13a1b8a317b4b6dbe05a3757a911ea12" category="section-title">2026 年 6 月 11 日</block>
+  <block id="248bbbcb51ef3ddd3bd9dc8e6ef8b5a1" category="list-text">*Trident Protect 26.06*：此版本包含 Trident Protect 26.06。</block>
+  <block id="a322829a7429e3dce13d41945775197c" category="list-text">*恢復期間跳過應用程式建立*：現在您可以在復原作業期間跳過自動建立應用程式自訂資源物件。這樣可以減少應用程式清單中不必要的條目。</block>
+  <block id="b6e7f9bbbf3d504dc4f264292161745a" category="list-text">*還原 VM 持久性磁碟區請求*：還原 VM 型應用程式時，現在可以還原個別持久性磁碟區請求，而無需還原整個虛擬機器，當特定磁碟或磁碟區受到損毀或資料遺失影響時，可加快復原速度。</block>
+  <block id="bf6f998632908219ca091b00cfa53117" category="list-text">*作業監控改進*：作業監控功能現已增強，可更清楚顯示 Kubernetes 保護作業的狀態。您可以查看作業和子作業的詳細狀態資訊，以及每個作業使用的目標儲存。</block>
+  <block id="15957f5a10d7c37b0a0a1daa1c46013a" category="section-title">2026 年 6 月 15 日</block>
 </blocks>
