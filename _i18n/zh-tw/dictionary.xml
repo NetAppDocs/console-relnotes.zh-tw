@@ -138,29 +138,8 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">有關保護 VMware 工作負載的詳細資訊，請參閱<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理程式包含安全性改進和錯誤修正，以及以下新功能。</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">如需詳細資訊，請參閱 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
-  <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">整合 SOAR 劇本</block>
-  <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">如需詳細資訊、請參閱 <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>。</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中、VMware 工作負載引進了以下增強功能：</block>
-  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">在此版本中、Oracle Database 工作負載引進下列增強功能：</block>
-  <block id="e242e6f8581d6d11d04b2c80d7a16519" category="inline-link">探索 Oracle Database 工作負載</block>
-  <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*叢集主機支援*：現在您可以發現並保護使用 Oracle Automatic Storage Management（ASM）且透過 VMDK 部署在 VMFS 檔案系統上的 Oracle Real Application Clusters（RAC）資料庫。如需詳細資訊，請參閱<block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>。</block>
-  <block id="cb7dc55d43e841bfb3cf4e114d10c93d" category="inline-link">設定 Oracle 資料庫</block>
-  <block id="11bf1aa4a1c990ba08edcb69e7bd16a5" category="list-text">*RMAN 目錄支援*：現在您可以設定 Backup and Recovery，將保護中繼資料儲存在 RMAN 復原目錄中，因此即使目標控制檔案遺失，也能提供備援和長期保留。如需詳細資訊，請參閱<block ref="c357671575c77250cb0b189fb7b1b3b4" category="inline-link-rx"></block>。</block>
-  <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">2026 年 3 月 31 日</block>
-  <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">歷史使用量圖表上高於突發容量</block>
-  <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">查看您的 Keystone 訂閱的消費趨勢</block>
-  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">「消耗趨勢」標籤中的歷史消耗圖表現在會突顯超出突發限制的使用量。若要深入瞭解，請參閱 <block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>。</block>
-  <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">容量使用預測</block>
   <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">查看預測資料</block>
-  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">您可以使用 *Consumption trend* 標籤中 *Historical consumption* 視圖裡的 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的容量使用量。若要深入瞭解，請參閱 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>。</block>
-  <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">訂閱匯出中的追蹤 ID</block>
-  <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">現在，從 *Subscriptions* 頁面下載的訂閱報告在 Excel 和 CSV 格式的效能服務等級資料中包含了 *Tracking ID*。</block>
-  <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">訂閱頁面欄可見性更新</block>
-  <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">在「訂閱」頁面上、「Keystone 版本」欄現在預設為隱藏、而「連結的訂閱」欄僅在有連結的訂閱可用時才會顯示。</block>
-  <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">2026 年 3 月 30 日</block>
-  <block id="ed300adca180c1e33d800707367434a6" category="doc">適用於 Google SecOps 的 SOAR 策略手冊</block>
-  <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
-  <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience 現在提供了一個安全編排、自動化和回應 (SOAR) 劇本<block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>。該劇本能夠簡化威脅回應管理、自動化任務和測試，並支援關鍵的勒索軟體回應工作，包括建立快照和將磁碟區離線。</block>
   <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Console 代理 4.6.0</block>
   <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">4.6.0 版本同時支援標準模式和受限模式。</block>
   <block id="2eb56c59e41feaf4292cee22bac918e8" category="paragraph-title">支援對所需磁碟空間進行組態檢查</block>
@@ -441,4 +420,23 @@
   <block id="11cb5552207ff0aa19a1682353b76f93" category="list-text">*保護群組現在使用主機時區排程*：保護群組現在使用 Hyper-V 主機的時區。在引入主機時區排程功能之前建立的保護群組將繼續使用其先前設定的時間（通常為 UTC）。若要將這些保護群組更新為使用 Hyper-V 主機時區，您必須重新建立排程。如需詳細資訊，請參閱<block ref="d7b709a60ba856948f2de1f387e47906" category="inline-link-rx"></block>。</block>
   <block id="fa3a5087c48da1a523ef45fa2253ea19" category="inline-link">建立並管理 VMware 工作負載的保護群組</block>
   <block id="327e5e3e392a7cf832926cb52870097c" category="list-text">*保護群組現在使用主機時區排程*：保護群組現在使用宿主 VMware vCenter 伺服器的時區。在引入主機時區排程功能之前建立的保護群組將繼續使用先前設定的時區（通常為 UTC）運作。若要使用 vCenter 時區，您必須重新建立排程。如需詳細資訊，請參閱<block ref="5181f9a713551c0880da1b785cb2e8f3" category="inline-link-rx"></block>。</block>
+  <block id="b39dc14a008a29a5ead42173a9e0c598" category="doc">私有模式發布（4.7.0）</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支援網站</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">現在可以從<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block>下載新的私人模式版本</block>
+  <block id="2c0d034db2b48e2c24de792e5f537a36" category="paragraph">4.7.0 版本包含以下 NetApp Console 元件和服務的更新。</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">組件或服務</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">此版本中包含的版本</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">自上次私有模式版本發布以來的變更</block>
+  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Console 代理程式</block>
+  <block id="d794a9cd24f47c508609ee13d758511f" category="cell">4.7.0</block>
+  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">NetApp Console 頁面新增功能</block>
+  <block id="59daf18c0a626a4e9dde08f3ce934dba" category="cell">前往<block ref="96a354291689d74da1dc3c76f5332e6f" category="inline-link-rx"></block>並參考版本 4.7.0 中包含的變更。</block>
+  <block id="cc6088539286339733631d73fb51774b" category="cell">NetApp Backup and Recovery</block>
+  <block id="225461e659003503fb35b495b5008e09" category="cell">5.4.0（2026年6月8日）</block>
+  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">NetApp Backup and Recovery 頁面的最新消息</block>
+  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">前往 <block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>。</block>
+  <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
+  <block id="dec411cd5f201e22bcbd7d9f4569efcc" category="cell">1.54.0（2026年5月11日）</block>
+  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 頁面新增功能</block>
+  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">前往 <block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>。</block>
 </blocks>
