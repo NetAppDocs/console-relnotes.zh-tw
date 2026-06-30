@@ -455,4 +455,8 @@
   <block id="e20432694f9004583c0756c875ad9910" category="cell">過去 30 天內未傳送 AutoSupport 的系統</block>
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">在上述受影響的系統上重新觸發 AutoSupport，以還原健康檢查視圖中的最新資料。</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026 年 6 月 29 日</block>
+  <block id="fb9721f24a420ba827ac36665b13797e" category="doc">對使用者活動警報的自動回應</block>
+  <block id="5b29c2b1307b96a1557ab05a56715041" category="paragraph">Ransomware Resilience 現已支援在產生使用者活動警報時自動建立快照和封鎖使用者。透過自動回應，您可以在產生警告後立即封鎖使用者並建立快照以進行復原，從而實現更快速的回應，無需人工介入。</block>
+  <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">自動回應使用者活動警示</block>
+  <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">如需詳細資訊，請參閱 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>。</block>
 </blocks>
