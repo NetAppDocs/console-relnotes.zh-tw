@@ -439,4 +439,20 @@
   <block id="dec411cd5f201e22bcbd7d9f4569efcc" category="cell">1.54.0（2026年5月11日）</block>
   <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 頁面新增功能</block>
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">前往 <block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>。</block>
+  <block id="c0c5b8053b5fc36370065438a354e1bf" category="doc">健康檢查 GraphQL 遷移和資料準確性改進</block>
+  <block id="a91b61567eb0a4298ef58eeb9f9c29bf" category="paragraph">健康檢查模組已增強，資料準確性更高，版本建議也與現行標準保持一致。作為此版本更新的一部分，該模組已從公共 API 遷移至 GraphQL，從而提升了效能，提供更靈活的查詢方式及長期支援。</block>
+  <block id="d6493900927657728256c0c09c4e62d3" category="section-title">推薦軟體</block>
+  <block id="62d94d8f05c78645a78c9aa2a5a0656e" category="paragraph">健康檢查模組中推薦的軟體增強功能現在可以提供更準確、更一致的資料。</block>
+  <block id="519ef0af74847ba658e0e372af62c2d9" category="list-text">機櫃和磁碟機數量在韌體版本顯示下會顯示每個系統的準確值，不再包含 HA 配對數量。</block>
+  <block id="f3ecf83f5405b8c9ae015216ab98b6ef" category="list-text">現在，最低版本和最新版本建議是根據叢集的有效版本在叢集層級計算的，符合現行標準——以前，這些建議是在節點層級計算的。</block>
+  <block id="b6bdc044bc2fc474a21f0bb38c36e848" category="section-title">AutoSupport 資料依賴性</block>
+  <block id="21703a68dc34fb690cd63eab5b8673d3" category="paragraph">由於後端改進，AutoSupport 採用率和建議軟體視圖均依賴最新的 AutoSupport 資料。這可能會以下列方式影響您目前的視圖：</block>
+  <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">情境</block>
+  <block id="3a3c1f7cef221775b106f2d32f9f8542" category="cell">受影響的系統</block>
+  <block id="8df497acd9705cbe06a50764942ed68a" category="cell">未顯示資料</block>
+  <block id="c3dac7d16903ae7e8c7256657c5c94f0" category="cell">自 2025 年 10 月以來未傳送 AutoSupport 的系統</block>
+  <block id="30b12656a9029663eea37f6a804f28a4" category="cell">過時的值</block>
+  <block id="e20432694f9004583c0756c875ad9910" category="cell">過去 30 天內未傳送 AutoSupport 的系統</block>
+  <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">在上述受影響的系統上重新觸發 AutoSupport，以還原健康檢查視圖中的最新資料。</block>
+  <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026 年 6 月 29 日</block>
 </blocks>
