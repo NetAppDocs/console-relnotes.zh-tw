@@ -473,4 +473,9 @@
   <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">對於容量使用情況，突發警報閾值現在基於您訂閱的承諾突發百分比，而不是固定的 20%。例如，如果您的承諾突發百分比為 40%，則當承諾容量利用率達到 140% 時，將觸發嚴重警報。</block>
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">查看並建立 Keystone 訂閱的警報監控器</block>
   <block id="e3d24640551dafdb75a00b4fd537dff8" category="paragraph">若要深入瞭解，請參閱 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>。</block>
+  <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">從使用者行為警報中排除檔案路徑</block>
+  <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience 支援將特定檔案路徑從使用者行為監控警示中排除。如果您確定這些檔案路徑不存在風險，或者您正在對可能觸發警示的磁碟區中的檔案進行操作，則可以將其排除在外。</block>
+  <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">從警報中排除檔案路徑</block>
+  <block id="4cbd1bb5d6b8178b77b88be565a35c9b" category="paragraph">如需更多資訊，請參閱 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>。</block>
+  <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026年7月7日</block>
 </blocks>
