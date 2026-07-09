@@ -384,9 +384,9 @@ Cloud Volumes ONTAP 9.16.1 及更高版本支援 M6id 和 M6idn EC2 執行個體
 
 以下生命週期規劃功能已變更名稱：
 
-* Tech refresh 功能現在稱為 *System Refresh*。了解如何link:../use/tech-refresh.html["評估系統重新整理"]。
-* Capacity Additions 功能現在稱為 *Storage Expansion*。了解如何link:../use/capacity-add.html["擴充儲存空間"]。
-* 續訂功能現已更名為 *Support Renewals*。了解如何link:../support/task-support-registration.html["註冊以獲得支援"]。
+* 技術更新功能現在稱為 *System Refresh*。了解如何操作 https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["評估系統重新整理"]。
+* 容量擴充功能現在稱為 *Storage Expansion*。了解如何操作 https://docs.netapp.com/us-en/console-lifecycle-planning/use/capacity-add.html["擴充儲存空間"]。
+* 續訂功能現已更名為「支援續訂」。了解如何操作 https://docs.netapp.com/us-en/console-lifecycle-planning/support/task-support-registration.html["註冊以獲得支援"]。
 
 
 
