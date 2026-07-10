@@ -4,4 +4,5 @@
 
 
 
+[[console-setup-and-administration]]
 === 控制台設定和管理

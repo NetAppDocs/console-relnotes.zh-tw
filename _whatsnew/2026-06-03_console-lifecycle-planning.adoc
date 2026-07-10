@@ -4,6 +4,7 @@
 
 
 
+[[lifecycle-planning-feature-name-updates]]
 === 生命週期規劃功能名稱更新
 
 以下生命週期規劃功能已變更名稱：

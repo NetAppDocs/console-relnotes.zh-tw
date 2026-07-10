@@ -4,4 +4,5 @@
 
 
 
+[[automation-catalog]]
 === 自動化目錄

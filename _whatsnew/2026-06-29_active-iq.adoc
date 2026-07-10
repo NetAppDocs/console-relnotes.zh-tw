@@ -4,6 +4,7 @@
 
 
 
+[[health-check-graphql-migration-and-data-accuracy-improvements]]
 === 健康檢查 GraphQL 遷移和資料準確性改進
 
 健康檢查模組已增強，資料準確性更高，版本建議也與現行標準保持一致。作為此版本更新的一部分，該模組已從公共 API 遷移至 GraphQL，從而提升了效能，提供更靈活的查詢方式及長期支援。

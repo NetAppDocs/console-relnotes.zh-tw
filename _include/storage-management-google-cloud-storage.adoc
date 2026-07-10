@@ -4,4 +4,5 @@
 
 
 
+[[google-cloud-storage]]
 === Google 雲端儲存

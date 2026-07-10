@@ -219,7 +219,6 @@
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">重新命名已佈建容量標籤</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">標籤 *Provisioned capacity* 已重新命名為 *Provisioned volume capacity*。更新後的標籤也已反映在相關的 CSV 和 Excel 報表中。</block>
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積高載的預測切換</block>
-  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。要了解更多資訊，請參閱 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>。</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026 年 4 月 27 日</block>
   <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*編輯保護原則*：如果您需要變更 Kubernetes 工作負載保護原則，現在可以進行編輯。</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">一般改善</block>
@@ -338,7 +337,6 @@
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026 年 5 月 26 日</block>
   <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">改進了訂閱時間軸中同一天多次更新的顯示方式</block>
   <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="inline-link-macro">查看您的 Keystone 訂閱時間軸</block>
-  <block id="fad09c803865d7a730faa5e2a3f20dc6" category="paragraph">訂閱時間軸圖表現在會在同一天發生多個不同類型的訂閱更新時顯示一個數字，而不是顯示單獨的圖示。將滑鼠懸停在該數字上即可查看當天所有更新類型。下載的報告包含每個更新的單獨行，為您提供所有變更的完整記錄。要了解更多信息，請參閱 <block ref="6bdc06544a2a6817dc4209abc6ea98ff" category="inline-link-macro-rx"></block>。</block>
   <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">2026 年 5 月 25 日</block>
   <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">勒索軟體韌性現在支援在 Google Cloud NetApp Volumes 系統中建立保護群組，使您能夠將多個工作負載組織在一個政策下，以簡化管理。</block>
   <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">如需更多資訊，請參閱<block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>。</block>
@@ -458,10 +456,8 @@
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">如需詳細資訊，請參閱 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>。</block>
   <block id="14bea224c3ef88c765b41449933ebeb8" category="doc">查看 MetroCluster 訂閱的 ADP 授權分發狀況</block>
   <block id="511c40cd8a486a0e8aa1251baf8515ee" category="inline-link-macro">查看您的 Keystone MetroCluster 訂閱的使用與健康狀況</block>
-  <block id="3ad62afeef69f8bc4e30a8bf1cd4ed24" category="paragraph">「進階資料保護 (ADP)」標籤中新增了「授權分發」子選項卡，讓您可以查看 MetroCluster 合作夥伴叢集的 ADP 授權使用情況。若要深入瞭解，請參閱 <block ref="1c707f11dcf40c95719514b3f1835196" category="inline-link-macro-rx"></block>。</block>
   <block id="82ee282c36e597ba42bea56f0d029b9e" category="section-title">檢視磁碟區的勒索軟體防護狀態</block>
   <block id="959a686de018aa5e6a4a2b33d83ab22b" category="inline-link-macro">ONTAP 中的自主勒索軟體防護 (ARP)</block>
-  <block id="1c18f5a662955e3a23a23d54aca043b6" category="paragraph">「資產」中的「叢集中的磁碟區」標籤現在包含一個「ARP 狀態」欄，該欄顯示每個磁碟區是否啟用或停用自主勒索軟體防護 (ARP)，讓您了解受管資產的勒索軟體防護狀況。若要深入瞭解 ARP，請參閱 <block ref="b12af018ff0eb76de3921de73532693b" category="inline-link-macro-rx"></block>。</block>
   <block id="aa2298f4012d00689c6db262f51b627f" category="section-title">使用「回饋」標籤分享回饋</block>
   <block id="6938bc958f8539e0bb0d56145bf54011" category="paragraph">現在，您可以使用 Keystone 控制面板中位於螢幕右下角的全新「回饋」索引標籤，從任何螢幕提供回饋。點擊該索引標籤將開啟一個面板，您可以在其中分享您的體驗並直接向 NetApp 提交意見。</block>
   <block id="03c47a6c52980a6f54e9df7f4c59cb77" category="section-title">改善容量使用情況和訂閱到期提醒</block>
@@ -469,7 +465,6 @@
   <block id="ba9431d5ada7b4b6e05b421ef88f8c24" category="paragraph">訂閱到期提醒現在會在到期前五個門檻觸發：到期前 180 天、90 天、60 天、30 天和 7 天，嚴重程度會隨著到期日的臨近而從通知等級升級到緊急等級。</block>
   <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">對於容量使用情況，突發警報閾值現在基於您訂閱的承諾突發百分比，而不是固定的 20%。例如，如果您的承諾突發百分比為 40%，則當承諾容量利用率達到 140% 時，將觸發嚴重警報。</block>
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">查看並建立 Keystone 訂閱的警報監控器</block>
-  <block id="e3d24640551dafdb75a00b4fd537dff8" category="paragraph">若要深入瞭解，請參閱 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>。</block>
   <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">從使用者行為警報中排除檔案路徑</block>
   <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience 支援將特定檔案路徑從使用者行為監控警示中排除。如果您確定這些檔案路徑不存在風險，或者您正在對可能觸發警示的磁碟區中的檔案進行操作，則可以將其排除在外。</block>
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">從警報中排除檔案路徑</block>
@@ -481,4 +476,9 @@
   <block id="32846264266c0647221942c075bdc06f" category="list-text">技術更新功能現在稱為 *System Refresh*。了解如何操作<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>。</block>
   <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">容量擴充功能現在稱為 *Storage Expansion*。了解如何操作<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>。</block>
   <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">續訂功能現已更名為「支援續訂」。了解如何操作<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>。</block>
+  <block id="59cd389cee057923ba31ddf4336c8526" category="paragraph">您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。若要深入瞭解，請參閱 <block ref="66d7c7dbf3416596c75cfd488116093b" category="inline-link-rx"></block>。</block>
+  <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">訂閱時間軸圖表現在會在同一天發生多個不同類型的訂閱更新時顯示一個數字，而不是顯示單獨的圖示。將滑鼠懸停在該數字上即可查看當天所有更新類型。下載的報告包含每個更新的單獨行，為您提供所有變更的完整記錄。若要深入瞭解，請參閱 <block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>。</block>
+  <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">「進階資料保護 (ADP)」標籤中新增了「授權分發」子選項卡，讓您可以查看 MetroCluster 合作夥伴叢集的 ADP 授權使用情況。若要深入瞭解，請參閱 <block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
+  <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">「資產」中的「叢集中的磁碟區」標籤現在包含一個「ARP 狀態」欄，該欄顯示每個磁碟區是否啟用或停用自主勒索軟體防護 (ARP)，讓您了解受管資產的勒索軟體防護狀況。若要深入瞭解 ARP，請參閱<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
+  <block id="86160081a3f709a69c529a9b26266813" category="paragraph">若要深入瞭解，請參閱 <block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>。</block>
 </blocks>
