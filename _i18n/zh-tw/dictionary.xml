@@ -475,4 +475,6 @@
   <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">深入瞭解 Cloud Volumes ONTAP 的角色型存取</block>
   <block id="ea256e0ef091d570fc3443bfdb29b124" category="paragraph"><block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>。</block>
   <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026年7月15日</block>
+  <block id="7c33460ede710e45d063c1062b0cacba" category="doc">從 NetApp Console 的工作負載中移除 GenAI 工作負載</block>
+  <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">GenAI 工作負載已從 NetApp Console 的工作負載中移除。</block>
 </blocks>

@@ -1,0 +1,10 @@
+= 從 NetApp Console 的工作負載中移除 GenAI 工作負載
+:allow-uri-read: 
+
+
+
+
+[[genai-workload-removal-from-workloads-in-the-netapp-console]]
+=== 從 NetApp Console 的工作負載中移除 GenAI 工作負載
+
+GenAI 工作負載已從 NetApp Console 的工作負載中移除。
