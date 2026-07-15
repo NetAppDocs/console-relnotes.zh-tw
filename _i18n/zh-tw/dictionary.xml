@@ -468,4 +468,11 @@
   <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">NetApp Console 中的 Cloud Volumes ONTAP 存取角色</block>
   <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
   <block id="658eb72da44348bf013db3a71420c2be" category="section-title">2026年7月14日</block>
+  <block id="b52a1b50313551938bf7b6520c957f67" category="doc">Console 代理 4.9.0</block>
+  <block id="8643cb7b1a266632b3ce870a592c9aed" category="paragraph">4.9.0 版本同時支援標準模式和受限模式。</block>
+  <block id="148954cf851ed4aa263eb6cd90ea3000" category="paragraph-title">支援 Cloud Volumes ONTAP 的角色型存取控制</block>
+  <block id="bfc35791f70b3b115636ea79999bc1e3" category="paragraph">Console 支援 Cloud Volumes ONTAP 的角色型存取控制。</block>
+  <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">深入瞭解 Cloud Volumes ONTAP 的角色型存取</block>
+  <block id="ea256e0ef091d570fc3443bfdb29b124" category="paragraph"><block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>。</block>
+  <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026年7月15日</block>
 </blocks>
