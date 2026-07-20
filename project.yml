@@ -16,6 +16,7 @@ settings:
     - console-setup-admin
     - console-software-updates
     - console-volume-caching
+    - console-well-architected
     - data-services-backup-recovery
     - data-services-data-classification
     - data-services-cloud-tiering
