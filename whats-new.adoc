@@ -1005,23 +1005,3 @@ NetApp Console中Keystone儀表板的新增強功能：
 ==== 累積高載的預測切換
 
 您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。若要深入瞭解，請參閱  https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["查看預測資料"]。
-
-
-
-[[20-april-2026]]
-== 2026 年 4 月 20 日
-
-
-
-[[backup-and-recovery]]
-=== 備份和復原
-
-
-
-==== VMware 工作負載增強功能
-
-在此版本中、VMware 工作負載引進下列增強功能：
-
-*ASA r2 SAN 支援*：VMware 工作負載現在支援保護由 NetApp ASA r2 SAN 專用環境託管的 VMFS 資料存放區上的虛擬機器。
-
-有關保護 VMware 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["保護 VMware 工作負載概述"]。
