@@ -147,8 +147,6 @@
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">使用乾淨還原來恢復工作負載</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">將 Ransomware Resilience 連接至 SIEM</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中、VMware 工作負載引進下列增強功能：</block>
-  <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*ASA r2 SAN 支援*：VMware 工作負載現在支援保護由 NetApp ASA r2 SAN 專用環境託管的 VMFS 資料存放區上的虛擬機器。</block>
-  <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">2026 年 4 月 20 日</block>
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">重新命名已佈建容量標籤</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">標籤 *Provisioned capacity* 已重新命名為 *Provisioned volume capacity*。更新後的標籤也已反映在相關的 CSV 和 Excel 報表中。</block>
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積高載的預測切換</block>
@@ -481,4 +479,28 @@
   <block id="fca26b0431792befd32dc54e69c74dc4" category="paragraph">在此備份與還原版本中，您現在可以跨不同的雲端供應商，為每個系統保護多達 100 個儲存桶的工作負載。</block>
   <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">了解 NetApp Backup and Recovery</block>
   <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">有關 NetApp Backup and Recovery 的詳細資訊，請參閱<block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>。</block>
+  <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">推出從 AWS Marketplace 簡化 Cloud Volumes ONTAP 上線流程</block>
+  <block id="3c7e14792d1bfe3f0ac2972bb2b2b283" category="paragraph">NetApp 為 AWS Marketplace 中的 Cloud Volumes ONTAP 引入簡化的上線流程，減少手動步驟和上線阻力。</block>
+  <block id="07de933840f509439b88a42c1b5a81f8" category="paragraph">先前，從 AWS Marketplace 部署 Cloud Volumes ONTAP 需要瀏覽多個畫面並手動設定角色、原則和憑證。這使得部署過程緩慢且容易出錯。</block>
+  <block id="7b0a4d96333ac82141b9bf7031a4427c" category="paragraph">全新的上線流程透過以下功能，簡化您從市場訂閱過渡到完全運作的 Cloud Volumes ONTAP 環境的流程：</block>
+  <block id="d8a801d58e75e021f2941c09a13ac4cc" category="list-text">訂閱 AWS Marketplace 上的 Cloud Volumes ONTAP 專用清單：您在 AWS Marketplace 上訂閱 Cloud Volumes ONTAP 獨立式清單，購買訂閱，並設定您的 AWS 帳戶（如果您還沒有帳戶）。</block>
+  <block id="2beff62713d0ca26e8bbeb26d118da72" category="list-text">NetApp Console 引導流程：您在 NetApp Console 中設定帳戶後，Console 會自動引導您完成部署流程，並在右側顯示引導流程。如果您需要離開 Console，可以稍後繼續完成引導流程。</block>
+  <block id="3545b8b6c97019ee16382e1e9f1566d6" category="list-text">關聯您的訂閱：您可以自動將訂閱與 Console 建立關聯，避免手動連結的繁瑣步驟。</block>
+  <block id="7fe500a5c571cd7ec037fadddeb65e6d" category="list-text">使用 AWS 憑證組態部署 Console 代理程式：您可以自動建立所需的 AWS 角色。此程序會在您的 AWS 帳戶中部署一個包含所需角色和原則的 AWS CloudFormation 堆疊供您審查，然後將其與 NetApp Console 關聯，從而省去手動 IAM 設定。接下來，您可以繼續完成代理程式組態、連網和安全性群組設定，以開始代理程式部署。</block>
+  <block id="1dc23a84b7e2b375289ce6857c758408" category="list-text">在 AWS 中部署新的 Cloud Volumes ONTAP 系統：您可以直接導覽至<block ref="956eaa6186169471a13345860cad0757" prefix=" " category="inline-code"></block>精靈，以更快速、更簡化的方式部署 Cloud Volumes ONTAP。</block>
+  <block id="5308f0957f4f665b7b8a7a70e7f26dbb" category="inline-link">使用快速建立部署 Cloud Volumes ONTAP</block>
+  <block id="92818173e0caa5fc0e16c368b850e85b" category="list-text"><block ref="92818173e0caa5fc0e16c368b850e85b" category="inline-link-rx"></block></block>
+  <block id="45155a6d96a264e24647f30ebb774e4f" category="list-text"><block ref="45155a6d96a264e24647f30ebb774e4f" category="inline-link-rx"></block></block>
+  <block id="e8f7f517a7c22ec0466a4d916c974b67" category="section-title">Azure 中 Cloud Volumes ONTAP 的架構完善組態分析</block>
+  <block id="8579a865aaeb9e025994731e2e5b4b7b" category="paragraph">NetApp Console 現在支援對執行在 Microsoft Azure 中的 Cloud Volumes ONTAP 系統進行架構完善的組態分析。Console 每天分析您的部署，並提供架構完善的狀態、見解和建議，以協助您維護遵守 NetApp 最佳實務和架構完善架構的系統。</block>
+  <block id="7be0ecfd06a37dfa6ce465eeee7e76b0" category="paragraph">精心設計的儀表板顯示已分析系統的總數，並按組態和嚴重性層級對資源進行分類。如果您是系統管理員，可以直接從 Console 儀表板檢視組織內任何組態問題的建議，並下載包含所有建議的 CSV 報告。組態分類依據：</block>
+  <block id="d1288590d0a85a5033a8db4112eab3bf" category="list-text">*可靠性*：即使在發生中斷的情況下，也能確保工作負載正確且穩定地運作。</block>
+  <block id="f9a9871ceb0b0b6106ac0c3761f8ccd5" category="list-text">*安全性*：透過風險評估和緩解措施保護資料、系統和資產。</block>
+  <block id="3e21d0873324d070ffd9f5112b99ce4d" category="list-text">*卓越營運*：最佳化架構以最大化商業價值。</block>
+  <block id="886863730bd12cb56f89bdf0ee2221be" category="list-text">*成本最佳化*：降低和最佳化成本，以實現更大的商業價值。</block>
+  <block id="109cdb23e41e8df9e7f4319a28a800c9" category="inline-link">Cloud Volumes ONTAP 組態分析</block>
+  <block id="30e75dda73d152784f441d20f2d17069" category="list-text"><block ref="30e75dda73d152784f441d20f2d17069" category="inline-link-rx"></block></block>
+  <block id="5bff0e2ec30fb9a44ab23683ebe9af90" category="inline-link">實作架構完善的系統組態</block>
+  <block id="fae0b0bdb2210aacd56925bf63411bc1" category="list-text"><block ref="fae0b0bdb2210aacd56925bf63411bc1" category="inline-link-rx"></block></block>
+  <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026年7月20日</block>
 </blocks>
