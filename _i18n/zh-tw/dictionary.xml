@@ -526,4 +526,8 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">如需詳細資訊，請參閱 <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>。</block>
   <block id="bb52269a2ff950398b1909638550daa9" category="section-title">使用者活動事件自動回應的電子郵件警示</block>
   <block id="631a554bd5f4de62ab009d76aaf76846" category="paragraph">現在，當使用者活動事件觸發自動化回應時，Ransomware Resilience 會發送電子郵件通知，從而提高 Ransomware Resilience 和勒索軟體活動的清晰度與可見度。</block>
+  <block id="74cf60fbdf1e9979b4bc96c9e0974a6b" category="doc">查看訂閱到期日和自動續訂狀態</block>
+  <block id="495b22b0bc55d3822a5ffc86d03d07c9" category="paragraph">訂閱表格（「儲存設備 &gt; Keystone &gt; 訂閱」）中的「訂閱到期天數」欄現在會在到期日旁邊顯示一個圖示。如果自動續約已關閉，圖示顏色會指示到期臨近程度：綠色（&gt;120 天）、橘色（91–120 天）、紅色（&lt;90 天）或灰色（已過期）。對於已啟用自動續約的訂閱，會顯示自動續約圖示，表示訂閱將在當前期限結束時自動續約。此狀態為唯讀，並反映您的合約條款。開啟訂閱後，這些圖示會出現在「目前使用情況」、「使用趨勢」、「訂閱時間軸」和「資產」標籤的訂閱詳情標題中，讓您在瀏覽時可掌握到期與續約狀態的可見度。</block>
+  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">查看您的 Keystone 訂閱詳情</block>
+  <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">若要深入瞭解，請參閱 <block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>。</block>
 </blocks>
