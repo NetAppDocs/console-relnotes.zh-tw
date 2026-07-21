@@ -146,6 +146,19 @@ GenAI 工作負載已從 NetApp Console 的工作負載中移除。
 
 
 
+[[digital-advisor]]
+=== 數位顧問
+
+
+
+==== Wellness Review 的棄用通知
+
+自 2026 年 7 月起，Wellness Review 功能已被棄用，不再於 Digital Advisor 中提供。
+
+如有任何問題或想共享回饋，請發送電子郵件至：mailto:ng-activeiq-feedback@netapp.com[聯絡 Active IQ 團隊]。
+
+
+
 [[14-july-2026]]
 == 2026年7月14日
 
