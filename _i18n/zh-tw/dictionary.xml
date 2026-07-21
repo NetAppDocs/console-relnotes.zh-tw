@@ -514,10 +514,10 @@
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">建立您自己的自訂規則</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">使用簡明易懂的語言編寫自訂規則，確保您的系統遵循組織的標準和 NetApp 最佳實務做法。先進行模擬執行測試，然後排程規則在您的環境中執行。</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">深入瞭解自訂規則</block>
-  <block id="9bd966d21188bc73353090c821e40934" category="paragraph"><block ref="9bd966d21188bc73353090c821e40934" category="inline-link-rx"></block></block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link">實作架構良好的 Cloud Volumes ONTAP 系統組態</block>
   <block id="e8227a8388a93064d0bbb4e13f50ff6e" category="list-text"><block ref="e8227a8388a93064d0bbb4e13f50ff6e" category="inline-link-rx"></block></block>
   <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">Wellness Review 的棄用通知</block>
   <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">自 2026 年 7 月起，Wellness Review 功能已被棄用，不再於 Digital Advisor 中提供。</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">如有任何問題或想共享回饋，請發送電子郵件至：mailto:ng-activeiq-feedback@netapp.com[聯絡 Active IQ 團隊]。</block>
+  <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
 </blocks>
