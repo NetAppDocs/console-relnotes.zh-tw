@@ -530,4 +530,5 @@
   <block id="495b22b0bc55d3822a5ffc86d03d07c9" category="paragraph">訂閱表格（「儲存設備 &gt; Keystone &gt; 訂閱」）中的「訂閱到期天數」欄現在會在到期日旁邊顯示一個圖示。如果自動續約已關閉，圖示顏色會指示到期臨近程度：綠色（&gt;120 天）、橘色（91–120 天）、紅色（&lt;90 天）或灰色（已過期）。對於已啟用自動續約的訂閱，會顯示自動續約圖示，表示訂閱將在當前期限結束時自動續約。此狀態為唯讀，並反映您的合約條款。開啟訂閱後，這些圖示會出現在「目前使用情況」、「使用趨勢」、「訂閱時間軸」和「資產」標籤的訂閱詳情標題中，讓您在瀏覽時可掌握到期與續約狀態的可見度。</block>
   <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">查看您的 Keystone 訂閱詳情</block>
   <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">若要深入瞭解，請參閱 <block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>。</block>
+  <block id="e4f459430f502d8d3158a4b206057282" category="paragraph">NetApp Console 4.9.0 管理包含下列新功能。</block>
 </blocks>
