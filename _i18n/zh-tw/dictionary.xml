@@ -531,4 +531,11 @@
   <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">查看您的 Keystone 訂閱詳情</block>
   <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">若要深入瞭解，請參閱 <block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>。</block>
   <block id="e4f459430f502d8d3158a4b206057282" category="paragraph">NetApp Console 4.9.0 管理包含下列新功能。</block>
+  <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Azure 智利中部區域的支援</block>
+  <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">現在可以在 Azure 的智利中部 （chilecentral） 區域部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。支援以下部署類型：</block>
+  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">單節點</block>
+  <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">在單一可用度區域中使用本機備援儲存設備 （LRS） 實現 HA</block>
+  <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">使用區域備援儲存設備 （ZRS） 在多個可用度區域中實現 HA</block>
+  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">有關所有支援區域的列表，請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
+  <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">2026年7月23日</block>
 </blocks>
