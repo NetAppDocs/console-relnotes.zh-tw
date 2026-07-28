@@ -135,7 +135,6 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">有關保護 VMware 工作負載的詳細資訊，請參閱<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">如需詳細資訊，請參閱 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中、VMware 工作負載引進了以下增強功能：</block>
-  <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">查看預測資料</block>
   <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">在此版本中，ONTAP Volumes 工作負載引入了以下增強功能：</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">保護 ONTAP Volumes 工作負載總覽</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
@@ -147,10 +146,6 @@
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">使用乾淨還原來恢復工作負載</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">將 Ransomware Resilience 連接至 SIEM</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中、VMware 工作負載引進下列增強功能：</block>
-  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">重新命名已佈建容量標籤</block>
-  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">標籤 *Provisioned capacity* 已重新命名為 *Provisioned volume capacity*。更新後的標籤也已反映在相關的 CSV 和 Excel 報表中。</block>
-  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積高載的預測切換</block>
-  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026 年 4 月 27 日</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">一般改善</block>
   <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">使用 OVA 部署 Data Classification</block>
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification 現在支援使用 VMware Open Virtual Appliance（OVA）部署，為內部部署的 VMware vSphere 環境提供更簡化的部署策略。</block>
@@ -398,7 +393,6 @@
   <block id="32846264266c0647221942c075bdc06f" category="list-text">技術更新功能現在稱為 *System Refresh*。了解如何操作<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>。</block>
   <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">容量擴充功能現在稱為 *Storage Expansion*。了解如何操作<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>。</block>
   <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">續訂功能現已更名為「支援續訂」。了解如何操作<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>。</block>
-  <block id="59cd389cee057923ba31ddf4336c8526" category="paragraph">您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。若要深入瞭解，請參閱 <block ref="66d7c7dbf3416596c75cfd488116093b" category="inline-link-rx"></block>。</block>
   <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">訂閱時間軸圖表現在會在同一天發生多個不同類型的訂閱更新時顯示一個數字，而不是顯示單獨的圖示。將滑鼠懸停在該數字上即可查看當天所有更新類型。下載的報告包含每個更新的單獨行，為您提供所有變更的完整記錄。若要深入瞭解，請參閱 <block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>。</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">「進階資料保護 (ADP)」標籤中新增了「授權分發」子選項卡，讓您可以查看 MetroCluster 合作夥伴叢集的 ADP 授權使用情況。若要深入瞭解，請參閱 <block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">「資產」中的「叢集中的磁碟區」標籤現在包含一個「ARP 狀態」欄，該欄顯示每個磁碟區是否啟用或停用自主勒索軟體防護 (ARP)，讓您了解受管資產的勒索軟體防護狀況。若要深入瞭解 ARP，請參閱<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
@@ -538,4 +532,18 @@
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">使用區域備援儲存設備 （ZRS） 在多個可用度區域中實現 HA</block>
   <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">有關所有支援區域的列表，請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">2026年7月23日</block>
+  <block id="752cfb7f100699ed10b934470fc8824c" category="doc">根據工作負載和系統類型標準化保護群組</block>
+  <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">Ransomware Resilience 現在強制要求保護群組只能包含一種工作負載類型和一種系統類型。建立新的保護群組時，您必須同時指定工作負載類型（檔案系統或區塊）和工作負載的系統。此增強功能可確保為保護群組所選的勒索軟體保護策略能夠成功套用至群組中的所有工作負載。</block>
+  <block id="372c0699ee751a2658f1b4a897349a47" category="paragraph">如果您已有混合了系統類型和工作負載類型的保護群組，您可以繼續使用它們，但無法新增工作負載至保護群組。</block>
+  <block id="d3bc7420d7e89fa51ba74ffa21c65564" category="inline-link-macro">建立保護群組</block>
+  <block id="9cc8304f699313927313d2034fff7636" category="paragraph">如需更多資訊，請參閱 <block ref="6971a647ce964528556f81913b109378" category="inline-link-macro-rx"></block>。</block>
+  <block id="3813b173292c59d50038bdf05c6b0021" category="section-title">戰備演練強化</block>
+  <block id="cf649f651dc2f032117c490236422d53" category="paragraph">Ransomware Resilience 現在可讓您根據攻擊類型進行準備演練。Ransomware Resilience 可偵測五種類型的攻擊，您可以針對每種攻擊執行準備演練，模擬攻擊和恢復過程，從而了解您應對勒索軟體攻擊的準備情況。</block>
+  <block id="d805ea206a1d58881a7d28213018ae80" category="inline-link-macro">進行整備演練</block>
+  <block id="400f918ffe7626d9fd96dbfc4fa0f591" category="paragraph">如需更多資訊，請參閱 <block ref="70ab6610cf4ffc0f4f5683c14443a025" category="inline-link-macro-rx"></block>。</block>
+  <block id="363260f41aed8104ffe114ccda875937" category="section-title">暫停或刪除 SIEM 系統</block>
+  <block id="b18d1990e5bda04c0ed4210a1113e197" category="paragraph">勒索軟體防護功能現已在使用者介面中新增暫停或刪除 SIEM 系統的選項。此項改進讓使用者能更輕鬆地暫時停用系統以進行疑難排解或維護，或將其完全移除。</block>
+  <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">停用 SIEM 系統</block>
+  <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">如需更多資訊，請參閱 <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>。</block>
+  <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">2026年7月27日</block>
 </blocks>
