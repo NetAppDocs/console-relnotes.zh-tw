@@ -30,6 +30,91 @@ Kubernetes:: 2024 年 8 月 7 日，對發現和管理 Kubernetes 叢集的支�
 ====
 
 
+[[03-august-2026]]
+== 2026年8月3日
+
+
+
+[[well-architected-dashboard]]
+=== 架構良好的儀表板
+
+
+
+==== 在架構完善的儀表板中更新了 FSx for ONTAP 的組態名稱
+
+NetApp Console 中架構完善的儀表板現在已更新 FSx for ONTAP 的儲存組態名稱，以提升清晰度和一致性。
+
+下表列出了架構良好的儀表板中的舊組態名稱及其對應的新組態名稱。
+
+[cols="1,1"]
+|===
+| 舊組態名稱 | 新組態名稱 
+
+
+| 排程 Volume 備份 | Volume 備份 
+
+
+| SSD 容量臨界值 | SSD 容量餘裕 
+
+
+| 檔案容量臨界值 | 檔案容量餘裕 
+
+
+| 長期保留資料的可靠性 | 複製原則標籤 
+
+
+| 已排程的本機 Snapshot 快照技術 | Snapshot 原則 
+
+
+| 刪除不必要的備份 | 備份過期 
+
+
+| 刪除不必要的 Snapshot 快照技術 | Snapshot 快照技術到期 
+
+
+| 未充分利用的固態硬碟容量 | 超額配置的 SSD 容量 
+
+
+| 非作用中區塊設備 | 非作用中區塊設備（LUN） 
+
+
+| 透過對冷資料分層優化總體擁有成本 | 冷資料分層 
+
+
+| Volume 邏輯容量報告 | 主機可見容量報告 
+
+
+| FlexGroup Volume 重新平衡 | 重新平衡 FlexGroup Volume 
+
+
+| FlexVol® Volume 重新平衡 | 重新平衡 FlexVol® Volume 
+
+
+| 快取關係寫入模式 | FlexCache® 寫入模式 
+
+
+| 優化快取磁碟區大小 | FlexCache® 複本大小 
+
+
+| 未經授權存取 Volume | 未經授權的 iSCSI Volume 存取 
+
+
+| ARP/AI 已停用 | 勒索軟體保護（ARP/AI） 
+|===
+
+
+==== 修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態
+
+NetApp Console 中架構完善的儀表板現在可讓您修復 Cloud Volumes ONTAP 系統的組態建議。
+
+您也可以從架構完善的分析中排除一個或多個組態。這樣，您可以忽略不適用於您環境的特定組態。
+
+如果您之後想要納入先前被忽略的組態，可以在架構完善的儀表板中重新啟用它。這樣就能將該組態恢復到分析中，並讓您獲得相關的建議和修復方案。
+
+link:https://docs.netapp.com/us-en/console-well-architected/cvo/\improve-configurations-cvo.html["修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態"]
+
+
+
 [[27-july-2026]]
 == 2026年7月27日
 
