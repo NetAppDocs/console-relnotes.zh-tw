@@ -598,4 +598,14 @@
   <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Cloud Volumes ONTAP 與 Microsoft OneLake 整合 - 技術簡報</block>
   <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
   <block id="37c159a88b5bcfaeea126c1581ba5f53" category="list-text"><block ref="37c159a88b5bcfaeea126c1581ba5f53" category="inline-link-macro-rx"></block></block>
+  <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Google Cloud NetApp Volumes 的 SAN 支援（預覽）</block>
+  <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">勒索軟體復原功能現已支援 Google Cloud NetApp Volumes 中的 SAN 工作負載，使您能夠偵測針對 SAN 工作負載的基於加密的勒索軟體攻擊。目前，Google Cloud NetApp Volumes 中 SAN 的支援仍處於預覽階段。</block>
+  <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">支援的系統</block>
+  <block id="fa83a4a163069ca1ab2dcb9be3c41063" category="inline-link-macro">SAN 儲存設備的勒索軟體復原能力</block>
+  <block id="2f244f2c363848263100f25323c23895" category="paragraph">如需更多資訊,請參閱 <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> 和 <block ref="740b3aa4325052238b6cf8ff4cb1a868" category="inline-link-macro-rx"></block>。</block>
+  <block id="053cc8d4a507db8f7d33d7c9eb844923" category="section-title">簡化的使用者封鎖介面</block>
+  <block id="f94e6cd450a12c55223329be07d15575" category="inline-link-macro">使用者活動偵測</block>
+  <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">Ransomware Resilience 現已提供更簡化的使用者體驗，方便您封鎖使用者及管理已封鎖的使用者。透過此更新，您可以輕鬆審查和修改已封鎖的使用者。您必須已設定 <block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block> 才能封鎖使用者。</block>
+  <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">管理已封鎖的使用者</block>
+  <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">如需更多資訊，請參閱 <block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>。</block>
 </blocks>
