@@ -522,4 +522,24 @@
   <block id="5594c2174d528fb9d5b9250acc4fb0b3" category="doc">Cloud Volumes ONTAP 9.19.1</block>
   <block id="a504c964d28135033096219100cd2752" category="paragraph">Cloud Volumes ONTAP 9.19.1 發布候選版 （RC） 僅在 Google Cloud 中提供，可升級至 9.19.1 正式版 （GA）。</block>
   <block id="5289c2eccb07f2de1b015934c3e3c499" category="paragraph"><block ref="a12e21b39ac968ec668c91e1c7ce7228" category="inline-link-rx"></block>。</block>
+  <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">改進後的儀表板</block>
+  <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">災難恢復儀表板已更新，提供更佳的使用者體驗，讓您能夠一目了然地全面檢視整個災難恢復環境。新版儀表板包括：</block>
+  <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*統一的工作負載可見度* — 透過單一窗口監控 VMware 和 Kubernetes 工作負載以及底層基礎架構的健全狀況。</block>
+  <block id="cb6d28fda9538aed2308a2a41da8fef6" category="list-text">*主動發現問題* — 儀表板現在會自動標示環境問題，從而加快診斷並縮短解決問題的時間。</block>
+  <block id="4682c01fd7e04d919efdbb898660b551" category="list-text">*容量使用率* — 容量計量現在直接顯示在儀表板中，讓使用者更容易了解資源消耗情況。</block>
+  <block id="d1a664c22b47275444c9a34501c2aac2" category="inline-link-macro">在儀表板上檢視您的 NetApp Disaster Recovery 計劃健全狀況</block>
+  <block id="83ffc188b91ae4a820fc973dcb4f2932" category="paragraph">如需詳細資訊，請參閱 <block ref="8f765f2bdeedf185243a86837c41ce64" category="inline-link-macro-rx"></block>。</block>
+  <block id="1b89eeafa349152b4736736033fd9afa" category="section-title">改善的報告</block>
+  <block id="0dc7dafa2af4e7002cfea0adec9f9574" category="paragraph">報告功能已擴充，可更深入了解您環境中的 Disaster Recovery 活動：</block>
+  <block id="7f09e48950606d1acab05c889751f513" category="list-text">產生針對 VMware 工作負載、Kubernetes 工作負載或兩者的報告，讓您能夠靈活地根據對象自訂報告。</block>
+  <block id="7a778b01d59bf3ae1ff3f2feb2d289b6" category="list-text">每份報告都會提供指定時間內的完整活動總結，確保您對 Disaster Recovery 環境中的事件有全面的可見度。</block>
+  <block id="a82244df08ebf8974422f7646e0239a4" category="inline-link-macro">建立 NetApp Disaster Recovery 報告</block>
+  <block id="fd5ba3d3711dc4d9c0e25f25fe06d680" category="paragraph">如需詳細資訊，請參閱 <block ref="39a309d4a05fe8ce442631f7b813f522" category="inline-link-macro-rx"></block>。</block>
+  <block id="2c06591fa7a638998ecf07caf020e711" category="section-title">使用者作業記錄</block>
+  <block id="c021095f262d283ec8653a39f95e447d" category="paragraph">Disaster Recovery 透過使用者層級作業記錄，提高了作業的可追溯性和可稽核性。現在，每個執行的作業都會記錄發起該作業的使用者，為法規遵循和疑難排解提供清晰的稽核追蹤。由 Disaster Recovery 自動觸發的作業會被識別為「system」，因此可以輕鬆區分使用者發起的活動和服務發起的活動。</block>
+  <block id="45b443b335251cfe162de8423d5b2021" category="inline-link-macro">監控 NetApp Disaster Recovery 工作</block>
+  <block id="42ed5c1343751a7af21890f24cd3c64e" category="paragraph">如需詳細資訊，請參閱 <block ref="40b7771ffeffc9237f3cc63a2ebdb5c0" category="inline-link-macro-rx"></block>。</block>
+  <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">效能和資源優化</block>
+  <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">為了降低整體系統資源消耗並提高災難恢復作業的效能，我們對系統底層進行了多項改進。</block>
+  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
 </blocks>
