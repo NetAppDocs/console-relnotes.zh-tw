@@ -118,23 +118,16 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">這些發行說明介紹了NetApp Console及其支援的資料服務的最新增強功能。提供各服務完整版本說明的連結。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和資料服務的最新變化。若要查看完整的版本發布歷史記錄，請參閱每個服務的完整版本說明。</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 工作負載增強功能</block>
-  <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">保護 KVM 工作負載概述</block>
-  <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">有關保護 KVM 工作負載的詳細信息，請參閱<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block>。</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">相關連結</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes 工作負載增強功能</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保護 Kubernetes 工作負載概述</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">有關保護 Kubernetes 工作負載的詳細資訊，請參閱<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>。</block>
-  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Database 工作負載增強功能</block>
-  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">保護 Oracle Database 工作負載概述</block>
-  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">有關保護 Oracle Database 工作負載的詳細資訊，請參閱<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">此版本的 Console 代理程式包含安全性改善和錯誤修正。</block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">了解勒索軟體復原能力</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">以下服務已棄用：</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 工作負載增強功能</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保護 VMware 工作負載概述</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">有關保護 VMware 工作負載的詳細資訊，請參閱<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
-  <block id="d78202f5dede249577567c1012878352" category="paragraph">如需詳細資訊，請參閱 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
-  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中、VMware 工作負載引進了以下增強功能：</block>
   <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">在此版本中，ONTAP Volumes 工作負載引入了以下增強功能：</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">保護 ONTAP Volumes 工作負載總覽</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
@@ -142,89 +135,14 @@
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">在此版本中、Hyper-V 工作負載引入了以下增強功能：</block>
   <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">保護 Hyper-V 工作負載概述</block>
   <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">有關保護 Hyper-V 工作負載的詳細資訊，請參閱<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>。</block>
-  <block id="354bffd56a05a78c1495900b2fa41f88" category="section-title">KVM 工作負載增強功能</block>
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">使用乾淨還原來恢復工作負載</block>
-  <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">將 Ransomware Resilience 連接至 SIEM</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中、VMware 工作負載引進下列增強功能：</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">一般改善</block>
-  <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">使用 OVA 部署 Data Classification</block>
-  <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification 現在支援使用 VMware Open Virtual Appliance（OVA）部署，為內部部署的 VMware vSphere 環境提供更簡化的部署策略。</block>
-  <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">有關更多資訊，請參閱<block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>。</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中、Kubernetes 工作負載引入了以下增強功能：</block>
-  <block id="08940f555ee07e4993dba0f9d919b955" category="doc">基於 Kubernetes 的工作負載支援（預覽）</block>
-  <block id="6d2babe4a7d28b244ea0243157a67baf" category="inline-link-macro">Trident Protect 目前支援的任何 Kubernetes 版本</block>
-  <block id="f273ad1ac40fd6066b516be98e8466b7" category="paragraph">NetApp Disaster Recovery 現在已支援 Kubernetes 為基礎的工作負載。有了 Kubernetes 支援，您可以保護在 Kubernetes 叢集上執行的應用程式，包括 OpenShift Virtualization 環境。Disaster Recovery 支援 <block ref="ee3b2775270ba891227fbdcc3618242b" category="inline-link-macro-rx"></block>，確保容器化應用程式的無縫整合與強大的災難復原能力。</block>
-  <block id="17e5366c4d700584180f9a88c40ddd7f" category="paragraph">Kubernetes 型工作負載支援的主要功能：</block>
-  <block id="6e623252e9b1dfd44c03c706826c9dc2" category="list-text">**廣泛的相容性**：Disaster Recovery 支援所有與 Trident Protect 相容的 Kubernetes 版本，包括 Red Hat OpenShift Virtualization。</block>
-  <block id="3dbc5485bf1aa588640ee699337e0892" category="list-text">**以應用程式為中心的保護**：現在可以在應用程式層級保護 Kubernetes 工作負載，確保在容錯移轉事件期間恢復關鍵服務。</block>
-  <block id="6124980497de7eeb616c27d599b53c84" category="list-text">**簡化編排**：災難復原提供直覺的工作流程，可自動備份和複製 Kubernetes 工作負載，運用與 VMware 環境相同的高效 SnapMirror 技術。</block>
-  <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recovery 的 Kubernetes 需求</block>
-  <block id="e337542e72a609caf56b5e5fdf59c9ff" category="doc">Console 代理 4.7.0</block>
-  <block id="99c4637fed7022fa029be07f2fddc9af" category="paragraph">4.7.0 版本同時支援標準模式和受限模式。</block>
-  <block id="c36716f3e716cc1af0c491f3d55d650b" category="paragraph">本版本包含以下新功能。</block>
-  <block id="2359613eeef582462b02e31edd2c83e1" category="paragraph-title">驗證您的 Console 組織</block>
-  <block id="43dc49af1a8157f71040baeb30324e66" category="inline-link-macro">了解如何驗證您的 Console 組織</block>
-  <block id="d1bdb7b91f1071f7a7fbbe9cc229a6cd" category="paragraph">預設情況下，Digital Advisor 會顯示與貴公司關聯的所有 NetApp 帳戶，而不僅僅是您的 Console 組織。若要將 Digital Advisor 中顯示的內容限制為特定帳戶，請驗證您要與 Console 組織搭配使用的企業帳戶。<block ref="804fccc7ef3790a6c6eaa859500c3cdb" category="inline-link-macro-rx"></block></block>
-  <block id="e5d56575e494e873c5ded63467d12e44" category="paragraph">目前對基於 Kubernetes 的工作負載的支援處於預覽階段。若要開始保護基於 Kubernetes 的工作負載，請參閱 <block ref="d1415fee440f8c1c4acbcf4ee7535778" category="inline-link-macro-rx"></block>。</block>
-  <block id="9b70df306d1f1719fd9d70e02911394c" category="section-title">2026 年 5 月 11 日</block>
-  <block id="2177f4b8385663763a55092409fcf96d" category="list-text">*保護 SAN 儲存設備上的 VM*：您現在可以保護 SAN 物件儲存設備上的 VM。</block>
-  <block id="b4f11c5e52133c7c24d1d06bed289da5" category="list-text">*還原至備用位置增強功能*：現在可以從 SAN 儲存設備上的 VM 主要位置和次要位置還原至備用位置。</block>
-  <block id="c79dba5399648f390585db72c4aefa97" category="list-text">*將檔案和資料夾還原至客體 VM*：您現在可以將主要儲存設備上快照中的檔案和資料夾還原至客體 Windows VM。此功能僅支援 CIFS VM。</block>
-  <block id="b1eace1ceffef99bf891142b0bcdbbe8" category="paragraph">在此版本中、KVM 工作負載引入了以下增強功能：</block>
-  <block id="1c663519b8e9745bde2b09d483acf65f" category="paragraph">*還原至替代位置*：您現在可以將 KVM VM 還原至替代目的地（此功能現已正式推出）。</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">在此版本中、Oracle Database 工作負載引進下列增強功能：</block>
-  <block id="25b535a4c68470b09e1b9748b7ec9c31" category="list-text">*Oracle AI Database 26ai 支援*：NetApp Backup and Recovery 現已支援 Oracle AI Database 26ai。</block>
-  <block id="366ff97a6ee8b3b75ea30b7561cfe3ca" category="list-text">*備份驗證支援*：您現在可以設定備份原則，以自動驗證 Oracle 資料庫備份的完整性。</block>
-  <block id="fe5aa0dbf25e183784fa7cd2b595be46" category="list-text">*跨資料存放區保護群組支援*：現在可以選擇在保護虛擬磁碟跨越多個資料存放區的虛擬機器時，保護群組的行為。</block>
-  <block id="ab186862b28de3aad826b26d80e3eb96" category="list-text">*複製支援*：您現在可以從主要儲存設備和次要儲存設備建立虛擬機器快照的複製。</block>
   <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">乾淨還原增強功能</block>
-  <block id="eddd63bd47a99db9ac6b332f06d65b76" category="section-title">Google SecOps SIEM 支援</block>
-  <block id="4977d1cdc293f17b4b971e00b9010c9d" category="paragraph">Ransomware Resilience 現已支援 Google SecOps 的安全資訊和事件管理 (SIEM)，使您能夠自動將資料傳送至 Google SecOps，從而簡化威脅分析和偵測。</block>
-  <block id="5ef49dc0416f3c817660ec88587d3752" category="paragraph">如需組態資訊，請參閱 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>。</block>
-  <block id="6ed9912d7c1784fccae7864acc430aeb" category="section-title">Azure NetApp Files 支援現已正式推出</block>
-  <block id="71c5d2f3f39fa5ddeeec1b7e5cd06c5e" category="paragraph">Ransomware Resilience 現已支援 Azure NetApp Files 系統，使您能夠有效率地偵測和應對 Azure NetApp Files 中的勒索軟體威脅。當您發現工作負載時，Ransomware Resilience 現在會顯示 Azure NetApp Files，並在保護儀表板中呈現。Ransomware Resilience 對 Azure NetApp Files 的支援包括僅使用快照的偵測和保護策略。對 Azure NetApp Files 的支援現已正式發布（GA）。</block>
-  <block id="23261131430f46ec6fb27110ac7f00fc" category="section-title">SOAR 支援封鎖使用者</block>
-  <block id="e5b8f2d9ef7cdce04d260640283c68c6" category="paragraph">Ransomware Resilience 現在支援使用 Google SecOps 和 Splunk SOAR playbook 封鎖單一使用者。透過此功能，當 Ransomware Resilience 偵測到可疑的使用者活動（例如資料外洩或大量刪除資料）時，您可以自動封鎖使用者。</block>
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">整合 SOAR 劇本</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>。</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS 中 Cloud Volumes ONTAP 和資料服務的彈性計費</block>
-  <block id="c6527bb2f1b87269be16603057b53a2c" category="paragraph">由於 AWS 企業折扣方案（EDP）的變更，NetApp 在 AWS Marketplace 中推出了獨立的 Cloud Volumes ONTAP 訂閱，讓您可以將 Cloud Volumes ONTAP 容量的計費與資料服務的計費分開。這種分離方式讓您更靈活地管理 EDP 抵扣額度和成本。NetApp 建議您使用獨立訂閱來更好地管理 Cloud Volumes ONTAP 的使用成本，同時在 2026 年 7 月 31 日 EDP 要求生效後，繼續使用 NIS 訂閱來支付資料服務的計費。</block>
-  <block id="bc5abfb3f56ed8d61846aead3435d204" category="paragraph">AWS 中的獨立 Cloud Volumes ONTAP 訂閱僅支援有效的基於容量的 Essentials 或 Freemium 許可套餐。Professional 套餐不支援。您可以選擇最適合您需求的計費方式：</block>
-  <block id="620ae1035cf673b2bf4915b820a55641" category="list-text">*獨立 Cloud Volumes ONTAP 訂閱（建議）*：您可以透過 AWS Marketplace 中的獨立訂閱支付 Cloud Volumes ONTAP 的使用費用，同時繼續透過 NIS 訂閱支付資料服務費用。對於大多數在 NetApp Console 中同時擁有獨立訂閱和 NIS 訂閱並與其 AWS 帳戶相關聯的客戶，這是建議的選擇。</block>
-  <block id="89df3be47eb3a96e140986018ec88f25" category="list-text">*合併 NIS 訂閱*：透過現有的 NIS 清單同時支付 Cloud Volumes ONTAP 和資料服務的費用。此合併方案適用於在 NetApp Console 中僅關聯了 NIS 訂閱的現有客戶。但是，NetApp 建議您設定 Cloud Volumes ONTAP 使用量的計費偏好設定，並切換到獨立訂閱，以便更好地管理成本。</block>
-  <block id="f0bbf3eb80d447bdeec06a404e0deecc" category="paragraph">根據您的訂閱類型，您將遇到以下情況：</block>
-  <block id="136ebd87e9330d7c5a86db1bea619a09" category="paragraph-title">僅限獨立訂閱（新客戶）</block>
-  <block id="4878475e6c6d651007ba24b57dd8f52c" category="paragraph">如果您在 NetApp Console 中僅擁有與您的 AWS 帳戶關聯的獨立 AWS 訂閱，而沒有 NIS 訂閱，則在部署期間只能選擇 Essentials 授權包。資料服務的 *Backup and Recovery* 選項對您不可用。</block>
-  <block id="b841a0c2e7683cb86c696f570ce9b7c5" category="paragraph-title">獨立訂閱和 NIS 訂閱（現有客戶）</block>
-  <block id="e5f964639d2d368944a708c9d9159fb8" category="paragraph">如果您的 AWS 帳戶同時關聯了 NIS 和獨立訂閱，且您尚未透過 NetApp Console 中的 *Billing preferences* 標籤設定帳單首選項，則 Cloud Volumes ONTAP 的使用量預設仍透過 NIS 計費。對於執行 Professional 套餐的任何 Cloud Volumes ONTAP 執行個體，這也是預設設置，因為獨立清單不支援 Professional。您可以設定帳單首選項並選擇每項服務的計費方式：</block>
-  <block id="6dd79ef85372ac622a4d4c5dc46a3c46" category="list-text">將獨立訂閱設定為 Cloud Volumes ONTAP（包含 Essentials 套餐）的首選計費帳戶。如果您只有 Professional 套餐，可以將其轉換為 Essentials 套餐，並透過設定計費首選項來收取 Cloud Volumes ONTAP 的使用費用。我們推薦這種方法，因為它有助於您更有效地管理 Cloud Volumes ONTAP EDP 積分。</block>
-  <block id="a77b7d4efa6f963267f588c46c34df1b" category="list-text">使用 NIS 訂閱進行資料服務計費，或透過 Professional 套餐計費 Cloud Volumes ONTAP 使用量。在部署期間，啟用 *Backup and Recovery* 資料服務，並選擇 Professional 授權套餐，以透過 NIS 訂閱計費資料服務。</block>
-  <block id="8c746863961baaa82aba27b4fd37e769" category="paragraph-title">僅限 NIS 訂閱用戶（現有客戶）</block>
-  <block id="f838fe2f68473e970c4c89e5cbfc3369" category="paragraph">如果您是已擁有與 AWS 帳戶關聯的 NIS 訂閱的現有客戶，則此說明適用。您可以繼續像現在一樣同時對 Cloud Volumes ONTAP 和資料服務進行計費。但是，NetApp 建議您切換到獨立訂閱模式，以便更好地管理 Cloud Volumes ONTAP 的使用成本：</block>
-  <block id="2a4095338c2cb1e2257dd4e02f2451ce" category="list-text">在 AWS 入口網站上訂閱新的獨立清單。</block>
-  <block id="ee8232a8731e2273fe25bf49ea87389a" category="list-text">將獨立訂閱連結至您的 AWS 帳戶。</block>
-  <block id="46568565f79aa968105d34a67e84131a" category="list-text">將您的計費偏好設定為使用 Essentials 套餐的 Cloud Volumes ONTAP 獨立訂閱。</block>
-  <block id="ef9583ff5df47277e937b49f54639572" category="list-text">（如適用）將您的 Professional 套件轉換為 Essentials 套件，並設定計費偏好設定。</block>
-  <block id="8460f8e45452fdd819096e78fca80090" category="list-text">繼續透過您的 NIS 訂閱進行資料服務計費。</block>
-  <block id="2aef8c7aa3736a735e2c270ba5fba388" category="admonition">使用多種訂閱類型或在清單之間遷移時，不會發生重複計量。</block>
-  <block id="06afa66cf6eca938a45be835a47030e1" category="list-title">相關連結</block>
-  <block id="050c120c7155ccd2f0ee729008e2ff37" category="inline-link">在 AWS 中設定 Cloud Volumes ONTAP 的授權</block>
-  <block id="d813fcacf432155f3260728eb45bbdba" category="list-text"><block ref="d813fcacf432155f3260728eb45bbdba" category="inline-link-rx"></block></block>
-  <block id="4271feea4f5dd0d69f423f75fc48dbde" category="inline-link">變更容量授權的收費方式</block>
-  <block id="9e2298e44558506acec619a75ec64821" category="list-text"><block ref="9e2298e44558506acec619a75ec64821" category="inline-link-rx"></block></block>
-  <block id="5d9344af71b6822a1b2231cd47017aef" category="paragraph">現在，乾淨還原功能支援還原到備用位置，讓您可以將磁碟區還原到由相同 Console 代理程式管理的不同系統、儲存 VM 和 Aggregate。此外，乾淨還原功能也取消了搜尋可用還原 Snapshot 的七天限制。現在，無論距離勒索軟體事件發生的時間遠近，乾淨還原功能都會持續搜尋可用 Snapshot 以找到可行的還原點。</block>
-  <block id="66599dda2c9083455404f2c8f0bd486b" category="paragraph"><block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>。</block>
-  <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026 年 5 月 12 日</block>
-  <block id="a60267b93ffdd2ed17059222732309c4" category="doc">改善的組態頁面</block>
-  <block id="4afd879e7ec84c60016c97e64b4fce9d" category="paragraph">Data Classification 已更新並改善了組態頁面，從而提升了使用者管理設定、系統、啟用掃描和監控系統運作狀況的體驗。新的組態頁面以更易於使用的格式保留了現有功能，並新增了按類型、錯誤狀態和掃描狀態篩選系統的功能。此外，新頁面還提供了已連接系統的摘要以及活動和已配置掃描的概覽。</block>
-  <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">影片示範</block>
-  <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">使用資料分類掃描資料來源</block>
-  <block id="158f63c968216959ea1a95097bf65a32" category="paragraph">檢閱 <block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>。如需詳細資訊，請參閱 <block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>。</block>
-  <block id="cf975b28ba57e8d6ba85ec36d74a06c3" category="section-title">Compliance 管理員 IAM 角色</block>
-  <block id="7cd2bb6be419d190aa59909bb89ac3d8" category="paragraph">資料分類功能現已支援合規性管理員角色，用於管理資料分類中的權限。合規性管理員角色無權存取包括 Console 代理和工作區在內的資源。擁有合規性管理員角色的使用者必須至少關聯一個其他角色。</block>
-  <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">安裝 Data Classification 時，您應該擁有 Console 平台管理員角色或 Compliance 管理員角色。</block>
-  <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">如果您是現有使用者，存取應照常進行。例如，擁有資料夾或專案管理員角色的平台角色擁有現有存取權。</block>
-  <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Data Classification 角色</block>
   <block id="ba0619dd0f47665766133e60320fb439" category="doc">健康狀況檢閱</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">自 2026 年 7 月起，Digital Advisor 中的 Wellness Review 功能將不再提供。如有任何疑問，請發送電子郵件至 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]。</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026 年 5 月 18 日</block>
@@ -242,10 +160,6 @@
   <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
   <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">使用 Azure 中的進階選項部署 Cloud Volumes ONTAP</block>
   <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
-  <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">如需詳細資訊，請參閱 <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>。</block>
-  <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*：此版本包含 Trident Protect 26.05.1。</block>
-  <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*基於 VM 的應用程式就地還原*：現在您可以將基於 VM 的應用程式還原到原始命名空間和原始叢集。</block>
-  <block id="090499247beb18776ed4674afbd7c45d" category="paragraph">NetApp 在 AWS 中為您的 Cloud Volumes ONTAP 訂閱提供了更進階的計費選項，讓您能更靈活地控制 Cloud Volumes ONTAP 容量與 NetApp 資料服務（例如 NetApp Backup and Recovery）的付款方式。過去，所有 Cloud Volumes ONTAP 及資料服務的使用情形，都是透過 AWS marketplace 中的 NetApp Intelligent Services（NIS）條目一起計費。</block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">在 Ransomware Resilience 中建立保護群組</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026 年 5 月 26 日</block>
   <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">改進了訂閱時間軸中同一天多次更新的顯示方式</block>
@@ -412,10 +326,7 @@
   <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience 現在提供 Azure Resource Manager （ARM） 範本，用於將 Microsoft Sentinel 連接至 SIEM，提供一種輔助部署的方法。</block>
   <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">連接到安全資訊和事件管理 (SIEM) 系統以進行威脅偵測和分析</block>
   <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">如需詳細資訊，請參閱 <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>。</block>
-  <block id="b6e501a3f9a9964fecae7c393bb7cf74" category="doc">Cloud Volumes ONTAP 9.19.1 RC</block>
-  <block id="f11434f81dce28dd60c981c553fa8539" category="paragraph">現在您可以使用 NetApp Console 在 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.19.1 的候選發行版本 （RC）。此版本尚不支援在 Amazon Web Services （AWS） 和 Microsoft Azure （Azure） 中部署和升級。</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">深入瞭解此版本的 Cloud Volumes ONTAP</block>
-  <block id="e0a027f4bdcd16cda78c830ace94fc76" category="paragraph"><block ref="539cae97b36c04420caaf667f01300c8" category="inline-link-macro-rx"></block>。</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Cloud Volumes ONTAP HA 支援下一代 Google Cloud VM</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">在 9.19.1 版本中，NetApp 將 Cloud Volumes ONTAP 高可用性 （HA） 部署從 N2 VM 移轉至下一代 Google Cloud C3 系列 VM，以提供更快速且更具擴充性的體驗。</block>
   <block id="6cc056a948dd84f835846a2201f9b4b5" category="admonition">此支援僅適用於單可用區 (AZ) HA 部署。</block>
@@ -608,4 +519,7 @@
   <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">Ransomware Resilience 現已提供更簡化的使用者體驗，方便您封鎖使用者及管理已封鎖的使用者。透過此更新，您可以輕鬆審查和修改已封鎖的使用者。您必須已設定 <block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block> 才能封鎖使用者。</block>
   <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">管理已封鎖的使用者</block>
   <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">如需更多資訊，請參閱 <block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>。</block>
+  <block id="5594c2174d528fb9d5b9250acc4fb0b3" category="doc">Cloud Volumes ONTAP 9.19.1</block>
+  <block id="a504c964d28135033096219100cd2752" category="paragraph">Cloud Volumes ONTAP 9.19.1 發布候選版 （RC） 僅在 Google Cloud 中提供，可升級至 9.19.1 正式版 （GA）。</block>
+  <block id="5289c2eccb07f2de1b015934c3e3c499" category="paragraph"><block ref="a12e21b39ac968ec668c91e1c7ce7228" category="inline-link-rx"></block>。</block>
 </blocks>
