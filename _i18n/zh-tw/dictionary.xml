@@ -548,13 +548,12 @@
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中、VMware 工作負載引進了以下增強功能：</block>
   <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*SAN VM 還原至備用位置支援*：您現在可以將基於 SAN 的 VM 備份還原至備用位置。</block>
   <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*支援批次刪除備份*：現在可以一次刪除多個備份。</block>
-  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Database 工作負載增強功能</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">在此版本中、Oracle Database 工作負載引進下列增強功能：</block>
-  <block id="7ac62e0d250037c318f5fcf102e2e700" category="list-text">*可插拔資料庫 （PDB） 還原與 Clone*：Backup and Recovery for NetApp Console 服務現在支援還原與複製可插拔資料庫。</block>
-  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">保護 Oracle Database 工作負載概述</block>
-  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">有關保護 Oracle Database 工作負載的詳細資訊，請參閱<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>。</block>
   <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*預覽版支援氣隙資源*：如果在 NetApp Console 本機部署中執行 NetApp Backup and Recovery，您可以探索、保護和還原氣隙 Kubernetes 資源。此功能在此版本中為預覽功能。</block>
   <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">在此版本中，ONTAP Volumes 工作負載引入了以下增強功能：</block>
   <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*優先執行還原作業而非備份作業*：現在，在還原虛擬機器或檔案時，您可以優先執行還原作業而非備份作業。</block>
   <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*無需啟動 Backup and Recovery 即可探索 ONTAP 系統和磁碟區*：您現在無需啟動 Backup and Recovery 即可探索系統和磁碟區。</block>
+  <block id="a03ddc03cf03c3c53151794c95579535" category="doc">「活動掃描」索引標籤，以增強掃描管理</block>
+  <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">資料分類功能現在在「配置」選單中新增了「活動掃描」選項卡，從而提升了掃描管理體驗。「活動掃描」標籤提供所有已啟動掃描的磁碟區總覽，並提供熟悉的篩選器方便您整理資源。此選項卡還提供了一個中央位置，用於設定掃描優先順序、暫停掃描和審查錯誤。</block>
+  <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">管理掃描</block>
+  <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">如需詳細資訊，請參閱 <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>。</block>
 </blocks>
