@@ -133,8 +133,6 @@
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 工作負載增強功能</block>
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">在此版本中、Hyper-V 工作負載引入了以下增強功能：</block>
-  <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">保護 Hyper-V 工作負載概述</block>
-  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">有關保護 Hyper-V 工作負載的詳細資訊，請參閱<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>。</block>
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">使用乾淨還原來恢復工作負載</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中、VMware 工作負載引進下列增強功能：</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">一般改善</block>
@@ -565,4 +563,6 @@
   <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">刪除資料收集器</block>
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">勒索軟體復原功能現已支援刪除資料收集器。啟用工作負載的使用者活動偵測時，系統會自動建立資料收集器；如果資料收集器過期，現在可以手動將其刪除。</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">如需詳細資訊，請參閱 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>。</block>
+  <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">使用 NetApp Backup and Recovery 的 Hyper-V 保護工作流程</block>
+  <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">有關保護 Hyper-V 工作負載的詳細資訊，請參閱<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>。</block>
 </blocks>
