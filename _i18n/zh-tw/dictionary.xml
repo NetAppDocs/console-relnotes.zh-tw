@@ -556,4 +556,10 @@
   <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">資料分類功能現在在「配置」選單中新增了「活動掃描」選項卡，從而提升了掃描管理體驗。「活動掃描」標籤提供所有已啟動掃描的磁碟區總覽，並提供熟悉的篩選器方便您整理資源。此選項卡還提供了一個中央位置，用於設定掃描優先順序、暫停掃描和審查錯誤。</block>
   <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">管理掃描</block>
   <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">如需詳細資訊，請參閱 <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>。</block>
+  <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Console 代理 4.10.0</block>
+  <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">4.10.0 版本同時支援標準模式和受限模式。</block>
+  <block id="657b18a162285732ef5f46d679b05663" category="section-title">提升雲端中介器的回應能力與可靠性</block>
+  <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">此服務現在可以更有效率地處理叢集狀態更新，減少間歇性逾時和停機，並加強 SMaS 關係的自動計劃外容錯移轉調解。</block>
+  <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 管理包括安全性修復和問題修復。</block>
+  <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">2026年8月13日</block>
 </blocks>
