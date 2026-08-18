@@ -144,6 +144,19 @@ Digital Advisor 中的 Config Drift 功能將於 2026 年 9 月棄用。
 
 
 
+[[well-architected-dashboard]]
+=== 架構良好的儀表板
+
+
+
+==== Google Cloud NetApp Volumes 在架構完善的儀表板中的支援
+
+NetApp Console 儀表板現在支援 Google Cloud NetApp Volumes。儲存管理員可以檢視其儲存資源池和組態的狀態，取得有關提升效率、降低成本、提升效能、可靠性和安全性的建議，並採取行動以最佳化作業並遵循最佳實務。
+
+深入瞭解link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes 組態分析"]。
+
+
+
 [[backup-and-recovery]]
 === 備份和復原
 
