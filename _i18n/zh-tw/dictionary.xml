@@ -383,11 +383,6 @@
   <block id="92b6fed6ba9205d1ef1ae0e1d186dfa8" category="paragraph">NetApp Console 中架構完善的儀表板提供跨帳戶和區域的儲存系統與組態的單一檢視。此儀表板提供各種洞察和建議，協助您實現卓越營運績效。您可以檢視組態的架構完善狀態、依照您所用儲存類型的架構完善架構支柱分類的組態問題，以及組態問題和建議清單。</block>
   <block id="5525eb13e3a89cfcd9f9c5e55aa357a4" category="inline-link-macro">架構良好的儀表板</block>
   <block id="6e2cc6111df032359200840287f3c08f" category="paragraph">深入瞭解 <block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>。</block>
-  <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">Console 中架構完善的儀表板適用於以下儲存系統：</block>
-  <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
-  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
-  <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Microsoft Azure 中的 Cloud Volumes ONTAP</block>
-  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">建立您自己的自訂規則</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">使用簡明易懂的語言編寫自訂規則，確保您的系統遵循組織的標準和 NetApp 最佳實務做法。先進行模擬執行測試，然後排程規則在您的環境中執行。</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">深入瞭解自訂規則</block>
@@ -430,7 +425,6 @@
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">如需更多資訊，請參閱 <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>。</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">2026年7月27日</block>
   <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">在架構完善的儀表板中更新了 FSx for ONTAP 的組態名稱</block>
-  <block id="032088baae45e30e8391672094b24e52" category="paragraph">NetApp Console 中架構完善的儀表板現在已更新 FSx for ONTAP 的儲存組態名稱，以提升清晰度和一致性。</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">下表列出了架構良好的儀表板中的舊組態名稱及其對應的新組態名稱。</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">舊組態名稱</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新組態名稱</block>
@@ -572,4 +566,13 @@
   <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">NetApp Console 儀表板現在支援 Google Cloud NetApp Volumes。儲存管理員可以檢視其儲存資源池和組態的狀態，取得有關提升效率、降低成本、提升效能、可靠性和安全性的建議，並採取行動以最佳化作業並遵循最佳實務。</block>
   <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Google Cloud NetApp Volumes 組態分析</block>
   <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph">深入瞭解<block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>。</block>
+  <block id="f2085e6c9159e77c1694598931a78c54" category="inline-link-macro">Microsoft Azure 中的 Cloud Volumes ONTAP。</block>
+  <block id="af60dd6d4748d367317db02ecf8412df" category="paragraph">Console 中架構完善的儀表板可供 <block ref="a6a029d1bfbb017a404644ee02b0b284" category="inline-link-macro-rx"></block> 使用</block>
+  <block id="9816127c5ba6e54118e083fdec8ad3df" category="doc">FSx for ONTAP 支援已整合到 NetApp Console 中架構完善的儀表板中</block>
+  <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">NetApp Console 中架構完善的儀表板可用於 Amazon FSx for NetApp ONTAP。</block>
+  <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">了解 FSx for ONTAP 的組態分析</block>
+  <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
+  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console 中架構完善的儀表板現在包含 FSx for ONTAP 的新儲存組態名稱。</block>
+  <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">NetApp Console 系統頁面中顯示的架構完善問題</block>
+  <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">在 Microsoft Azure 中，Cloud Volumes ONTAP 的架構完善問題通知可從 NetApp Console 的「儲存管理系統」頁面取得。此功能可協助您快速識別 Azure 中 Cloud Volumes ONTAP 系統的組態問題，並從通知導覽至「工作負載架構完善」儀表板。</block>
 </blocks>
