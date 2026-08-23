@@ -30,6 +30,27 @@ Kubernetes:: 2024 年 8 月 7 日，對發現和管理 Kubernetes 叢集的支�
 ====
 
 
+[[20-august-2026]]
+== 2026年8月20日
+
+
+
+[[digital-advisor]]
+=== 數位顧問
+
+
+
+==== Value Insights 簡介
+
+Value Insights 功能整合了 ONTAP 系統的整體健全狀況、節省成本、穩定性和安全性資訊。您可以利用這些資訊，透過持續的資料導向 ONTAP 環境檢視來改善系統健全狀況和效能。
+
+
+NOTE: Value Insights 功能僅適用於 ONTAP 系統。
+
+深入瞭解link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"]。
+
+
+
 [[17-august-2026]]
 == 2026年8月17日
 
@@ -1219,21 +1240,3 @@ Cloud Volumes ONTAP 9.16.1 及更高版本支援 M6id 和 M6idn EC2 執行個體
 勒索軟體韌性現在支援在 Google Cloud NetApp Volumes 系統中建立保護群組，使您能夠將多個工作負載組織在一個政策下，以簡化管理。
 
 如需更多資訊，請參閱link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-protection-group.html["在 Ransomware Resilience 中建立保護群組"^]。
-
-
-
-[[25-may-2026]]
-== 2026 年 5 月 25 日
-
-
-
-[[keystone]]
-=== Keystone
-
-NetApp Console中Keystone儀表板的新增強功能：
-
-
-
-==== 改進了訂閱時間軸中同一天多次更新的顯示方式
-
-訂閱時間軸圖表現在會在同一天發生多個不同類型的訂閱更新時顯示一個數字，而不是顯示單獨的圖示。將滑鼠懸停在該數字上即可查看當天所有更新類型。下載的報告包含每個更新的單獨行，為您提供所有變更的完整記錄。若要深入瞭解，請參閱  https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["查看您的 Keystone 訂閱時間軸"]。

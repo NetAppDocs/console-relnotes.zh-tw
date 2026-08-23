@@ -1,0 +1,15 @@
+= Value Insights 簡介
+:allow-uri-read: 
+
+
+
+
+[[introducing-value-insights]]
+=== Value Insights 簡介
+
+Value Insights 功能整合了 ONTAP 系統的整體健全狀況、節省成本、穩定性和安全性資訊。您可以利用這些資訊，透過持續的資料導向 ONTAP 環境檢視來改善系統健全狀況和效能。
+
+
+NOTE: Value Insights 功能僅適用於 ONTAP 系統。
+
+深入瞭解link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"]。
