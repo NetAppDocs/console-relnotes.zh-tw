@@ -138,11 +138,6 @@
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">整合 SOAR 劇本</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>。</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS 中 Cloud Volumes ONTAP 和資料服務的彈性計費</block>
-  <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes 支援（預覽版）</block>
-  <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">在 Ransomware Resilience 中建立保護群組</block>
-  <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026 年 5 月 26 日</block>
-  <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">勒索軟體韌性現在支援在 Google Cloud NetApp Volumes 系統中建立保護群組，使您能夠將多個工作負載組織在一個政策下，以簡化管理。</block>
-  <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">如需更多資訊，請參閱<block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>。</block>
   <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Digital Advisor 小工具名稱更新</block>
   <block id="10db272222005cd4785bf41eb8f2d16f" category="paragraph">以下 Digital Advisor 功能已更改名稱：</block>
   <block id="c1e03330b4662e637d1bbe6857651076" category="inline-link-macro">評估系統重新整理</block>
@@ -577,4 +572,9 @@
   <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Value Insights</block>
   <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph">深入瞭解<block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>。</block>
   <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">2026年8月20日</block>
+  <block id="03646431a428b1129a0642a9e9a930d6" category="inline-link">從 AWS Marketplace 就職 Cloud Volumes ONTAP</block>
+  <block id="22b14536778a26fb341e73c9dfc20414" category="list-text"><block ref="22b14536778a26fb341e73c9dfc20414" category="inline-link-rx"></block></block>
+  <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Azure 中奧地利東部和比利時中部地區的支援</block>
+  <block id="44e833213a99257d69192896111996f4" category="paragraph">現在，您可以在 Azure 的奧地利東部 (austriaeast) 和比利時中部 (belgiumcentral) 區域部署 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。支援下列部署類型：</block>
+  <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026年8月25日</block>
 </blocks>
