@@ -577,4 +577,7 @@
   <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Azure 中奧地利東部和比利時中部地區的支援</block>
   <block id="44e833213a99257d69192896111996f4" category="paragraph">現在，您可以在 Azure 的奧地利東部 (austriaeast) 和比利時中部 (belgiumcentral) 區域部署 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。支援下列部署類型：</block>
   <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026年8月25日</block>
+  <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">透過 Console 代理程式交付 SIEM 事件</block>
+  <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">除了現有的透過 NetApp Console 交付事件的選項外，勒索軟體復原功能現在還支援透過 Console 代理程式交付 SIEM 事件。</block>
+  <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">透過 Console 代理程式交付 SIEM 事件時，您可以將 SIEM 事件交付限制在網路邊界內。這簡化了具有嚴格 IP 位址允許清單的本地環境的部署，並能更好地遵守現有安全性控制。若要使用此選項，請確保 Console 代理程式能夠透過任何防火牆或 Proxy 控制，解析並連線至所需連接埠上的 SIEM 端點。</block>
 </blocks>
