@@ -1107,21 +1107,3 @@ NetApp Console中Keystone儀表板的新增強功能：
 
 
 有關保護 Kubernetes 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["保護 Kubernetes 工作負載概述"]。
-
-
-
-[[11-june-2026]]
-== 2026 年 6 月 11 日
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Cloud Volumes ONTAP 支援新的 Azure 區域
-
-現在您可以在馬來西亞西部（malaysiawest）區域的 Azure 中，在單一和多個可用區部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。這包括對單節點和高可用性（HA）部署的支援。
-
-有關所有地區的清單，請參閱  https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的全球區域地圖"^]。
