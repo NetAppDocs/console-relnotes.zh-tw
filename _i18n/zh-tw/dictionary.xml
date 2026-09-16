@@ -513,4 +513,12 @@
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">一般改善</block>
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">此版本的 Data Classification 包含安全性改進和效能增強。</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">2026 年 9 月 16 日</block>
+  <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">在此版本中，KVM、Hyper-V 和 VMware 工作負載引入了以下增強功能：</block>
+  <block id="0898522d58ded515e98cbdbeae0b2894" category="paragraph">*VM 主機探索期間的認證資料選擇*：註冊 KVM、Hyper-V 或 VMware 主機時，您現在可以使用已新增至 Backup and Recovery 的認證資料。</block>
+  <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*虛擬機器的跨磁碟保護*：對於 CIFS 配置，Backup and Recovery 現在支援保護保護群組中每個虛擬機器所連接的每個磁碟。這包括分佈在多個 ONTAP 磁碟區或 ONTAP 儲存設備系統上的檔案（跨磁碟），以及僅限於單一位置的檔案。</block>
+  <block id="1e62d1b5255654e86ebb8b223345252a" category="section-title">ONTAP Volumes 工作負載增強</block>
+  <block id="705eb27960b89edebb2b2269e939009b" category="paragraph">在此版本中，ONTAP Volumes 工作負載引入了以下預覽增強功能：</block>
+  <block id="921187f214ef75f0b99f59d69af64c46" category="paragraph">*每日備份資料傳輸報告*： NetApp Backup and Recovery for Volumes 現已在「報告」標籤下新增每日備份資料傳輸報告，讓您獲得整個環境中每日備份和複寫資料傳輸活動的可見度。您可以產生整個帳戶或選定儲存設備系統的報告，按日期範圍和保護類型進行篩選，並將結果下載為 CSV 檔案。</block>
+  <block id="8efecd04b299fc5bba0c5bb50d5d5be9" category="inline-link">了解使用 NetApp Backup and Recovery 的 ONTAP Volume 保護</block>
+  <block id="6ca40fed8a7133003ac7b662160a7e13" category="paragraph">有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱<block ref="2a59f28eae334d4c500755e30c1cf84e" category="inline-link-rx"></block>。</block>
 </blocks>
