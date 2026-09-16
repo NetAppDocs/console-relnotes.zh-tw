@@ -521,4 +521,29 @@
   <block id="921187f214ef75f0b99f59d69af64c46" category="paragraph">*每日備份資料傳輸報告*： NetApp Backup and Recovery for Volumes 現已在「報告」標籤下新增每日備份資料傳輸報告，讓您獲得整個環境中每日備份和複寫資料傳輸活動的可見度。您可以產生整個帳戶或選定儲存設備系統的報告，按日期範圍和保護類型進行篩選，並將結果下載為 CSV 檔案。</block>
   <block id="8efecd04b299fc5bba0c5bb50d5d5be9" category="inline-link">了解使用 NetApp Backup and Recovery 的 ONTAP Volume 保護</block>
   <block id="6ca40fed8a7133003ac7b662160a7e13" category="paragraph">有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱<block ref="2a59f28eae334d4c500755e30c1cf84e" category="inline-link-rx"></block>。</block>
+  <block id="432e57b4ac6417575095631e36c4ad84" category="doc">支援 StorageGRID 12.1</block>
+  <block id="b6d09872582b8745a9b3f149504d2383" category="paragraph">您現在可以從 NetApp Console 管理您的 StorageGRID 12.1 系統。</block>
+  <block id="fe21ed67c3641d5e2e10ba99109b6611" category="inline-link">了解如何使用 NetApp Console 中的進階檢視來管理 StorageGRID</block>
+  <block id="4df6d59ec4dc722c05f0d3acec14b56c" category="paragraph"><block ref="e0100fd3222c3d2603aecd8b497b4e0b" category="inline-link-rx"></block>。</block>
+  <block id="bc084b415a20851b8e676913db93fcd2" category="doc">NetApp Disaster Recovery 中的 Kubernetes 支援現已正式發布（GA）</block>
+  <block id="9324db17e670e1369640c556f71a1423" category="paragraph">NetApp Disaster Recovery 對基於 Kubernetes 的工作負載的支援現已正式推出（GA）。透過支援基於 Kubernetes 的工作負載，您可以保護在 Kubernetes 叢集（包括 OpenShift 虛擬化環境）上執行的應用程式。災難恢復支援 Trident Protect 目前支援的任何 Kubernetes 版本，確保容器化應用程式的無縫整合與強大的災難恢復功能。</block>
+  <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recovery 的 Kubernetes 需求</block>
+  <block id="09aa82bf41a96669e2e7ab72fce53b68" category="paragraph">若要開始保護基於 Kubernetes 的工作負載，請參閱 <block ref="d1415fee440f8c1c4acbcf4ee7535778" category="inline-link-macro-rx"></block>。</block>
+  <block id="8bbea59fb56a0e0b18eb0dbc87a3e911" category="section-title">資源轉換</block>
+  <block id="23ec139ada546bb40b0037293927926e" category="paragraph">災難恢復現已支援資源轉換，讓您在容錯移轉期間修改工作負載的任何層面。此功能提供靈活度，使工作負載在災難恢復事件期間能適應不同的環境和組態。</block>
+  <block id="1cb71dc0319186e8a5ef959445ae26e6" category="inline-link-macro">管理資源轉換</block>
+  <block id="5dc97329134aa1a46a95297e199ee57a" category="paragraph">建立複寫計畫時會套用資源轉換。您可以在新的「設定」頁面中建立、編輯和刪除資源轉換。如需詳細資訊，請參閱 <block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block>。</block>
+  <block id="0005eb91a417f10c94b24edc1e676ea5" category="section-title">指令碼執行</block>
+  <block id="ad16d4c0c6b04f812d8564ab531bda48" category="paragraph">現在，您可以將自訂指令碼插入容錯移轉工作流程中，以協調應用程式的靜止與恢復。此功能有助於確保應用程式在快照複寫與適當還原之前已妥善準備，以便在容錯移轉後無縫地恢復運作。</block>
+  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">建立複寫計劃</block>
+  <block id="d95a404e2a85810893af45ecfb3ef7b0" category="paragraph">若要了解如何注入自訂指令碼，請參閱<block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>。</block>
+  <block id="0ac0cf25fb19b7466972d2b8ef97537e" category="section-title">新增工作負載頁面</block>
+  <block id="babaac79e8e47c52ae80323ebd24d838" category="paragraph">災難恢復在 UI 中新增了「工作負載」頁面，提供所有已發現工作負載及其保護狀態的全面檢視。「工作負載」頁面可協助您更有效地監控和管理工作負載。</block>
+  <block id="7c969269e165a2fc615e6e844ac581c4" category="inline-link-macro">審查災難恢復中的健全狀況與保護狀態</block>
+  <block id="62cca7f4abc63d606056cd2842c6540f" category="paragraph">如需詳細資訊，請參閱 <block ref="97bec68dd22e6068edf69b3149251ef2" category="inline-link-macro-rx"></block>。</block>
+  <block id="cb212c0e367b7e5f6090b19e7f1473eb" category="section-title">設定頁面</block>
+  <block id="7d4c91b69e54df2f702e8579ef0febe4" category="inline-link-macro">管理 AppVaults</block>
+  <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">災難恢復現在提供「設定」頁面，以集中管理資源轉換範本與 AppVaults。此頁面提供單一介面，以設定和管理災難恢復計畫的這些關鍵元件。若要深入瞭解「設定」頁面中的選項，請參閱 <block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block> 和 <block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block>。</block>
+  <block id="8904eb8da011894f529ca214813ca630" category="paragraph">災難恢復在複寫計畫建立頁面中引入了增強的驗證機制，以確保更流暢、無錯誤的使用者體驗。</block>
+  <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">災難恢復也提高了服務的彈性，使其能夠容忍間歇性的請求逾時，從而增強了 UI 的整體效能和可靠性。</block>
 </blocks>
