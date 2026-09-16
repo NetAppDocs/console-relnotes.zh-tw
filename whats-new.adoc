@@ -30,6 +30,22 @@ Kubernetes:: 2024 年 8 月 7 日，對發現和管理 Kubernetes 叢集的支�
 ====
 
 
+[[16-september-2026]]
+== 2026 年 9 月 16 日
+
+
+
+[[data-classification]]
+=== 資料分類
+
+
+
+==== 一般改善
+
+此版本的 Data Classification 包含安全性改進和效能增強。
+
+
+
 [[14-september-2026]]
 == 2026年9月14日
 

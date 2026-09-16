@@ -510,4 +510,7 @@
   <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">Digital Advisor 中的虛擬機器功能將於 2026 年 10 月棄用。</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">2026年9月14日</block>
   <block id="b476893dc5d9404e756affcf8c5c5abf" category="paragraph">Cloud Volumes ONTAP 現已支援與 <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block> 整合（公開預覽版）。您可以將 Cloud Volumes ONTAP 與 <block ref="ed504e51b6e034ace3c2f13f8d46981b" category="inline-link-macro-rx"></block> 整合，並使用 <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block>，讓現有的 Cloud Volumes ONTAP NAS 資料可供 Microsoft 分析和 AI 服務（例如 Power BI、Azure AI Search、OpenAI 和 Microsoft Copilot）使用。此整合無需資料搬移或重複資料。此整合使用 <block ref="aac36380121b9387ae99c37cf81e3144" category="inline-link-macro-rx"></block> 存取，將 Cloud Volumes ONTAP 連接到現有的 Microsoft Fabric 湖倉。</block>
+  <block id="e4c84482ee4555ae482d96b91322224c" category="doc">一般改善</block>
+  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">此版本的 Data Classification 包含安全性改進和效能增強。</block>
+  <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">2026 年 9 月 16 日</block>
 </blocks>
