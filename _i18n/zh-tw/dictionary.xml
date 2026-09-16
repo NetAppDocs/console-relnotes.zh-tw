@@ -154,7 +154,6 @@
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">在上述受影響的系統上重新觸發 AutoSupport，以還原健康檢查視圖中的最新資料。</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026 年 6 月 29 日</block>
   <block id="fb9721f24a420ba827ac36665b13797e" category="doc">對使用者活動警報的自動回應</block>
-  <block id="5b29c2b1307b96a1557ab05a56715041" category="paragraph">Ransomware Resilience 現已支援在產生使用者活動警報時自動建立快照和封鎖使用者。透過自動回應，您可以在產生警告後立即封鎖使用者並建立快照以進行復原，從而實現更快速的回應，無需人工介入。</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">自動回應使用者活動警示</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">如需詳細資訊，請參閱 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>。</block>
   <block id="14bea224c3ef88c765b41449933ebeb8" category="doc">查看 MetroCluster 訂閱的 ADP 授權分發狀況</block>
@@ -546,4 +545,12 @@
   <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">災難恢復現在提供「設定」頁面，以集中管理資源轉換範本與 AppVaults。此頁面提供單一介面，以設定和管理災難恢復計畫的這些關鍵元件。若要深入瞭解「設定」頁面中的選項，請參閱 <block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block> 和 <block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block>。</block>
   <block id="8904eb8da011894f529ca214813ca630" category="paragraph">災難恢復在複寫計畫建立頁面中引入了增強的驗證機制，以確保更流暢、無錯誤的使用者體驗。</block>
   <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">災難恢復也提高了服務的彈性，使其能夠容忍間歇性的請求逾時，從而增強了 UI 的整體效能和可靠性。</block>
+  <block id="bf243787cd494f22987c64c448019324" category="paragraph">Ransomware Resilience 現已支援對使用者活動事件的自動回應。當產生使用者活動警報時，您可以自動區塊使用者並建立快照。這些操作無需手冊幹預即可實現更快速的回應。</block>
+  <block id="5beb9d1a7ce3f39235bef552e08036ab" category="doc">增強對乾淨還原的支援</block>
+  <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">現在，在發生可疑使用者行為和基於使用者的加密攻擊之後，可使用乾淨還原進行恢復。此增強功能增加了對基於加密（熵）攻擊的現有支援。這項增強功能使您能夠利用乾淨還原的引導式方法，識別最佳還原點，以盡量減少資料遺失並加快恢復。</block>
+  <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">建立一個隔離的恢復環境，以便進行乾淨還原</block>
+  <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">如需詳細資訊，請參閱 <block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>。</block>
+  <block id="5cec02b4d4793bc47a228462c7e78bcc" category="section-title">Google Cloud NetApp Volumes 的 SAN 支援</block>
+  <block id="3f6e186b29c5d97616e385dd05ee9106" category="paragraph">Ransomware Resilience 現已支援來自 Google Cloud NetApp Volumes 的 SAN 工作負載，讓您能夠偵測針對 SAN 工作負載的加密型勒索軟體攻擊。Google Cloud NetApp Volumes 中的 SAN 支援現已正式推出。</block>
+  <block id="c1e0bcf11a7a6fe71bc50ede69765bc4" category="paragraph">如需更多資訊,請參閱 <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> 和 <block ref="f8dd47dc9ffb08466a0ec3298a516926" category="inline-link-macro-rx"></block>。</block>
 </blocks>
