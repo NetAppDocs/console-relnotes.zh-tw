@@ -570,7 +570,6 @@
   <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">NetApp Console 頁面新增功能</block>
   <block id="5ff195749703fc07b830e8ce460f4513" category="cell">前往<block ref="9d354d50c04a9174ec71f0d3d8410a23" category="inline-link-rx"></block>並參考版本 4.10.0 中包含的變更。</block>
   <block id="cc6088539286339733631d73fb51774b" category="cell">NetApp Backup and Recovery</block>
-  <block id="c87dd127a9f46f1b24fd3cf0f74c6588" category="cell">5.6.2（2026年8月17日）</block>
   <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">NetApp Backup and Recovery 頁面的最新消息</block>
   <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">前往 <block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>。</block>
   <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
@@ -578,4 +577,5 @@
   <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 頁面新增功能</block>
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">前往 <block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>。</block>
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">2026 年 9 月 17 日</block>
+  <block id="9bb8a5cf038a4165b497e11d9718970b" category="cell">5.6.2（2026年8月31日）</block>
 </blocks>
