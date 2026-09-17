@@ -217,8 +217,6 @@
   <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
   <block id="2d6c818daeac263c2afd4036d7f74e1e" category="section-title">簡化 Google Cloud 中的 Cloud Volumes ONTAP 部署</block>
   <block id="cb811eee80c50a73b0cadcc740ccb6e0" category="paragraph">現在，您可以使用 *Quick create* 精靈在 Google Cloud 中部署 Cloud Volumes ONTAP，支援單一節點和高可用性 (HA) 配置。此簡化流程減少了步驟，在單一頁面上自動設定預設值，並將導覽步驟降至最少，從而實現更快、更輕鬆的部署。</block>
-  <block id="66ac7407a9c84ca6778fae23ed993062" category="inline-link">使用 Quick create 在 Google Cloud 中部署 Cloud Volumes ONTAP</block>
-  <block id="0dfb1e2c47e659e01c54c2e333c51aab" category="list-text"><block ref="0dfb1e2c47e659e01c54c2e333c51aab" category="inline-link-rx"></block></block>
   <block id="2ac8bb0efb00600c2a41354a94948174" category="inline-link">使用 Google Cloud 中的進階選項部署 Cloud Volumes ONTAP</block>
   <block id="6c9068df44f8a14533034d80a58ea324" category="list-text"><block ref="6c9068df44f8a14533034d80a58ea324" category="inline-link-rx"></block></block>
   <block id="12d92330947695a8724da477e7db5baa" category="section-title">為 Cloud Volumes ONTAP 引入存取角色</block>
@@ -256,8 +254,6 @@
   <block id="3545b8b6c97019ee16382e1e9f1566d6" category="list-text">關聯您的訂閱：您可以自動將訂閱與 Console 建立關聯，避免手動連結的繁瑣步驟。</block>
   <block id="7fe500a5c571cd7ec037fadddeb65e6d" category="list-text">使用 AWS 憑證組態部署 Console 代理程式：您可以自動建立所需的 AWS 角色。此程序會在您的 AWS 帳戶中部署一個包含所需角色和原則的 AWS CloudFormation 堆疊供您審查，然後將其與 NetApp Console 關聯，從而省去手動 IAM 設定。接下來，您可以繼續完成代理程式組態、連網和安全性群組設定，以開始代理程式部署。</block>
   <block id="1dc23a84b7e2b375289ce6857c758408" category="list-text">在 AWS 中部署新的 Cloud Volumes ONTAP 系統：您可以直接導覽至<block ref="956eaa6186169471a13345860cad0757" prefix=" " category="inline-code"></block>精靈，以更快速、更簡化的方式部署 Cloud Volumes ONTAP。</block>
-  <block id="5308f0957f4f665b7b8a7a70e7f26dbb" category="inline-link">使用快速建立部署 Cloud Volumes ONTAP</block>
-  <block id="92818173e0caa5fc0e16c368b850e85b" category="list-text"><block ref="92818173e0caa5fc0e16c368b850e85b" category="inline-link-rx"></block></block>
   <block id="45155a6d96a264e24647f30ebb774e4f" category="list-text"><block ref="45155a6d96a264e24647f30ebb774e4f" category="inline-link-rx"></block></block>
   <block id="e8f7f517a7c22ec0466a4d916c974b67" category="section-title">Azure 中 Cloud Volumes ONTAP 的架構完善組態分析</block>
   <block id="8579a865aaeb9e025994731e2e5b4b7b" category="paragraph">NetApp Console 現在支援對執行在 Microsoft Azure 中的 Cloud Volumes ONTAP 系統進行架構完善的組態分析。Console 每天分析您的部署，並提供架構完善的狀態、見解和建議，以協助您維護遵守 NetApp 最佳實務和架構完善架構的系統。</block>
@@ -553,4 +549,8 @@
   <block id="5cec02b4d4793bc47a228462c7e78bcc" category="section-title">Google Cloud NetApp Volumes 的 SAN 支援</block>
   <block id="3f6e186b29c5d97616e385dd05ee9106" category="paragraph">Ransomware Resilience 現已支援來自 Google Cloud NetApp Volumes 的 SAN 工作負載，讓您能夠偵測針對 SAN 工作負載的加密型勒索軟體攻擊。Google Cloud NetApp Volumes 中的 SAN 支援現已正式推出。</block>
   <block id="c1e0bcf11a7a6fe71bc50ede69765bc4" category="paragraph">如需更多資訊,請參閱 <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> 和 <block ref="f8dd47dc9ffb08466a0ec3298a516926" category="inline-link-macro-rx"></block>。</block>
+  <block id="fa64a8ba43091dc1f18b40ede22ba208" category="inline-link">使用 Google Cloud 中的快速建立功能部署 Cloud Volumes ONTAP</block>
+  <block id="c334239a4338073665306baf11363bc2" category="list-text"><block ref="c334239a4338073665306baf11363bc2" category="inline-link-rx"></block></block>
+  <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">使用 AWS 中的快速建立功能部署 Cloud Volumes ONTAP</block>
+  <block id="a8756e706557440388ef829ae5f6fe1f" category="list-text"><block ref="a8756e706557440388ef829ae5f6fe1f" category="inline-link-rx"></block></block>
 </blocks>
