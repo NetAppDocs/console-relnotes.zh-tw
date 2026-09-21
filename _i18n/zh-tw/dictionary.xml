@@ -194,8 +194,6 @@
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
   <block id="edf20e41ca56535f9914b651d4176206" category="section-title">適用於 Microsoft Sentinel 的 ARM 模板</block>
   <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience 現在提供 Azure Resource Manager （ARM） 範本，用於將 Microsoft Sentinel 連接至 SIEM，提供一種輔助部署的方法。</block>
-  <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">連接到安全資訊和事件管理 (SIEM) 系統以進行威脅偵測和分析</block>
-  <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">如需詳細資訊，請參閱 <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>。</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">深入瞭解此版本的 Cloud Volumes ONTAP</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Cloud Volumes ONTAP HA 支援下一代 Google Cloud VM</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">在 9.19.1 版本中，NetApp 將 Cloud Volumes ONTAP 高可用性 （HA） 部署從 N2 VM 移轉至下一代 Google Cloud C3 系列 VM，以提供更快速且更具擴充性的體驗。</block>
@@ -591,4 +589,8 @@
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*：此版本包含 Trident Protect 26.09。</block>
   <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*叢集和命名空間粒度的角色存取控制*：在 Kubernetes 叢集探索期間，您可以透過選擇要與新叢集關聯的專案或資料夾來控制對資源的存取。您也可以註冊特定的命名空間以進行存取控制。這可在叢集或命名空間層級實現更細微的存取控制。</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*還原檔案和資料夾*：您現在可以從基於 Kubernetes VM 的應用程式備份中還原或下載特定的檔案和資料夾。</block>
+  <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">在 Ransomware Resilience 中設定 Microsoft Sentinel SIEM</block>
+  <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">如需詳細資訊，請參閱 <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>。</block>
+  <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">設定帶有 Webhook 的 SIEM 系統</block>
+  <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">如需詳細資訊，請參閱 <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>。</block>
 </blocks>
