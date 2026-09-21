@@ -209,7 +209,7 @@ NetApp Disaster Recovery 對基於 Kubernetes 的工作負載的支援現已正�
 
 ==== 虛擬機器棄用通知
 
-Digital Advisor 中的虛擬機器功能將於 2026 年 10 月棄用。
+Digital Advisor 中的虛擬機器功能將於 2026 年 10 月停用。
 
 如有任何問題或想共享回饋，請發送電子郵件至：mailto:ng-activeiq-feedback@netapp.com[聯絡 Active IQ 團隊]。
 

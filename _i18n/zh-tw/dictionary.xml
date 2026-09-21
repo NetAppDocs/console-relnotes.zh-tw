@@ -502,7 +502,6 @@
   <block id="3a487e075186bbd01e8a952b88b55326" category="list-text"><block ref="3a487e075186bbd01e8a952b88b55326" category="inline-link-rx"></block></block>
   <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">2026 年 9 月 2 日</block>
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">虛擬機器棄用通知</block>
-  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">Digital Advisor 中的虛擬機器功能將於 2026 年 10 月棄用。</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">2026年9月14日</block>
   <block id="b476893dc5d9404e756affcf8c5c5abf" category="paragraph">Cloud Volumes ONTAP 現已支援與 <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block> 整合（公開預覽版）。您可以將 Cloud Volumes ONTAP 與 <block ref="ed504e51b6e034ace3c2f13f8d46981b" category="inline-link-macro-rx"></block> 整合，並使用 <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block>，讓現有的 Cloud Volumes ONTAP NAS 資料可供 Microsoft 分析和 AI 服務（例如 Power BI、Azure AI Search、OpenAI 和 Microsoft Copilot）使用。此整合無需資料搬移或重複資料。此整合使用 <block ref="aac36380121b9387ae99c37cf81e3144" category="inline-link-macro-rx"></block> 存取，將 Cloud Volumes ONTAP 連接到現有的 Microsoft Fabric 湖倉。</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">一般改善</block>
@@ -546,9 +545,6 @@
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">現在，在發生可疑使用者行為和基於使用者的加密攻擊之後，可使用乾淨還原進行恢復。此增強功能增加了對基於加密（熵）攻擊的現有支援。這項增強功能使您能夠利用乾淨還原的引導式方法，識別最佳還原點，以盡量減少資料遺失並加快恢復。</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">建立一個隔離的恢復環境，以便進行乾淨還原</block>
   <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">如需詳細資訊，請參閱 <block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>。</block>
-  <block id="5cec02b4d4793bc47a228462c7e78bcc" category="section-title">Google Cloud NetApp Volumes 的 SAN 支援</block>
-  <block id="3f6e186b29c5d97616e385dd05ee9106" category="paragraph">Ransomware Resilience 現已支援來自 Google Cloud NetApp Volumes 的 SAN 工作負載，讓您能夠偵測針對 SAN 工作負載的加密型勒索軟體攻擊。Google Cloud NetApp Volumes 中的 SAN 支援現已正式推出。</block>
-  <block id="c1e0bcf11a7a6fe71bc50ede69765bc4" category="paragraph">如需更多資訊,請參閱 <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> 和 <block ref="f8dd47dc9ffb08466a0ec3298a516926" category="inline-link-macro-rx"></block>。</block>
   <block id="fa64a8ba43091dc1f18b40ede22ba208" category="inline-link">使用 Google Cloud 中的快速建立功能部署 Cloud Volumes ONTAP</block>
   <block id="c334239a4338073665306baf11363bc2" category="list-text"><block ref="c334239a4338073665306baf11363bc2" category="inline-link-rx"></block></block>
   <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">使用 AWS 中的快速建立功能部署 Cloud Volumes ONTAP</block>
@@ -578,4 +574,5 @@
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">前往 <block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>。</block>
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">2026 年 9 月 17 日</block>
   <block id="9bb8a5cf038a4165b497e11d9718970b" category="cell">5.6.2（2026年8月31日）</block>
+  <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">Digital Advisor 中的虛擬機器功能將於 2026 年 10 月停用。</block>
 </blocks>
