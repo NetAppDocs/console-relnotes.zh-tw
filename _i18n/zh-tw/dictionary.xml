@@ -588,4 +588,7 @@
   <block id="c1abbf97e12a86fa8ee3d99a6d57e8d2" category="inline-link">管理 Cloud Volumes ONTAP 的節點型授權</block>
   <block id="9bb44fee1ffc8cb84fe1dd304c171c38" category="list-text"><block ref="9bb44fee1ffc8cb84fe1dd304c171c38" category="inline-link-rx"></block></block>
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">2026 年 9 月 21 日</block>
+  <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*：此版本包含 Trident Protect 26.09。</block>
+  <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*叢集和命名空間粒度的角色存取控制*：在 Kubernetes 叢集探索期間，您可以透過選擇要與新叢集關聯的專案或資料夾來控制對資源的存取。您也可以註冊特定的命名空間以進行存取控制。這可在叢集或命名空間層級實現更細微的存取控制。</block>
+  <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*還原檔案和資料夾*：您現在可以從基於 Kubernetes VM 的應用程式備份中還原或下載特定的檔案和資料夾。</block>
 </blocks>
