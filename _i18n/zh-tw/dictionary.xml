@@ -406,7 +406,6 @@
   <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*支援批次刪除備份*：現在可以一次刪除多個備份。</block>
   <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*預覽版支援氣隙資源*：如果在 NetApp Console 本機部署中執行 NetApp Backup and Recovery，您可以探索、保護和還原氣隙 Kubernetes 資源。此功能在此版本中為預覽功能。</block>
   <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">在此版本中，ONTAP Volumes 工作負載引入了以下增強功能：</block>
-  <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*優先執行還原作業而非備份作業*：現在，在還原虛擬機器或檔案時，您可以優先執行還原作業而非備份作業。</block>
   <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*無需啟動 Backup and Recovery 即可探索 ONTAP 系統和磁碟區*：您現在無需啟動 Backup and Recovery 即可探索系統和磁碟區。</block>
   <block id="a03ddc03cf03c3c53151794c95579535" category="doc">「活動掃描」索引標籤，以增強掃描管理</block>
   <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">資料分類功能現在在「配置」選單中新增了「活動掃描」選項卡，從而提升了掃描管理體驗。「活動掃描」標籤提供所有已啟動掃描的磁碟區總覽，並提供熟悉的篩選器方便您整理資源。此選項卡還提供了一個中央位置，用於設定掃描優先順序、暫停掃描和審查錯誤。</block>
@@ -595,4 +594,5 @@
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">通用 NetApp Backup and Recovery 增強功能</block>
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*虛擬機器主機探索期間的憑證選擇*：當您探索 KVM、Hyper-V 或 VMware 主機時，現在可以使用已新增至 Backup and Recovery 的憑證。</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-V 工作負載增強</block>
+  <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*優先執行還原作業而非備份*：現在，在還原磁碟區、檔案或資料夾時，您可以優先執行還原作業而非備份作業。</block>
 </blocks>
