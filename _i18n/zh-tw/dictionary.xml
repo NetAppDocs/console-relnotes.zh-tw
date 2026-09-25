@@ -595,4 +595,10 @@
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*虛擬機器主機探索期間的憑證選擇*：當您探索 KVM、Hyper-V 或 VMware 主機時，現在可以使用已新增至 Backup and Recovery 的憑證。</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-V 工作負載增強</block>
   <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*優先執行還原作業而非備份*：現在，在還原磁碟區、檔案或資料夾時，您可以優先執行還原作業而非備份作業。</block>
+  <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">Value Insights Dashboard 的內容更新</block>
+  <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">Value Insights Dashboard 的文件更新已發佈。</block>
+  <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">如何在 Digital Advisor 中使用 Value Insights Dashboard</block>
+  <block id="69c2d83fc66932c35f2cb577e262462c" category="paragraph">深入瞭解<block ref="07588b487aa2f96e10a737d8aa32c275" category="inline-link-macro-rx"></block>。</block>
+  <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">組態漂移功能已棄用，自 2026 年 9 月起，Digital Advisor 中不再提供該功能。</block>
+  <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">2026 年 9 月 25 日</block>
 </blocks>
