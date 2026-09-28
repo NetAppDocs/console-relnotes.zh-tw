@@ -137,44 +137,13 @@
   <block id="49bc059dcf19f0a0115deba3b42c6932" category="section-title">VMware 更新</block>
   <block id="8ea79c5d84513219216b19fc3aa62033" category="inline-link-macro">容錯移轉至遠端站台</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全球區域地圖</block>
-  <block id="c0c5b8053b5fc36370065438a354e1bf" category="doc">健康檢查 GraphQL 遷移和資料準確性改進</block>
-  <block id="a91b61567eb0a4298ef58eeb9f9c29bf" category="paragraph">健康檢查模組已增強，資料準確性更高，版本建議也與現行標準保持一致。作為此版本更新的一部分，該模組已從公共 API 遷移至 GraphQL，從而提升了效能，提供更靈活的查詢方式及長期支援。</block>
-  <block id="d6493900927657728256c0c09c4e62d3" category="section-title">推薦軟體</block>
-  <block id="62d94d8f05c78645a78c9aa2a5a0656e" category="paragraph">健康檢查模組中推薦的軟體增強功能現在可以提供更準確、更一致的資料。</block>
-  <block id="519ef0af74847ba658e0e372af62c2d9" category="list-text">機櫃和磁碟機數量在韌體版本顯示下會顯示每個系統的準確值，不再包含 HA 配對數量。</block>
-  <block id="f3ecf83f5405b8c9ae015216ab98b6ef" category="list-text">現在，最低版本和最新版本建議是根據叢集的有效版本在叢集層級計算的，符合現行標準——以前，這些建議是在節點層級計算的。</block>
-  <block id="b6bdc044bc2fc474a21f0bb38c36e848" category="section-title">AutoSupport 資料依賴性</block>
-  <block id="21703a68dc34fb690cd63eab5b8673d3" category="paragraph">由於後端改進，AutoSupport 採用率和建議軟體視圖均依賴最新的 AutoSupport 資料。這可能會以下列方式影響您目前的視圖：</block>
-  <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">情境</block>
-  <block id="3a3c1f7cef221775b106f2d32f9f8542" category="cell">受影響的系統</block>
-  <block id="8df497acd9705cbe06a50764942ed68a" category="cell">未顯示資料</block>
-  <block id="c3dac7d16903ae7e8c7256657c5c94f0" category="cell">自 2025 年 10 月以來未傳送 AutoSupport 的系統</block>
-  <block id="30b12656a9029663eea37f6a804f28a4" category="cell">過時的值</block>
-  <block id="e20432694f9004583c0756c875ad9910" category="cell">過去 30 天內未傳送 AutoSupport 的系統</block>
-  <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">在上述受影響的系統上重新觸發 AutoSupport，以還原健康檢查視圖中的最新資料。</block>
-  <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026 年 6 月 29 日</block>
-  <block id="fb9721f24a420ba827ac36665b13797e" category="doc">對使用者活動警報的自動回應</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">自動回應使用者活動警示</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">如需詳細資訊，請參閱 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>。</block>
-  <block id="14bea224c3ef88c765b41449933ebeb8" category="doc">查看 MetroCluster 訂閱的 ADP 授權分發狀況</block>
-  <block id="511c40cd8a486a0e8aa1251baf8515ee" category="inline-link-macro">查看您的 Keystone MetroCluster 訂閱的使用與健康狀況</block>
-  <block id="82ee282c36e597ba42bea56f0d029b9e" category="section-title">檢視磁碟區的勒索軟體防護狀態</block>
-  <block id="959a686de018aa5e6a4a2b33d83ab22b" category="inline-link-macro">ONTAP 中的自主勒索軟體防護 (ARP)</block>
-  <block id="aa2298f4012d00689c6db262f51b627f" category="section-title">使用「回饋」標籤分享回饋</block>
-  <block id="6938bc958f8539e0bb0d56145bf54011" category="paragraph">現在，您可以使用 Keystone 控制面板中位於螢幕右下角的全新「回饋」索引標籤，從任何螢幕提供回饋。點擊該索引標籤將開啟一個面板，您可以在其中分享您的體驗並直接向 NetApp 提交意見。</block>
-  <block id="03c47a6c52980a6f54e9df7f4c59cb77" category="section-title">改善容量使用情況和訂閱到期提醒</block>
-  <block id="00d1cd9fd062313d8bbfe761883837c6" category="paragraph">系統產生的監控器現在可針對容量使用情況和訂閱到期情況提供更精細的警示。</block>
-  <block id="ba9431d5ada7b4b6e05b421ef88f8c24" category="paragraph">訂閱到期提醒現在會在到期前五個門檻觸發：到期前 180 天、90 天、60 天、30 天和 7 天，嚴重程度會隨著到期日的臨近而從通知等級升級到緊急等級。</block>
-  <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">對於容量使用情況，突發警報閾值現在基於您訂閱的承諾突發百分比，而不是固定的 20%。例如，如果您的承諾突發百分比為 40%，則當承諾容量利用率達到 140% 時，將觸發嚴重警報。</block>
-  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">查看並建立 Keystone 訂閱的警報監控器</block>
   <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">從使用者行為警報中排除檔案路徑</block>
   <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience 支援將特定檔案路徑從使用者行為監控警示中排除。如果您確定這些檔案路徑不存在風險，或者您正在對可能觸發警示的磁碟區中的檔案進行操作，則可以將其排除在外。</block>
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">從警報中排除檔案路徑</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026年7月7日</block>
   <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">如需詳細資訊，請參閱 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>。</block>
-  <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">「進階資料保護 (ADP)」標籤中新增了「授權分發」子選項卡，讓您可以查看 MetroCluster 合作夥伴叢集的 ADP 授權使用情況。若要深入瞭解，請參閱 <block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
-  <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">「資產」中的「叢集中的磁碟區」標籤現在包含一個「ARP 狀態」欄，該欄顯示每個磁碟區是否啟用或停用自主勒索軟體防護 (ARP)，讓您了解受管資產的勒索軟體防護狀況。若要深入瞭解 ARP，請參閱<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
-  <block id="86160081a3f709a69c529a9b26266813" category="paragraph">若要深入瞭解，請參閱 <block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>。</block>
   <block id="a3385cf694f169469155cf608126cc13" category="section-title">從「網站」選單管理 Trident Protect</block>
   <block id="d108f39d7ac8db7fc5eab434cd7df7fc" category="paragraph">現在，災難復原功能支援直接從災難復原使用者介面中的「網站」選單管理 Trident Protect。您可以升級 Trident Protect 或將其從災難復原功能中移除，從而簡化 Kubernetes 資源的管理。</block>
   <block id="ceb6da856e73533ddb08cf15abe120b7" category="inline-link-macro">管理網站</block>
@@ -536,7 +505,6 @@
   <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">災難恢復現在提供「設定」頁面，以集中管理資源轉換範本與 AppVaults。此頁面提供單一介面，以設定和管理災難恢復計畫的這些關鍵元件。若要深入瞭解「設定」頁面中的選項，請參閱 <block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block> 和 <block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block>。</block>
   <block id="8904eb8da011894f529ca214813ca630" category="paragraph">災難恢復在複寫計畫建立頁面中引入了增強的驗證機制，以確保更流暢、無錯誤的使用者體驗。</block>
   <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">災難恢復也提高了服務的彈性，使其能夠容忍間歇性的請求逾時，從而增強了 UI 的整體效能和可靠性。</block>
-  <block id="bf243787cd494f22987c64c448019324" category="paragraph">Ransomware Resilience 現已支援對使用者活動事件的自動回應。當產生使用者活動警報時，您可以自動區塊使用者並建立快照。這些操作無需手冊幹預即可實現更快速的回應。</block>
   <block id="5beb9d1a7ce3f39235bef552e08036ab" category="doc">增強對乾淨還原的支援</block>
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">現在，在發生可疑使用者行為和基於使用者的加密攻擊之後，可使用乾淨還原進行恢復。此增強功能增加了對基於加密（熵）攻擊的現有支援。這項增強功能使您能夠利用乾淨還原的引導式方法，識別最佳還原點，以盡量減少資料遺失並加快恢復。</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">建立一個隔離的恢復環境，以便進行乾淨還原</block>
@@ -585,7 +553,6 @@
   <block id="9bb44fee1ffc8cb84fe1dd304c171c38" category="list-text"><block ref="9bb44fee1ffc8cb84fe1dd304c171c38" category="inline-link-rx"></block></block>
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">2026 年 9 月 21 日</block>
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*：此版本包含 Trident Protect 26.09。</block>
-  <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*叢集和命名空間粒度的角色存取控制*：在 Kubernetes 叢集探索期間，您可以透過選擇要與新叢集關聯的專案或資料夾來控制對資源的存取。您也可以註冊特定的命名空間以進行存取控制。這可在叢集或命名空間層級實現更細微的存取控制。</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*還原檔案和資料夾*：您現在可以從基於 Kubernetes VM 的應用程式備份中還原或下載特定的檔案和資料夾。</block>
   <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">在 Ransomware Resilience 中設定 Microsoft Sentinel SIEM</block>
   <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">如需詳細資訊，請參閱 <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>。</block>
@@ -601,4 +568,14 @@
   <block id="69c2d83fc66932c35f2cb577e262462c" category="paragraph">深入瞭解<block ref="07588b487aa2f96e10a737d8aa32c275" category="inline-link-macro-rx"></block>。</block>
   <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">組態漂移功能已棄用，自 2026 年 9 月起，Digital Advisor 中不再提供該功能。</block>
   <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">2026 年 9 月 25 日</block>
+  <block id="419cd2b7ee4c4a768ccdb742a76a6d51" category="paragraph">*改進對隔離站台的支援*：適用於隔離站台的 NetApp Backup and Recovery 現在提供與 NetApp Backup and Recovery 相同的 ONTAP Volumes 資料保護功能。此增強功能包括更新的備份、還原和作業管理服務以及新的中繼資料資料庫。升級期間，現有資料庫資料將保留並自動移轉。升級後，審查稽核記錄以驗證移轉是否成功完成。適用於隔離站台的 NetApp Backup and Recovery 僅支援 ONTAP Volumes 工作負載。</block>
+  <block id="fc56ab1b23274c05b12ad0c8dc80ef1c" category="list-text">*叢集與命名空間精細度的角色型存取控制（RBAC）*：在 Kubernetes 叢集探索期間，您可以透過選取要與新叢集建立關聯的專案或資料夾，來控制對資源的存取。您也可以註冊特定的命名空間以進行存取控制。這可在叢集或命名空間層級實現更精細的存取控制。</block>
+  <block id="f7afeeafbf15177ad50522c2abcfb502" category="paragraph">*主控台角色型存取控制（RBAC）支援*：Hyper-V、KVM 和 VMware 工作負載現在支援 RBAC 的 NetApp Console 架構，可讓您管理對個別 Hyper-V、KVM 或 VMware 主機的存取。</block>
+  <block id="ba79eaf594c940e1fe41ef7be1d90de0" category="inline-link">深入了解在 NetApp Backup and Recovery 中使用 RBAC 的相關資訊</block>
+  <block id="c0efbe51bb7620993fb42a308c6ad8b2" category="paragraph"><block ref="d7adec871f52434e6c062a1e94dd0f14" category="inline-link-rx"></block>。</block>
+  <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中、VMware 工作負載引進下列增強功能：</block>
+  <block id="fd2c958c800e793ec18ea2546e033c24" category="paragraph">*Google Cloud NetApp Volumes Flex Unified 支援*：適用於 VMware 工作負載的 NetApp Backup and Recovery 現已支援 Google Cloud NetApp Volumes 的 Flex Unified 服務層級。Flex Unified 僅在 ONTAP 模式下支援。</block>
+  <block id="1e2fd5e7979041c997816d29d5c1e2c0" category="inline-link">使用 NetApp Backup and Recovery 保護 VMware 工作負載</block>
+  <block id="af77598cf52235180b19bf359e518fc2" category="paragraph">有關保護 VMware 工作負載的詳細資訊，請參閱<block ref="d7977b9c562cb95be37532b996678207" category="inline-link-rx"></block>。</block>
+  <block id="e133e28734ec4222b7f45792925cee97" category="section-title">2026 年 9 月 28 日</block>
 </blocks>
