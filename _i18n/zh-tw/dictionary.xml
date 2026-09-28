@@ -578,4 +578,7 @@
   <block id="1e2fd5e7979041c997816d29d5c1e2c0" category="inline-link">使用 NetApp Backup and Recovery 保護 VMware 工作負載</block>
   <block id="af77598cf52235180b19bf359e518fc2" category="paragraph">有關保護 VMware 工作負載的詳細資訊，請參閱<block ref="d7977b9c562cb95be37532b996678207" category="inline-link-rx"></block>。</block>
   <block id="e133e28734ec4222b7f45792925cee97" category="section-title">2026 年 9 月 28 日</block>
+  <block id="ffc6d9152a780992794d0684b51c6723" category="section-title">私有模式 4.10.0 支援 Red Hat Enterprise Linux (RHEL) 9.6</block>
+  <block id="e8df4a2f18a880c577818fb8618fed77" category="inline-link-macro">了解私有模式的主機需求</block>
+  <block id="a40f09cfdf03cc6659d4d7e08024fda0" category="paragraph">現在可以在 Red Hat Enterprise Linux（RHEL）9.6 上安裝和執行私有模式，為使用者提供最新的支援作業系統，以增強安全性和效能。<block ref="0ce7e93392d1f71f6b7bb5b508ff4113" category="inline-link-macro-rx"></block></block>
 </blocks>
