@@ -348,7 +348,7 @@ Cloud Volumes ONTAP 現已支援在 Azure Government Secret 和 Top Secret 區�
 
 如需相關資訊，請參閱 Azure 文件：
 
-* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["適用於美國政府任務的雲端^"]
+* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["美國政府任務雲"^]
 * https://azure.microsoft.com/en-us/explore/global-infrastructure/government/national-security["Azure 政府機密"^]
 * https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions["Azure Government Top Secret"^]
 
@@ -460,7 +460,7 @@ https://docs.netapp.com/us-en/storage-management-storagegrid/task-administer-sto
 * 使用區域備援儲存設備 （ZRS） 在多個可用度區域中實現 HA
 
 
-有關所有支援區域的列表，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的全球區域地圖"^]。
+有關所有支援區域的列表，請參閱 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure 下的全球區域地圖"^]。
 
 
 
@@ -927,7 +927,7 @@ Ransomware Resilience 現在可讓您根據攻擊類型進行準備演練。Rans
 * 使用區域備援儲存設備 （ZRS） 在多個可用度區域中實現 HA
 
 
-有關所有支援區域的列表，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的全球區域地圖"^]。
+有關所有支援區域的列表，請參閱 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure 下的全球區域地圖"^]。
 
 
 

@@ -262,7 +262,6 @@
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">單節點</block>
   <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">在單一可用度區域中使用本機備援儲存設備 （LRS） 實現 HA</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">使用區域備援儲存設備 （ZRS） 在多個可用度區域中實現 HA</block>
-  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">有關所有支援區域的列表，請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">2026年7月23日</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">根據工作負載和系統類型標準化保護群組</block>
   <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">Ransomware Resilience 現在強制要求保護群組只能包含一種工作負載類型和一種系統類型。建立新的保護群組時，您必須同時指定工作負載類型（檔案系統或區塊）和工作負載的系統。此增強功能可確保為保護群組所選的勒索軟體保護策略能夠成功套用至群組中的所有工作負載。</block>
@@ -460,8 +459,6 @@
   <block id="9775ec01b640ec37d790fc80fcd304fa" category="doc">Azure Secret 和 Top Secret 區域中的 Cloud Volumes ONTAP 支援（私有預覽版）</block>
   <block id="71220dfc0ef52806d7063323e20a8d01" category="paragraph">Cloud Volumes ONTAP 現已支援在 Azure Government Secret 和 Top Secret 區域中部署，目前為私人預覽版。此功能將 Cloud Volumes ONTAP 擴展到 Microsoft 的機密 Azure 環境，使政府和國防客戶能夠使用 ONTAP 進行資料管理員、保護和災難恢復，以支援國家安全性工作負載。請聯絡您的 NetApp 客戶團隊以參與。</block>
   <block id="9a4d5529d16b869118217275b6da762d" category="paragraph">如需相關資訊，請參閱 Azure 文件：</block>
-  <block id="d6cb1d3533b658f7c8098c480b799207" category="inline-link">適用於美國政府任務的雲端^</block>
-  <block id="77063c44fc617a6f3c637b1e2c35bd37" category="list-text"><block ref="77063c44fc617a6f3c637b1e2c35bd37" category="inline-link-rx"></block></block>
   <block id="985c02ef44894c5b9eb81c7ef41befb6" category="inline-link">Azure 政府機密</block>
   <block id="97003784d2f5493688983ca3efa74e68" category="list-text"><block ref="97003784d2f5493688983ca3efa74e68" category="inline-link-rx"></block></block>
   <block id="68e1f1aba2e1561ee3226c9bcfef5ee1" category="inline-link">Azure Government Top Secret</block>
@@ -581,4 +578,7 @@
   <block id="ffc6d9152a780992794d0684b51c6723" category="section-title">私有模式 4.10.0 支援 Red Hat Enterprise Linux (RHEL) 9.6</block>
   <block id="e8df4a2f18a880c577818fb8618fed77" category="inline-link-macro">了解私有模式的主機需求</block>
   <block id="a40f09cfdf03cc6659d4d7e08024fda0" category="paragraph">現在可以在 Red Hat Enterprise Linux（RHEL）9.6 上安裝和執行私有模式，為使用者提供最新的支援作業系統，以增強安全性和效能。<block ref="0ce7e93392d1f71f6b7bb5b508ff4113" category="inline-link-macro-rx"></block></block>
+  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">有關所有支援區域的列表，請參閱<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>。</block>
+  <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">美國政府任務雲</block>
+  <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
 </blocks>
