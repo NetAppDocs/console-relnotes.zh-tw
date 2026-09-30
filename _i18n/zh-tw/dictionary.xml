@@ -581,4 +581,14 @@
   <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">有關所有支援區域的列表，請參閱<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>。</block>
   <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">美國政府任務雲</block>
   <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
+  <block id="19d5fea6cca3df1f610ffd920f1e30b2" category="doc">在 Workload Factory 中探索 Flex Unified 資源</block>
+  <block id="61822363118e61bff0df1e874d2e7497" category="paragraph">Workload Factory 現在可以透過 ONTAP API Proxy 端點來尋找 Google Cloud NetApp Volumes Flex Unified 預設模式和 ONTAP 模式的儲存資源池和 Volume。這些資源會出現在清單中，並包含在架構完善的評估和建議中。</block>
+  <block id="5fb7119ce8f0dab345a73e06727b5f5c" category="inline-link-macro">了解 Google Cloud NetApp Volumes 的組態分析</block>
+  <block id="ea078abe6abe4c4449bf21e417cc9323" category="paragraph"><block ref="ea078abe6abe4c4449bf21e417cc9323" category="inline-link-macro-rx"></block></block>
+  <block id="eba97ed9f5ee5fe9de4cc6c142ab99f3" category="section-title">從 NetApp Console Canvas 進入 Flex 統一系統</block>
+  <block id="75d6eeccb13e55d1719bbc0e46902abb" category="paragraph">現在，您可以從 NetApp Console Canvas 針對已探索的 Google Cloud NetApp Volumes Flex Unified 系統選取 *Enter System*。這將開啟所選系統的「資源」頁面，以便您可以使用與預設模式系統相同的工作流程來檢視相關聯的儲存資源池和 Volume。</block>
+  <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">針對 Flex Unified 資源的架構完善評估</block>
+  <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">架構完善的儀表板現在可評估 Google Cloud NetApp Volumes Flex Unified 儲存資源池和 Volume 的 SSD 容量剩餘空間、Volume 容量剩餘空間，以及快照原則涵蓋範圍。結果會顯示在 Google Cloud NetApp Volumes 架構完善的體驗中，並識別處於預設模式或 ONTAP 模式的資源。</block>
+  <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">您可以從 NetApp Console 的儲存設備管理系統頁面，取得 Google Cloud NetApp Volumes 的架構良好問題通知。此功能可協助您快速識別 Google Cloud NetApp Volumes 系統中的組態問題，並從通知導覽至工作負載架構良好儀表板。</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026 年 9 月 27 日</block>
 </blocks>
