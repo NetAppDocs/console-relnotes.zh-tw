@@ -590,5 +590,5 @@
   <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">針對 Flex Unified 資源的架構完善評估</block>
   <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">架構完善的儀表板現在可評估 Google Cloud NetApp Volumes Flex Unified 儲存資源池和 Volume 的 SSD 容量剩餘空間、Volume 容量剩餘空間，以及快照原則涵蓋範圍。結果會顯示在 Google Cloud NetApp Volumes 架構完善的體驗中，並識別處於預設模式或 ONTAP 模式的資源。</block>
   <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">您可以從 NetApp Console 的儲存設備管理系統頁面，取得 Google Cloud NetApp Volumes 的架構良好問題通知。此功能可協助您快速識別 Google Cloud NetApp Volumes 系統中的組態問題，並從通知導覽至工作負載架構良好儀表板。</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026 年 9 月 27 日</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026 年 9 月 30 日</block>
 </blocks>
