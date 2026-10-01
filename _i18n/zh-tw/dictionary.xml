@@ -591,4 +591,8 @@
   <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">架構完善的儀表板現在可評估 Google Cloud NetApp Volumes Flex Unified 儲存資源池和 Volume 的 SSD 容量剩餘空間、Volume 容量剩餘空間，以及快照原則涵蓋範圍。結果會顯示在 Google Cloud NetApp Volumes 架構完善的體驗中，並識別處於預設模式或 ONTAP 模式的資源。</block>
   <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">您可以從 NetApp Console 的儲存設備管理系統頁面，取得 Google Cloud NetApp Volumes 的架構良好問題通知。此功能可協助您快速識別 Google Cloud NetApp Volumes 系統中的組態問題，並從通知導覽至工作負載架構良好儀表板。</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026 年 9 月 30 日</block>
+  <block id="935253a377b19143ee00ca184dec844f" category="paragraph">在此版本中，ONTAP Volumes 工作負載引入了以下預覽增強功能：</block>
+  <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*取消 Volume 還原作業*：現在可以從作業監控頁面取消後續的 ONTAP Volume 還原作業，更容易管理長時間運作或運作緩慢的作業。</block>
+  <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*改進的 Volume 索引狀態報告*：ONTAP Volumes 儀表板現在透過針對不符合索引條件的 Volume 和快照複本引入<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>狀態，更準確地報告索引狀態。此<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>狀態現在保留給等待索引的 Volume，且 Volume 詳細資料現在會顯示每個快照的索引狀態，並帶有懸停文字來解釋為何 Volume 或快照複本不會被索引。</block>
+  <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFX 支援*：您現在可以保護託管在 2 節點和 4 節點 NetApp AFX 叢集上的 Volume。</block>
 </blocks>
