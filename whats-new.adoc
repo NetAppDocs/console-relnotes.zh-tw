@@ -1296,29 +1296,3 @@ NetApp Backup and Recovery 現在支援保護系統中多達 100 個儲存桶（
 ==== 系統效能提升
 
 災難復原功能引進了多項變更，旨在降低系統資源消耗並提升各項作業的效能。
-
-
-
-[[07-july-2026]]
-== 2026年7月7日
-
-
-
-[[ransomware-resilience]]
-=== 勒索軟體抵禦能力
-
-
-
-==== 從使用者行為警報中排除檔案路徑
-
-Ransomware Resilience 支援將特定檔案路徑從使用者行為監控警示中排除。如果您確定這些檔案路徑不存在風險，或者您正在對可能觸發警示的磁碟區中的檔案進行操作，則可以將其排除在外。
-
-如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-users-manage.html["從警報中排除檔案路徑"^]。
-
-
-
-==== 適用於 Microsoft Sentinel 的 ARM 模板
-
-Ransomware Resilience 現在提供 Azure Resource Manager （ARM） 範本，用於將 Microsoft Sentinel 連接至 SIEM，提供一種輔助部署的方法。
-
-如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-sentinel.html["在 Ransomware Resilience 中設定 Microsoft Sentinel SIEM"^]。
