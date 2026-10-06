@@ -587,4 +587,9 @@
   <block id="b27aa3c0e44a53b3c16b5a2e40086669" category="inline-link">使用 Workload Factory 改善 Azure 中的 Cloud Volumes ONTAP 組態</block>
   <block id="f436c99a1822c57781e57709a1694485" category="list-text"><block ref="f436c99a1822c57781e57709a1694485" category="inline-link-rx"></block></block>
   <block id="21b943021728acb873fd80e1597c6721" category="list-text"><block ref="21b943021728acb873fd80e1597c6721" category="inline-link-macro-rx"></block></block>
+  <block id="e7747671a3237b3e54edff6b14b82ec7" category="doc">編輯和管理自訂規則</block>
+  <block id="9a28538fc6f24d40e290259e6e4618ef" category="paragraph">現在您可以在規則目錄中編輯自訂規則。您可以更新規則名稱和設定、在聊天中審查變更、驗證編輯以及刪除不再需要的規則。</block>
+  <block id="7df807bf87ff5ba814d9683805deb113" category="inline-link-macro">了解如何管理自訂規則</block>
+  <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
+  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026年10月4日</block>
 </blocks>
