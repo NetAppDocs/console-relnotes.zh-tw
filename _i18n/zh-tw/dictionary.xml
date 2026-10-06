@@ -139,11 +139,6 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全球區域地圖</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">自動回應使用者活動警示</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">如需詳細資訊，請參閱 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>。</block>
-  <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">從使用者行為警報中排除檔案路徑</block>
-  <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience 支援將特定檔案路徑從使用者行為監控警示中排除。如果您確定這些檔案路徑不存在風險，或者您正在對可能觸發警示的磁碟區中的檔案進行操作，則可以將其排除在外。</block>
-  <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">從警報中排除檔案路徑</block>
-  <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026年7月7日</block>
-  <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">如需詳細資訊，請參閱 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>。</block>
   <block id="a3385cf694f169469155cf608126cc13" category="section-title">從「網站」選單管理 Trident Protect</block>
   <block id="d108f39d7ac8db7fc5eab434cd7df7fc" category="paragraph">現在，災難復原功能支援直接從災難復原使用者介面中的「網站」選單管理 Trident Protect。您可以升級 Trident Protect 或將其從災難復原功能中移除，從而簡化 Kubernetes 資源的管理。</block>
   <block id="ceb6da856e73533ddb08cf15abe120b7" category="inline-link-macro">管理網站</block>
@@ -161,8 +156,6 @@
   <block id="3ddd9403dd985627a83f357af005a768" category="section-title">系統效能提升</block>
   <block id="baa35064269b3904d8b57c0745ca18f8" category="paragraph">災難復原功能引進了多項變更，旨在降低系統資源消耗並提升各項作業的效能。</block>
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
-  <block id="edf20e41ca56535f9914b651d4176206" category="section-title">適用於 Microsoft Sentinel 的 ARM 模板</block>
-  <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience 現在提供 Azure Resource Manager （ARM） 範本，用於將 Microsoft Sentinel 連接至 SIEM，提供一種輔助部署的方法。</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">深入瞭解此版本的 Cloud Volumes ONTAP</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Cloud Volumes ONTAP HA 支援下一代 Google Cloud VM</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">在 9.19.1 版本中，NetApp 將 Cloud Volumes ONTAP 高可用性 （HA） 部署從 N2 VM 移轉至下一代 Google Cloud C3 系列 VM，以提供更快速且更具擴充性的體驗。</block>
@@ -187,16 +180,11 @@
   <block id="2ac8bb0efb00600c2a41354a94948174" category="inline-link">使用 Google Cloud 中的進階選項部署 Cloud Volumes ONTAP</block>
   <block id="6c9068df44f8a14533034d80a58ea324" category="list-text"><block ref="6c9068df44f8a14533034d80a58ea324" category="inline-link-rx"></block></block>
   <block id="12d92330947695a8724da477e7db5baa" category="section-title">為 Cloud Volumes ONTAP 引入存取角色</block>
-  <block id="ae05e9d1fb64b3f3eb3c2b718a64b7c2" category="paragraph">NetApp 為 Cloud Volumes ONTAP 引入身分與存取管理 （IAM） 角色，從而實現基於角色的存取控制 （RBAC），以提高安全性並簡化合規性。使用者仍可使用現有憑證登入 NetApp Console 執行 Cloud Volumes ONTAP 操作。但是，驗證現在透過身分聯合進行路由，使 Console 管理員能夠對這些功能進行更精細的控制。每個使用者必須擁有以下角色之一，才能對 Cloud Volumes ONTAP 執行任何操作。若無角色，使用者將無法檢視或存取 Cloud Volumes ONTAP 執行個體。</block>
   <block id="ac12122f7d4bba19a9bdf9634b8cc548" category="list-text">*Cloud Volumes ONTAP viewer*：授予對 Cloud Volumes ONTAP 畫面和索引標籤的唯讀存取權限。在此角色中，某些畫面和操作按鈕將被停用。</block>
   <block id="147d529d31a33dd1ffe2aed02030d216" category="list-text">*Cloud Volumes ONTAP operator*：支援日常管理任務，例如新增磁碟區、管理儲存和設定複製。</block>
   <block id="ccb8cf6de876397f5af5fd2969199a4c" category="list-text">*Cloud Volumes ONTAP admin*：提供對所有 Cloud Volumes ONTAP 操作的完全存取。</block>
   <block id="9118c1f5d2016b980f9d65d7ab66a79b" category="paragraph">Console 管理員可透過「管理 &gt; 身分」為 Cloud Volumes ONTAP 使用者指派角色。角色權限是基於使用者所在的組織，並套用於該組織中的所有 Cloud Volumes ONTAP 系統。</block>
   <block id="7e04f92c9f24c942f442e9d0b64d902d" category="paragraph">Cloud Volumes ONTAP 使用本機快取來強制執行角色型存取控制 （RBAC），該快取記錄每個使用者的權限，並每小時自動重新整理一次。當使用者被指派新角色或現有角色發生變更時，變更可能需要長達一個小時才能生效，生效後，所有角色允許的工作流程都將啟用。</block>
-  <block id="cacd0669e0e9c09f881a4cca5340e098" category="admonition">首次部署 Console 代理程式或將現有 Console 代理程式升級至 Console 4.9.0 或更高版本時，系統會執行一次性初始化過程，自動為組織中的所有現有使用者指派 Cloud Volumes ONTAP 角色。此過程可能需要長達 30 分鐘才能完成。完成後，Console 會將對應的角色指派給現有使用者。</block>
-  <block id="2c3736b0de2c7956e8b876c728c32036" category="paragraph">Cloud Volumes ONTAP 角色適用於 Amazon Web Service (AWS)、Microsoft Azure (Azure) 和 Google Cloud 環境。</block>
-  <block id="f50849d7a51a2af22661c16f98df65ff" category="inline-link">NetApp Console 存取角色</block>
-  <block id="ccca36d58a98cb8fda0efa22f507ff91" category="list-text"><block ref="ccca36d58a98cb8fda0efa22f507ff91" category="inline-link-rx"></block></block>
   <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">NetApp Console 中的 Cloud Volumes ONTAP 存取角色</block>
   <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
   <block id="658eb72da44348bf013db3a71420c2be" category="section-title">2026年7月14日</block>
@@ -230,7 +218,6 @@
   <block id="3e21d0873324d070ffd9f5112b99ce4d" category="list-text">*卓越營運*：最佳化架構以最大化商業價值。</block>
   <block id="886863730bd12cb56f89bdf0ee2221be" category="list-text">*成本最佳化*：降低和最佳化成本，以實現更大的商業價值。</block>
   <block id="109cdb23e41e8df9e7f4319a28a800c9" category="inline-link">Cloud Volumes ONTAP 組態分析</block>
-  <block id="30e75dda73d152784f441d20f2d17069" category="list-text"><block ref="30e75dda73d152784f441d20f2d17069" category="inline-link-rx"></block></block>
   <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026年7月20日</block>
   <block id="1f669523a45bf910651af3583e944a20" category="doc">架構良好的儀表板</block>
   <block id="81193c598a9c172a3b1a1fd4ae48283f" category="doc">隆重介紹 NetApp Console 中架構完善的儀表板</block>
@@ -240,8 +227,6 @@
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">建立您自己的自訂規則</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">使用簡明易懂的語言編寫自訂規則，確保您的系統遵循組織的標準和 NetApp 最佳實務做法。先進行模擬執行測試，然後排程規則在您的環境中執行。</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">深入瞭解自訂規則</block>
-  <block id="12959707639320f789d4bb4fbba777f1" category="inline-link">實作架構良好的 Cloud Volumes ONTAP 系統組態</block>
-  <block id="e8227a8388a93064d0bbb4e13f50ff6e" category="list-text"><block ref="e8227a8388a93064d0bbb4e13f50ff6e" category="inline-link-rx"></block></block>
   <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">Wellness Review 的棄用通知</block>
   <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">自 2026 年 7 月起，Wellness Review 功能已被棄用，不再於 Digital Advisor 中提供。</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">如有任何問題或想共享回饋，請發送電子郵件至：mailto:ng-activeiq-feedback@netapp.com[聯絡 Active IQ 團隊]。</block>
@@ -332,7 +317,6 @@
   <block id="3dad4d1eeaf9a01a63764a9bd6deee29" category="list-text"><block ref="3dad4d1eeaf9a01a63764a9bd6deee29" category="inline-link-rx"></block></block>
   <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Cloud Volumes ONTAP 與 Microsoft OneLake 整合 - 技術簡報</block>
   <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
-  <block id="37c159a88b5bcfaeea126c1581ba5f53" category="list-text"><block ref="37c159a88b5bcfaeea126c1581ba5f53" category="inline-link-macro-rx"></block></block>
   <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Google Cloud NetApp Volumes 的 SAN 支援（預覽）</block>
   <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">勒索軟體復原功能現已支援 Google Cloud NetApp Volumes 中的 SAN 工作負載，使您能夠偵測針對 SAN 工作負載的基於加密的勒索軟體攻擊。目前，Google Cloud NetApp Volumes 中 SAN 的支援仍處於預覽階段。</block>
   <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">支援的系統</block>
@@ -551,8 +535,6 @@
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">2026 年 9 月 21 日</block>
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*：此版本包含 Trident Protect 26.09。</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*還原檔案和資料夾*：您現在可以從基於 Kubernetes VM 的應用程式備份中還原或下載特定的檔案和資料夾。</block>
-  <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">在 Ransomware Resilience 中設定 Microsoft Sentinel SIEM</block>
-  <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">如需詳細資訊，請參閱 <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>。</block>
   <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">設定帶有 Webhook 的 SIEM 系統</block>
   <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">如需詳細資訊，請參閱 <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>。</block>
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">通用 NetApp Backup and Recovery 增強功能</block>
@@ -595,4 +577,14 @@
   <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*取消 Volume 還原作業*：現在可以從作業監控頁面取消後續的 ONTAP Volume 還原作業，更容易管理長時間運作或運作緩慢的作業。</block>
   <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*改進的 Volume 索引狀態報告*：ONTAP Volumes 儀表板現在透過針對不符合索引條件的 Volume 和快照複本引入<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>狀態，更準確地報告索引狀態。此<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>狀態現在保留給等待索引的 Volume，且 Volume 詳細資料現在會顯示每個快照的索引狀態，並帶有懸停文字來解釋為何 Volume 或快照複本不會被索引。</block>
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFX 支援*：您現在可以保護託管在 2 節點和 4 節點 NetApp AFX 叢集上的 Volume。</block>
+  <block id="4ffb16f35f5e9aee9dee7b4d07e72ec5" category="paragraph">NetApp 為 Cloud Volumes ONTAP 引入身分和存取管理（IAM）角色，從而實現角色型存取控制（RBAC），以提高安全性並簡化法規遵循。使用者仍可使用現有憑證登入 NetApp Console 以執行 Cloud Volumes ONTAP 操作。但是，驗證現在透過身分聯盟進行，使 Console 系統管理員能夠對這些功能進行更精細的控制。在啟用 Cloud Volumes ONTAP 角色之前，Console 代理程式必須執行 4.9.0 或更新版本。</block>
+  <block id="fc587a597771f80d7a6ba4e7b2d90d37" category="paragraph">每個使用者必須擁有以下角色之一，才能對 Cloud Volumes ONTAP 執行任何操作。若無角色，使用者將無法檢視或存取 Cloud Volumes ONTAP 執行個體。</block>
+  <block id="cb5ee3ecd31c69fc46d3da114a16ed83" category="admonition">首次部署 Console 代理程式，或將現有 Console 代理程式升級至 Console 4.9.0 或更新版本時，一次性的初始化程序會自動將 Cloud Volumes ONTAP 角色指派給組織中的所有現有使用者。此程序可能需要長達 30 分鐘才能完成。完成後，Console 會將適當的角色指派給現有使用者。除非有代理程式正在執行，否則不會發生初始化程序。</block>
+  <block id="58589b55d1f4e063bc5f101e0aaacde5" category="paragraph">Cloud Volumes ONTAP 角色適用於 Amazon Web Service （AWS）、Microsoft Azure （Azure） 和 Google Cloud 環境。這些角色不適用於私有和受限部署模式。</block>
+  <block id="07ee22b21ec2682df904eeff73509ddc" category="inline-link">在 NetApp Console 中為 Cloud Volumes ONTAP 設定角色型存取</block>
+  <block id="c1fb6aa9d061f2b296f150910042d1d2" category="list-text"><block ref="c1fb6aa9d061f2b296f150910042d1d2" category="inline-link-rx"></block></block>
+  <block id="675e5c95b67dc978d87e55c19d5da7e8" category="list-text"><block ref="675e5c95b67dc978d87e55c19d5da7e8" category="inline-link-rx"></block></block>
+  <block id="b27aa3c0e44a53b3c16b5a2e40086669" category="inline-link">使用 Workload Factory 改善 Azure 中的 Cloud Volumes ONTAP 組態</block>
+  <block id="f436c99a1822c57781e57709a1694485" category="list-text"><block ref="f436c99a1822c57781e57709a1694485" category="inline-link-rx"></block></block>
+  <block id="21b943021728acb873fd80e1597c6721" category="list-text"><block ref="21b943021728acb873fd80e1597c6721" category="inline-link-macro-rx"></block></block>
 </blocks>
