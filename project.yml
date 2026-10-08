@@ -24,6 +24,7 @@ settings:
     - data-services-disaster-recovery
     - data-services-ransomware-resilience
     - data-services-replication
+    - data-services-workloads
     - storage-management-azure-netapp-files
     - storage-management-cloud-volumes-ontap
     - storage-management-e-series
