@@ -598,5 +598,7 @@
   <block id="8ec5e57a8f9316371a1188f5b7603afe" category="paragraph">適用於 Workload Factory 的 OCI NetApp Storage Service（OCI NSS）初始版本提供上線、系統探索、認證資料管理，以及連結建立與關聯。如需申請存取 OCI NSS，請向 Oracle 開啟支援工單。</block>
   <block id="e63ff59d9a78b3ee1929f551e0299980" category="section-title">適用於 NetApp Console 使用者的 Workload Factory 文件</block>
   <block id="bc5e01fb2f3491722d00201d5965ffaf" category="paragraph">您可以在 NetApp Console 中找到有關 Workload Factory 的詳細文件，包括入門、系統探索、認證資料管理，以及連結建立與關聯的指南。</block>
-  <block id="ba7c815c95cbac0acd31d7dafb91c974" category="paragraph">未解析的指令位於 &lt;stdin&gt; - include::_include/data-services-workloads.adoc[] :leveloffset: +1</block>
+  <block id="22e5a7336ebe77138f0282cedcb069ab" category="doc">Workload Factory</block>
+  <block id="1df7d27de080cb3c4560fbfcb9b950a2" category="inline-link-macro">適用於 NetApp Console 的 Workload Factory 文件</block>
+  <block id="865cb26d81d670b59ffd115deff750d1" category="paragraph"><block ref="865cb26d81d670b59ffd115deff750d1" category="inline-link-macro-rx"></block></block>
 </blocks>
