@@ -135,15 +135,6 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全球區域地圖</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">自動回應使用者活動警示</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">如需詳細資訊，請參閱 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>。</block>
-  <block id="b52a1b50313551938bf7b6520c957f67" category="doc">Console 代理 4.9.0</block>
-  <block id="8643cb7b1a266632b3ce870a592c9aed" category="paragraph">4.9.0 版本同時支援標準模式和受限模式。</block>
-  <block id="148954cf851ed4aa263eb6cd90ea3000" category="paragraph-title">支援 Cloud Volumes ONTAP 的角色型存取控制</block>
-  <block id="bfc35791f70b3b115636ea79999bc1e3" category="paragraph">Console 支援 Cloud Volumes ONTAP 的角色型存取控制。</block>
-  <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">深入瞭解 Cloud Volumes ONTAP 的角色型存取</block>
-  <block id="ea256e0ef091d570fc3443bfdb29b124" category="paragraph"><block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>。</block>
-  <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026年7月15日</block>
-  <block id="7c33460ede710e45d063c1062b0cacba" category="doc">從 NetApp Console 的工作負載中移除 GenAI 工作負載</block>
-  <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">GenAI 工作負載已從 NetApp Console 的工作負載中移除。</block>
   <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">推出從 AWS Marketplace 簡化 Cloud Volumes ONTAP 上線流程</block>
   <block id="3c7e14792d1bfe3f0ac2972bb2b2b283" category="paragraph">NetApp 為 AWS Marketplace 中的 Cloud Volumes ONTAP 引入簡化的上線流程，減少手動步驟和上線阻力。</block>
   <block id="07de933840f509439b88a42c1b5a81f8" category="paragraph">先前，從 AWS Marketplace 部署 Cloud Volumes ONTAP 需要瀏覽多個畫面並手動設定角色、原則和憑證。這使得部署過程緩慢且容易出錯。</block>
@@ -171,8 +162,6 @@
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">建立您自己的自訂規則</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">使用簡明易懂的語言編寫自訂規則，確保您的系統遵循組織的標準和 NetApp 最佳實務做法。先進行模擬執行測試，然後排程規則在您的環境中執行。</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">深入瞭解自訂規則</block>
-  <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">Wellness Review 的棄用通知</block>
-  <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">自 2026 年 7 月起，Wellness Review 功能已被棄用，不再於 Digital Advisor 中提供。</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">如有任何問題或想共享回饋，請發送電子郵件至：mailto:ng-activeiq-feedback@netapp.com[聯絡 Active IQ 團隊]。</block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="59ad121b0ef1b561c2f96f9b5fbd50f8" category="doc">透過 Webhook 設定 SIEM</block>
@@ -185,7 +174,6 @@
   <block id="495b22b0bc55d3822a5ffc86d03d07c9" category="paragraph">訂閱表格（「儲存設備 &gt; Keystone &gt; 訂閱」）中的「訂閱到期天數」欄現在會在到期日旁邊顯示一個圖示。如果自動續約已關閉，圖示顏色會指示到期臨近程度：綠色（&gt;120 天）、橘色（91–120 天）、紅色（&lt;90 天）或灰色（已過期）。對於已啟用自動續約的訂閱，會顯示自動續約圖示，表示訂閱將在當前期限結束時自動續約。此狀態為唯讀，並反映您的合約條款。開啟訂閱後，這些圖示會出現在「目前使用情況」、「使用趨勢」、「訂閱時間軸」和「資產」標籤的訂閱詳情標題中，讓您在瀏覽時可掌握到期與續約狀態的可見度。</block>
   <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">查看您的 Keystone 訂閱詳情</block>
   <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">若要深入瞭解，請參閱 <block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>。</block>
-  <block id="e4f459430f502d8d3158a4b206057282" category="paragraph">NetApp Console 4.9.0 管理包含下列新功能。</block>
   <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Azure 智利中部區域的支援</block>
   <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">現在可以在 Azure 的智利中部 （chilecentral） 區域部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。支援以下部署類型：</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">單節點</block>
@@ -558,4 +546,12 @@
   <block id="92337d8e70dfe880909b2051333e2fe4" category="paragraph">*授權變更*：使用磁碟到磁碟或磁碟到磁碟連出架構的備份不再收費。收費僅適用於備份至物件儲存，包括使用 3-2-1 或磁碟到物件儲存架構的備份。</block>
   <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">了解如何使用 NetApp Backup and Recovery 保護 Microsoft SQL Server 工作負載</block>
   <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">如需保護 Microsoft SQL Server 工作負載的詳細資訊，請參閱<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>。</block>
+  <block id="73c20ad627e7f815932cb8837d70e1e8" category="doc">為 Keystone 訂閱產生健全狀況洞察</block>
+  <block id="ae638b3203053916360a0f228b8b54d7" category="paragraph">此 Keystone STaaS 版本在 NetApp Console 的 Keystone 儀表板中包含以下更新。</block>
+  <block id="a0c062a66e58943547f514904ae51daa" category="inline-link">產生並安排 Keystone 訂閱的健全狀況報告</block>
+  <block id="6da38bfefa907461e0fc0e4cbf32c236" category="paragraph">您可以從 NetApp Console 的 *Storage &gt; Keystone &gt; Monitoring &gt; Health reports* 下載隨需 PowerPoint 報告，或排程一次性、每週、每月或每季的傳送。每份報告整合了所選訂閱的訂閱使用量、運作健全狀況、風險及漏洞，協助您識別問題並與收件者共享可行的見解。如需深入瞭解，請參閱<block ref="d2f756b41ddff582298cd4e997cfe66a" category="inline-link-rx"></block>。</block>
+  <block id="bebf4a0b6cd7d09b5a94da709f1d8c60" category="section-title">檢視 ONTAP 叢集和彙總容量</block>
+  <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link">查看您 Keystone 訂閱中的資產</block>
+  <block id="c270abc6d843162d4ce7721540f24540" category="inline-link">查看與 Keystone 訂閱相關的資產</block>
+  <block id="e411d22d2770471ccb53afad75a6607f" category="paragraph">您可以在 *資產 &gt; 叢集與彙總* 中檢視 ONTAP 叢集及其彙總的實體容量、邏輯容量和儲存效率。此功能僅適用於以實體容量計費的 Keystone STaaS 訂閱。若要深入瞭解，請參閱<block ref="7f77c8bd4b401343bdf134614dcbbc54" category="inline-link-rx"></block>與<block ref="e5507f6e8dbcc07ae7ce3bb876484b8a" category="inline-link-rx"></block>。</block>
 </blocks>
