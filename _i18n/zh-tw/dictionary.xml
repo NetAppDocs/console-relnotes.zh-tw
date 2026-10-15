@@ -585,4 +585,9 @@
   <block id="d95952cb789c981f49c06e8b4c6698fc" category="paragraph"><block ref="d95952cb789c981f49c06e8b4c6698fc" category="inline-link-rx"></block></block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">2026年10月14日</block>
   <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*工作監控器自訂日期範圍篩選*：您現在可以透過在工作監控器的行事曆中選擇自訂的開始和結束日期，來搜尋過去 90 天的工作。</block>
+  <block id="d6705c5666d00557618ae9bce3d12c37" category="doc">Value Insights 中的 E 系列和 StorageGRID 支援</block>
+  <block id="f7074f3c85b7a79fbc50870db7f09881" category="paragraph">Value Insights 現在將 ONTAP、E 系列和 StorageGRID 系統納入健全狀況、風險、安全性風險和生命週期總計的分析範圍。您可以按平台篩選儀表板，檢視特定平台的詳細資訊。已實現和預計的節省金額仍然僅適用於 ONTAP 系統。</block>
+  <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">在 Digital Advisor 中發現價值洞察</block>
+  <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>。</block>
+  <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026 年 10 月 15 日</block>
 </blocks>

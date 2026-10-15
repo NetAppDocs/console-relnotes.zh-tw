@@ -1,0 +1,12 @@
+= Value Insights 中的 E 系列和 StorageGRID 支援
+:allow-uri-read: 
+
+
+
+
+[[e-series-and-storagegrid-support-in-value-insights]]
+=== Value Insights 中的 E 系列和 StorageGRID 支援
+
+Value Insights 現在將 ONTAP、E 系列和 StorageGRID 系統納入健全狀況、風險、安全性風險和生命週期總計的分析範圍。您可以按平台篩選儀表板，檢視特定平台的詳細資訊。已實現和預計的節省金額仍然僅適用於 ONTAP 系統。
+
+link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["在 Digital Advisor 中發現價值洞察"]。
