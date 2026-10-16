@@ -206,61 +206,8 @@ Disaster Recovery 新增了法規遵循檢查，用於識別 Kubernetes 工作�
 
 
 
-[[04-october-2026]]
-== 2026年10月4日
-
-
-
-[[well-architected-dashboard]]
-=== 架構良好的儀表板
-
-
-
-==== 編輯和管理自訂規則
-
-現在您可以在規則目錄中編輯自訂規則。您可以更新規則名稱和設定、在聊天中審查變更、驗證編輯以及刪除不再需要的規則。
-
-link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["了解如何管理自訂規則"]
-
-
-
 [[30-september-2026]]
 == 2026 年 9 月 30 日
-
-
-
-[[well-architected-dashboard]]
-=== 架構良好的儀表板
-
-
-
-==== 在 Workload Factory 中探索 Flex Unified 資源
-
-Workload Factory 現在可以透過 ONTAP API Proxy 端點來尋找 Google Cloud NetApp Volumes Flex Unified 預設模式和 ONTAP 模式的儲存資源池和 Volume。這些資源會出現在清單中，並包含在架構完善的評估和建議中。
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的組態分析"]
-
-
-
-==== 從 NetApp Console Canvas 進入 Flex 統一系統
-
-現在，您可以從 NetApp Console Canvas 針對已探索的 Google Cloud NetApp Volumes Flex Unified 系統選取 *Enter System*。這將開啟所選系統的「資源」頁面，以便您可以使用與預設模式系統相同的工作流程來檢視相關聯的儲存資源池和 Volume。
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的組態分析"]
-
-
-
-==== 針對 Flex Unified 資源的架構完善評估
-
-架構完善的儀表板現在可評估 Google Cloud NetApp Volumes Flex Unified 儲存資源池和 Volume 的 SSD 容量剩餘空間、Volume 容量剩餘空間，以及快照原則涵蓋範圍。結果會顯示在 Google Cloud NetApp Volumes 架構完善的體驗中，並識別處於預設模式或 ONTAP 模式的資源。
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的組態分析"]
-
-
-
-==== NetApp Console 系統頁面中顯示的架構完善問題
-
-您可以從 NetApp Console 的儲存設備管理系統頁面，取得 Google Cloud NetApp Volumes 的架構良好問題通知。此功能可協助您快速識別 Google Cloud NetApp Volumes 系統中的組態問題，並從通知導覽至工作負載架構良好儀表板。
 
 
 
@@ -629,31 +576,6 @@ Cloud Volumes ONTAP 現已支援在 Azure Government Secret 和 Top Secret 區�
 
 
 
-[[well-architected-dashboard]]
-=== 架構良好的儀表板
-
-
-
-==== Cloud Volumes ONTAP 的遠端資料複寫評估
-
-一項新的評估可用於檢查 Cloud Volumes ONTAP 資料是否受到遠端複寫的保護。它有助於確保您的資料保護計劃符合災難恢復和業務連續性的最佳實務。
-
-link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["了解 Cloud Volumes ONTAP 的組態分析"]
-
-
-
-==== 完全關閉架構完善的組態
-
-現在您可以從儀表板中完全忽略某個建議組態。這可讓您更有效地控制哪些建議和評估會顯示在您的環境中。
-
-
-
-==== 架構完善的儀表板中的資料庫工作負載建議
-
-現在，在 NetApp Console 中精心設計的儀表板，已提供使用 FSx for ONTAP 的資料庫工作負載建議。您可以在同一個位置查看儲存資源和資料庫工作負載的狀態，從而全面檢視基礎架構的健全狀況。
-
-
-
 [[storagegrid]]
 === StorageGRID
 
@@ -756,88 +678,6 @@ NOTE: Value Insights 功能僅適用於 ONTAP 系統。
 
 [[17-august-2026]]
 == 2026年8月17日
-
-
-
-[[well-architected-dashboard]]
-=== 架構良好的儀表板
-
-
-
-==== FSx for ONTAP 支援已整合到 NetApp Console 中架構完善的儀表板中
-
-NetApp Console 中架構完善的儀表板可用於 Amazon FSx for NetApp ONTAP。
-
-link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["了解 FSx for ONTAP 的組態分析"]
-
-
-
-==== 架構良好的儀表板中已更新組態名稱
-
-NetApp Console 中的架構完善儀表板現在包含新的儲存組態名稱。
-
-下表列出了架構良好的儀表板中的舊組態名稱及其對應的新組態名稱。
-
-[cols="1,1"]
-|===
-| 舊組態名稱 | 新組態名稱 
-
-
-| 排程 Volume 備份 | Volume 備份 
-
-
-| SSD 容量臨界值 | SSD 容量餘裕 
-
-
-| 檔案容量臨界值 | 檔案容量餘裕 
-
-
-| 長期保留資料的可靠性 | 複製原則標籤 
-
-
-| 已排程的本機 Snapshot 快照技術 | Snapshot 原則 
-
-
-| 刪除不必要的備份 | 備份過期 
-
-
-| 刪除不必要的 Snapshot 快照技術 | Snapshot 快照技術到期 
-
-
-| 未充分利用的固態硬碟容量 | 超額配置的 SSD 容量 
-
-
-| 非作用中區塊設備 | 非作用中區塊設備（LUN） 
-
-
-| 透過對冷資料分層優化總體擁有成本 | 冷資料分層 
-
-
-| Volume 邏輯容量報告 | 主機可見容量報告 
-
-
-| FlexGroup Volume 重新平衡 | 重新平衡 FlexGroup Volume 
-
-
-| FlexVol® Volume 重新平衡 | 重新平衡 FlexVol® Volume 
-
-
-| 快取關係寫入模式 | FlexCache® 寫入模式 
-
-
-| 優化快取磁碟區大小 | FlexCache® 複本大小 
-
-
-| 未經授權存取 Volume | 未經授權的 iSCSI Volume 存取 
-
-
-| ARP/AI 已停用 | 勒索軟體保護（ARP/AI） 
-|===
-
-
-==== NetApp Console 系統頁面中顯示的架構完善問題
-
-在 Microsoft Azure 中，Cloud Volumes ONTAP 的架構完善問題通知可從 NetApp Console 的「儲存管理系統」頁面取得。此功能可協助您快速識別 Azure 中 Cloud Volumes ONTAP 系統的組態問題，並從通知導覽至「工作負載架構完善」儀表板。
 
 
 
@@ -950,19 +790,6 @@ Digital Advisor 中的 Config Drift 功能將於 2026 年 9 月棄用。
 
 
 
-[[well-architected-dashboard]]
-=== 架構良好的儀表板
-
-
-
-==== Google Cloud NetApp Volumes 在架構完善的儀表板中的支援
-
-NetApp Console 儀表板現在支援 Google Cloud NetApp Volumes。儲存管理員可以檢視其儲存資源池和組態的狀態，取得有關提升效率、降低成本、提升效能、可靠性和安全性的建議，並採取行動以最佳化作業並遵循最佳實務。
-
-深入瞭解link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes 組態分析"]。
-
-
-
 [[backup-and-recovery]]
 === 備份和復原
 
@@ -1070,23 +897,6 @@ Disaster Recovery 透過使用者層級作業記錄，提高了作業的可追�
 
 [[03-august-2026]]
 == 2026年8月3日
-
-
-
-[[well-architected-dashboard]]
-=== 架構良好的儀表板
-
-
-
-==== 修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態
-
-NetApp Console 中架構完善的儀表板現在可讓您修復 Cloud Volumes ONTAP 系統的組態建議。
-
-您也可以從架構完善的分析中排除一個或多個組態。這樣，您可以忽略不適用於您環境的特定組態。
-
-如果您之後想要納入先前被忽略的組態，可以在架構完善的儀表板中重新啟用它。這樣就能將該組態恢復到分析中，並讓您獲得相關的建議和修復方案。
-
-link:https://docs.netapp.com/us-en/console-well-architected/cvo/\improve-configurations-cvo.html["修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態"]
 
 
 
@@ -1202,29 +1012,6 @@ Ransomware Resilience 現在可讓您根據攻擊類型進行準備演練。Rans
 
 [[20-july-2026]]
 == 2026年7月20日
-
-
-
-[[well-architected-dashboard]]
-=== 架構良好的儀表板
-
-
-
-==== 隆重介紹 NetApp Console 中架構完善的儀表板
-
-NetApp Console 中架構完善的儀表板提供跨帳戶和區域的儲存系統與組態的單一檢視。此儀表板提供各種洞察和建議，協助您實現卓越營運績效。您可以檢視組態的架構完善狀態、依照您所用儲存類型的架構完善架構支柱分類的組態問題，以及組態問題和建議清單。
-
-深入瞭解 link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["架構良好的儀表板"]。
-
-Console 中架構完善的儀表板可供 link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP。"] 使用
-
-
-
-==== 建立您自己的自訂規則
-
-使用簡明易懂的語言編寫自訂規則，確保您的系統遵循組織的標準和 NetApp 最佳實務做法。先進行模擬執行測試，然後排程規則在您的環境中執行。
-
-https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["深入瞭解自訂規則"]
 
 
 
