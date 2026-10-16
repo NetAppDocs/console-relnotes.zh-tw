@@ -72,7 +72,7 @@ https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-new.html["C
 
 從 Cloud Volumes ONTAP 9.19.1 GA 版本開始，對於滿足先決條件的全新 Azure 單節點和高可用度（HA）部署，Azure 主機加密預設為啟用。此功能會在資料寫入和讀取主機時，對託管 VM 的實體伺服器上的資料（包括臨時磁碟和關聯的主機級快取）進行加密。
 
-在 Azure 中部署 Cloud Volumes ONTAP 之前，請確保符合下列先決條件：
+在 Azure 中部署 Cloud Volumes ONTAP 之前，請確認您的環境符合下列先決條件：
 
 * 該 `EncryptionAtHost`功能已註冊到您的 Azure 訂閱。請參閱 https://learn.microsoft.com/en-us/azure/virtual-machines/linux/disks-enable-host-based-encryption-cli["Microsoft 文件：在主機上啟用加密"^]。
 * 您選擇的 VM 執行個體類型支援在您的 Azure 區域中主機上的加密。請參閱 https://learn.microsoft.com/en-us/azure/virtual-machines/linux/disks-enable-host-based-encryption-cli#finding-supported-vm-sizes["Microsoft 文件：尋找受支援的 VM 大小"^]。
@@ -725,7 +725,7 @@ https://docs.netapp.com/us-en/storage-management-storagegrid/task-administer-sto
 現在，您可以在 Azure 的奧地利東部 (austriaeast) 和比利時中部 (belgiumcentral) 區域部署 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。支援下列部署類型：
 
 * 單節點
-* 在單一可用度區域中使用本機備援儲存設備 （LRS） 實現 HA
+* 在單一可用度區中使用本地備援儲存設備（LRS）實現高可用性
 * 使用區域備援儲存設備 （ZRS） 在多個可用度區域中實現 HA
 
 
@@ -1192,7 +1192,7 @@ Ransomware Resilience 現在可讓您根據攻擊類型進行準備演練。Rans
 現在可以在 Azure 的智利中部 （chilecentral） 區域部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。支援以下部署類型：
 
 * 單節點
-* 在單一可用度區域中使用本機備援儲存設備 （LRS） 實現 HA
+* 在單一可用度區中使用本地備援儲存設備（LRS）實現高可用性
 * 使用區域備援儲存設備 （ZRS） 在多個可用度區域中實現 HA
 
 
