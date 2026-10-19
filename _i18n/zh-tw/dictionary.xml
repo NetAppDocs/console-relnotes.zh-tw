@@ -113,7 +113,6 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX for ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">本地ONTAP集群</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console中Keystone儀表板的新增強功能：</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">這些發行說明介紹了NetApp Console及其支援的資料服務的最新增強功能。提供各服務完整版本說明的連結。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和資料服務的最新變化。若要查看完整的版本發布歷史記錄，請參閱每個服務的完整版本說明。</block>
@@ -131,49 +130,11 @@
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 工作負載增強功能</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中、Kubernetes 工作負載引入了以下增強功能：</block>
-  <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS 中 Cloud Volumes ONTAP 和資料服務的彈性計費</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全球區域地圖</block>
-  <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">自動回應使用者活動警示</block>
-  <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">如需詳細資訊，請參閱 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>。</block>
-  <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">推出從 AWS Marketplace 簡化 Cloud Volumes ONTAP 上線流程</block>
-  <block id="3c7e14792d1bfe3f0ac2972bb2b2b283" category="paragraph">NetApp 為 AWS Marketplace 中的 Cloud Volumes ONTAP 引入簡化的上線流程，減少手動步驟和上線阻力。</block>
-  <block id="07de933840f509439b88a42c1b5a81f8" category="paragraph">先前，從 AWS Marketplace 部署 Cloud Volumes ONTAP 需要瀏覽多個畫面並手動設定角色、原則和憑證。這使得部署過程緩慢且容易出錯。</block>
-  <block id="7b0a4d96333ac82141b9bf7031a4427c" category="paragraph">全新的上線流程透過以下功能，簡化您從市場訂閱過渡到完全運作的 Cloud Volumes ONTAP 環境的流程：</block>
-  <block id="d8a801d58e75e021f2941c09a13ac4cc" category="list-text">訂閱 AWS Marketplace 上的 Cloud Volumes ONTAP 專用清單：您在 AWS Marketplace 上訂閱 Cloud Volumes ONTAP 獨立式清單，購買訂閱，並設定您的 AWS 帳戶（如果您還沒有帳戶）。</block>
-  <block id="2beff62713d0ca26e8bbeb26d118da72" category="list-text">NetApp Console 引導流程：您在 NetApp Console 中設定帳戶後，Console 會自動引導您完成部署流程，並在右側顯示引導流程。如果您需要離開 Console，可以稍後繼續完成引導流程。</block>
-  <block id="3545b8b6c97019ee16382e1e9f1566d6" category="list-text">關聯您的訂閱：您可以自動將訂閱與 Console 建立關聯，避免手動連結的繁瑣步驟。</block>
-  <block id="7fe500a5c571cd7ec037fadddeb65e6d" category="list-text">使用 AWS 憑證組態部署 Console 代理程式：您可以自動建立所需的 AWS 角色。此程序會在您的 AWS 帳戶中部署一個包含所需角色和原則的 AWS CloudFormation 堆疊供您審查，然後將其與 NetApp Console 關聯，從而省去手動 IAM 設定。接下來，您可以繼續完成代理程式組態、連網和安全性群組設定，以開始代理程式部署。</block>
-  <block id="1dc23a84b7e2b375289ce6857c758408" category="list-text">在 AWS 中部署新的 Cloud Volumes ONTAP 系統：您可以直接導覽至<block ref="956eaa6186169471a13345860cad0757" prefix=" " category="inline-code"></block>精靈，以更快速、更簡化的方式部署 Cloud Volumes ONTAP。</block>
-  <block id="45155a6d96a264e24647f30ebb774e4f" category="list-text"><block ref="45155a6d96a264e24647f30ebb774e4f" category="inline-link-rx"></block></block>
-  <block id="e8f7f517a7c22ec0466a4d916c974b67" category="section-title">Azure 中 Cloud Volumes ONTAP 的架構完善組態分析</block>
-  <block id="8579a865aaeb9e025994731e2e5b4b7b" category="paragraph">NetApp Console 現在支援對執行在 Microsoft Azure 中的 Cloud Volumes ONTAP 系統進行架構完善的組態分析。Console 每天分析您的部署，並提供架構完善的狀態、見解和建議，以協助您維護遵守 NetApp 最佳實務和架構完善架構的系統。</block>
-  <block id="7be0ecfd06a37dfa6ce465eeee7e76b0" category="paragraph">精心設計的儀表板顯示已分析系統的總數，並按組態和嚴重性層級對資源進行分類。如果您是系統管理員，可以直接從 Console 儀表板檢視組織內任何組態問題的建議，並下載包含所有建議的 CSV 報告。組態分類依據：</block>
-  <block id="d1288590d0a85a5033a8db4112eab3bf" category="list-text">*可靠性*：即使在發生中斷的情況下，也能確保工作負載正確且穩定地運作。</block>
-  <block id="f9a9871ceb0b0b6106ac0c3761f8ccd5" category="list-text">*安全性*：透過風險評估和緩解措施保護資料、系統和資產。</block>
-  <block id="3e21d0873324d070ffd9f5112b99ce4d" category="list-text">*卓越營運*：最佳化架構以最大化商業價值。</block>
-  <block id="886863730bd12cb56f89bdf0ee2221be" category="list-text">*成本最佳化*：降低和最佳化成本，以實現更大的商業價值。</block>
-  <block id="109cdb23e41e8df9e7f4319a28a800c9" category="inline-link">Cloud Volumes ONTAP 組態分析</block>
-  <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026年7月20日</block>
   <block id="1f669523a45bf910651af3583e944a20" category="doc">架構良好的儀表板</block>
-  <block id="81193c598a9c172a3b1a1fd4ae48283f" category="doc">隆重介紹 NetApp Console 中架構完善的儀表板</block>
-  <block id="92b6fed6ba9205d1ef1ae0e1d186dfa8" category="paragraph">NetApp Console 中架構完善的儀表板提供跨帳戶和區域的儲存系統與組態的單一檢視。此儀表板提供各種洞察和建議，協助您實現卓越營運績效。您可以檢視組態的架構完善狀態、依照您所用儲存類型的架構完善架構支柱分類的組態問題，以及組態問題和建議清單。</block>
-  <block id="5525eb13e3a89cfcd9f9c5e55aa357a4" category="inline-link-macro">架構良好的儀表板</block>
-  <block id="6e2cc6111df032359200840287f3c08f" category="paragraph">深入瞭解 <block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>。</block>
-  <block id="95be701b55d8162269ca03772d2761bc" category="section-title">建立您自己的自訂規則</block>
-  <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">使用簡明易懂的語言編寫自訂規則，確保您的系統遵循組織的標準和 NetApp 最佳實務做法。先進行模擬執行測試，然後排程規則在您的環境中執行。</block>
-  <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">深入瞭解自訂規則</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">如有任何問題或想共享回饋，請發送電子郵件至：mailto:ng-activeiq-feedback@netapp.com[聯絡 Active IQ 團隊]。</block>
-  <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
-  <block id="59ad121b0ef1b561c2f96f9b5fbd50f8" category="doc">透過 Webhook 設定 SIEM</block>
-  <block id="43a14127ca7c560502e3232122f8748a" category="paragraph">Ransomware Resilience 現在支援透過 Ransomware Resilience UI 中的 Webhook 設定安全性資訊和事件管理 （SIEM） 系統。透過 Webhook，您可以將首選的 SIEM 系統整合到您的勒索軟體監控中。</block>
   <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">設定 SIEM 系統</block>
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">如需詳細資訊，請參閱 <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>。</block>
-  <block id="bb52269a2ff950398b1909638550daa9" category="section-title">使用者活動事件自動回應的電子郵件警示</block>
-  <block id="631a554bd5f4de62ab009d76aaf76846" category="paragraph">現在，當使用者活動事件觸發自動化回應時，Ransomware Resilience 會發送電子郵件通知，從而提高 Ransomware Resilience 和勒索軟體活動的清晰度與可見度。</block>
-  <block id="74cf60fbdf1e9979b4bc96c9e0974a6b" category="doc">查看訂閱到期日和自動續訂狀態</block>
-  <block id="495b22b0bc55d3822a5ffc86d03d07c9" category="paragraph">訂閱表格（「儲存設備 &gt; Keystone &gt; 訂閱」）中的「訂閱到期天數」欄現在會在到期日旁邊顯示一個圖示。如果自動續約已關閉，圖示顏色會指示到期臨近程度：綠色（&gt;120 天）、橘色（91–120 天）、紅色（&lt;90 天）或灰色（已過期）。對於已啟用自動續約的訂閱，會顯示自動續約圖示，表示訂閱將在當前期限結束時自動續約。此狀態為唯讀，並反映您的合約條款。開啟訂閱後，這些圖示會出現在「目前使用情況」、「使用趨勢」、「訂閱時間軸」和「資產」標籤的訂閱詳情標題中，讓您在瀏覽時可掌握到期與續約狀態的可見度。</block>
-  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">查看您的 Keystone 訂閱詳情</block>
-  <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">若要深入瞭解，請參閱 <block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>。</block>
   <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Azure 智利中部區域的支援</block>
   <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">現在可以在 Azure 的智利中部 （chilecentral） 區域部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。支援以下部署類型：</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">單節點</block>
@@ -193,48 +154,10 @@
   <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">停用 SIEM 系統</block>
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">如需更多資訊，請參閱 <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>。</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">2026年7月27日</block>
-  <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">下表列出了架構良好的儀表板中的舊組態名稱及其對應的新組態名稱。</block>
-  <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">舊組態名稱</block>
-  <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新組態名稱</block>
-  <block id="903362563951f197b003dcc5e085f6af" category="cell">排程 Volume 備份</block>
-  <block id="236cb64067292409b71f3255e98656ec" category="cell">Volume 備份</block>
-  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="cell">SSD 容量臨界值</block>
-  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="cell">SSD 容量餘裕</block>
-  <block id="33b83fba92abc7b8587ce85f370cccd9" category="cell">檔案容量臨界值</block>
-  <block id="15163a77b6307ce8f1d8bd1cbf7a6cd4" category="cell">檔案容量餘裕</block>
-  <block id="9bc968c7a7fb78050d3076a90e4467f3" category="cell">長期保留資料的可靠性</block>
-  <block id="f9f9d1f00c978cfa77ad3dcbff84556f" category="cell">複製原則標籤</block>
-  <block id="aff279b636a9024db3b44375d88e80eb" category="cell">已排程的本機 Snapshot 快照技術</block>
-  <block id="4c0abf2d4c54820b8d33061abaf30759" category="cell">Snapshot 原則</block>
-  <block id="1fd07c2c7cd7507d0210720bf2df7ff6" category="cell">刪除不必要的備份</block>
-  <block id="01cbe155039c742db3896b9035645b36" category="cell">備份過期</block>
-  <block id="550b0142e01d6b38f02a6b97265b556f" category="cell">刪除不必要的 Snapshot 快照技術</block>
-  <block id="d84a194032e3c50774cb6b396ce9dc40" category="cell">Snapshot 快照技術到期</block>
-  <block id="d7caefb46c5a6173b05919091553daa7" category="cell">未充分利用的固態硬碟容量</block>
-  <block id="f2be0a28c695a5089b4046f22076c338" category="cell">超額配置的 SSD 容量</block>
-  <block id="dd1488cd022a3092a136ebc9da3e9fe7" category="cell">非作用中區塊設備</block>
-  <block id="1951894078f3de8ca78fd73263ce1157" category="cell">非作用中區塊設備（LUN）</block>
-  <block id="754d35c272ac188c16d1e8ecadd3a4e9" category="cell">透過對冷資料分層優化總體擁有成本</block>
-  <block id="0ab265b548fdc40b21483e61ffde3aba" category="cell">冷資料分層</block>
-  <block id="373606d37d348aab2b92921ccd42cff6" category="cell">Volume 邏輯容量報告</block>
-  <block id="fb98d5426e98926f645d90cd612abb55" category="cell">主機可見容量報告</block>
-  <block id="f552bec70b627829570b2811ef2abeaf" category="cell">FlexGroup Volume 重新平衡</block>
-  <block id="de86f1900d1389562924dab590f1c54b" category="cell">重新平衡 FlexGroup Volume</block>
-  <block id="8c88443c0d2ca0582a66db0631948d4f" category="cell">FlexVol® Volume 重新平衡</block>
-  <block id="7bac915f83e068ef1efc39ae5b1417fa" category="cell">重新平衡 FlexVol® Volume</block>
-  <block id="e64c3fb252960e226830fb49bf513992" category="cell">快取關係寫入模式</block>
-  <block id="f415a433abd1a63e1e6645ce5f72289f" category="cell">FlexCache® 寫入模式</block>
-  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="cell">優化快取磁碟區大小</block>
-  <block id="5161fb1808cb1162babdbde5565ef1ad" category="cell">FlexCache® 複本大小</block>
-  <block id="c18bcbffca9b6549dbf4c1113b6caa46" category="cell">未經授權存取 Volume</block>
-  <block id="cc5065c9785f355774b0462bc72597ed" category="cell">未經授權的 iSCSI Volume 存取</block>
-  <block id="97cbff5fe2b08c67e69334a1f6bb2a8a" category="cell">ARP/AI 已停用</block>
-  <block id="56137b68eb5832ccdd9138b8c5138148" category="cell">勒索軟體保護（ARP/AI）</block>
   <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態</block>
   <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">NetApp Console 中架構完善的儀表板現在可讓您修復 Cloud Volumes ONTAP 系統的組態建議。</block>
   <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">您也可以從架構完善的分析中排除一個或多個組態。這樣，您可以忽略不適用於您環境的特定組態。</block>
   <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">如果您之後想要納入先前被忽略的組態，可以在架構完善的儀表板中重新啟用它。這樣就能將該組態恢復到分析中，並讓您獲得相關的建議和修復方案。</block>
-  <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
   <block id="aafe22f0aac02cfc773f108471a387c4" category="doc">Cloud Volumes ONTAP 與 Microsoft OneLake 的整合</block>
   <block id="41aa5ef466861e25c87ddbb36de43edd" category="inline-link">Microsoft OneLake</block>
@@ -321,28 +244,12 @@
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">了解如何使用 NetApp Backup and Recovery 保護 Oracle 資料庫工作負載</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">有關保護 Oracle Database 工作負載的詳細資訊，請參閱<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>。</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
-  <block id="411510101e0d2ef6d81ff08c0e3c361c" category="doc">Google Cloud NetApp Volumes 在架構完善的儀表板中的支援</block>
-  <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">NetApp Console 儀表板現在支援 Google Cloud NetApp Volumes。儲存管理員可以檢視其儲存資源池和組態的狀態，取得有關提升效率、降低成本、提升效能、可靠性和安全性的建議，並採取行動以最佳化作業並遵循最佳實務。</block>
-  <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Google Cloud NetApp Volumes 組態分析</block>
-  <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph">深入瞭解<block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>。</block>
-  <block id="f2085e6c9159e77c1694598931a78c54" category="inline-link-macro">Microsoft Azure 中的 Cloud Volumes ONTAP。</block>
-  <block id="af60dd6d4748d367317db02ecf8412df" category="paragraph">Console 中架構完善的儀表板可供 <block ref="a6a029d1bfbb017a404644ee02b0b284" category="inline-link-macro-rx"></block> 使用</block>
-  <block id="9816127c5ba6e54118e083fdec8ad3df" category="doc">FSx for ONTAP 支援已整合到 NetApp Console 中架構完善的儀表板中</block>
-  <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">NetApp Console 中架構完善的儀表板可用於 Amazon FSx for NetApp ONTAP。</block>
-  <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">了解 FSx for ONTAP 的組態分析</block>
-  <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
-  <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">NetApp Console 系統頁面中顯示的架構完善問題</block>
-  <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">在 Microsoft Azure 中，Cloud Volumes ONTAP 的架構完善問題通知可從 NetApp Console 的「儲存管理系統」頁面取得。此功能可協助您快速識別 Azure 中 Cloud Volumes ONTAP 系統的組態問題，並從通知導覽至「工作負載架構完善」儀表板。</block>
-  <block id="33f99db970bd78e039b488318b97f37e" category="section-title">架構良好的儀表板中已更新組態名稱</block>
-  <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console 中的架構完善儀表板現在包含新的儲存組態名稱。</block>
   <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">Value Insights 簡介</block>
   <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">Value Insights 功能整合了 ONTAP 系統的整體健全狀況、節省成本、穩定性和安全性資訊。您可以利用這些資訊，透過持續的資料導向 ONTAP 環境檢視來改善系統健全狀況和效能。</block>
   <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value Insights 功能僅適用於 ONTAP 系統。</block>
   <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Value Insights</block>
   <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph">深入瞭解<block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>。</block>
   <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">2026年8月20日</block>
-  <block id="03646431a428b1129a0642a9e9a930d6" category="inline-link">從 AWS Marketplace 就職 Cloud Volumes ONTAP</block>
-  <block id="22b14536778a26fb341e73c9dfc20414" category="list-text"><block ref="22b14536778a26fb341e73c9dfc20414" category="inline-link-rx"></block></block>
   <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Azure 中奧地利東部和比利時中部地區的支援</block>
   <block id="44e833213a99257d69192896111996f4" category="paragraph">現在，您可以在 Azure 的奧地利東部 (austriaeast) 和比利時中部 (belgiumcentral) 區域部署 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。支援下列部署類型：</block>
   <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026年8月25日</block>
@@ -358,14 +265,6 @@
   <block id="c228cd16d1f14f9ba8606b879f59e931" category="list-text">已進行小幅改進，以提高測試容錯移轉工作流程的恢復能力。</block>
   <block id="afb89ab075bef1d8e9fa1a1124a73a26" category="list-text">新增指令碼時出現的驗證錯誤已修復。</block>
   <block id="91b0db938f6511dad8ea423304795a3a" category="section-title">2026年8月31日</block>
-  <block id="986c0b89e6f7ad596953e7ac2424db26" category="doc">Cloud Volumes ONTAP 的遠端資料複寫評估</block>
-  <block id="dfcd41b313833d05496197a786d2d2af" category="paragraph">一項新的評估可用於檢查 Cloud Volumes ONTAP 資料是否受到遠端複寫的保護。它有助於確保您的資料保護計劃符合災難恢復和業務連續性的最佳實務。</block>
-  <block id="1e3316df3b456fee5d47d971c9bc6ca7" category="inline-link-macro">了解 Cloud Volumes ONTAP 的組態分析</block>
-  <block id="120d2b8bb50127766f119c5df258a5a7" category="paragraph"><block ref="120d2b8bb50127766f119c5df258a5a7" category="inline-link-macro-rx"></block></block>
-  <block id="83eb7ae79829b538266050d3f5c9fb61" category="section-title">完全關閉架構完善的組態</block>
-  <block id="e392235686146a792505661ee5217957" category="paragraph">現在您可以從儀表板中完全忽略某個建議組態。這可讓您更有效地控制哪些建議和評估會顯示在您的環境中。</block>
-  <block id="a2478a7b8d2f8aade20d9381c210a4ad" category="section-title">架構完善的儀表板中的資料庫工作負載建議</block>
-  <block id="5f71f327ec034d4f4c3d749b221ebc26" category="paragraph">現在，在 NetApp Console 中精心設計的儀表板，已提供使用 FSx for ONTAP 的資料庫工作負載建議。您可以在同一個位置查看儲存資源和資料庫工作負載的狀態，從而全面檢視基礎架構的健全狀況。</block>
   <block id="ba08a463d06739f442d7b83ca5021909" category="section-title">2026年9月1日</block>
   <block id="9775ec01b640ec37d790fc80fcd304fa" category="doc">Azure Secret 和 Top Secret 區域中的 Cloud Volumes ONTAP 支援（私有預覽版）</block>
   <block id="71220dfc0ef52806d7063323e20a8d01" category="paragraph">Cloud Volumes ONTAP 現已支援在 Azure Government Secret 和 Top Secret 區域中部署，目前為私人預覽版。此功能將 Cloud Volumes ONTAP 擴展到 Microsoft 的機密 Azure 環境，使政府和國防客戶能夠使用 ONTAP 進行資料管理員、保護和災難恢復，以支援國家安全性工作負載。請聯絡您的 NetApp 客戶團隊以參與。</block>
@@ -417,8 +316,6 @@
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">現在，在發生可疑使用者行為和基於使用者的加密攻擊之後，可使用乾淨還原進行恢復。此增強功能增加了對基於加密（熵）攻擊的現有支援。這項增強功能使您能夠利用乾淨還原的引導式方法，識別最佳還原點，以盡量減少資料遺失並加快恢復。</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">建立一個隔離的恢復環境，以便進行乾淨還原</block>
   <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">如需詳細資訊，請參閱 <block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>。</block>
-  <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">使用 AWS 中的快速建立功能部署 Cloud Volumes ONTAP</block>
-  <block id="a8756e706557440388ef829ae5f6fe1f" category="list-text"><block ref="a8756e706557440388ef829ae5f6fe1f" category="inline-link-rx"></block></block>
   <block id="b6b21e530c678e5cd4c26f8b75ff76e8" category="doc">Console 代理 4.11.0</block>
   <block id="734697dbdbd312c3dd63c9c68317e6e9" category="paragraph">4.11.0 版本同時支援標準模式和受限模式。</block>
   <block id="60fd42d7efe4262e8d79051a1c47bc4f" category="section-title">簡化 AWS Marketplace 中 Cloud Volumes ONTAP 訂閱者的代理程式部署流程</block>
@@ -460,8 +357,6 @@
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">2026 年 9 月 21 日</block>
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*：此版本包含 Trident Protect 26.09。</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*還原檔案和資料夾*：您現在可以從基於 Kubernetes VM 的應用程式備份中還原或下載特定的檔案和資料夾。</block>
-  <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">設定帶有 Webhook 的 SIEM 系統</block>
-  <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">如需詳細資訊，請參閱 <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>。</block>
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">通用 NetApp Backup and Recovery 增強功能</block>
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*虛擬機器主機探索期間的憑證選擇*：當您探索 KVM、Hyper-V 或 VMware 主機時，現在可以使用已新增至 Backup and Recovery 的憑證。</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-V 工作負載增強</block>
@@ -488,29 +383,12 @@
   <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">有關所有支援區域的列表，請參閱<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>。</block>
   <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">美國政府任務雲</block>
   <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
-  <block id="19d5fea6cca3df1f610ffd920f1e30b2" category="doc">在 Workload Factory 中探索 Flex Unified 資源</block>
-  <block id="61822363118e61bff0df1e874d2e7497" category="paragraph">Workload Factory 現在可以透過 ONTAP API Proxy 端點來尋找 Google Cloud NetApp Volumes Flex Unified 預設模式和 ONTAP 模式的儲存資源池和 Volume。這些資源會出現在清單中，並包含在架構完善的評估和建議中。</block>
-  <block id="5fb7119ce8f0dab345a73e06727b5f5c" category="inline-link-macro">了解 Google Cloud NetApp Volumes 的組態分析</block>
-  <block id="ea078abe6abe4c4449bf21e417cc9323" category="paragraph"><block ref="ea078abe6abe4c4449bf21e417cc9323" category="inline-link-macro-rx"></block></block>
-  <block id="eba97ed9f5ee5fe9de4cc6c142ab99f3" category="section-title">從 NetApp Console Canvas 進入 Flex 統一系統</block>
-  <block id="75d6eeccb13e55d1719bbc0e46902abb" category="paragraph">現在，您可以從 NetApp Console Canvas 針對已探索的 Google Cloud NetApp Volumes Flex Unified 系統選取 *Enter System*。這將開啟所選系統的「資源」頁面，以便您可以使用與預設模式系統相同的工作流程來檢視相關聯的儲存資源池和 Volume。</block>
-  <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">針對 Flex Unified 資源的架構完善評估</block>
-  <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">架構完善的儀表板現在可評估 Google Cloud NetApp Volumes Flex Unified 儲存資源池和 Volume 的 SSD 容量剩餘空間、Volume 容量剩餘空間，以及快照原則涵蓋範圍。結果會顯示在 Google Cloud NetApp Volumes 架構完善的體驗中，並識別處於預設模式或 ONTAP 模式的資源。</block>
-  <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">您可以從 NetApp Console 的儲存設備管理系統頁面，取得 Google Cloud NetApp Volumes 的架構良好問題通知。此功能可協助您快速識別 Google Cloud NetApp Volumes 系統中的組態問題，並從通知導覽至工作負載架構良好儀表板。</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026 年 9 月 30 日</block>
   <block id="935253a377b19143ee00ca184dec844f" category="paragraph">在此版本中，ONTAP Volumes 工作負載引入了以下預覽增強功能：</block>
   <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*取消 Volume 還原作業*：現在可以從作業監控頁面取消後續的 ONTAP Volume 還原作業，更容易管理長時間運作或運作緩慢的作業。</block>
   <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*改進的 Volume 索引狀態報告*：ONTAP Volumes 儀表板現在透過針對不符合索引條件的 Volume 和快照複本引入<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>狀態，更準確地報告索引狀態。此<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>狀態現在保留給等待索引的 Volume，且 Volume 詳細資料現在會顯示每個快照的索引狀態，並帶有懸停文字來解釋為何 Volume 或快照複本不會被索引。</block>
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFX 支援*：您現在可以保護託管在 2 節點和 4 節點 NetApp AFX 叢集上的 Volume。</block>
-  <block id="675e5c95b67dc978d87e55c19d5da7e8" category="list-text"><block ref="675e5c95b67dc978d87e55c19d5da7e8" category="inline-link-rx"></block></block>
-  <block id="b27aa3c0e44a53b3c16b5a2e40086669" category="inline-link">使用 Workload Factory 改善 Azure 中的 Cloud Volumes ONTAP 組態</block>
-  <block id="f436c99a1822c57781e57709a1694485" category="list-text"><block ref="f436c99a1822c57781e57709a1694485" category="inline-link-rx"></block></block>
   <block id="21b943021728acb873fd80e1597c6721" category="list-text"><block ref="21b943021728acb873fd80e1597c6721" category="inline-link-macro-rx"></block></block>
-  <block id="e7747671a3237b3e54edff6b14b82ec7" category="doc">編輯和管理自訂規則</block>
-  <block id="9a28538fc6f24d40e290259e6e4618ef" category="paragraph">現在您可以在規則目錄中編輯自訂規則。您可以更新規則名稱和設定、在聊天中審查變更、驗證編輯以及刪除不再需要的規則。</block>
-  <block id="7df807bf87ff5ba814d9683805deb113" category="inline-link-macro">了解如何管理自訂規則</block>
-  <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
-  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026年10月4日</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID 支援*：如果您不想使用儲存設備帳戶存取金鑰進行 Azure 驗證，現在可以對 Azure 物件儲存儲存區組態使用 Microsoft Entra ID 驗證。此選項適用於執行 ONTAP 9.16.1 或更新版本的 Azure 系統中的 Cloud Volumes ONTAP。</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMware 工作負載增強</block>
   <block id="a634d68af0dcef53e5b8e038814f60cc" category="doc">Oracle Cloud Infrastructure NetApp Storage Service for Workload Factory 的初始版本</block>
@@ -590,4 +468,6 @@
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026 年 10 月 15 日</block>
   <block id="f06295aec82b8045d499f988d711565d" category="list-text">在單一可用度區中使用本地備援儲存設備（LRS）實現高可用性</block>
   <block id="145afd276d37daec187001af80160d51" category="paragraph">在 Azure 中部署 Cloud Volumes ONTAP 之前，請確認您的環境符合下列先決條件：</block>
+  <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Oracle Data Guard 支援*：NetApp Backup and Recovery 現在支援使用保護群組來保護使用 Oracle Data Guard 實現高可用度的主資料庫和備用資料庫。</block>
+  <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026 年 10 月 19 日</block>
 </blocks>
