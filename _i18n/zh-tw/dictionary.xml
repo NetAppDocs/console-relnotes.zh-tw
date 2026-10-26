@@ -137,20 +137,6 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">如需詳細資訊，請參閱 <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>。</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">單節點</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">使用區域備援儲存設備 （ZRS） 在多個可用度區域中實現 HA</block>
-  <block id="752cfb7f100699ed10b934470fc8824c" category="doc">根據工作負載和系統類型標準化保護群組</block>
-  <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">Ransomware Resilience 現在強制要求保護群組只能包含一種工作負載類型和一種系統類型。建立新的保護群組時，您必須同時指定工作負載類型（檔案系統或區塊）和工作負載的系統。此增強功能可確保為保護群組所選的勒索軟體保護策略能夠成功套用至群組中的所有工作負載。</block>
-  <block id="372c0699ee751a2658f1b4a897349a47" category="paragraph">如果您已有混合了系統類型和工作負載類型的保護群組，您可以繼續使用它們，但無法新增工作負載至保護群組。</block>
-  <block id="d3bc7420d7e89fa51ba74ffa21c65564" category="inline-link-macro">建立保護群組</block>
-  <block id="9cc8304f699313927313d2034fff7636" category="paragraph">如需更多資訊，請參閱 <block ref="6971a647ce964528556f81913b109378" category="inline-link-macro-rx"></block>。</block>
-  <block id="3813b173292c59d50038bdf05c6b0021" category="section-title">戰備演練強化</block>
-  <block id="cf649f651dc2f032117c490236422d53" category="paragraph">Ransomware Resilience 現在可讓您根據攻擊類型進行準備演練。Ransomware Resilience 可偵測五種類型的攻擊，您可以針對每種攻擊執行準備演練，模擬攻擊和恢復過程，從而了解您應對勒索軟體攻擊的準備情況。</block>
-  <block id="d805ea206a1d58881a7d28213018ae80" category="inline-link-macro">進行整備演練</block>
-  <block id="400f918ffe7626d9fd96dbfc4fa0f591" category="paragraph">如需更多資訊，請參閱 <block ref="70ab6610cf4ffc0f4f5683c14443a025" category="inline-link-macro-rx"></block>。</block>
-  <block id="363260f41aed8104ffe114ccda875937" category="section-title">暫停或刪除 SIEM 系統</block>
-  <block id="b18d1990e5bda04c0ed4210a1113e197" category="paragraph">勒索軟體防護功能現已在使用者介面中新增暫停或刪除 SIEM 系統的選項。此項改進讓使用者能更輕鬆地暫時停用系統以進行疑難排解或維護，或將其完全移除。</block>
-  <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">停用 SIEM 系統</block>
-  <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">如需更多資訊，請參閱 <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>。</block>
-  <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">2026年7月27日</block>
   <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態</block>
   <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">NetApp Console 中架構完善的儀表板現在可讓您修復 Cloud Volumes ONTAP 系統的組態建議。</block>
   <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">您也可以從架構完善的分析中排除一個或多個組態。這樣，您可以忽略不適用於您環境的特定組態。</block>
@@ -476,4 +462,18 @@
   <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Google Cloud NetApp Volumes Flex 服務層級已正式發布</block>
   <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">Ransomware Resilience 中的 Google Cloud NetApp Volumes Flex 服務層級支援現已正式推出（GA）。</block>
   <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">2026 年 10 月 20 日</block>
+  <block id="d2ebbd36608739936bb939c9de72a23a" category="paragraph">在此版本中，NetApp Backup and Recovery 針對 Kubernetes 工作負載引入了以下增強功能：</block>
+  <block id="cc7c8e0fe116e37f04e0ad62644d821b" category="list-text">*Trident Protect 26.10*：此版本包含 Trident Protect 26.10。</block>
+  <block id="ca663f12e620da9687b7846a60e5d2e7" category="list-text">*ontap-nas-economy 和 ontap-san-economy 驅動程式支援*：現在您可以保護由 NetApp Trident<block ref="caafdf62a2c609bfa5316118231a1007" prefix=" " category="inline-code"></block> 驅動程式（Qtree）和<block ref="3016c12c1db45f14c80c9c1731b9c26a" prefix=" " category="inline-code"></block> 驅動程式（LUN）配置的持續性 Volume 宣告（PVC）。使用經濟型驅動程式保護 PVC 時，整個底層 FlexVol 或 LUN 都會受到保護。您可以從這些備份中還原個別的 PVC。</block>
+  <block id="d3ea67062b764fc121c2313921544714" category="list-text">*Kubernetes 感知警報*：NetApp Console 現在會針對每個 Kubernetes 應用程式發送一次 Kubernetes 警報，而不是針對每個 Volume 發送一次。</block>
+  <block id="56763801785ca9815df36fb133a8847a" category="list-text">*Volume 群組快照支援*：現在您可以在定義 Kubernetes 應用程式時建立 Volume 群組。Volume 群組可讓您將多個 Volume 一起快照為損毀狀況一致的集合，確保群組內所有 Volume 的資料一致性。</block>
+  <block id="1d458bfacd6d519628c6da6c1cb44452" category="list-text">*S3 相容物件儲存支援*：您現在可以透過新增備份目標認證資料和設定保護原則，將 Kubernetes 應用程式資源和資料備份到 S3 相容物件儲存。</block>
+  <block id="c49afcf4c9d7fb7f9e3e56e33e3ed3a8" category="paragraph">在此版本中，NetApp Backup and Recovery 針對 ONTAP Volumes 工作負載引入了下列增強功能：</block>
+  <block id="c087f837ef797de43d9ebd1a7d125236" category="list-text">*保護報告*：NetApp Backup and Recovery 現在支援建立和下載 ONTAP Volumes 工作負載的擴充報告。</block>
+  <block id="b9ba826047adb428b13135e4a8370ce8" category="list-text">*選擇在註銷 ONTAP 系統時是否保留備份*：當您從 NetApp Backup and Recovery 註銷 ONTAP 系統時，現在可以選擇捨棄先前備份的資料，或將其保留以供還原。NetApp Backup and Recovery 文件現在包含有關在系統註銷後還原保留資料的說明。</block>
+  <block id="147e4e035d3742c8a163c4282707c86d" category="inline-link">取消註冊系統的 Backup and Recovery</block>
+  <block id="113ea0f6ada6e0a0faeef3e476b36daa" category="paragraph">更多詳情請參閱<block ref="d430b7e541ef6ef0ab6b72278c77300c" category="inline-link-rx"></block>。</block>
+  <block id="4218ebde887e47d99313814e89fca1dc" category="paragraph">在這個版本中，在這個版本中，NetApp Backup and Recovery 針對 Oracle 資料庫工作負載引入了下列增強功能：</block>
+  <block id="d2a0591e201dfac56fdea850632dc8e3" category="paragraph">*還原到備用位置*：NetApp Backup and Recovery 現在支援將 Oracle 資料庫還原到備用位置（不同的註冊主機）。</block>
+  <block id="b0609734250ba6ba4d0839963ce55146" category="section-title">2026 年 10 月 26 日</block>
 </blocks>
