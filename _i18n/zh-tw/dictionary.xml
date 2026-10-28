@@ -481,4 +481,6 @@
   <block id="a2796a8db571ead965c0a0f1d62135a3" category="paragraph">如需詳細資訊，請參閱 <block ref="092a9715a1fcee9c7af4662f48f0f290" category="inline-link-macro-rx"></block>。</block>
   <block id="25b96777bfadb381f78f25912d595183" category="doc">NetApp Console 的法律聲明</block>
   <block id="83e64c2d25dbfa60ddb1cde0c1a014af" category="doc">NetApp Console 發行說明索引</block>
+  <block id="424a10335c5c90e5b96111de1934acec" category="doc">AI Data Engine</block>
+  <block id="14015aff561b018e4e547f246698e0b4" category="list-text"><block ref="14015aff561b018e4e547f246698e0b4" category="inline-link-rx"></block></block>
 </blocks>

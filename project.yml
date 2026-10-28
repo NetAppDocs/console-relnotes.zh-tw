@@ -9,6 +9,7 @@ settings:
   release_notes_autogen:
     auto_release_notes_enabled: true
     repositories_features:
+    - ai-data-engine
     - console-alerts
     - console-automation
     - console-licenses-subscriptions
