@@ -294,7 +294,6 @@
   <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">災難恢復現在提供「設定」頁面，以集中管理資源轉換範本與 AppVaults。此頁面提供單一介面，以設定和管理災難恢復計畫的這些關鍵元件。若要深入瞭解「設定」頁面中的選項，請參閱 <block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block> 和 <block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block>。</block>
   <block id="8904eb8da011894f529ca214813ca630" category="paragraph">災難恢復在複寫計畫建立頁面中引入了增強的驗證機制，以確保更流暢、無錯誤的使用者體驗。</block>
   <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">災難恢復也提高了服務的彈性，使其能夠容忍間歇性的請求逾時，從而增強了 UI 的整體效能和可靠性。</block>
-  <block id="5beb9d1a7ce3f39235bef552e08036ab" category="doc">增強對乾淨還原的支援</block>
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">現在，在發生可疑使用者行為和基於使用者的加密攻擊之後，可使用乾淨還原進行恢復。此增強功能增加了對基於加密（熵）攻擊的現有支援。這項增強功能使您能夠利用乾淨還原的引導式方法，識別最佳還原點，以盡量減少資料遺失並加快恢復。</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">建立一個隔離的恢復環境，以便進行乾淨還原</block>
   <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">如需詳細資訊，請參閱 <block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>。</block>
@@ -452,7 +451,6 @@
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026 年 10 月 19 日</block>
   <block id="9c69ebaff6f598ab67f6d1508e967991" category="doc">增強型隔離的恢復環境組態</block>
   <block id="4e23b3af211270de0f48ae9f92705a15" category="paragraph">Ransomware Resilience 現已提供增強的隔離的恢復環境組態工作流程。新的工作流程釐清並簡化了為雲端或內部部署環境設定隔離的恢復環境的程序。</block>
-  <block id="07405e58de7ae5291e2723155a5869b4" category="section-title">用於啟用使用者活動監控的增強工作流程</block>
   <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilience 改善了啟用使用者活動監控的工作流程。先前，每次在工作負載上啟用包含使用者活動監控的勒索軟體保護策略時，Ransomware Resilience 都會測試資料收集器的連線。此次更新後，如果儲存設備 VM 存在資料收集器且處於「running」狀態，則會跳過此檢查，進而加快保護工作流程。</block>
   <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">保護工作負載</block>
   <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Google Cloud NetApp Volumes Flex 服務層級已正式發布</block>
@@ -490,4 +488,6 @@
   <block id="2ffea3ae8ed4896a570069b1313e624e" category="paragraph">Ransomware Resilience 現在提供手冊建立使用者活動代理程式的工作流程，讓您能進一步控制在 VM 上建立使用者活動代理程式的方式。透過此新工作流程，您可以直接安裝使用者活動代理程式並設定 Proxy 設定，而無需提供 VM SSH 金鑰。</block>
   <block id="59ad45573dbf4296a202cefa7894c118" category="inline-link-macro">建立使用者活動代理程式</block>
   <block id="77330beb10dbe494866c425493911f54" category="paragraph">如需詳細資訊，請參閱 <block ref="d3340d58befe5e951629759650e09b2d" category="inline-link-macro-rx"></block>。</block>
+  <block id="3ad4695931eb8cc46e884ebecdae3a28" category="doc">支援針對可疑使用者行為和基於使用者的加密攻擊進行乾淨還原</block>
+  <block id="7e994762285a2c4bb93358fe2d00e1e4" category="section-title">改進了啟用使用者活動監控的工作流程</block>
 </blocks>
