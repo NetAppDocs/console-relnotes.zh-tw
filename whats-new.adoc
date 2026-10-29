@@ -79,6 +79,20 @@ Kubernetes:: 2024 年 8 月 7 日，對發現和管理 Kubernetes 叢集的支�
 
 
 
+[[ransomware-resilience]]
+=== 勒索軟體抵禦能力
+
+
+
+[[new-manual-workflow-for-creating-a-user-activity-agent]]
+=== 建立使用者活動代理程式的新手冊工作流程
+
+Ransomware Resilience 現在提供手冊建立使用者活動代理程式的工作流程，讓您能進一步控制在 VM 上建立使用者活動代理程式的方式。透過此新工作流程，您可以直接安裝使用者活動代理程式並設定 Proxy 設定，而無需提供 VM SSH 金鑰。
+
+如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#create-a-user-activity-agent["建立使用者活動代理程式"^]。
+
+
+
 [[20-october-2026]]
 == 2026 年 10 月 20 日
 
@@ -133,6 +147,25 @@ Ransomware Resilience 中的 Google Cloud NetApp Volumes Flex 服務層級支援
 
 [[15-october-2026]]
 == 2026 年 10 月 15 日
+
+
+
+[[console-setup-and-administration]]
+=== 控制台設定和管理
+
+
+
+==== Console 代理 4.12.0
+
+4.12.0 版本同時支援標準模式和受限模式。
+
+此版本的 Console 代理程式包含安全性改善和錯誤修正。
+
+
+
+==== NetApp Console管理
+
+本次版本包含安全性改善和問題修復。
 
 
 

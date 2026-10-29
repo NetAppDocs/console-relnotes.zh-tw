@@ -483,4 +483,11 @@
   <block id="83e64c2d25dbfa60ddb1cde0c1a014af" category="doc">NetApp Console 發行說明索引</block>
   <block id="424a10335c5c90e5b96111de1934acec" category="doc">AI Data Engine</block>
   <block id="14015aff561b018e4e547f246698e0b4" category="list-text"><block ref="14015aff561b018e4e547f246698e0b4" category="inline-link-rx"></block></block>
+  <block id="08853958e0db62fd50058fd45b355d7a" category="doc">Console 代理 4.12.0</block>
+  <block id="67b83a9547aaccf9123cbc81823aeda8" category="paragraph">4.12.0 版本同時支援標準模式和受限模式。</block>
+  <block id="f3826fe13aaaec9b1aee814413e5cc00" category="paragraph">本次版本包含安全性改善和問題修復。</block>
+  <block id="2be8ebee916d12326ebe44540fa72ba0" category="doc">建立使用者活動代理程式的新手冊工作流程</block>
+  <block id="2ffea3ae8ed4896a570069b1313e624e" category="paragraph">Ransomware Resilience 現在提供手冊建立使用者活動代理程式的工作流程，讓您能進一步控制在 VM 上建立使用者活動代理程式的方式。透過此新工作流程，您可以直接安裝使用者活動代理程式並設定 Proxy 設定，而無需提供 VM SSH 金鑰。</block>
+  <block id="59ad45573dbf4296a202cefa7894c118" category="inline-link-macro">建立使用者活動代理程式</block>
+  <block id="77330beb10dbe494866c425493911f54" category="paragraph">如需詳細資訊，請參閱 <block ref="d3340d58befe5e951629759650e09b2d" category="inline-link-macro-rx"></block>。</block>
 </blocks>
