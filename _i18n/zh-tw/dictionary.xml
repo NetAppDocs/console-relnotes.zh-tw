@@ -397,11 +397,7 @@
   <block id="7ed9eebaad97e0f936b753873e6ff586" category="list-text">*SAN 虛擬機器跨磁碟保護*：對於 CIFS 和 SAN 配置，您現在可以保護保護群組中每個虛擬機器所連接的每個磁碟。這包括分佈在多個 ONTAP 磁碟區或 ONTAP 儲存設備系統上的檔案（跨磁碟）以及僅限於單一位置的檔案。</block>
   <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">在此版本中、Oracle Database 工作負載引進下列增強功能：</block>
   <block id="82dd01a289cf98e9d962781faec1018b" category="paragraph">*自動歸檔日誌管理*：在資料庫還原和 Clone 作業期間，NetApp Backup and Recovery 會自動發現並掛載所需的歸檔日誌，然後在作業完成後將其卸載。支援主要、次要和物件儲存日誌來源。</block>
-  <block id="5f1a7ddd55d2a0b34003e08fe7cacdaf" category="section-title">Microsoft SQL Server 工作負載增強</block>
-  <block id="32d770e78ed41453037389dce2e33d9c" category="paragraph">在此版本中，Microsoft SQL Server 工作負載引入了以下增強功能：</block>
   <block id="92337d8e70dfe880909b2051333e2fe4" category="paragraph">*授權變更*：使用磁碟到磁碟或磁碟到磁碟連出架構的備份不再收費。收費僅適用於備份至物件儲存，包括使用 3-2-1 或磁碟到物件儲存架構的備份。</block>
-  <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">了解如何使用 NetApp Backup and Recovery 保護 Microsoft SQL Server 工作負載</block>
-  <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">如需保護 Microsoft SQL Server 工作負載的詳細資訊，請參閱<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>。</block>
   <block id="73c20ad627e7f815932cb8837d70e1e8" category="doc">為 Keystone 訂閱產生健全狀況洞察</block>
   <block id="ae638b3203053916360a0f228b8b54d7" category="paragraph">此 Keystone STaaS 版本在 NetApp Console 的 Keystone 儀表板中包含以下更新。</block>
   <block id="a0c062a66e58943547f514904ae51daa" category="inline-link">產生並安排 Keystone 訂閱的健全狀況報告</block>
@@ -490,4 +486,7 @@
   <block id="77330beb10dbe494866c425493911f54" category="paragraph">如需詳細資訊，請參閱 <block ref="d3340d58befe5e951629759650e09b2d" category="inline-link-macro-rx"></block>。</block>
   <block id="3ad4695931eb8cc46e884ebecdae3a28" category="doc">支援針對可疑使用者行為和基於使用者的加密攻擊進行乾淨還原</block>
   <block id="7e994762285a2c4bb93358fe2d00e1e4" category="section-title">改進了啟用使用者活動監控的工作流程</block>
+  <block id="ce6934326bbfd4652849311e1ed89fe6" category="paragraph">在此版本中，NetApp Backup and Recovery 針對所有工作負載引入了以下授權增強功能：</block>
+  <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">設定 NetApp Backup and Recovery 的授權</block>
+  <block id="83b090108fa1e810d92771b23b7b0267" category="paragraph">如需授權的詳細資訊，請參閱<block ref="aa1a103ec550203513cdef85cd5672c0" category="inline-link-rx"></block>。</block>
 </blocks>
