@@ -489,4 +489,55 @@
   <block id="ce6934326bbfd4652849311e1ed89fe6" category="paragraph">在此版本中，NetApp Backup and Recovery 針對所有工作負載引入了以下授權增強功能：</block>
   <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">設定 NetApp Backup and Recovery 的授權</block>
   <block id="83b090108fa1e810d92771b23b7b0267" category="paragraph">如需授權的詳細資訊，請參閱<block ref="aa1a103ec550203513cdef85cd5672c0" category="inline-link-rx"></block>。</block>
+  <block id="702209553c340514b23674486ae4fd31" category="doc">AI Data Engine 1.3</block>
+  <block id="dd420b0ebbfd644a3592c8e34b2ff629" category="inline-link">AIDE 單一節點部署</block>
+  <block id="bef20353ec71f208058a441ac3075e32" category="paragraph">AI Data Engine 是一項中繼資料智慧服務，透過 NetApp Console 代管，可掃描您連接的系統、建立中繼資料目錄，並為您提供可見度與工具，以最佳化儲存設備並大規模治理資料。您可以將 AI Data Engine 部署為<block ref="142c34bc944087f6618b21ea2656150e" category="inline-link-rx"></block>，或者如果您的環境需要以 Kubernetes 為基礎的大規模高可用度，則可部署為 AIDE 多節點部署。</block>
+  <block id="b47d2c6bc36912f9c4906cd956ab8801" category="paragraph">AI Data Engine 1.3 是第一個正式發布（GA）的版本。</block>
+  <block id="b6fbdf8ef74b308af14cc26bb5cf3d57" category="dlist-title">部署並連接您的資料</block>
+  <block id="6efb2debacc503f80d4da744eff0cf0e" category="inline-link">以您的環境所需的規模進行部署</block>
+  <block id="240f9f6dce8959d1579bafbec08d0a07" category="list-text"><block ref="240f9f6dce8959d1579bafbec08d0a07" category="inline-link-rx"></block></block>
+  <block id="54d59647b1d587275188225d397c3a90" category="inline-link">了解 AIDE 的 Proxy</block>
+  <block id="dc5d043b5e605fee0d9932e6221d1341" category="list-text">選擇 AIDE 單一節點部署可在單一虛擬機器上快速啟動，或選擇 AIDE 多節點部署在您自己的 Kubernetes 叢集上以實現高可用度和更大規模。如果您的環境需要 Proxy 才能存取網際網路，<block ref="1fba41490412204ba3e209df7e3a5b18" category="inline-link-rx"></block> 請使用 Proxy 部署。</block>
+  <block id="5d4ef326714efe60337e85390babd329" category="inline-link">將您的資料納入範圍</block>
+  <block id="cbb5a5204dc3d123ef3e9d16f2e82c40" category="list-text"><block ref="cbb5a5204dc3d123ef3e9d16f2e82c40" category="inline-link-rx"></block></block>
+  <block id="d230737bea58a8428adf7af15944f95e" category="list-text">連接檔案共用、資料庫伺服器和 StorageGRID 系統，並選擇要掃描的資料資源。</block>
+  <block id="dc3afd3f5177091595345a8d4549347f" category="inline-link">保持掃描健全狀況良好</block>
+  <block id="7b788817aa65d1a00c5998f98ef08cfb" category="list-text"><block ref="7b788817aa65d1a00c5998f98ef08cfb" category="inline-link-rx"></block></block>
+  <block id="2ee195a4ed58f4d222297b70a61432fb" category="list-text">監控部署的健全狀況，找出可能中斷掃描的問題，並收集解決這些問題所需的詳細資訊。</block>
+  <block id="503e5b39e3523e3f785dc860a90339b7" category="dlist-title">最佳化儲存設備並調查您的資料</block>
+  <block id="5985e93b91139d269803898603d579a6" category="inline-link">恢復儲存容量</block>
+  <block id="78d40fa188b264432d9acc14b6e6b1a6" category="list-text"><block ref="78d40fa188b264432d9acc14b6e6b1a6" category="inline-link-rx"></block></block>
+  <block id="28ee8cd4b89e717d7369cec556fc8ecb" category="list-text">根據您設定的閾值，識別已連線系統中的冷資料、陳舊資料和複製資料，並查看哪些系統和資料擁有者擁有最高濃度的此類資料。</block>
+  <block id="768437ba03b276a3ec10fbbe8b81a73b" category="inline-link">為您的組織定義冷資料和過時資料</block>
+  <block id="cf33f4d67208331a1884a855217b6910" category="list-text"><block ref="cf33f4d67208331a1884a855217b6910" category="inline-link-rx"></block></block>
+  <block id="c7f53c208d84a3ef5f51bc7df079759c" category="list-text">設定閾值，以決定哪些資料被歸類為冷資料或過時資料，以符合您的資料保留原則。</block>
+  <block id="b1a6eb35f4a110688914b03b871eaf51" category="inline-link">確定資料相關聯絡人</block>
+  <block id="05ea9642a4f5b9ce56f13fe067b453b2" category="list-text"><block ref="05ea9642a4f5b9ce56f13fe067b453b2" category="inline-link-rx"></block></block>
+  <block id="7a1cad1c9f215254d948360e464d76ff" category="list-text">從儀表板中識別哪些資料擁有者持有最集中的冷資料、過時資料或複製資料。然後在調查檢視中依擁有者或群組進行篩選，以審查結果並找出要聯絡的對象。</block>
+  <block id="48f8775f839e036416f7dc0d633d5f90" category="inline-link">降低成本和風險</block>
+  <block id="862a75ec1e9a5a65a297360dc22b2bc2" category="list-text"><block ref="862a75ec1e9a5a65a297360dc22b2bc2" category="inline-link-rx"></block></block>
+  <block id="847b10ef72a08afa0a7a2bccfc9f722a" category="list-text">按存取時間、修改日期、建立日期、檔案大小、複製狀態和其他條件篩選所有已連接系統中的檔案，以尋找符合組織資料管理員目標的檔案。可以直接根據結果採取行動，也可以將篩選條件儲存為原則。</block>
+  <block id="aa06fbb4900808cad7e234eac413020c" category="inline-link">消除複製資料</block>
+  <block id="b61b383822e3f75988a3bc5303d64e36" category="list-text"><block ref="b61b383822e3f75988a3bc5303d64e36" category="inline-link-rx"></block></block>
+  <block id="b88b83fb304e42378e6634bd65125bc0" category="list-text">尋找在您連線的系統中具有複製副本的檔案。依「複製」屬性或檔案雜湊進行篩選以審查複製群組，然後清理複製副本。</block>
+  <block id="6a0ea53ac4eb792afc1b4f47bebce855" category="inline-link">尋找存取風險</block>
+  <block id="9ee8d4cfc51103c18fc1a2ae913d5f55" category="list-text"><block ref="9ee8d4cfc51103c18fc1a2ae913d5f55" category="inline-link-rx"></block></block>
+  <block id="c29b4022a785fd3edc8eacb408d318ae" category="list-text">識別具有開啟權限的目錄，以便您可以優先對這些目錄進行權限審查。</block>
+  <block id="4a85d1ee07bb8b9d1edfdad83663f695" category="inline-link">調查結構化資料</block>
+  <block id="13bf9647191c08a44d253d11925f720f" category="list-text"><block ref="13bf9647191c08a44d253d11925f720f" category="inline-link-rx"></block></block>
+  <block id="ed29587aa611eb50b7cd9e6c7532cd6b" category="list-text">尋找已連接的資料庫伺服器上過大或未使用的資料庫資料表。</block>
+  <block id="a96561a39a488fd7ab3a0429b8037b51" category="dlist-title">根據資料採取行動並持續監控</block>
+  <block id="a82c68dd721dede489a3f3b8e95372d3" category="inline-link">降低儲存設備成本</block>
+  <block id="3364b0befdd009cf3911e421130619e8" category="list-text"><block ref="3364b0befdd009cf3911e421130619e8" category="inline-link-rx"></block></block>
+  <block id="e21cfecd675bc598f5df1e37e056a8ec" category="list-text">透過將檔案複製和歸檔到 NFS 或 SMB 目標位置、標記項目以進行追蹤，或根據您的保留要求永久刪除檔案，來強制執行您組織的資料生命週期原則。</block>
+  <block id="d0cec28746f2b1c070ddbca66abadb26" category="inline-link">持續監控資料狀況</block>
+  <block id="bb9cf8ec15fcf3324f1ac0beae0e6103" category="list-text"><block ref="bb9cf8ec15fcf3324f1ac0beae0e6103" category="inline-link-rx"></block></block>
+  <block id="324524f3e5ca24846ad76aa3a39d085c" category="list-text">將篩選條件儲存為命名原則，以便追蹤一段時間內重複出現的資料情況（例如冷檔案或超大檔案），並在受影響的檔案數量變更時接收通知。</block>
+  <block id="9da1323a6fdf6f9dd2a01251fd374b38" category="dlist-title">受監管的 AI 存取</block>
+  <block id="7ddef8d1014170776e5690b23704bda9" category="inline-link">賦予 AI 用戶端對您中繼資料的受治理存取</block>
+  <block id="ce4014ce8d04d1a09fa16018842bd557" category="list-text"><block ref="ce4014ce8d04d1a09fa16018842bd557" category="inline-link-rx"></block></block>
+  <block id="e92a557f1e1e53dd1526a17543191ac9" category="list-text">透過模型上下文協定（MCP）將 Claude Code、Claude Desktop、Cursor 或 OpenCode 連接至 AI Data Engine。啟用 AI 用戶端可搜尋的集合，並使用 Microsoft Entra ID 範圍來控制誰可以搜尋每個集合。AI 用戶端可以搜尋中繼資料和標記檔案。</block>
+  <block id="a39bf4bdcac229739d4368182e65aa6a" category="inline-link">指派管理員與檢視者角色</block>
+  <block id="1a193b347680542aaf42ddc6f7cb9d44" category="list-text"><block ref="1a193b347680542aaf42ddc6f7cb9d44" category="inline-link-rx"></block></block>
+  <block id="05cd97f29840d5823c5d103c71b26a1a" category="list-text">透過將 AI Data Engine 系統管理員或檢視者角色指派給組織中的使用者，來控制誰可以調查資料並採取行動。</block>
 </blocks>

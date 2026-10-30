@@ -35,6 +35,48 @@ Kubernetes:: 2024 年 8 月 7 日，對發現和管理 Kubernetes 叢集的支�
 
 
 
+[[ai-data-engine]]
+=== AI Data Engine
+
+
+
+==== AI Data Engine 1.3
+
+AI Data Engine 是一項中繼資料智慧服務，透過 NetApp Console 代管，可掃描您連接的系統、建立中繼資料目錄，並為您提供可見度與工具，以最佳化儲存設備並大規模治理資料。您可以將 AI Data Engine 部署為 https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["AIDE 單一節點部署"^]，或者如果您的環境需要以 Kubernetes 為基礎的大規模高可用度，則可部署為 AIDE 多節點部署。
+
+AI Data Engine 1.3 是第一個正式發布（GA）的版本。
+
+.部署並連接您的資料
+https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["以您的環境所需的規模進行部署"^]:: 選擇 AIDE 單一節點部署可在單一虛擬機器上快速啟動，或選擇 AIDE 多節點部署在您自己的 Kubernetes 叢集上以實現高可用度和更大規模。如果您的環境需要 Proxy 才能存取網際網路， https://docs.netapp.com/us-en/ai-data-engine/deploy/configure-proxy.html["了解 AIDE 的 Proxy"^] 請使用 Proxy 部署。
+https://docs.netapp.com/us-en/ai-data-engine/data-sources/connect-data-source.html["將您的資料納入範圍"^]:: 連接檔案共用、資料庫伺服器和 StorageGRID 系統，並選擇要掃描的資料資源。
+https://docs.netapp.com/us-en/ai-data-engine/administer/monitor-deployment-health.html["保持掃描健全狀況良好"^]:: 監控部署的健全狀況，找出可能中斷掃描的問題，並收集解決這些問題所需的詳細資訊。
+
+
+.最佳化儲存設備並調查您的資料
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["恢復儲存容量"^]:: 根據您設定的閾值，識別已連線系統中的冷資料、陳舊資料和複製資料，並查看哪些系統和資料擁有者擁有最高濃度的此類資料。
+https://docs.netapp.com/us-en/ai-data-engine/administer/configure-settings.html["為您的組織定義冷資料和過時資料"^]:: 設定閾值，以決定哪些資料被歸類為冷資料或過時資料，以符合您的資料保留原則。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["確定資料相關聯絡人"^]:: 從儀表板中識別哪些資料擁有者持有最集中的冷資料、過時資料或複製資料。然後在調查檢視中依擁有者或群組進行篩選，以審查結果並找出要聯絡的對象。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["降低成本和風險"^]:: 按存取時間、修改日期、建立日期、檔案大小、複製狀態和其他條件篩選所有已連接系統中的檔案，以尋找符合組織資料管理員目標的檔案。可以直接根據結果採取行動，也可以將篩選條件儲存為原則。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["消除複製資料"^]:: 尋找在您連線的系統中具有複製副本的檔案。依「複製」屬性或檔案雜湊進行篩選以審查複製群組，然後清理複製副本。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-directories.html["尋找存取風險"^]:: 識別具有開啟權限的目錄，以便您可以優先對這些目錄進行權限審查。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-structured.html["調查結構化資料"^]:: 尋找已連接的資料庫伺服器上過大或未使用的資料庫資料表。
+
+
+.根據資料採取行動並持續監控
+https://docs.netapp.com/us-en/ai-data-engine/investigate/take-actions.html["降低儲存設備成本"^]:: 透過將檔案複製和歸檔到 NFS 或 SMB 目標位置、標記項目以進行追蹤，或根據您的保留要求永久刪除檔案，來強制執行您組織的資料生命週期原則。
+https://docs.netapp.com/us-en/ai-data-engine/policies/create-policy.html["持續監控資料狀況"^]:: 將篩選條件儲存為命名原則，以便追蹤一段時間內重複出現的資料情況（例如冷檔案或超大檔案），並在受影響的檔案數量變更時接收通知。
+
+
+.受監管的 AI 存取
+https://docs.netapp.com/us-en/ai-data-engine/mcp/learn-about-mcp.html["賦予 AI 用戶端對您中繼資料的受治理存取"^]:: 透過模型上下文協定（MCP）將 Claude Code、Claude Desktop、Cursor 或 OpenCode 連接至 AI Data Engine。啟用 AI 用戶端可搜尋的集合，並使用 Microsoft Entra ID 範圍來控制誰可以搜尋每個集合。AI 用戶端可以搜尋中繼資料和標記檔案。
+
+
+.行政
+https://docs.netapp.com/us-en/ai-data-engine/administer/manage-users-roles.html["指派管理員與檢視者角色"^]:: 透過將 AI Data Engine 系統管理員或檢視者角色指派給組織中的使用者，來控制誰可以調查資料並採取行動。
+
+
+
+
 [[backup-and-recovery]]
 === 備份和復原
 
