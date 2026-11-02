@@ -30,6 +30,34 @@ Kubernetes:: 2024 年 8 月 7 日，對發現和管理 Kubernetes 叢集的支�
 ====
 
 
+[[02-november-2026]]
+== 2026年11月2日
+
+
+
+[[cloud-volumes-ontap]]
+=== Cloud Volumes ONTAP
+
+
+
+==== 針對特定 Cloud Volumes ONTAP 版本升級 ONTAP 熱修復程式的指南
+
+ONTAP 已發布以下與 Cloud Volumes ONTAP 9.14.1、9.15.1、9.16.1、9.17.1、9.18.1 及 9.19.1 版相容的 Hotfix：
+
+* 9.14.1P18HF1
+* 9.15.1P20HF1
+* 9.16.1P16HF1
+* 9.17.1P11HF1
+* 9.18.1P8HF1
+* 9.19.1P3HF1
+
+
+如需詳細資訊，請參閱 https://security.netapp.com/advisory/ntap-20261021-0021["NTAP 安全公告 20261021-0021"^]。
+
+對於您的 Cloud Volumes ONTAP 系統，您可能會在 NetApp Console 中收到升級至這些熱修復程式的提示。但是，只有當 Console 代理程式版本為 4.12.0 或更新版本時，才支援這些熱修復程式。如果 Console 代理程式版本早於 4.12.0，請忽略該提示。
+
+
+
 [[26-october-2026]]
 == 2026 年 10 月 26 日
 
@@ -524,7 +552,7 @@ NetApp 僅支援私有模式下以容量為基礎之授權的 Essentials 套件�
 NetApp 建議所有私有模式 Cloud Volumes ONTAP 部署均採用基於容量的授權。如果您已有採用基於節點授權的現有私有模式部署，您可以透過向 NetApp 購買 Essentials 套件，將其轉換為基於容量的授權。這項新的部署功能與轉換選項結合，支援了 NetApp 逐步從基於節點的授權過渡到基於容量的授權的計畫。
 
 .相關連結
-* https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_capacity-license-darkmode/concept-licensing.html["Cloud Volumes ONTAP 授權"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP 授權"^]
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-license-management.html["了解 Cloud Volumes ONTAP BYOL"^]
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html#end-of-availability-of-node-based-licenses["以節點為基礎的授權可用度終止"^]
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-manage-node-licenses.html["管理 Cloud Volumes ONTAP 的節點型授權"^]
@@ -1067,59 +1095,3 @@ Disaster Recovery 透過使用者層級作業記錄，提高了作業的可追�
 ==== 效能和資源優化
 
 為了降低整體系統資源消耗並提高災難恢復作業的效能，我們對系統底層進行了多項改進。
-
-
-
-[[03-august-2026]]
-== 2026年8月3日
-
-
-
-[[ransomware-resilience]]
-=== 勒索軟體抵禦能力
-
-
-
-==== Google Cloud NetApp Volumes 的 SAN 支援（預覽）
-
-勒索軟體復原功能現已支援 Google Cloud NetApp Volumes 中的 SAN 工作負載，使您能夠偵測針對 SAN 工作負載的基於加密的勒索軟體攻擊。目前，Google Cloud NetApp Volumes 中 SAN 的支援仍處於預覽階段。
-
-如需更多資訊,請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html#supported-systems["支援的系統"^] 和 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html#azure-netapp-files-limitations["SAN 儲存設備的勒索軟體復原能力"^]。
-
-
-
-==== 簡化的使用者封鎖介面
-
-Ransomware Resilience 現已提供更簡化的使用者體驗，方便您封鎖使用者及管理已封鎖的使用者。透過此更新，您可以輕鬆審查和修改已封鎖的使用者。您必須已設定 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["使用者活動偵測"^] 才能封鎖使用者。
-
-如需更多資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-users-manage.html#manage-blocked-users["管理已封鎖的使用者"^]。
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Cloud Volumes ONTAP 與 Microsoft OneLake 的整合
-
-Cloud Volumes ONTAP 現已支援與 link:https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview["Microsoft OneLake"^] 整合（公開預覽版）。您可以將 Cloud Volumes ONTAP 與 link:https://community.fabric.microsoft.com/["Microsoft Fabric"^] 整合，並使用 link:https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview["Microsoft OneLake"^]，讓現有的 Cloud Volumes ONTAP NAS 資料可供 Microsoft 分析和 AI 服務（例如 Power BI、Azure AI Search、OpenAI 和 Microsoft Copilot）使用。此整合無需資料搬移或重複資料。此整合使用 link:https://docs.netapp.com/us-en/ontap/s3-multiprotocol/index.html["ONTAP S3 多重傳輸協定"^] 存取，將 Cloud Volumes ONTAP 連接到現有的 Microsoft Fabric 湖倉。
-
-.相關文章與資源：
-* https://www.netapp.com/blog/optimize-ai-analytics-microsoft-onelake/?utm_content=nativelink&utm_medium=internal&utm_source=linkedin&utm_campaign=b2d-port-all-na-ww-digi-blog-1747859361262&es_id=956c739202["NetApp 部落格：利用 Microsoft OneLake 和 NetApp Cloud Volumes ONTAP 優化 AI 和分析"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-azure-onelake.html["將 Cloud Volumes ONTAP 系統與 Microsoft OneLake 整合，以實現 AI 和分析功能"^]
-* https://www.netapp.com/media/160786-na-1263-netapp-cloud-volumes-ontap-azure-onelake.pdf["Cloud Volumes ONTAP 與 Microsoft OneLake 整合 - 技術簡報"^]
-
-
-
-
-==== 修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態
-
-NetApp Console 中架構完善的儀表板現在可讓您修復 Cloud Volumes ONTAP 系統的組態建議。
-
-您也可以從架構完善的分析中排除一個或多個組態。這樣，您可以忽略不適用於您環境的特定組態。
-
-如果您之後想要納入先前被忽略的組態，可以在架構完善的儀表板中重新啟用它。這樣就能將該組態恢復到分析中，並讓您獲得相關的建議和修復方案。
-
-* link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-improve-configurations-cvo.html["修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態"^]
-

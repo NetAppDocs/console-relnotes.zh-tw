@@ -137,32 +137,6 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">如需詳細資訊，請參閱 <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>。</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">單節點</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">使用區域備援儲存設備 （ZRS） 在多個可用度區域中實現 HA</block>
-  <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態</block>
-  <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">NetApp Console 中架構完善的儀表板現在可讓您修復 Cloud Volumes ONTAP 系統的組態建議。</block>
-  <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">您也可以從架構完善的分析中排除一個或多個組態。這樣，您可以忽略不適用於您環境的特定組態。</block>
-  <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">如果您之後想要納入先前被忽略的組態，可以在架構完善的儀表板中重新啟用它。這樣就能將該組態恢復到分析中，並讓您獲得相關的建議和修復方案。</block>
-  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
-  <block id="aafe22f0aac02cfc773f108471a387c4" category="doc">Cloud Volumes ONTAP 與 Microsoft OneLake 的整合</block>
-  <block id="41aa5ef466861e25c87ddbb36de43edd" category="inline-link">Microsoft OneLake</block>
-  <block id="293c823b8d8e2da1959829a580b33c90" category="inline-link">Microsoft Fabric</block>
-  <block id="4d664b02ce777c1e4699e94fd7d34ae7" category="inline-link">ONTAP S3 多重傳輸協定</block>
-  <block id="26ce65cbc7dbbe0f87186b28ea7c57b8" category="list-title">相關文章與資源：</block>
-  <block id="a66621d27a6944c58e46d1f565b22143" category="inline-link">NetApp 部落格：利用 Microsoft OneLake 和 NetApp Cloud Volumes ONTAP 優化 AI 和分析</block>
-  <block id="2b4194522887509da7c9b51c70067cea" category="list-text"><block ref="ada46b265e2235c5ece497b9f3c94b84" category="inline-link-rx"></block></block>
-  <block id="ecbaa51ea44293a13a4eb6ca8d26d642" category="inline-link">將 Cloud Volumes ONTAP 系統與 Microsoft OneLake 整合，以實現 AI 和分析功能</block>
-  <block id="3dad4d1eeaf9a01a63764a9bd6deee29" category="list-text"><block ref="3dad4d1eeaf9a01a63764a9bd6deee29" category="inline-link-rx"></block></block>
-  <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Cloud Volumes ONTAP 與 Microsoft OneLake 整合 - 技術簡報</block>
-  <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
-  <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Google Cloud NetApp Volumes 的 SAN 支援（預覽）</block>
-  <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">勒索軟體復原功能現已支援 Google Cloud NetApp Volumes 中的 SAN 工作負載，使您能夠偵測針對 SAN 工作負載的基於加密的勒索軟體攻擊。目前，Google Cloud NetApp Volumes 中 SAN 的支援仍處於預覽階段。</block>
-  <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">支援的系統</block>
-  <block id="fa83a4a163069ca1ab2dcb9be3c41063" category="inline-link-macro">SAN 儲存設備的勒索軟體復原能力</block>
-  <block id="2f244f2c363848263100f25323c23895" category="paragraph">如需更多資訊,請參閱 <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> 和 <block ref="740b3aa4325052238b6cf8ff4cb1a868" category="inline-link-macro-rx"></block>。</block>
-  <block id="053cc8d4a507db8f7d33d7c9eb844923" category="section-title">簡化的使用者封鎖介面</block>
-  <block id="f94e6cd450a12c55223329be07d15575" category="inline-link-macro">使用者活動偵測</block>
-  <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">Ransomware Resilience 現已提供更簡化的使用者體驗，方便您封鎖使用者及管理已封鎖的使用者。透過此更新，您可以輕鬆審查和修改已封鎖的使用者。您必須已設定 <block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block> 才能封鎖使用者。</block>
-  <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">管理已封鎖的使用者</block>
-  <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">如需更多資訊，請參閱 <block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>。</block>
   <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">改進後的儀表板</block>
   <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">災難恢復儀表板已更新，提供更佳的使用者體驗，讓您能夠一目了然地全面檢視整個災難恢復環境。新版儀表板包括：</block>
   <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*統一的工作負載可見度* — 透過單一窗口監控 VMware 和 Kubernetes 工作負載以及底層基礎架構的健全狀況。</block>
@@ -259,7 +233,6 @@
   <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">2026 年 9 月 2 日</block>
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">虛擬機器棄用通知</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">2026年9月14日</block>
-  <block id="b476893dc5d9404e756affcf8c5c5abf" category="paragraph">Cloud Volumes ONTAP 現已支援與 <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block> 整合（公開預覽版）。您可以將 Cloud Volumes ONTAP 與 <block ref="ed504e51b6e034ace3c2f13f8d46981b" category="inline-link-macro-rx"></block> 整合，並使用 <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block>，讓現有的 Cloud Volumes ONTAP NAS 資料可供 Microsoft 分析和 AI 服務（例如 Power BI、Azure AI Search、OpenAI 和 Microsoft Copilot）使用。此整合無需資料搬移或重複資料。此整合使用 <block ref="aac36380121b9387ae99c37cf81e3144" category="inline-link-macro-rx"></block> 存取，將 Cloud Volumes ONTAP 連接到現有的 Microsoft Fabric 湖倉。</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">一般改善</block>
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">此版本的 Data Classification 包含安全性改進和效能增強。</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">2026 年 9 月 16 日</block>
@@ -328,7 +301,6 @@
   <block id="5ac8ab42faf3d93a6c3b6ad39ea1d0cf" category="paragraph">NetApp 僅支援私有模式下以容量為基礎之授權的 Essentials 套件。請向 NetApp 購買以容量為基礎的自備授權（BYOL）Essentials 套件，並在部署期間將其分配給您的系統。前 500 GiB 的已使用容量不計入您的授權費用。隨著工作負載需求的增加，您可以購買額外的套件。</block>
   <block id="21712c9baed4035cb4259749b4f6b0b5" category="paragraph">NetApp 建議所有私有模式 Cloud Volumes ONTAP 部署均採用基於容量的授權。如果您已有採用基於節點授權的現有私有模式部署，您可以透過向 NetApp 購買 Essentials 套件，將其轉換為基於容量的授權。這項新的部署功能與轉換選項結合，支援了 NetApp 逐步從基於節點的授權過渡到基於容量的授權的計畫。</block>
   <block id="0ff1cb70b28d71c56ee0165393cbd500" category="inline-link">Cloud Volumes ONTAP 授權</block>
-  <block id="659a7e43d06893f1e9ea314bf1e995c0" category="list-text"><block ref="659a7e43d06893f1e9ea314bf1e995c0" category="inline-link-rx"></block></block>
   <block id="98a45c35578305189a0a42309be57c0e" category="inline-link">了解 Cloud Volumes ONTAP BYOL</block>
   <block id="d9f9f0f56fedf60259b456ffc4e59d78" category="list-text"><block ref="d9f9f0f56fedf60259b456ffc4e59d78" category="inline-link-rx"></block></block>
   <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">以節點為基礎的授權可用度終止</block>
@@ -369,7 +341,6 @@
   <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*取消 Volume 還原作業*：現在可以從作業監控頁面取消後續的 ONTAP Volume 還原作業，更容易管理長時間運作或運作緩慢的作業。</block>
   <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*改進的 Volume 索引狀態報告*：ONTAP Volumes 儀表板現在透過針對不符合索引條件的 Volume 和快照複本引入<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>狀態，更準確地報告索引狀態。此<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>狀態現在保留給等待索引的 Volume，且 Volume 詳細資料現在會顯示每個快照的索引狀態，並帶有懸停文字來解釋為何 Volume 或快照複本不會被索引。</block>
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFX 支援*：您現在可以保護託管在 2 節點和 4 節點 NetApp AFX 叢集上的 Volume。</block>
-  <block id="21b943021728acb873fd80e1597c6721" category="list-text"><block ref="21b943021728acb873fd80e1597c6721" category="inline-link-macro-rx"></block></block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID 支援*：如果您不想使用儲存設備帳戶存取金鑰進行 Azure 驗證，現在可以對 Azure 物件儲存儲存區組態使用 Microsoft Entra ID 驗證。此選項適用於執行 ONTAP 9.16.1 或更新版本的 Azure 系統中的 Cloud Volumes ONTAP。</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMware 工作負載增強</block>
   <block id="a634d68af0dcef53e5b8e038814f60cc" category="doc">Oracle Cloud Infrastructure NetApp Storage Service for Workload Factory 的初始版本</block>
@@ -540,4 +511,17 @@
   <block id="a39bf4bdcac229739d4368182e65aa6a" category="inline-link">指派管理員與檢視者角色</block>
   <block id="1a193b347680542aaf42ddc6f7cb9d44" category="list-text"><block ref="1a193b347680542aaf42ddc6f7cb9d44" category="inline-link-rx"></block></block>
   <block id="05cd97f29840d5823c5d103c71b26a1a" category="list-text">透過將 AI Data Engine 系統管理員或檢視者角色指派給組織中的使用者，來控制誰可以調查資料並採取行動。</block>
+  <block id="ba184f13e7bf496f6768b87c5d7acdb0" category="list-text"><block ref="ba184f13e7bf496f6768b87c5d7acdb0" category="inline-link-rx"></block></block>
+  <block id="5a5a491a94e6d556e85e601b24f8d121" category="doc">針對特定 Cloud Volumes ONTAP 版本升級 ONTAP 熱修復程式的指南</block>
+  <block id="b4891be2934b9e98fc19416ebfae6a18" category="paragraph">ONTAP 已發布以下與 Cloud Volumes ONTAP 9.14.1、9.15.1、9.16.1、9.17.1、9.18.1 及 9.19.1 版相容的 Hotfix：</block>
+  <block id="e1436b576c97d4ee53df8bdb53230756" category="list-text">9.14.1P18HF1</block>
+  <block id="5050c1a82a49a95d546f16829b500401" category="list-text">9.15.1P20HF1</block>
+  <block id="124b86ef30adb0fa328f15ad507bbe98" category="list-text">9.16.1P16HF1</block>
+  <block id="e64432abe1f57468ee9038ed44c6e0bd" category="list-text">9.17.1P11HF1</block>
+  <block id="d0563c773afdcfb2987438396082bad8" category="list-text">9.18.1P8HF1</block>
+  <block id="d2f816f92f91ab0756cbe4d7ecccbc1c" category="list-text">9.19.1P3HF1</block>
+  <block id="1b798364e278208b0d20b4b1710e6786" category="inline-link">NTAP 安全公告 20261021-0021</block>
+  <block id="93a6a64e1df6cd0e2f07d8b931635a5f" category="paragraph">如需詳細資訊，請參閱<block ref="12c9bbef01f1c6198b57112eba5f4e7e" category="inline-link-rx"></block>。</block>
+  <block id="a2b19abf4eb1b38f190f7260dec9b0ee" category="paragraph">對於您的 Cloud Volumes ONTAP 系統，您可能會在 NetApp Console 中收到升級至這些熱修復程式的提示。但是，只有當 Console 代理程式版本為 4.12.0 或更新版本時，才支援這些熱修復程式。如果 Console 代理程式版本早於 4.12.0，請忽略該提示。</block>
+  <block id="066f3a9431c48361a10c813b2b187f91" category="section-title">2026年11月2日</block>
 </blocks>
