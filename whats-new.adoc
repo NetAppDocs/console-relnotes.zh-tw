@@ -250,6 +250,44 @@ image:data-services-workloads/well-architected-menu-option.png["Workload Factory
 
 
 
+==== Workload Factory for EDA 增強功能
+
+這些增強功能涵蓋了延遲分析中的 Volume 細節、檔案系統壓力檢查、處理量決策點以及再次執行延遲分析。
+
+
+
+===== 在延遲分析期間檢視 Volume 詳情
+
+在分析延遲事件時，您可以在 Workload Factory 中檢視更多 Volume 詳細資訊，以便了解 Volume 的組態方式。「詳細延遲分析」頁面會顯示 *Volume 類型*（RW 或 DP）和 *Volume 樣式*（FlexVol 或 FlexGroup）。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-analyze-latency-trends.html["瞭解如何分析延遲趨勢"]
+
+
+
+===== 檢查延遲事件的檔案系統壓力
+
+在 Workload Factory 中，您可以檢查延遲事件發生時檔案系統壓力是否影響了效能，以便決定是否需要調查檔案系統。對於發出延遲警報的 Volume，您可以檢視事件發生前 40 分鐘的 CloudWatch 資料，並開啟檔案系統進行進一步調查。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/learn-latency-monitoring.html#file-system-pressure["了解檔案系統壓力檢查"]
+
+
+
+===== 審查 EDA 的處理量決策點
+
+您可以在 EDA 概覽儀表板審查用戶端處理量決策點，以便了解 Workload Factory 何時建議或套用了處理量變更。將滑鼠懸停在決策點上即可檢視詳細資訊，例如目前和建議的 SKU 或該時間視窗內超出限制的計量。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-use-overview-dashboard.html#analyze-capacity-and-throughput-trends-and-decision-points["了解如何審查處理量決策點"]
+
+
+
+===== 再次執行延遲分析
+
+您可以在 Workload Factory 中對 Volume 再次執行延遲分析，以便在調查或進行變更後重新整理結果。選取 *再次執行分析* 以開始新的分析並更新結果。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-analyze-latency-issues.html["了解如何分析延遲問題"]
+
+
+
 ==== Google Cloud NetApp Volumes 功能增強
 
 
@@ -1188,131 +1226,3 @@ NetApp Console 4.10.0 管理包括安全性修復和問題修復。
 勒索軟體復原功能現已支援刪除資料收集器。啟用工作負載的使用者活動偵測時，系統會自動建立資料收集器；如果資料收集器過期，現在可以手動將其刪除。
 
 如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#delete-a-data-collector["刪除資料收集器"^]。
-
-
-
-[[12-august-2026]]
-== 2026年8月12日
-
-
-
-[[digital-advisor]]
-=== 數位顧問
-
-
-
-==== Config Drift 功能棄用通知
-
-Digital Advisor 中的 Config Drift 功能將於 2026 年 9 月棄用。
-
-如有任何問題或想共享回饋，請發送電子郵件至：mailto:ng-activeiq-feedback@netapp.com[聯絡 Active IQ 團隊]。
-
-
-
-[[10-august-2026]]
-== 2026年8月10日
-
-
-
-[[backup-and-recovery]]
-=== 備份和復原
-
-
-
-==== 一般 NetApp Backup and Recovery 增強功能
-
-* *支援 NetApp Console 本機部署*：此 NetApp Backup and Recovery 版本以預覽狀態支援 NetApp Console 本機部署。
-* *90 天作業保留*：Backup and Recovery 現在會在作業監視器中保留作業資訊 90 天。
-
-
-
-
-==== VMware 工作負載增強功能
-
-在此版本中、VMware 工作負載引進了以下增強功能：
-
-* *SAN VM 還原至備用位置支援*：您現在可以將基於 SAN 的 VM 備份還原至備用位置。
-* *支援批次刪除備份*：現在可以一次刪除多個備份。
-
-
-有關保護 VMware 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["保護 VMware 工作負載概述"]。
-
-
-
-==== Kubernetes 工作負載增強功能
-
-在此版本中、Kubernetes 工作負載引入了以下增強功能：
-
-* *預覽版支援氣隙資源*：如果在 NetApp Console 本機部署中執行 NetApp Backup and Recovery，您可以探索、保護和還原氣隙 Kubernetes 資源。此功能在此版本中為預覽功能。
-
-
-有關保護 Kubernetes 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["保護 Kubernetes 工作負載概述"]。
-
-
-
-==== ONTAP Volumes 工作負載增強功能
-
-在此版本中，ONTAP Volumes 工作負載引入了以下增強功能：
-
-* *優先執行還原作業而非備份*：現在，在還原磁碟區、檔案或資料夾時，您可以優先執行還原作業而非備份作業。
-* *無需啟動 Backup and Recovery 即可探索 ONTAP 系統和磁碟區*：您現在無需啟動 Backup and Recovery 即可探索系統和磁碟區。
-
-
-有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["保護 ONTAP Volumes 工作負載總覽"]。
-
-
-
-[[data-classification]]
-=== 資料分類
-
-
-
-==== 「活動掃描」索引標籤，以增強掃描管理
-
-資料分類功能現在在「配置」選單中新增了「活動掃描」選項卡，從而提升了掃描管理體驗。「活動掃描」標籤提供所有已啟動掃描的磁碟區總覽，並提供熟悉的篩選器方便您整理資源。此選項卡還提供了一個中央位置，用於設定掃描優先順序、暫停掃描和審查錯誤。
-
-如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-data-classification/task-managing-repo-scanning.html["管理掃描"^]。
-
-
-
-[[disaster-recovery]]
-=== 災難復原
-
-
-
-==== 改進後的儀表板
-
-災難恢復儀表板已更新，提供更佳的使用者體驗，讓您能夠一目了然地全面檢視整個災難恢復環境。新版儀表板包括：
-
-* *統一的工作負載可見度* — 透過單一窗口監控 VMware 和 Kubernetes 工作負載以及底層基礎架構的健全狀況。
-* *主動發現問題* — 儀表板現在會自動標示環境問題，從而加快診斷並縮短解決問題的時間。
-* *容量使用率* — 容量計量現在直接顯示在儀表板中，讓使用者更容易了解資源消耗情況。
-
-
-如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/dashboard-view.html["在儀表板上檢視您的 NetApp Disaster Recovery 計劃健全狀況"^]。
-
-
-
-==== 改善的報告
-
-報告功能已擴充，可更深入了解您環境中的 Disaster Recovery 活動：
-
-* 產生針對 VMware 工作負載、Kubernetes 工作負載或兩者的報告，讓您能夠靈活地根據對象自訂報告。
-* 每份報告都會提供指定時間內的完整活動總結，確保您對 Disaster Recovery 環境中的事件有全面的可見度。
-
-
-如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/reports.html["建立 NetApp Disaster Recovery 報告"^]。
-
-
-
-==== 使用者作業記錄
-
-Disaster Recovery 透過使用者層級作業記錄，提高了作業的可追溯性和可稽核性。現在，每個執行的作業都會記錄發起該作業的使用者，為法規遵循和疑難排解提供清晰的稽核追蹤。由 Disaster Recovery 自動觸發的作業會被識別為「system」，因此可以輕鬆區分使用者發起的活動和服務發起的活動。
-
-如需詳細資訊，請參閱 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/monitor-jobs.html["監控 NetApp Disaster Recovery 工作"^]。
-
-
-
-==== 效能和資源優化
-
-為了降低整體系統資源消耗並提高災難恢復作業的效能，我們對系統底層進行了多項改進。
