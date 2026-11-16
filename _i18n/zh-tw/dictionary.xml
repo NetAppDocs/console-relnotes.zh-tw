@@ -172,7 +172,6 @@
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">虛擬機器棄用通知</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">2026年9月14日</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">一般改善</block>
-  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">此版本的 Data Classification 包含安全性改進和效能增強。</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">2026 年 9 月 16 日</block>
   <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">在此版本中，KVM、Hyper-V 和 VMware 工作負載引入了以下增強功能：</block>
   <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*虛擬機器的跨磁碟保護*：對於 CIFS 配置，Backup and Recovery 現在支援保護保護群組中每個虛擬機器所連接的每個磁碟。這包括分佈在多個 ONTAP 磁碟區或 ONTAP 儲存設備系統上的檔案（跨磁碟），以及僅限於單一位置的檔案。</block>
@@ -586,4 +585,19 @@
   <block id="24872a3badce2466861f424f45ddc1df" category="paragraph">ONTAP 已發布以下與 Cloud Volumes ONTAP 版本 9.12.1、9.13.1、9.14.1、9.15.1、9.16.1、9.17.1、9.18.1 和 9.19.1 相容的 Hotfix：</block>
   <block id="78008c5260700db5baf4534819697473" category="list-text">9.12.1P20HF1</block>
   <block id="0a353d36bdabea4b41e087d5e43942fb" category="list-text">9.13.1P21HF1</block>
+  <block id="a022cebca1f841a4a75654f3e54a623b" category="doc">重新執行作業時的作業監控增強功能</block>
+  <block id="c5473f86ef99f2b81306aec2f780c239" category="paragraph">如果您重新執行某些失敗、取消或逾時的操作， NetApp Disaster Recovery 現在會將這些操作註冊為新作業，並識別發起此行動的使用者。此前， Disaster Recovery 會將新作業列在初始作業下。只要請求未被編輯，此增強功能就能為 Disaster Recovery 中的作業建立更清晰的稽核追蹤。它僅適用於探索、重新同步、法規遵循、保護、複寫計畫和備份保留作業。重新執行故障復原、故障轉移和移轉操作不會被列為新作業。只有重新執行鏈中的最新作業才符合條件，並且最多只能有一個重新執行作業排在正在執行的作業之後。</block>
+  <block id="85aac6cb5b462503919fc861b656a1fa" category="inline-link-macro">監控 Disaster Recovery 中的工作</block>
+  <block id="762e29bb52300aa24d22073f79b3d226" category="paragraph">如需詳細資訊，請參閱 <block ref="23d16b59790b4ad5fc943f7449cf33c5" category="inline-link-macro-rx"></block>。</block>
+  <block id="c4d3491ad5baf6cb6ea2a67196542971" category="doc">管理已封鎖的檔案副檔名</block>
+  <block id="c8e63e51c8e0acaacf08d2ec2d4a9f72" category="paragraph">當您啟用 *區塊可疑檔案副檔名* 保護選項時，Ransomware Resilience 現在提供功能讓您自訂工作負載上允許或區塊的檔案副檔名清單。透過此增強功能，您可以設定工作負載，使其僅允許在儲存設備虛擬機器（SVM）上使用特定檔案類型，或區塊特定檔案副檔名。如果您使用 FPolicy 移轉現有工作負載，以透過 Ransomware Resilience 區塊可疑檔案副檔名，則預設會使用經過篩選的副檔名清單，但您可以自訂該清單。此增強功能支援對檔案副檔名選項進行更精細的控制，並且允許您為不同的 SVM 建立不同的清單。</block>
+  <block id="714e7021c144cf0abe82a4c6f2c4f93e" category="inline-link-macro">在 Ransomware Resilience 中管理被封鎖的檔案副檔名</block>
+  <block id="746947620a1677afde977abf37019b8c" category="paragraph">如需詳細資訊，請參閱 <block ref="c1197af6ca574421271b30600de07a8f" category="inline-link-macro-rx"></block>。</block>
+  <block id="c6afc2a7c10cd55aed74c7ec88063113" category="doc">MetroCluster 支援</block>
+  <block id="881339c26c28107ef981b5584762672c" category="paragraph">Ransomware Resilience 現已支援 MetroCluster，可為鏡射的 MetroCluster 組態提供勒索軟體保護、偵測與恢復功能。在 MetroCluster 組態上啟用勒索軟體保護時，必須將 MetroCluster 配對中的兩個系統都新增至主控台。當您在配對的其中一側探索並啟用保護時，另一側也會自動啟用。</block>
+  <block id="135aafefd6672672bf413096190820a9" category="paragraph">在 MetroCluster 工作負載遭受勒索軟體攻擊後進行恢復時，您目前只能使用自訂還原。</block>
+  <block id="200ccc515e5c41e28e5dae9b2b257c4a" category="inline-link-macro">MetroCluster 探索</block>
+  <block id="adea9837f77c1d23d23d90ecaab16a70" category="paragraph">如需詳細資訊，請參閱 <block ref="e384f8b7351cc9f72a02208e7b2a1112" category="inline-link-macro-rx"></block>。</block>
+  <block id="444d7501b3cc1feab5560e903adad61c" category="section-title">2026年11月16日</block>
+  <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">2026年11月9日</block>
 </blocks>
