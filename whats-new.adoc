@@ -935,17 +935,6 @@ NetApp 建議所有私有模式 Cloud Volumes ONTAP 部署均採用基於容量�
 
 
 
-[[data-classification]]
-=== 資料分類
-
-
-
-==== 一般改善
-
-此版本的 Data Classification 包含安全性改進和效能增強。
-
-
-
 [[disaster-recovery]]
 === 災難復原
 
