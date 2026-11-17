@@ -590,7 +590,6 @@
   <block id="85aac6cb5b462503919fc861b656a1fa" category="inline-link-macro">監控 Disaster Recovery 中的工作</block>
   <block id="762e29bb52300aa24d22073f79b3d226" category="paragraph">如需詳細資訊，請參閱 <block ref="23d16b59790b4ad5fc943f7449cf33c5" category="inline-link-macro-rx"></block>。</block>
   <block id="c4d3491ad5baf6cb6ea2a67196542971" category="doc">管理已封鎖的檔案副檔名</block>
-  <block id="c8e63e51c8e0acaacf08d2ec2d4a9f72" category="paragraph">當您啟用 *區塊可疑檔案副檔名* 保護選項時，Ransomware Resilience 現在提供功能讓您自訂工作負載上允許或區塊的檔案副檔名清單。透過此增強功能，您可以設定工作負載，使其僅允許在儲存設備虛擬機器（SVM）上使用特定檔案類型，或區塊特定檔案副檔名。如果您使用 FPolicy 移轉現有工作負載，以透過 Ransomware Resilience 區塊可疑檔案副檔名，則預設會使用經過篩選的副檔名清單，但您可以自訂該清單。此增強功能支援對檔案副檔名選項進行更精細的控制，並且允許您為不同的 SVM 建立不同的清單。</block>
   <block id="714e7021c144cf0abe82a4c6f2c4f93e" category="inline-link-macro">在 Ransomware Resilience 中管理被封鎖的檔案副檔名</block>
   <block id="746947620a1677afde977abf37019b8c" category="paragraph">如需詳細資訊，請參閱 <block ref="c1197af6ca574421271b30600de07a8f" category="inline-link-macro-rx"></block>。</block>
   <block id="c6afc2a7c10cd55aed74c7ec88063113" category="doc">MetroCluster 支援</block>
@@ -600,4 +599,11 @@
   <block id="adea9837f77c1d23d23d90ecaab16a70" category="paragraph">如需詳細資訊，請參閱 <block ref="e384f8b7351cc9f72a02208e7b2a1112" category="inline-link-macro-rx"></block>。</block>
   <block id="444d7501b3cc1feab5560e903adad61c" category="section-title">2026年11月16日</block>
   <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">2026年11月9日</block>
+  <block id="9bdb3ee516d1e515bfeeccf1df40576e" category="doc">Console 代理 4.13.0</block>
+  <block id="d3b38c9d33046f2e3c185918b58a83ca" category="paragraph">4.13.0 版本同時支援標準模式和受限模式。</block>
+  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理程式包含安全性改進和錯誤修正，以及以下新功能。</block>
+  <block id="6ca1b90cd272b2a7ade71c2fc662e45c" category="paragraph-title">部署 Console 代理程式時自動建立 AWS 部署角色</block>
+  <block id="d6591183e410cea7db23b6baa5d1dea3" category="inline-link-macro">了解如何從主控台在 AWS 中部署主控台代理程式</block>
+  <block id="71567bfcfb6d698d6ccd52f047c0bbf4" category="paragraph">您不再需要在開始之前建立 IAM 角色，以在 AWS 中部署 Console 代理程式。NetApp Console 可以為您建立該角色。<block ref="64e2803082978c21df13de1f40aff9c6" category="inline-link-macro-rx"></block></block>
+  <block id="d8a7fd7644a3770509948debea790466" category="paragraph">當您啟用 *區塊可疑檔案副檔名* 保護選項時，Ransomware Resilience 現在提供功能讓您自訂工作負載上允許或區塊的檔案副檔名清單。透過此增強功能，您可以設定工作負載，使其僅允許在儲存設備虛擬機器（SVM）上使用特定檔案類型，或區塊特定檔案副檔名。此增強功能支援對檔案副檔名選項進行更精細的控制，並且允許您為不同的 SVM 建立不同的清單。</block>
 </blocks>
