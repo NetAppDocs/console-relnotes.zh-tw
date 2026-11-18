@@ -139,12 +139,6 @@
   <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Oracle 資料庫工作負載增強</block>
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">了解如何使用 NetApp Backup and Recovery 保護 Oracle 資料庫工作負載</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">有關保護 Oracle Database 工作負載的詳細資訊，請參閱<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>。</block>
-  <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">Value Insights 簡介</block>
-  <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">Value Insights 功能整合了 ONTAP 系統的整體健全狀況、節省成本、穩定性和安全性資訊。您可以利用這些資訊，透過持續的資料導向 ONTAP 環境檢視來改善系統健全狀況和效能。</block>
-  <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value Insights 功能僅適用於 ONTAP 系統。</block>
-  <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Value Insights</block>
-  <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph">深入瞭解<block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>。</block>
-  <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">2026年8月20日</block>
   <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Azure 中奧地利東部和比利時中部地區的支援</block>
   <block id="44e833213a99257d69192896111996f4" category="paragraph">現在，您可以在 Azure 的奧地利東部 (austriaeast) 和比利時中部 (belgiumcentral) 區域部署 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。支援下列部署類型：</block>
   <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026年8月25日</block>
@@ -227,7 +221,6 @@
   <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">NetApp Backup and Recovery 頁面的最新消息</block>
   <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">前往 <block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>。</block>
   <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
-  <block id="669d8c7c23d7c1df9de525a93369bb8f" category="cell">1.546.0（2026年8月10日）</block>
   <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 頁面新增功能</block>
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">前往 <block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>。</block>
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">2026 年 9 月 17 日</block>
@@ -601,9 +594,43 @@
   <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">2026年11月9日</block>
   <block id="9bdb3ee516d1e515bfeeccf1df40576e" category="doc">Console 代理 4.13.0</block>
   <block id="d3b38c9d33046f2e3c185918b58a83ca" category="paragraph">4.13.0 版本同時支援標準模式和受限模式。</block>
-  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理程式包含安全性改進和錯誤修正，以及以下新功能。</block>
   <block id="6ca1b90cd272b2a7ade71c2fc662e45c" category="paragraph-title">部署 Console 代理程式時自動建立 AWS 部署角色</block>
   <block id="d6591183e410cea7db23b6baa5d1dea3" category="inline-link-macro">了解如何從主控台在 AWS 中部署主控台代理程式</block>
   <block id="71567bfcfb6d698d6ccd52f047c0bbf4" category="paragraph">您不再需要在開始之前建立 IAM 角色，以在 AWS 中部署 Console 代理程式。NetApp Console 可以為您建立該角色。<block ref="64e2803082978c21df13de1f40aff9c6" category="inline-link-macro-rx"></block></block>
   <block id="d8a7fd7644a3770509948debea790466" category="paragraph">當您啟用 *區塊可疑檔案副檔名* 保護選項時，Ransomware Resilience 現在提供功能讓您自訂工作負載上允許或區塊的檔案副檔名清單。透過此增強功能，您可以設定工作負載，使其僅允許在儲存設備虛擬機器（SVM）上使用特定檔案類型，或區塊特定檔案副檔名。此增強功能支援對檔案副檔名選項進行更精細的控制，並且允許您為不同的 SVM 建立不同的清單。</block>
+  <block id="daa04540ede89ebe21aa75e4bb91c101" category="cell">1.56.0（2026年8月10日）</block>
+  <block id="d68cd763bb6443bb6e7c8aa2306f8ef4" category="paragraph">此版本的 Console 代理程式包含安全性改進和問題修復，以及以下新功能。當您使用 ISO 將部署於 vCenter 的 Console 代理程式升級至 4.13.0 時，請確保在升級完成後重新啟動虛擬機器。虛擬機器可能會自動重新啟動。</block>
+  <block id="fb37b2b6fa74940a30d42aec5c20c8f5" category="paragraph">此版本包含安全性改進和問題修復，以及以下新功能。</block>
+  <block id="d2033ec1ec99f494b181d63a27d56e2d" category="section-title">指派 Cloud Volumes ONTAP 貢獻者角色</block>
+  <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">深入瞭解 Cloud Volumes ONTAP 的角色型存取</block>
+  <block id="cd27e9569393bf08fe35ccdf2583e61b" category="paragraph">現在您可以指派 Cloud Volumes ONTAP 參與者角色，讓成員能夠廣泛存取以管理 Cloud Volumes ONTAP 系統，但不允許他們刪除系統、Volume、聚合或複寫關係。<block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>。</block>
+  <block id="0826142964deaae8afd3cda87c05f9f5" category="doc">新 Cloud Volumes ONTAP 貢獻者角色</block>
+  <block id="14332acd533c12a2fdcddeb8adea61b3" category="paragraph">NetApp 新增了 *Cloud Volumes ONTAP 貢獻者*角色，其權限高於營運者角色，但低於管理員角色。擁有營運者角色的使用者可以執行多項日常工作流程，包括 SnapMirror 複寫任務。管理員角色涵蓋了這些工作流程，但也允許管理員使用者刪除 Cloud Volumes ONTAP 系統，而許多組織不希望操作使用者擁有此權限。此角色至關重要，因為控制台目前不支援多管理員驗證（MAV），如果沒有 MAV，管理員使用者無需二次批准即可執行敏感操作，例如刪除系統。貢獻者角色允許使用者執行大多數關鍵操作，例如建立系統、管理複寫和管理儲存設備，同時防止系統刪除。</block>
+  <block id="0fba01d9b0e41b7d0de97f3cfdb7dcec" category="paragraph">貢獻者角色包含所有營運者權限，以及以下附加功能：</block>
+  <block id="535581d758075804b4cc52814e262a35" category="list-text">建立 Cloud Volumes ONTAP 系統</block>
+  <block id="31252110f902a9c33dd1668a2ddf9d60" category="list-text">更新系統設定，例如變更執行個體類型或升級 ONTAP 版本</block>
+  <block id="1c755f1ffdbed31cec4887edbc313b67" category="list-text">管理複寫，包括中斷、重新同步、反向重新同步，以及編輯複寫排程和傳輸速率</block>
+  <block id="caa47e3dc29de6679c6dde1ec5cda5ca" category="list-text">管理儲存設備，例如新增彙總和增加容量</block>
+  <block id="105df9d41da1a27f8246ba8df705efc9" category="paragraph">具有貢獻者角色的使用者無法執行以下任務：</block>
+  <block id="75bfd853ccf811b5f9e995e9b420f0ee" category="list-text">刪除系統、磁碟區、彙總或複寫關係</block>
+  <block id="26539d0b254897846cdbf2f9df3a2da2" category="list-text">開啟或關閉系統</block>
+  <block id="cc940bf2667209e4d71ddc12d8f2e5ed" category="list-text">設定密碼</block>
+  <block id="c8764bac128bda390f467bc548de68a5" category="list-text">存取 ONTAP System Manager</block>
+  <block id="2ece167d1d26caae4635d1e5a4d74785" category="paragraph">您可以從 *管理 &gt; 身分* 中指派貢獻者角色，就像您將其他 Cloud Volumes ONTAP 角色指派給使用者一樣。</block>
+  <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">NetApp Console 中的 Cloud Volumes ONTAP 存取角色</block>
+  <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
+  <block id="07ee22b21ec2682df904eeff73509ddc" category="inline-link">在 NetApp Console 中為 Cloud Volumes ONTAP 設定角色型存取</block>
+  <block id="c1fb6aa9d061f2b296f150910042d1d2" category="list-text"><block ref="c1fb6aa9d061f2b296f150910042d1d2" category="inline-link-rx"></block></block>
+  <block id="f50849d7a51a2af22661c16f98df65ff" category="inline-link">NetApp Console 存取角色</block>
+  <block id="7d8c2cdcdb7f43c46c64f18123f8002b" category="list-text"><block ref="7d8c2cdcdb7f43c46c64f18123f8002b" category="inline-link-rx"></block></block>
+  <block id="ef4dbf81033bbcf56fd22e4eb2c913da" category="section-title">適用於 SMB 的 Microsoft Entra ID 混合使用者身分驗證（公開預覽）</block>
+  <block id="4df90909cc2d04997870c4949a39d14b" category="inline-link">Microsoft Entra ID</block>
+  <block id="dd462d22f562824f1314114fe0506920" category="paragraph">Cloud Volumes ONTAP 9.19.1 及更新版本支援使用<block ref="c92d60eae0a0d9ece702070bd9116954" category="inline-link-rx"></block>進行混合使用者身分驗證，以存取 SMB 共享。</block>
+  <block id="56ed7687386c4ddd3c49ce19fe20121e" category="paragraph">先前，Cloud Volumes ONTAP 僅支援網域使用者的 SMB 驗證，這需要內部部署 Active Directory （AD） 設定。透過混合式使用者身分驗證，您可以透過 Microsoft Entra ID 將 SMB 驗證擴展到雲端，同時繼續使用現有的內部部署 AD 基礎架構。</block>
+  <block id="66b8d64c32b9c85c4b6e1af3b9d47224" category="inline-link">Microsoft Entra Connect</block>
+  <block id="b733c58ccb9be823aebceeba2e6d6c49" category="paragraph">採用混合使用者身分驗證時，使用者是在內部部署 AD 中建立，並使用<block ref="98031aa8f0e636ad4eef034480e4f6c2" category="inline-link-rx"></block>同步至 Microsoft Entra ID。ONTAP 透過與內部部署 AD 和 Microsoft Entra ID 通訊，來驗證存取 SMB 共享的使用者。</block>
+  <block id="00a970696886f2596c6dc19470a99b67" category="paragraph">此功能目前以公開預覽版的形式提供。僅支援透過 ONTAP CLI 進行設定。NetApp Console 整合尚未推出。</block>
+  <block id="840c0d6ab3aac46cebc73c413bcb3de2" category="inline-link">設定 Microsoft Entra ID 驗證以支援 SMB</block>
+  <block id="4751d6cb0ce22c95620735a0f455e8e4" category="paragraph"><block ref="4751d6cb0ce22c95620735a0f455e8e4" category="inline-link-rx"></block></block>
+  <block id="3cc38715797be469f39edd81c803bf02" category="section-title">2026年11月17日</block>
 </blocks>
