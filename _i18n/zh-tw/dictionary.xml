@@ -642,4 +642,12 @@
   <block id="e32f3db58cd6a52e42519a253337192b" category="list-text">*選擇來源 Volume 時可查看更多詳細資訊*：Volume 清單現在顯示 Volume 類型、Volume 樣式、SnapLock 類型、現有保護和保護健全狀況。「現有保護」欄位更寬，因此您可以查看所有保護指標（快照、複寫和備份）。</block>
   <block id="da6b444d508815a1ee28ad87ca1663f9" category="list-text">*支援保護託管在 Azure 中國區域的 Volume*：您現在可以將 ONTAP Volume 備份到 Azure 中國（世紀互聯）的 Azure Blob 儲存設備。此支援適用於 Cloud Volumes ONTAP 和內部部署 ONTAP 系統。商業 Azure 和 Azure 政府區域保持不變。</block>
   <block id="915ff3f4971afffdc671ac4bb1e52630" category="section-title">2026年11月23日</block>
+  <block id="5a910ff91567ebb4e0ae85635837c5a8" category="doc">支援 Azure 中的丹麥東部和印度中南部區域</block>
+  <block id="b9433802e6e744b5cc84b87da127cf0e" category="paragraph">現在，您可以在 Azure 的丹麥東部（denmarkeast）和印度中南部（indiasouthcentral）區域部署 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。支援下列部署類型：</block>
+  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">單節點</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">在單一可用度區中使用本地備援儲存設備（LRS）實現高可用性</block>
+  <block id="893f7f9c4326ccc9db9efcafead22429" category="list-text">使用區域備援儲存設備（ZRS）在多個可用度區域中的 HA - 僅限印度中南部</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全球區域地圖</block>
+  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">有關所有支援區域的列表，請參閱<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>。</block>
+  <block id="1d13d5e4cee76a1ac900dd9c56640ddb" category="section-title">2026 年 11 月 24 日</block>
 </blocks>
